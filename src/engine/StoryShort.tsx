@@ -1,6 +1,5 @@
-import { loadFont } from "@remotion/google-fonts/Montserrat";
+import { loadFont } from "@remotion/fonts";
 import { Audio } from "@remotion/media";
-import * as sfx from "@remotion/sfx";
 import React, { useMemo } from "react";
 import { AbsoluteFill, CalculateMetadataFunction, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { BOTTOM_KINDS, Bottom, BottomKind, bottomSounds } from "../satisfying";
@@ -10,7 +9,11 @@ import { STAGE_H, STAGE_W } from "./settings";
 import { Stickers, stickerTimes } from "./Stickers";
 import { Character, RenderScene, RenderStory } from "./types";
 
-const { fontFamily } = loadFont("normal", { weights: ["900"], subsets: ["latin"] });
+// Font and sound effects ship in public/ so rendering never fetches from the
+// internet (the cloud machine's proxy blocks downloads made by the renderer).
+const fontFamily = "Montserrat";
+loadFont({ family: fontFamily, url: staticFile("fonts/montserrat-latin.woff2"), weight: "100 900" });
+const sfx = (name: string) => staticFile(`sfx/${name}.wav`);
 
 export const FPS = 30;
 // Cut each scene this long after its last word starts, dropping TTS dead air.
@@ -97,7 +100,7 @@ const ProgressBar: React.FC = () => {
 const BottomSounds: React.FC<{ kind: BottomKind; seed: number; racers?: string[] }> = ({ kind, seed, racers }) => {
   const { durationInFrames } = useVideoConfig();
   const sounds = useMemo(() => bottomSounds(kind, durationInFrames, seed, racers), [kind, durationInFrames, seed, racers]);
-  const src = kind === "race" ? sfx.whip : kind === "plinko" || kind === "wheel" || kind === "territory" ? sfx.mouseClick : sfx.ding;
+  const src = sfx(kind === "race" ? "whip" : kind === "plinko" || kind === "wheel" || kind === "territory" ? "mouseClick" : "ding");
   const volume = kind === "plinko" ? 0.25 : 0.18;
   return (
     <>
@@ -131,11 +134,11 @@ export const StoryShort: React.FC<{ story: RenderStory }> = ({ story }) => {
       {items.map(({ scene, from, frames, index }) => (
         <Sequence key={`a-${scene.id}`} from={from} durationInFrames={frames} name={`voice ${scene.id}`}>
           <Audio src={staticFile(scene.file)} />
-          {index > 0 ? <Audio src={sfx.whoosh} volume={0.3} /> : null}
-          {scene.sfx && sfx[scene.sfx] ? <Audio src={sfx[scene.sfx]} volume={0.35} /> : null}
+          {index > 0 ? <Audio src={sfx("whoosh")} volume={0.3} /> : null}
+          {scene.sfx ? <Audio src={sfx(scene.sfx)} volume={0.35} /> : null}
           {stickerTimes(scene.stickers, scene.words).map((s) => (
             <Sequence key={s.word} from={Math.round(s.at * FPS)} durationInFrames={FPS} layout="none">
-              <Audio src={sfx.uiSwitch} volume={0.4} />
+              <Audio src={sfx("uiSwitch")} volume={0.4} />
             </Sequence>
           ))}
           <Captions words={scene.words} fontFamily={fontFamily} keywords={story.keywords} />
