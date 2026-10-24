@@ -1,5 +1,5 @@
 // One command from story file to finished Short:
-//   node scripts/make.mjs stories/<id>.json [--stills-only] [--windows-voice]
+//   node scripts/make.mjs stories/<id>.json [--stills-only] [--free-voice] [--windows-voice]
 // 1. validates the story  2. voiceover + caption alignment  3. renders the MP4,
 // preview stills and upload text into out/shorts/<id>/.
 import { execFileSync, spawnSync } from "node:child_process";
@@ -92,23 +92,33 @@ if (errors.length) {
 }
 console.log(`✓ ${spec.id} is valid`);
 
-// ElevenLabs when a key is available; the Windows voice otherwise, or when
-// ElevenLabs is out of quota (exit 2) so the daily run still produces a video.
-// Off Windows (the cloud) there is no fallback voice: exit 4 = skip this run.
+// Voice chain so a Short always gets made: ElevenLabs (when a key is set and
+// it has credits) → Piper, a free offline voice (Windows and the cloud) → the
+// Windows voice as a last resort on a PC. Exit 4 = no voice at all.
+const storyArgPath = relative(root, storyPath);
 const windowsVoice = () => {
   if (process.platform !== "win32") {
-    console.error("✗ No voice available: ElevenLabs failed and the Windows fallback voice only exists on Windows. Skipping this Short.");
+    console.error("✗ No voice available: ElevenLabs and Piper both failed. Skipping this Short.");
     process.exit(4);
   }
-  run("powershell", ["-ExecutionPolicy", "Bypass", "-File", "scripts/voiceover.ps1", "-StoryPath", relative(root, storyPath)]);
+  run("powershell", ["-ExecutionPolicy", "Bypass", "-File", "scripts/voiceover.ps1", "-StoryPath", storyArgPath]);
 };
-if (process.argv.includes("--windows-voice") || !elevenLabsKey()) {
-  windowsVoice();
-} else {
-  const eleven = spawnSync("node", ["scripts/voiceover-elevenlabs.mjs", relative(root, storyPath)], { cwd: root, stdio: "inherit" });
-  if (eleven.status === 2) {
-    console.warn("⚠ ElevenLabs unavailable (quota or key) — falling back to the Windows voice");
+const freeVoice = () => {
+  const piper = spawnSync("node", ["scripts/voiceover-piper.mjs", storyArgPath], { cwd: root, stdio: "inherit" });
+  if (piper.status !== 0) {
+    console.warn("⚠ Piper voice failed — trying the Windows voice");
     windowsVoice();
+  }
+};
+if (process.argv.includes("--windows-voice")) {
+  windowsVoice();
+} else if (process.argv.includes("--free-voice") || !elevenLabsKey()) {
+  freeVoice();
+} else {
+  const eleven = spawnSync("node", ["scripts/voiceover-elevenlabs.mjs", storyArgPath], { cwd: root, stdio: "inherit" });
+  if (eleven.status === 2) {
+    console.warn("⚠ ElevenLabs unavailable (out of credits or key problem) — using the free Piper voice");
+    freeVoice();
   } else if (eleven.status !== 0) {
     process.exit(eleven.status ?? 1);
   }

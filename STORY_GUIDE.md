@@ -59,7 +59,8 @@ rewrite the weakest scene before rendering.
   model is set in `shorts.config.json` (`eleven_multilingual_v2` best quality,
   `eleven_flash_v2_5` about half the credits) — don't change it from a story run. Only
   changed scenes are re-voiced on reruns. If the quota runs out the pipeline falls back
-  to the Windows voice automatically and prints a warning — mention it in your report.
+  to Piper, a free offline voice (then the Windows voice on a PC), and prints a warning —
+  mention it in your report. The Short is still made and uploaded.
 - **Original only.** No real people, brands, celebrities, copyrighted characters,
   or trending meme characters.
 - Keep it **family-friendly**: cartoon slapstick at most, no gore.
