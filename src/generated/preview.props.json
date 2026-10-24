@@ -1,0 +1,1049 @@
+{
+  "story": {
+    "id": "2026-10-24-sneeze-loop",
+    "title": "The Sneeze Loop",
+    "youtube": {
+      "title": "Every time he sneezes, the day RESTARTS 🤧🔁",
+      "description": "Leo has lived the same morning 2,006 times. Then he noticed who was awake before him. #shorts #story #timeloop",
+      "tags": [
+        "shorts",
+        "story",
+        "timeloop",
+        "cat",
+        "funny",
+        "animation"
+      ]
+    },
+    "narrator": "liam",
+    "voice": "Microsoft David Desktop",
+    "rate": 1,
+    "keywords": [
+      "sneezes",
+      "restarts",
+      "thousand",
+      "treats",
+      "cat",
+      "feather",
+      "purpose",
+      "sneeze",
+      "tomorrow",
+      "follow"
+    ],
+    "bottom": "corner",
+    "cast": {
+      "leo": {
+        "species": "bean",
+        "color": "#4ecdc4",
+        "name": "Leo"
+      },
+      "cat": {
+        "species": "cat",
+        "color": "#f2a65a",
+        "name": "the cat"
+      },
+      "fish": {
+        "emoji": "🐟"
+      }
+    },
+    "scenes": [
+      {
+        "id": "hook",
+        "text": "Every time Leo sneezes, the day restarts. Today he has sneezed two thousand and six times.",
+        "setting": "room",
+        "light": "day",
+        "focus": "leo",
+        "sfx": "vineBoom",
+        "flash": "restarts",
+        "actors": [
+          {
+            "who": "leo",
+            "x": 540,
+            "size": 1.4,
+            "mood": "shock",
+            "action": "shake",
+            "at": "sneezes"
+          }
+        ],
+        "stickers": [
+          {
+            "word": "sneezes",
+            "emoji": "🤧"
+          },
+          {
+            "word": "thousand",
+            "emoji": "🔁"
+          }
+        ],
+        "file": "voice/2026-10-24-sneeze-loop/hook.mp3",
+        "duration": 6.619,
+        "words": [
+          {
+            "word": "Every",
+            "start": 0
+          },
+          {
+            "word": "time",
+            "start": 0.29
+          },
+          {
+            "word": "Leo",
+            "start": 0.58
+          },
+          {
+            "word": "sneezes,",
+            "start": 0.882
+          },
+          {
+            "word": "the",
+            "start": 1.346
+          },
+          {
+            "word": "day",
+            "start": 1.462
+          },
+          {
+            "word": "restarts.",
+            "start": 1.706
+          },
+          {
+            "word": "Today",
+            "start": 2.937
+          },
+          {
+            "word": "he",
+            "start": 3.424
+          },
+          {
+            "word": "has",
+            "start": 3.564
+          },
+          {
+            "word": "sneezed",
+            "start": 3.75
+          },
+          {
+            "word": "two",
+            "start": 4.226
+          },
+          {
+            "word": "thousand",
+            "start": 4.585
+          },
+          {
+            "word": "and",
+            "start": 5.05
+          },
+          {
+            "word": "six",
+            "start": 5.259
+          },
+          {
+            "word": "times.",
+            "start": 5.549
+          }
+        ]
+      },
+      {
+        "id": "same",
+        "text": "It always resets to seven oh two. Same alarm. Same cereal. Same spilled bag of cat treats.",
+        "setting": "room",
+        "light": "dusk",
+        "focus": "leo",
+        "actors": [
+          {
+            "who": "leo",
+            "x": 400,
+            "size": 1.1,
+            "mood": "sad",
+            "hold": "🥣",
+            "changes": [
+              {
+                "at": "spilled",
+                "mood": "shock",
+                "hold": null
+              }
+            ]
+          },
+          {
+            "who": "cat",
+            "x": 820,
+            "size": 0.8,
+            "face": "left",
+            "mood": "smug"
+          }
+        ],
+        "burst": {
+          "at": "treats",
+          "emoji": "🐟"
+        },
+        "stickers": [
+          {
+            "word": "alarm",
+            "emoji": "⏰"
+          },
+          {
+            "word": "cereal",
+            "emoji": "🥣"
+          }
+        ],
+        "file": "voice/2026-10-24-sneeze-loop/same.mp3",
+        "duration": 7.13,
+        "words": [
+          {
+            "word": "It",
+            "start": 0
+          },
+          {
+            "word": "always",
+            "start": 0.221
+          },
+          {
+            "word": "resets",
+            "start": 0.65
+          },
+          {
+            "word": "to",
+            "start": 1.196
+          },
+          {
+            "word": "seven",
+            "start": 1.393
+          },
+          {
+            "word": "oh",
+            "start": 1.718
+          },
+          {
+            "word": "two.",
+            "start": 1.869
+          },
+          {
+            "word": "Same",
+            "start": 2.902
+          },
+          {
+            "word": "alarm.",
+            "start": 3.181
+          },
+          {
+            "word": "Same",
+            "start": 3.796
+          },
+          {
+            "word": "cereal.",
+            "start": 4.087
+          },
+          {
+            "word": "Same",
+            "start": 4.818
+          },
+          {
+            "word": "spilled",
+            "start": 5.085
+          },
+          {
+            "word": "bag",
+            "start": 5.433
+          },
+          {
+            "word": "of",
+            "start": 5.619
+          },
+          {
+            "word": "cat",
+            "start": 5.735
+          },
+          {
+            "word": "treats.",
+            "start": 5.991
+          }
+        ]
+      },
+      {
+        "id": "tries",
+        "text": "He tried everything. Nose plugs. Allergy pills. Sleeping inside a giant plastic bubble.",
+        "setting": "room",
+        "light": "day",
+        "focus": "leo",
+        "actors": [
+          {
+            "who": "leo",
+            "x": 540,
+            "size": 1.2,
+            "mood": "angry",
+            "action": "jump",
+            "changes": [
+              {
+                "at": "plugs",
+                "hold": "👃"
+              },
+              {
+                "at": "pills",
+                "hold": "💊"
+              },
+              {
+                "at": "bubble",
+                "hold": null,
+                "hat": "🫧"
+              }
+            ]
+          }
+        ],
+        "stickers": [
+          {
+            "word": "everything",
+            "emoji": "😤"
+          },
+          {
+            "word": "bubble",
+            "emoji": "🫧"
+          }
+        ],
+        "file": "voice/2026-10-24-sneeze-loop/tries.mp3",
+        "duration": 6.991,
+        "words": [
+          {
+            "word": "He",
+            "start": 0
+          },
+          {
+            "word": "tried",
+            "start": 0.221
+          },
+          {
+            "word": "everything.",
+            "start": 0.534
+          },
+          {
+            "word": "Nose",
+            "start": 1.463
+          },
+          {
+            "word": "plugs.",
+            "start": 1.741
+          },
+          {
+            "word": "Allergy",
+            "start": 2.508
+          },
+          {
+            "word": "pills.",
+            "start": 2.937
+          },
+          {
+            "word": "Sleeping",
+            "start": 3.82
+          },
+          {
+            "word": "inside",
+            "start": 4.203
+          },
+          {
+            "word": "a",
+            "start": 4.493
+          },
+          {
+            "word": "giant",
+            "start": 4.586
+          },
+          {
+            "word": "plastic",
+            "start": 4.899
+          },
+          {
+            "word": "bubble.",
+            "start": 5.352
+          }
+        ]
+      },
+      {
+        "id": "noticed",
+        "text": "Then on loop two thousand and seven, he noticed something. The cat was already awake.",
+        "setting": "room",
+        "light": "night",
+        "focus": "cat",
+        "effects": [
+          "vignette"
+        ],
+        "sfx": "recordScratch",
+        "flash": "noticed",
+        "actors": [
+          {
+            "who": "leo",
+            "x": 220,
+            "size": 1,
+            "mood": "shock"
+          },
+          {
+            "who": "cat",
+            "x": 760,
+            "size": 1,
+            "face": "left",
+            "mood": "smug",
+            "action": "enter",
+            "at": "cat"
+          }
+        ],
+        "stickers": [
+          {
+            "word": "noticed",
+            "emoji": "👀"
+          },
+          {
+            "word": "awake",
+            "emoji": "🐈"
+          }
+        ],
+        "file": "voice/2026-10-24-sneeze-loop/noticed.mp3",
+        "duration": 5.458,
+        "words": [
+          {
+            "word": "Then",
+            "start": 0
+          },
+          {
+            "word": "on",
+            "start": 0.244
+          },
+          {
+            "word": "loop",
+            "start": 0.372
+          },
+          {
+            "word": "two",
+            "start": 0.639
+          },
+          {
+            "word": "thousand",
+            "start": 0.871
+          },
+          {
+            "word": "and",
+            "start": 1.265
+          },
+          {
+            "word": "seven,",
+            "start": 1.405
+          },
+          {
+            "word": "he",
+            "start": 1.707
+          },
+          {
+            "word": "noticed",
+            "start": 1.846
+          },
+          {
+            "word": "something.",
+            "start": 2.159
+          },
+          {
+            "word": "The",
+            "start": 3.355
+          },
+          {
+            "word": "cat",
+            "start": 3.518
+          },
+          {
+            "word": "was",
+            "start": 3.773
+          },
+          {
+            "word": "already",
+            "start": 3.913
+          },
+          {
+            "word": "awake.",
+            "start": 4.214
+          }
+        ]
+      },
+      {
+        "id": "feather",
+        "text": "Sitting on his pillow. Holding a single feather. Staring right at his nose.",
+        "setting": "room",
+        "light": "night",
+        "focus": "cat",
+        "effects": [
+          "vignette"
+        ],
+        "actors": [
+          {
+            "who": "cat",
+            "x": 540,
+            "size": 1.3,
+            "face": "left",
+            "mood": "smug",
+            "hold": "🪶",
+            "action": "grow",
+            "at": "staring"
+          }
+        ],
+        "stickers": [
+          {
+            "word": "feather",
+            "emoji": "🪶"
+          },
+          {
+            "word": "nose",
+            "emoji": "👃"
+          }
+        ],
+        "file": "voice/2026-10-24-sneeze-loop/feather.mp3",
+        "duration": 5.737,
+        "words": [
+          {
+            "word": "Sitting",
+            "start": 0
+          },
+          {
+            "word": "on",
+            "start": 0.395
+          },
+          {
+            "word": "his",
+            "start": 0.488
+          },
+          {
+            "word": "pillow.",
+            "start": 0.65
+          },
+          {
+            "word": "Holding",
+            "start": 1.254
+          },
+          {
+            "word": "a",
+            "start": 1.602
+          },
+          {
+            "word": "single",
+            "start": 1.707
+          },
+          {
+            "word": "feather.",
+            "start": 2.055
+          },
+          {
+            "word": "Staring",
+            "start": 2.879
+          },
+          {
+            "word": "right",
+            "start": 3.344
+          },
+          {
+            "word": "at",
+            "start": 3.576
+          },
+          {
+            "word": "his",
+            "start": 3.68
+          },
+          {
+            "word": "nose.",
+            "start": 3.831
+          }
+        ]
+      },
+      {
+        "id": "purpose",
+        "text": "The cat had been restarting the day on purpose. Two thousand times. For the treats.",
+        "setting": "room",
+        "light": "danger",
+        "focus": "cat",
+        "effects": [
+          "shake",
+          "vignette"
+        ],
+        "sfx": "omgHellNah",
+        "actors": [
+          {
+            "who": "leo",
+            "x": 220,
+            "mood": "shock",
+            "action": "faint",
+            "at": "purpose"
+          },
+          {
+            "who": "cat",
+            "x": 720,
+            "size": 1.2,
+            "face": "left",
+            "mood": "smug",
+            "hold": "🪶"
+          }
+        ],
+        "burst": {
+          "at": "treats",
+          "emoji": "🐟"
+        },
+        "stickers": [
+          {
+            "word": "purpose",
+            "emoji": "😼"
+          },
+          {
+            "word": "treats",
+            "emoji": "🐟"
+          }
+        ],
+        "file": "voice/2026-10-24-sneeze-loop/purpose.mp3",
+        "duration": 6.062,
+        "words": [
+          {
+            "word": "The",
+            "start": 0
+          },
+          {
+            "word": "cat",
+            "start": 0.221
+          },
+          {
+            "word": "had",
+            "start": 0.499
+          },
+          {
+            "word": "been",
+            "start": 0.604
+          },
+          {
+            "word": "restarting",
+            "start": 0.778
+          },
+          {
+            "word": "the",
+            "start": 1.3
+          },
+          {
+            "word": "day",
+            "start": 1.428
+          },
+          {
+            "word": "on",
+            "start": 1.695
+          },
+          {
+            "word": "purpose.",
+            "start": 1.927
+          },
+          {
+            "word": "Two",
+            "start": 2.984
+          },
+          {
+            "word": "thousand",
+            "start": 3.274
+          },
+          {
+            "word": "times.",
+            "start": 3.68
+          },
+          {
+            "word": "For",
+            "start": 4.435
+          },
+          {
+            "word": "the",
+            "start": 4.621
+          },
+          {
+            "word": "treats.",
+            "start": 4.725
+          }
+        ]
+      },
+      {
+        "id": "history",
+        "text": "Two thousand spilled bags. That cat had eaten more treats than any cat in history.",
+        "setting": "room",
+        "light": "gold",
+        "focus": "cat",
+        "effects": [
+          "rays"
+        ],
+        "sfx": "illuminatiConfirmed",
+        "actors": [
+          {
+            "who": "cat",
+            "x": 540,
+            "size": 1.3,
+            "mood": "smug",
+            "hat": "crown",
+            "action": "float"
+          }
+        ],
+        "crowd": {
+          "who": "fish",
+          "count": 36,
+          "mood": "happy",
+          "until": "history"
+        },
+        "stickers": [
+          {
+            "word": "bags",
+            "emoji": "🛍️"
+          },
+          {
+            "word": "history",
+            "emoji": "🏆"
+          }
+        ],
+        "file": "voice/2026-10-24-sneeze-loop/history.mp3",
+        "duration": 5.458,
+        "words": [
+          {
+            "word": "Two",
+            "start": 0
+          },
+          {
+            "word": "thousand",
+            "start": 0.325
+          },
+          {
+            "word": "spilled",
+            "start": 0.824
+          },
+          {
+            "word": "bags.",
+            "start": 1.231
+          },
+          {
+            "word": "That",
+            "start": 2.241
+          },
+          {
+            "word": "cat",
+            "start": 2.508
+          },
+          {
+            "word": "had",
+            "start": 2.74
+          },
+          {
+            "word": "eaten",
+            "start": 2.856
+          },
+          {
+            "word": "more",
+            "start": 3.088
+          },
+          {
+            "word": "treats",
+            "start": 3.286
+          },
+          {
+            "word": "than",
+            "start": 3.576
+          },
+          {
+            "word": "any",
+            "start": 3.796
+          },
+          {
+            "word": "cat",
+            "start": 4.029
+          },
+          {
+            "word": "in",
+            "start": 4.261
+          },
+          {
+            "word": "history.",
+            "start": 4.365
+          }
+        ]
+      },
+      {
+        "id": "hid",
+        "text": "So Leo hid every treat in the house, and finally let himself sneeze.",
+        "setting": "city",
+        "light": "dusk",
+        "focus": "leo",
+        "flash": "sneeze",
+        "actors": [
+          {
+            "who": "leo",
+            "x": 180,
+            "toX": 560,
+            "size": 1.1,
+            "mood": "smug",
+            "hold": "🐟",
+            "at": "finally",
+            "action": "shake",
+            "changes": [
+              {
+                "at": "finally",
+                "hold": null,
+                "mood": "shock"
+              }
+            ]
+          }
+        ],
+        "stickers": [
+          {
+            "word": "hid",
+            "emoji": "🙈"
+          },
+          {
+            "word": "sneeze",
+            "emoji": "🤧"
+          }
+        ],
+        "file": "voice/2026-10-24-sneeze-loop/hid.mp3",
+        "duration": 4.994,
+        "words": [
+          {
+            "word": "So",
+            "start": 0
+          },
+          {
+            "word": "Leo",
+            "start": 0.279
+          },
+          {
+            "word": "hid",
+            "start": 0.662
+          },
+          {
+            "word": "every",
+            "start": 0.94
+          },
+          {
+            "word": "treat",
+            "start": 1.277
+          },
+          {
+            "word": "in",
+            "start": 1.509
+          },
+          {
+            "word": "the",
+            "start": 1.579
+          },
+          {
+            "word": "house,",
+            "start": 1.695
+          },
+          {
+            "word": "and",
+            "start": 2.461
+          },
+          {
+            "word": "finally",
+            "start": 2.67
+          },
+          {
+            "word": "let",
+            "start": 3.1
+          },
+          {
+            "word": "himself",
+            "start": 3.251
+          },
+          {
+            "word": "sneeze.",
+            "start": 3.622
+          }
+        ]
+      },
+      {
+        "id": "tomorrow",
+        "text": "Tomorrow finally came. And on his pillow sat the cat, holding two feathers.",
+        "setting": "room",
+        "light": "day",
+        "focus": "cat",
+        "effects": [
+          "rays"
+        ],
+        "sfx": "dramaticBoomer",
+        "actors": [
+          {
+            "who": "leo",
+            "x": 220,
+            "mood": "happy",
+            "changes": [
+              {
+                "at": "cat",
+                "mood": "shock"
+              }
+            ]
+          },
+          {
+            "who": "cat",
+            "x": 760,
+            "size": 1.1,
+            "face": "left",
+            "mood": "smug",
+            "hold": "🪶",
+            "action": "enter",
+            "at": "pillow"
+          }
+        ],
+        "stickers": [
+          {
+            "word": "tomorrow",
+            "emoji": "📅"
+          },
+          {
+            "word": "two",
+            "emoji": "✌️"
+          }
+        ],
+        "file": "voice/2026-10-24-sneeze-loop/tomorrow.mp3",
+        "duration": 5.366,
+        "words": [
+          {
+            "word": "Tomorrow",
+            "start": 0
+          },
+          {
+            "word": "finally",
+            "start": 0.522
+          },
+          {
+            "word": "came.",
+            "start": 0.929
+          },
+          {
+            "word": "And",
+            "start": 1.544
+          },
+          {
+            "word": "on",
+            "start": 1.753
+          },
+          {
+            "word": "his",
+            "start": 1.892
+          },
+          {
+            "word": "pillow",
+            "start": 2.043
+          },
+          {
+            "word": "sat",
+            "start": 2.485
+          },
+          {
+            "word": "the",
+            "start": 2.728
+          },
+          {
+            "word": "cat,",
+            "start": 2.833
+          },
+          {
+            "word": "holding",
+            "start": 3.344
+          },
+          {
+            "word": "two",
+            "start": 3.68
+          },
+          {
+            "word": "feathers.",
+            "start": 3.878
+          }
+        ]
+      },
+      {
+        "id": "loop",
+        "text": "Follow before your cat learns this trick. Every time you sneeze, the day might restart.",
+        "setting": "room",
+        "light": "night",
+        "focus": "cat",
+        "effects": [
+          "vignette"
+        ],
+        "actors": [
+          {
+            "who": "cat",
+            "x": 540,
+            "size": 1.4,
+            "face": "left",
+            "mood": "smug",
+            "hold": "🪶",
+            "action": "grow",
+            "at": "sneeze"
+          }
+        ],
+        "stickers": [
+          {
+            "word": "follow",
+            "emoji": "👉"
+          },
+          {
+            "word": "restart",
+            "emoji": "🔁"
+          }
+        ],
+        "file": "voice/2026-10-24-sneeze-loop/loop.mp3",
+        "duration": 6.201,
+        "words": [
+          {
+            "word": "Follow",
+            "start": 0
+          },
+          {
+            "word": "before",
+            "start": 1.091
+          },
+          {
+            "word": "your",
+            "start": 1.405
+          },
+          {
+            "word": "cat",
+            "start": 1.533
+          },
+          {
+            "word": "learns",
+            "start": 1.753
+          },
+          {
+            "word": "this",
+            "start": 2.009
+          },
+          {
+            "word": "trick.",
+            "start": 2.194
+          },
+          {
+            "word": "Every",
+            "start": 3.239
+          },
+          {
+            "word": "time",
+            "start": 3.518
+          },
+          {
+            "word": "you",
+            "start": 3.75
+          },
+          {
+            "word": "sneeze,",
+            "start": 3.901
+          },
+          {
+            "word": "the",
+            "start": 4.644
+          },
+          {
+            "word": "day",
+            "start": 4.807
+          },
+          {
+            "word": "might",
+            "start": 4.969
+          },
+          {
+            "word": "restart.",
+            "start": 5.166
+          }
+        ]
+      }
+    ]
+  }
+}

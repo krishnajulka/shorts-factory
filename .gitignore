@@ -1,0 +1,12 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+
+# Generated per run (voiceovers, timings, render props) — rebuilt by scripts/make.mjs.
+public/voice
+src/generated/*
+!src/generated/preview.props.json

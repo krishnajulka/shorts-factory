@@ -1,0 +1,96 @@
+{
+  "id": "2026-10-24-sneeze-loop",
+  "title": "The Sneeze Loop",
+  "youtube": {
+    "title": "Every time he sneezes, the day RESTARTS 🤧🔁",
+    "description": "Leo has lived the same morning 2,006 times. Then he noticed who was awake before him. #shorts #story #timeloop",
+    "tags": ["shorts", "story", "timeloop", "cat", "funny", "animation"]
+  },
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["sneezes", "restarts", "thousand", "treats", "cat", "feather", "purpose", "sneeze", "tomorrow", "follow"],
+  "bottom": "corner",
+  "cast": {
+    "leo": { "species": "bean", "color": "#4ecdc4", "name": "Leo" },
+    "cat": { "species": "cat", "color": "#f2a65a", "name": "the cat" },
+    "fish": { "emoji": "🐟" }
+  },
+  "scenes": [
+    {
+      "id": "hook", "text": "Every time Leo sneezes, the day restarts. Today he has sneezed two thousand and six times.",
+      "setting": "room", "light": "day", "focus": "leo", "sfx": "vineBoom", "flash": "restarts",
+      "actors": [{ "who": "leo", "x": 540, "size": 1.4, "mood": "shock", "action": "shake", "at": "sneezes" }],
+      "stickers": [{ "word": "sneezes", "emoji": "🤧" }, { "word": "thousand", "emoji": "🔁" }]
+    },
+    {
+      "id": "same", "text": "It always resets to seven oh two. Same alarm. Same cereal. Same spilled bag of cat treats.",
+      "setting": "room", "light": "dusk", "focus": "leo",
+      "actors": [
+        { "who": "leo", "x": 400, "size": 1.1, "mood": "sad", "hold": "🥣", "changes": [{ "at": "spilled", "mood": "shock", "hold": null }] },
+        { "who": "cat", "x": 820, "size": 0.8, "face": "left", "mood": "smug" }
+      ],
+      "burst": { "at": "treats", "emoji": "🐟" },
+      "stickers": [{ "word": "alarm", "emoji": "⏰" }, { "word": "cereal", "emoji": "🥣" }]
+    },
+    {
+      "id": "tries", "text": "He tried everything. Nose plugs. Allergy pills. Sleeping inside a giant plastic bubble.",
+      "setting": "room", "light": "day", "focus": "leo",
+      "actors": [{ "who": "leo", "x": 540, "size": 1.2, "mood": "angry", "action": "jump", "changes": [{ "at": "plugs", "hold": "👃" }, { "at": "pills", "hold": "💊" }, { "at": "bubble", "hold": null, "hat": "🫧" }] }],
+      "stickers": [{ "word": "everything", "emoji": "😤" }, { "word": "bubble", "emoji": "🫧" }]
+    },
+    {
+      "id": "noticed", "text": "Then on loop two thousand and seven, he noticed something. The cat was already awake.",
+      "setting": "room", "light": "night", "focus": "cat", "effects": ["vignette"], "sfx": "recordScratch", "flash": "noticed",
+      "actors": [
+        { "who": "leo", "x": 220, "size": 1, "mood": "shock" },
+        { "who": "cat", "x": 760, "size": 1, "face": "left", "mood": "smug", "action": "enter", "at": "cat" }
+      ],
+      "stickers": [{ "word": "noticed", "emoji": "👀" }, { "word": "awake", "emoji": "🐈" }]
+    },
+    {
+      "id": "feather", "text": "Sitting on his pillow. Holding a single feather. Staring right at his nose.",
+      "setting": "room", "light": "night", "focus": "cat", "effects": ["vignette"],
+      "actors": [{ "who": "cat", "x": 540, "size": 1.3, "face": "left", "mood": "smug", "hold": "🪶", "action": "grow", "at": "staring" }],
+      "stickers": [{ "word": "feather", "emoji": "🪶" }, { "word": "nose", "emoji": "👃" }]
+    },
+    {
+      "id": "purpose", "text": "The cat had been restarting the day on purpose. Two thousand times. For the treats.",
+      "setting": "room", "light": "danger", "focus": "cat", "effects": ["shake", "vignette"], "sfx": "omgHellNah",
+      "actors": [
+        { "who": "leo", "x": 220, "mood": "shock", "action": "faint", "at": "purpose" },
+        { "who": "cat", "x": 720, "size": 1.2, "face": "left", "mood": "smug", "hold": "🪶" }
+      ],
+      "burst": { "at": "treats", "emoji": "🐟" },
+      "stickers": [{ "word": "purpose", "emoji": "😼" }, { "word": "treats", "emoji": "🐟" }]
+    },
+    {
+      "id": "history", "text": "Two thousand spilled bags. That cat had eaten more treats than any cat in history.",
+      "setting": "room", "light": "gold", "focus": "cat", "effects": ["rays"], "sfx": "illuminatiConfirmed",
+      "actors": [{ "who": "cat", "x": 540, "size": 1.3, "mood": "smug", "hat": "crown", "action": "float" }],
+      "crowd": { "who": "fish", "count": 36, "mood": "happy", "until": "history" },
+      "stickers": [{ "word": "bags", "emoji": "🛍️" }, { "word": "history", "emoji": "🏆" }]
+    },
+    {
+      "id": "hid", "text": "So Leo hid every treat in the house, and finally let himself sneeze.",
+      "setting": "city", "light": "dusk", "focus": "leo", "flash": "sneeze",
+      "actors": [{ "who": "leo", "x": 180, "toX": 560, "size": 1.1, "mood": "smug", "hold": "🐟", "at": "finally", "action": "shake", "changes": [{ "at": "finally", "hold": null, "mood": "shock" }] }],
+      "stickers": [{ "word": "hid", "emoji": "🙈" }, { "word": "sneeze", "emoji": "🤧" }]
+    },
+    {
+      "id": "tomorrow", "text": "Tomorrow finally came. And on his pillow sat the cat, holding two feathers.",
+      "setting": "room", "light": "day", "focus": "cat", "effects": ["rays"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "leo", "x": 220, "mood": "happy", "changes": [{ "at": "cat", "mood": "shock" }] },
+        { "who": "cat", "x": 760, "size": 1.1, "face": "left", "mood": "smug", "hold": "🪶", "action": "enter", "at": "pillow" }
+      ],
+      "stickers": [{ "word": "tomorrow", "emoji": "📅" }, { "word": "two", "emoji": "✌️" }]
+    },
+    {
+      "id": "loop", "text": "Follow before your cat learns this trick. Every time you sneeze, the day might restart.",
+      "setting": "room", "light": "night", "focus": "cat", "effects": ["vignette"],
+      "actors": [{ "who": "cat", "x": 540, "size": 1.4, "face": "left", "mood": "smug", "hold": "🪶", "action": "grow", "at": "sneeze" }],
+      "stickers": [{ "word": "follow", "emoji": "👉" }, { "word": "restart", "emoji": "🔁" }]
+    }
+  ]
+}

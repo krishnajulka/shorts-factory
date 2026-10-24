@@ -1,0 +1,147 @@
+import { loadFont } from "@remotion/google-fonts/Montserrat";
+import { Audio } from "@remotion/media";
+import * as sfx from "@remotion/sfx";
+import React, { useMemo } from "react";
+import { AbsoluteFill, CalculateMetadataFunction, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { BOTTOM_KINDS, Bottom, BottomKind, bottomSounds } from "../satisfying";
+import { Captions, chunkStarts } from "./Captions";
+import { SceneView, focusPoint } from "./SceneView";
+import { STAGE_H, STAGE_W } from "./settings";
+import { Stickers, stickerTimes } from "./Stickers";
+import { Character, RenderScene, RenderStory } from "./types";
+
+const { fontFamily } = loadFont("normal", { weights: ["900"], subsets: ["latin"] });
+
+export const FPS = 30;
+// Cut each scene this long after its last word starts, dropping TTS dead air.
+const TAIL = 0.7;
+const END_PAD = 15;
+
+export const layout = (story: RenderStory) => {
+  let from = 0;
+  return story.scenes.map((scene, index) => {
+    const last = scene.words[scene.words.length - 1]?.start ?? scene.duration;
+    const frames = Math.ceil(Math.min(scene.duration, last + TAIL) * FPS);
+    const item = { scene, from, frames, index };
+    from += frames;
+    return item;
+  });
+};
+
+export const calculateMetadata: CalculateMetadataFunction<{ story: RenderStory }> = ({ props }) => {
+  const items = layout(props.story);
+  const last = items[items.length - 1];
+  return { durationInFrames: last.from + last.frames + END_PAD };
+};
+
+const seedOf = (id: string) => [...id].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 997, 7);
+
+// A hard cut to a new framing on every caption chunk.
+const SHOTS = [
+  { z: 1.0, f: 0, rot: 0 },
+  { z: 1.55, f: 1, rot: 0 },
+  { z: 1.2, f: 0.6, rot: -3 },
+  { z: 1.8, f: 1, rot: 3 },
+];
+
+const StoryStage: React.FC<{ scene: RenderScene; cast: Record<string, Character>; index: number; seconds: number }> = ({
+  scene,
+  cast,
+  index,
+  seconds,
+}) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const { words } = scene;
+  const t = frame / fps;
+
+  const starts = chunkStarts(words);
+  const chunk = Math.max(0, starts.filter((s) => (words[s]?.start ?? Infinity) <= t).length - 1);
+  const shot = SHOTS[(index + chunk) % SHOTS.length];
+  const shotStart = words[starts[chunk]]?.start ?? 0;
+
+  const lastWord = [...words].reverse().find((w) => w.start <= t);
+  const punch = lastWord ? interpolate(t - lastWord.start, [0, 0.12], [1.05, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) : 1;
+  const whip = interpolate(frame, [0, 6], [1.3, 1], { extrapolateRight: "clamp" });
+  const drift = 1 + Math.max(0, t - shotStart) * 0.04;
+  const z = shot.z * punch * whip * drift * (shot.rot ? 1.06 : 1);
+
+  const [fx, fy] = focusPoint(scene, cast);
+  const halfW = STAGE_W / (2 * z);
+  const halfH = STAGE_H / (2 * z);
+  const cx = Math.min(Math.max(STAGE_W / 2 + (fx - STAGE_W / 2) * shot.f, halfW), STAGE_W - halfW);
+  const cy = Math.min(Math.max(STAGE_H / 2 + (fy - STAGE_H / 2) * shot.f, halfH), STAGE_H - halfH);
+  const shake = scene.effects?.includes("shake") || scene.effects?.includes("speed") ? Math.sin(frame * 2.1) * 6 : 0;
+
+  return (
+    <svg width={STAGE_W} height={STAGE_H} viewBox={`0 0 ${STAGE_W} ${STAGE_H}`} style={{ display: "block", overflow: "hidden" }}>
+      <g transform={`translate(${STAGE_W / 2 + shake} ${STAGE_H / 2}) rotate(${shot.rot}) scale(${z}) translate(${-cx} ${-cy})`}>
+        <SceneView scene={scene} cast={cast} endSeconds={seconds} />
+      </g>
+      <rect width={STAGE_W} height={STAGE_H} fill="#fff" opacity={interpolate(frame, [0, 5], [0.75, 0], { extrapolateRight: "clamp" })} />
+    </svg>
+  );
+};
+
+const ProgressBar: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { durationInFrames } = useVideoConfig();
+  return (
+    <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 16, background: "rgba(0,0,0,0.5)" }}>
+      <div style={{ height: "100%", width: `${(frame / durationInFrames) * 100}%`, background: "#ff2d55" }} />
+    </div>
+  );
+};
+
+// Quiet pitched blips for the bottom loop's events (ring breaks, landings...).
+const BottomSounds: React.FC<{ kind: BottomKind; seed: number; racers?: string[] }> = ({ kind, seed, racers }) => {
+  const { durationInFrames } = useVideoConfig();
+  const sounds = useMemo(() => bottomSounds(kind, durationInFrames, seed, racers), [kind, durationInFrames, seed, racers]);
+  const src = kind === "race" ? sfx.whip : kind === "plinko" || kind === "wheel" || kind === "territory" ? sfx.mouseClick : sfx.ding;
+  const volume = kind === "plinko" ? 0.25 : 0.18;
+  return (
+    <>
+      {sounds.map((s, i) => (
+        <Sequence key={i} from={s.frame} durationInFrames={FPS} name={`bottom ${i}`} layout="none">
+          <Audio src={src} volume={volume} playbackRate={s.rate} />
+        </Sequence>
+      ))}
+    </>
+  );
+};
+
+export const StoryShort: React.FC<{ story: RenderStory }> = ({ story }) => {
+  const items = layout(story);
+  const seed = seedOf(story.id);
+  const bottom = story.bottom ?? BOTTOM_KINDS[seed % BOTTOM_KINDS.length];
+  return (
+    <AbsoluteFill style={{ backgroundColor: "#000" }}>
+      <AbsoluteFill style={{ top: 0, height: STAGE_H, overflow: "hidden" }}>
+        {items.map(({ scene, from, frames, index }) => (
+          <Sequence key={scene.id} from={from} durationInFrames={frames} name={scene.id}>
+            <StoryStage scene={scene} cast={story.cast} index={index} seconds={frames / FPS} />
+            <Stickers stickers={scene.stickers} words={scene.words} seed={scene.id} />
+          </Sequence>
+        ))}
+      </AbsoluteFill>
+      <AbsoluteFill style={{ top: STAGE_H, height: STAGE_H }}>
+        <Bottom kind={bottom} seed={seed} racers={story.racers} />
+      </AbsoluteFill>
+      <BottomSounds kind={bottom} seed={seed} racers={story.racers} />
+      {items.map(({ scene, from, frames, index }) => (
+        <Sequence key={`a-${scene.id}`} from={from} durationInFrames={frames} name={`voice ${scene.id}`}>
+          <Audio src={staticFile(scene.file)} />
+          {index > 0 ? <Audio src={sfx.whoosh} volume={0.3} /> : null}
+          {scene.sfx && sfx[scene.sfx] ? <Audio src={sfx[scene.sfx]} volume={0.35} /> : null}
+          {stickerTimes(scene.stickers, scene.words).map((s) => (
+            <Sequence key={s.word} from={Math.round(s.at * FPS)} durationInFrames={FPS} layout="none">
+              <Audio src={sfx.uiSwitch} volume={0.4} />
+            </Sequence>
+          ))}
+          <Captions words={scene.words} fontFamily={fontFamily} keywords={story.keywords} />
+        </Sequence>
+      ))}
+      <ProgressBar />
+    </AbsoluteFill>
+  );
+};

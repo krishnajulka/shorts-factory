@@ -1,0 +1,91 @@
+{
+  "id": "duck-doorstep",
+  "title": "The Duck at Six Fourteen",
+  "youtube": {
+    "title": "Someone left a duck on her doorstep for 400 days 🦆",
+    "description": "Every morning at 6:14, one rubber duck. No note. No footprints. Then she checked the attic. #shorts #story #mystery",
+    "tags": ["shorts", "story", "mystery", "wholesome", "animation"]
+  },
+  "narrator": "brian",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["duck", "ducks", "hundred", "camera", "appeared", "attic", "grandpa", "note", "smile", "golden", "follow"],
+  "bottom": "spiral",
+  "cast": {
+    "rosa": { "species": "bean", "color": "#c77dff", "name": "Rosa" },
+    "duck": { "emoji": "🦆" },
+    "tub": { "emoji": "🛁" }
+  },
+  "scenes": [
+    {
+      "id": "hook", "text": "For four hundred days, someone left one rubber duck on Rosa's doorstep. Always at six fourteen.",
+      "setting": "city", "light": "dusk", "focus": "rosa", "sfx": "vineBoom",
+      "actors": [{ "who": "rosa", "x": 360, "size": 1.3, "mood": "shock" }],
+      "drop": { "at": "duck", "emoji": "🦆", "to": "rosa" },
+      "stickers": [{ "word": "hundred", "emoji": "📅" }, { "word": "fourteen", "emoji": "⏰" }]
+    },
+    {
+      "id": "museum", "text": "No note. No footprints. Her house slowly turned into a yellow, squeaking museum.",
+      "setting": "room", "light": "day", "focus": "rosa",
+      "actors": [{ "who": "rosa", "x": 540, "size": 1.1, "mood": "shock", "action": "shake", "at": "squeaking" }],
+      "crowd": { "who": "duck", "count": 45, "mood": "happy", "until": "museum" },
+      "stickers": [{ "word": "footprints", "emoji": "👣" }, { "word": "squeaking", "emoji": "🔊" }]
+    },
+    {
+      "id": "camera", "text": "So Rosa hid a camera by the door. The next morning, she checked the footage.",
+      "setting": "room", "light": "night", "focus": "rosa",
+      "actors": [{ "who": "rosa", "x": 300, "toX": 560, "mood": "smug", "hold": "📹", "at": "door", "changes": [{ "at": "morning", "mood": "happy", "hold": "📺" }] }],
+      "stickers": [{ "word": "camera", "emoji": "📹" }, { "word": "footage", "emoji": "🎞️" }]
+    },
+    {
+      "id": "appeared", "text": "At six fourteen, the duck just appeared. Out of thin air. Then the camera turned off.",
+      "setting": "room", "light": "danger", "focus": "duck", "effects": ["vignette", "shake"], "sfx": "dramaticBoomer", "flash": "appeared",
+      "actors": [
+        { "who": "duck", "x": 540, "size": 1.2, "action": "grow", "at": "appeared" },
+        { "who": "rosa", "x": 180, "size": 0.9, "mood": "shock", "action": "faint", "at": "off" }
+      ],
+      "stickers": [{ "word": "air", "emoji": "😱" }, { "word": "off", "emoji": "📴" }]
+    },
+    {
+      "id": "attic", "text": "That night she stayed awake. At six thirteen, she heard squeaking. From the attic.",
+      "setting": "room", "light": "night", "focus": "rosa", "effects": ["vignette"], "sfx": "recordScratch",
+      "actors": [{ "who": "rosa", "x": 540, "size": 1.2, "mood": "shock", "action": "jump", "at": "attic", "changes": [{ "at": "squeaking", "mood": "angry" }] }],
+      "stickers": [{ "word": "awake", "emoji": "👀" }, { "word": "attic", "emoji": "🏚️" }]
+    },
+    {
+      "id": "grandpa", "text": "The attic had been locked since her grandpa passed away. Four hundred and one days ago.",
+      "setting": "room", "light": "dusk", "focus": "rosa", "effects": ["rain"],
+      "actors": [{ "who": "rosa", "x": 540, "size": 1.1, "mood": "sad", "action": "bow", "at": "ago" }],
+      "stickers": [{ "word": "grandpa", "emoji": "👴" }, { "word": "ago", "emoji": "💔" }]
+    },
+    {
+      "id": "bathtub", "text": "Inside was his old bathtub, full of ducks, and a tiny machine counting down.",
+      "setting": "room", "light": "night", "focus": "tub", "effects": ["rays"],
+      "actors": [
+        { "who": "tub", "x": 600, "size": 1.8, "action": "enter" },
+        { "who": "rosa", "x": 200, "size": 0.9, "mood": "shock" }
+      ],
+      "burst": { "at": "ducks", "emoji": "🦆" },
+      "stickers": [{ "word": "machine", "emoji": "⚙️" }, { "word": "down", "emoji": "⏳" }]
+    },
+    {
+      "id": "note", "text": "Taped to it was a note. One duck for every day I'm not there to make you smile.",
+      "setting": "room", "light": "gold", "focus": "rosa", "effects": ["rays"],
+      "actors": [{ "who": "rosa", "x": 540, "size": 1.3, "mood": "sad", "changes": [{ "at": "smile", "mood": "happy" }] }],
+      "drop": { "at": "note", "emoji": "📝", "to": "rosa" },
+      "stickers": [{ "word": "note", "emoji": "📝" }, { "word": "smile", "emoji": "🥹" }]
+    },
+    {
+      "id": "golden", "text": "The machine was empty now. Except for one golden duck, with an address written on it.",
+      "setting": "room", "light": "gold", "focus": "rosa", "effects": ["rays", "confetti"], "sfx": "animeWow", "flash": "golden",
+      "actors": [{ "who": "rosa", "x": 540, "size": 1.3, "mood": "happy", "action": "float", "changes": [{ "at": "golden", "hold": "🌟" }] }],
+      "stickers": [{ "word": "golden", "emoji": "🦆" }, { "word": "address", "emoji": "📬" }]
+    },
+    {
+      "id": "loop", "text": "Follow, because tomorrow at six fourteen, someone else gets their very first duck.",
+      "setting": "city", "light": "dusk", "focus": "rosa",
+      "actors": [{ "who": "rosa", "x": -200, "toX": 700, "mood": "smug", "hold": "🦆", "at": "first" }],
+      "stickers": [{ "word": "follow", "emoji": "👉" }, { "word": "duck", "emoji": "🦆" }]
+    }
+  ]
+}

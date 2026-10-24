@@ -1,0 +1,101 @@
+{
+  "id": "gerald",
+  "title": "The Pigeon Who Became King",
+  "youtube": {
+    "title": "This pigeon stole ONE fry and became king 👑🍟",
+    "description": "Gerald was the smallest pigeon in New York. Then he grabbed a golden fry. #shorts #story #pigeon",
+    "tags": ["shorts", "story", "pigeon", "funny", "animation"]
+  },
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["king", "fry", "golden", "hundred", "unthinkable", "split", "bowed", "follow", "cornered", "nobody"],
+  "bottom": "rings",
+  "cast": {
+    "gerald": { "species": "pigeon", "name": "Gerald" },
+    "big": { "species": "pigeon", "color": "#7d8396" },
+    "mob": { "species": "pigeon", "color": "#6f7588" },
+    "taxi": { "emoji": "🚕" }
+  },
+  "scenes": [
+    {
+      "id": "hook", "text": "This pigeon stole one french fry, and accidentally became the king of New York.",
+      "setting": "city", "light": "night", "focus": "gerald", "effects": ["rays"], "sfx": "vineBoom",
+      "actors": [{ "who": "gerald", "x": 540, "size": 1.9, "hat": "crown", "hold": "fry", "action": "grow", "at": "king" }],
+      "stickers": [{ "word": "fry", "emoji": "🍟" }, { "word": "king", "emoji": "👑" }]
+    },
+    {
+      "id": "small", "text": "Gerald was the smallest pigeon on Fifth Avenue. Nobody ever shared with him.",
+      "setting": "city", "light": "day", "focus": "gerald", "effects": ["rain"],
+      "actors": [
+        { "who": "gerald", "x": 200, "size": 0.7, "mood": "sad" },
+        { "who": "big", "x": 620, "size": 1.25, "changes": [] },
+        { "who": "big", "x": 790, "size": 1.25 },
+        { "who": "big", "x": 960, "size": 1.25 }
+      ],
+      "stickers": [{ "word": "smallest", "emoji": "🥺" }, { "word": "nobody", "emoji": "💔" }]
+    },
+    {
+      "id": "fry", "text": "Then one day, a tourist dropped a single golden fry. Gerald grabbed it.",
+      "setting": "city", "light": "day", "focus": "gerald", "effects": ["rays"],
+      "actors": [{ "who": "gerald", "x": 260, "toX": 520, "size": 0.9, "mood": "shock", "action": "jump", "at": "grabbed", "changes": [{ "at": "grabbed", "mood": "happy" }] }],
+      "drop": { "at": "grabbed", "emoji": "fry", "to": "gerald" },
+      "stickers": [{ "word": "golden", "emoji": "✨" }, { "word": "grabbed", "emoji": "😤" }]
+    },
+    {
+      "id": "crowd", "text": "Every pigeon in the city saw it. All three hundred of them.",
+      "setting": "city", "light": "danger", "effects": ["vignette"], "sfx": "recordScratch",
+      "actors": [],
+      "crowd": { "who": "mob", "count": 54, "mood": "angry", "until": "all" },
+      "stickers": [{ "word": "saw", "emoji": "👀" }, { "word": "hundred", "emoji": "😱" }]
+    },
+    {
+      "id": "chase", "text": "Gerald ran. Through the subway. Past the hot dog guy. Straight into Times Square.",
+      "setting": "city", "light": "dusk", "focus": "gerald", "effects": ["speed"],
+      "actors": [
+        { "who": "mob", "x": 80, "size": 0.75, "mood": "angry", "action": "run" },
+        { "who": "mob", "x": 180, "size": 0.75, "mood": "angry", "action": "run" },
+        { "who": "mob", "x": 280, "size": 0.75, "mood": "angry", "action": "run" },
+        { "who": "gerald", "x": 760, "size": 0.85, "mood": "shock", "hold": "fry", "action": "run" }
+      ],
+      "stickers": [{ "word": "subway", "emoji": "🚇" }, { "word": "hot", "emoji": "🌭" }, { "word": "times", "emoji": "🏃" }]
+    },
+    {
+      "id": "cornered", "text": "He got cornered on a taxi roof. Three hundred pigeons. One fry.",
+      "setting": "city", "light": "danger", "focus": "gerald", "effects": ["vignette", "shake"],
+      "actors": [
+        { "who": "taxi", "x": 540, "size": 2.2 },
+        { "who": "gerald", "x": 540, "lift": 300, "size": 0.6, "mood": "shock", "hold": "fry", "action": "shake" },
+        { "who": "mob", "x": -100, "toX": 170, "size": 0.8, "mood": "angry", "at": "one" },
+        { "who": "mob", "x": 1180, "toX": 910, "size": 0.8, "mood": "angry", "face": "left", "at": "one" },
+        { "who": "mob", "x": -250, "toX": 60, "size": 0.8, "mood": "angry", "at": "one" },
+        { "who": "mob", "x": 1330, "toX": 1020, "size": 0.8, "mood": "angry", "face": "left", "at": "one" }
+      ],
+      "stickers": [{ "word": "taxi", "emoji": "🚕" }, { "word": "one", "emoji": "💀" }]
+    },
+    {
+      "id": "split", "text": "So Gerald did the unthinkable. He split it into three hundred tiny pieces.",
+      "setting": "city", "light": "dusk", "focus": "gerald", "effects": ["rays"], "sfx": "animeWow", "flash": "split",
+      "actors": [{ "who": "gerald", "x": 540, "size": 1.2, "mood": "sad", "hold": "fry", "changes": [{ "at": "split", "mood": "happy", "hold": null }] }],
+      "burst": { "at": "split", "emoji": "fry" },
+      "stickers": [{ "word": "unthinkable", "emoji": "🤯" }, { "word": "pieces", "emoji": "🍟" }]
+    },
+    {
+      "id": "bow", "text": "The pigeons went silent. Then, one by one, they bowed.",
+      "setting": "city", "light": "night", "focus": "gerald", "effects": ["rays"],
+      "actors": [
+        { "who": "gerald", "x": 540, "lift": 60, "hold": "fry", "changes": [{ "at": "then", "hat": "crown" }] },
+        { "who": "big", "x": 90, "size": 0.7, "action": "bow", "at": "one" },
+        { "who": "big", "x": 210, "size": 0.7, "action": "bow", "at": "by" },
+        { "who": "big", "x": 990, "size": 0.7, "face": "left", "action": "bow", "at": "one" },
+        { "who": "big", "x": 870, "size": 0.7, "face": "left", "action": "bow", "at": "they" }
+      ],
+      "stickers": [{ "word": "silent", "emoji": "🤫" }, { "word": "bowed", "emoji": "🙇" }]
+    },
+    {
+      "id": "king", "text": "Now nobody eats on Fifth Avenue without paying Gerald a fry. Follow, or he takes yours next.",
+      "setting": "city", "light": "gold", "focus": "gerald", "effects": ["rays", "confetti"], "sfx": "yippee",
+      "actors": [{ "who": "gerald", "x": 540, "size": 1.3, "hat": "crown", "hold": "fry", "mood": "smug" }],
+      "stickers": [{ "word": "paying", "emoji": "💰" }, { "word": "follow", "emoji": "👉" }]
+    }
+  ]
+}

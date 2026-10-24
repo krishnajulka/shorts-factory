@@ -1,0 +1,8 @@
+{
+  "elevenlabsModel": "eleven_flash_v2_5",
+  "youtube": {
+    "privacy": "public",
+    "categoryId": "24",
+    "madeForKids": false
+  }
+}

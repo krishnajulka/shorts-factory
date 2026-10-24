@@ -1,0 +1,97 @@
+{
+  "id": "shadow-quit",
+  "title": "The Shadow That Quit",
+  "youtube": {
+    "title": "His shadow QUIT and went on vacation 😎🌴",
+    "description": "Dave's shadow left a note one day. Then he had to chase it across the world. #shorts #story #animation",
+    "tags": ["shorts", "story", "funny", "animation", "whatif"]
+  },
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["shadow", "quit", "note", "world", "chased", "sunglasses", "vacation", "broke", "follow"],
+  "bottom": "race",
+  "racers": ["🏃", "👤", "🌴", "✈️"],
+  "cast": {
+    "dave": { "species": "bean", "color": "#4d96ff", "name": "Dave" },
+    "shadow": { "species": "bean", "color": "#1b1b24" },
+    "person": { "species": "bean", "color": "#ffb347" }
+  },
+  "scenes": [
+    {
+      "id": "hook", "text": "This man's shadow got tired of following him around, so one day it just quit.",
+      "setting": "city", "light": "day", "focus": "dave", "sfx": "vineBoom", "flash": "quit",
+      "actors": [
+        { "who": "dave", "x": 380, "size": 1.4, "mood": "shock", "changes": [] },
+        { "who": "shadow", "x": 640, "size": 1.4, "face": "right", "mood": "smug", "action": "exit", "at": "quit" }
+      ],
+      "stickers": [{ "word": "tired", "emoji": "😮‍💨" }, { "word": "quit", "emoji": "✌️" }]
+    },
+    {
+      "id": "lunch", "text": "Dave noticed at lunch. The sun was out, but there was nothing under his feet.",
+      "setting": "city", "light": "day", "focus": "dave", "effects": ["rays"],
+      "actors": [
+        { "who": "person", "x": 150, "size": 0.9, "hold": "🥪" },
+        { "who": "dave", "x": 540, "size": 1.1, "hold": "🥪", "mood": "happy", "changes": [{ "at": "nothing", "mood": "shock", "hold": null }] },
+        { "who": "person", "x": 930, "size": 0.9, "face": "left", "mood": "shock", "action": "jump", "at": "feet" }
+      ],
+      "stickers": [{ "word": "sun", "emoji": "☀️" }, { "word": "nothing", "emoji": "😶" }]
+    },
+    {
+      "id": "note", "text": "His shadow had left a note. It said: I want to see the world.",
+      "setting": "room", "light": "dusk", "focus": "dave",
+      "actors": [{ "who": "dave", "x": 420, "toX": 560, "size": 1.1, "mood": "sad", "at": "note" }],
+      "drop": { "at": "note", "emoji": "📝", "to": "dave" },
+      "stickers": [{ "word": "note", "emoji": "📝" }, { "word": "world", "emoji": "🌍" }]
+    },
+    {
+      "id": "chase", "text": "So Dave chased it. Across the city, through the forest, all the way to the beach.",
+      "setting": "forest", "light": "day", "focus": "dave", "effects": ["speed"],
+      "actors": [
+        { "who": "dave", "x": 300, "mood": "angry", "action": "run" },
+        { "who": "shadow", "x": 780, "mood": "happy", "action": "run" }
+      ],
+      "stickers": [{ "word": "city", "emoji": "🏙️" }, { "word": "beach", "emoji": "🏖️" }]
+    },
+    {
+      "id": "found", "text": "He found it lying in the sun, wearing tiny sunglasses, living its best life.",
+      "setting": "beach", "light": "gold", "focus": "shadow", "effects": ["rays"], "sfx": "illuminatiConfirmed",
+      "actors": [
+        { "who": "dave", "x": 180, "size": 0.9, "mood": "shock" },
+        { "who": "shadow", "x": 620, "size": 1.2, "mood": "smug", "hold": "🍹", "action": "float", "changes": [{ "at": "sunglasses", "hat": "🕶️" }] }
+      ],
+      "stickers": [{ "word": "sunglasses", "emoji": "😎" }, { "word": "best", "emoji": "💅" }]
+    },
+    {
+      "id": "begged", "text": "Dave begged it to come home. The shadow said no. Then it said one thing.",
+      "setting": "beach", "light": "dusk", "focus": "dave", "effects": ["vignette"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "dave", "x": 360, "mood": "sad", "action": "bow", "at": "begged" },
+        { "who": "shadow", "x": 720, "face": "left", "mood": "smug", "hat": "🕶️", "action": "shake", "at": "no" }
+      ],
+      "stickers": [{ "word": "begged", "emoji": "🥺" }, { "word": "thing", "emoji": "🤫" }]
+    },
+    {
+      "id": "deal", "text": "Only if you take me on vacation every single year. First class.",
+      "setting": "beach", "light": "day", "focus": "shadow", "flash": "first",
+      "actors": [
+        { "who": "shadow", "x": 540, "size": 1.3, "mood": "smug", "hat": "🕶️", "action": "grow", "at": "first" }
+      ],
+      "stickers": [{ "word": "vacation", "emoji": "✈️" }, { "word": "class", "emoji": "💺" }]
+    },
+    {
+      "id": "broke", "text": "Now Dave is completely broke, but he has the most traveled shadow on Earth.",
+      "setting": "beach", "light": "gold", "focus": "dave", "effects": ["confetti"], "sfx": "bruh",
+      "actors": [
+        { "who": "dave", "x": 380, "mood": "sad", "hold": "💸" },
+        { "who": "shadow", "x": 700, "face": "left", "mood": "happy", "hat": "🕶️", "action": "jump" }
+      ],
+      "stickers": [{ "word": "broke", "emoji": "💸" }, { "word": "earth", "emoji": "🌍" }]
+    },
+    {
+      "id": "cta", "text": "Follow before your shadow gets the same idea.",
+      "setting": "city", "light": "night", "focus": "shadow", "effects": ["vignette"],
+      "actors": [{ "who": "shadow", "x": 540, "size": 1.5, "mood": "smug", "hat": "🕶️", "action": "enter" }],
+      "stickers": [{ "word": "follow", "emoji": "👉" }, { "word": "idea", "emoji": "💡" }]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "frank-moon-frog",
+  "title": "The Frog Who Ate a Glowing Fly",
+  "youtube": {
+    "title": "This frog ate ONE glowing fly and ended up on the moon 🐸🌕",
+    "description": "Frank was the slowest frog in the pond. Then he caught the wrong fly. #shorts #story #frog",
+    "tags": ["shorts", "story", "frog", "space", "funny", "animation"]
+  },
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["frog", "moon", "fly", "glowing", "blasted", "rocket", "landed", "fattest", "galaxy", "follow"],
+  "bottom": "rings",
+  "cast": {
+    "frank": { "species": "frog", "name": "Frank" },
+    "pondfrog": { "species": "frog", "color": "#3f9e43" },
+    "fly": { "emoji": "🪰" },
+    "astronaut": { "emoji": "🧑‍🚀" }
+  },
+  "scenes": [
+    {
+      "id": "hook", "text": "This frog ate one glowing fly, and accidentally became the first frog on the moon.",
+      "setting": "space", "light": "night", "focus": "frank", "effects": ["rays"], "sfx": "vineBoom",
+      "actors": [{ "who": "frank", "x": 540, "size": 1.8, "mood": "smug", "hat": "🌕", "action": "float" }],
+      "stickers": [{ "word": "fly", "emoji": "🪰" }, { "word": "moon", "emoji": "🌕" }]
+    },
+    {
+      "id": "pond", "text": "Frank was the slowest frog in the whole pond. He never caught a single fly.",
+      "setting": "forest", "light": "day", "focus": "frank",
+      "actors": [
+        { "who": "frank", "x": 220, "size": 0.75, "mood": "sad" },
+        { "who": "pondfrog", "x": 640, "size": 1.1, "action": "jump" },
+        { "who": "pondfrog", "x": 900, "size": 1.1, "face": "left", "action": "jump" },
+        { "who": "fly", "x": 760, "lift": 380, "size": 0.35, "action": "float" }
+      ],
+      "stickers": [{ "word": "slowest", "emoji": "🐢" }, { "word": "never", "emoji": "❌" }]
+    },
+    {
+      "id": "fly", "text": "One night, a strange fly started glowing bright green. Frank shot out his tongue.",
+      "setting": "forest", "light": "night", "focus": "frank", "effects": ["rays"],
+      "actors": [{ "who": "frank", "x": 300, "toX": 500, "mood": "shock", "action": "jump", "at": "tongue", "changes": [{ "at": "tongue", "mood": "happy" }] }],
+      "drop": { "at": "tongue", "emoji": "🪰", "to": "frank" },
+      "stickers": [{ "word": "glowing", "emoji": "💚" }, { "word": "tongue", "emoji": "👅" }]
+    },
+    {
+      "id": "rumble", "text": "His belly started rumbling. Then glowing. Then shaking like a washing machine.",
+      "setting": "forest", "light": "danger", "focus": "frank", "effects": ["vignette", "shake"], "sfx": "loadingLag",
+      "actors": [{ "who": "frank", "x": 540, "size": 1.3, "mood": "shock", "action": "shake", "changes": [{ "at": "shaking", "mood": "angry" }] }],
+      "stickers": [{ "word": "rumbling", "emoji": "😳" }, { "word": "machine", "emoji": "🌀" }]
+    },
+    {
+      "id": "launch", "text": "Frank blasted off into the sky, faster than any rocket in history.",
+      "setting": "city", "light": "dusk", "focus": "frank", "effects": ["speed"], "sfx": "dramaticBoomer", "flash": "blasted",
+      "actors": [{ "who": "frank", "x": 540, "size": 1, "mood": "shock", "action": "float", "lift": 250, "hat": "🔥" }],
+      "stickers": [{ "word": "rocket", "emoji": "🚀" }, { "word": "history", "emoji": "📜" }]
+    },
+    {
+      "id": "drift", "text": "He drifted past satellites, planets, and one very confused astronaut.",
+      "setting": "space", "light": "night", "focus": "frank",
+      "actors": [
+        { "who": "frank", "x": -150, "toX": 420, "mood": "shock", "action": "float", "lift": 150, "at": "astronaut" },
+        { "who": "astronaut", "x": 830, "size": 1.1, "action": "float", "lift": 200 }
+      ],
+      "stickers": [{ "word": "planets", "emoji": "🪐" }, { "word": "confused", "emoji": "🤨" }]
+    },
+    {
+      "id": "landing", "text": "Then he landed on the moon. Face first. Right on a pile of space flies.",
+      "setting": "space", "light": "night", "focus": "frank", "sfx": "bruh",
+      "actors": [{ "who": "frank", "x": 540, "size": 1.2, "action": "faint", "at": "face" }],
+      "crowd": { "who": "fly", "count": 27, "until": "flies" },
+      "stickers": [{ "word": "landed", "emoji": "💥" }, { "word": "flies", "emoji": "🪰" }]
+    },
+    {
+      "id": "feast", "text": "Frank ate every single one. Now he is the fattest frog in the galaxy.",
+      "setting": "space", "light": "gold", "focus": "frank", "effects": ["rays", "confetti"], "sfx": "yippee",
+      "actors": [{ "who": "frank", "x": 540, "mood": "happy", "action": "grow", "at": "fattest", "changes": [{ "at": "fattest", "hat": "crown", "mood": "smug" }] }],
+      "stickers": [{ "word": "fattest", "emoji": "🐸" }, { "word": "galaxy", "emoji": "🌌" }]
+    },
+    {
+      "id": "cta", "text": "Follow, or Frank flies down and eats your flies next.",
+      "setting": "space", "light": "gold", "focus": "frank", "effects": ["rays"],
+      "actors": [{ "who": "frank", "x": 540, "size": 1.5, "mood": "smug", "hat": "crown", "hold": "🪰" }],
+      "stickers": [{ "word": "follow", "emoji": "👉" }, { "word": "eats", "emoji": "😋" }]
+    }
+  ]
+}
