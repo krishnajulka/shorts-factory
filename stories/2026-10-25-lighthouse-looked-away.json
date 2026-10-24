@@ -1,0 +1,106 @@
+{
+  "id": "2026-10-25-lighthouse-looked-away",
+  "title": "The Lighthouse That Looked Away",
+  "youtube": {
+    "title": "The lighthouse that turned AWAY from the sea 🗼🌊",
+    "description": "For thirty years, every captain complained. Then the storm came. #shorts #story #legend",
+    "tags": ["shorts", "story", "legend", "wholesome", "lighthouse", "animation"]
+  },
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["lighthouse", "window", "letters", "lamp", "storm", "rocks", "path", "light", "captains", "follow", "sea"],
+  "bottom": "wheel",
+  "racers": ["🚢", "⛵", "🛶", "🚤", "🛥️"],
+  "cast": {
+    "ned": { "species": "bean", "color": "#4d96ff", "name": "Ned" },
+    "elsie": { "species": "bean", "color": "#ffb347", "name": "Elsie" },
+    "tower": { "emoji": "🗼" },
+    "lamp": { "emoji": "🏮" },
+    "ship": { "emoji": "🚢" },
+    "letter": { "emoji": "✉️" }
+  },
+  "scenes": [
+    {
+      "id": "hook", "text": "Every night for thirty years, the Gull Rock lighthouse turned its light away from the sea. Toward one tiny window.",
+      "setting": "beach", "light": "night", "focus": "tower", "sfx": "vineBoom", "effects": ["rays"],
+      "actors": [
+        { "who": "tower", "x": 400, "size": 2, "action": "enter" },
+        { "who": "lamp", "x": 860, "size": 0.9, "action": "float", "at": "window" }
+      ],
+      "stickers": [{ "word": "thirty", "emoji": "📅" }, { "word": "window", "emoji": "🪟" }]
+    },
+    {
+      "id": "letters", "text": "Captains sent angry letters, forty every week. Keeper Ned read each one, shrugged, and never moved the light.",
+      "setting": "room", "light": "dusk", "focus": "ned",
+      "actors": [{ "who": "ned", "x": 540, "size": 1.2, "mood": "smug", "action": "shake", "at": "shrugged" }],
+      "crowd": { "who": "letter", "count": 40, "mood": "angry", "until": "week" },
+      "stickers": [{ "word": "angry", "emoji": "😡" }, { "word": "shrugged", "emoji": "🤷" }]
+    },
+    {
+      "id": "lamp", "text": "The window belonged to Elsie. Every night at eleven forty, she lit one small lamp. Nobody knew why.",
+      "setting": "city", "light": "night", "focus": "elsie",
+      "actors": [
+        { "who": "elsie", "x": 300, "toX": 520, "size": 1.2, "mood": "sad", "hold": "🏮", "at": "lit" }
+      ],
+      "drop": { "at": "lamp", "emoji": "🏮", "to": "elsie" },
+      "stickers": [{ "word": "eleven", "emoji": "🕚" }, { "word": "why", "emoji": "❓" }]
+    },
+    {
+      "id": "storm", "text": "Then one night, a storm swallowed the coast. Forty ships were lost in the dark, surrounded by rocks.",
+      "setting": "beach", "light": "danger", "focus": "ship", "effects": ["rain", "shake", "vignette"], "sfx": "dramaticBoomer",
+      "actors": [{ "who": "ship", "x": 540, "size": 1.5, "action": "shake", "at": "storm" }],
+      "stickers": [{ "word": "storm", "emoji": "⛈️" }, { "word": "rocks", "emoji": "🪨" }]
+    },
+    {
+      "id": "radio", "text": "Ned grabbed his radio. Ignore the sea, he told them. Follow my light to the window.",
+      "setting": "beach", "light": "danger", "focus": "ned", "effects": ["rain", "rays"], "flash": "follow",
+      "actors": [
+        { "who": "ned", "x": 280, "toX": 520, "size": 1.3, "mood": "angry", "hold": "📻", "action": "run" },
+        { "who": "tower", "x": 850, "size": 1.8 }
+      ],
+      "stickers": [{ "word": "radio", "emoji": "📻" }, { "word": "ignore", "emoji": "🙅" }]
+    },
+    {
+      "id": "path", "text": "Hidden rocks covered the water. But one safe path ran from the lighthouse straight to Elsie's lamp.",
+      "setting": "beach", "light": "night", "focus": "lamp", "effects": ["speed", "rays"], "sfx": "animeWow",
+      "actors": [
+        { "who": "ship", "x": -200, "toX": 850, "size": 1.2, "action": "run" },
+        { "who": "lamp", "x": 880, "size": 1.1, "action": "float" }
+      ],
+      "burst": { "at": "rocks", "emoji": "🪨" },
+      "stickers": [{ "word": "safe", "emoji": "✅" }, { "word": "straight", "emoji": "➡️" }]
+    },
+    {
+      "id": "promise", "text": "Years ago, Elsie's husband sailed that water and never came back. Ned had sworn nobody else would be lost.",
+      "setting": "beach", "light": "dusk", "focus": "elsie", "effects": ["rain"], "sfx": "recordScratch",
+      "actors": [
+        { "who": "elsie", "x": 380, "size": 1.2, "mood": "sad", "action": "bow", "at": "back" },
+        { "who": "ned", "x": 720, "size": 1.1, "face": "left", "mood": "sad", "action": "bow", "at": "sworn" }
+      ],
+      "stickers": [{ "word": "husband", "emoji": "⛵" }, { "word": "sworn", "emoji": "🤝" }]
+    },
+    {
+      "id": "home", "text": "Every ship made it home. At dawn, the angry captains stopped sending letters. They sent lamps instead.",
+      "setting": "beach", "light": "gold", "focus": "ned", "effects": ["rays", "confetti"], "sfx": "yippee",
+      "actors": [{ "who": "ned", "x": 540, "size": 1.3, "mood": "happy", "action": "jump" }],
+      "crowd": { "who": "lamp", "count": 40, "mood": "happy", "until": "instead" },
+      "stickers": [{ "word": "home", "emoji": "🏠" }, { "word": "lamps", "emoji": "🏮" }]
+    },
+    {
+      "id": "elsie", "text": "Elsie is gone now. But every night at eleven forty, a sailor lights her lamp.",
+      "setting": "city", "light": "dusk", "focus": "lamp", "effects": ["snow"],
+      "actors": [
+        { "who": "lamp", "x": 540, "size": 1.8, "action": "float", "at": "lights" }
+      ],
+      "drop": { "at": "gone", "emoji": "🕯️", "to": "lamp" },
+      "stickers": [{ "word": "gone", "emoji": "💔" }, { "word": "sailor", "emoji": "⚓" }]
+    },
+    {
+      "id": "loop", "text": "Follow, and keep a light on. Somewhere tonight, a lighthouse is turning away from the sea.",
+      "setting": "beach", "light": "night", "focus": "tower", "effects": ["rays"],
+      "actors": [{ "who": "tower", "x": 540, "size": 2, "action": "spin", "at": "turning" }],
+      "stickers": [{ "word": "follow", "emoji": "👉" }, { "word": "light", "emoji": "💡" }]
+    }
+  ]
+}
