@@ -2,7 +2,7 @@
 
 Each Short is one JSON file in `stories/<id>.json`. `node scripts/make.mjs stories/<id>.json`
 turns it into `out/shorts/<id>/<id>.mp4` (plus preview stills and `upload.txt`).
-**`stories/duck-doorstep.json` is the model to beat** — read it first and notice how it
+**`stories/2026-10-25-closet-knock.json` is the model to beat** for hook and suspense (and `stories/duck-doorstep.json` for twist and feeling) — read them first and notice how they
 uses every technique below. The other stories in `stories/` show more engine features
 but are weaker stories.
 
