@@ -1,0 +1,95 @@
+{
+  "id": "2026-10-25-closet-knock",
+  "title": "The Knock at Three Thirty Three",
+  "youtube": {
+    "title": "Someone knocks from INSIDE her closet every night 🚪😨",
+    "description": "Three knocks. Always at 3:33. Her closet is just a wall. #shorts #story #mystery #creepy",
+    "tags": ["shorts", "story", "mystery", "creepy", "wholesome", "animation"]
+  },
+  "hook": "WHO IS KNOCKING? 🚪😨",
+  "narrator": "callum",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["knocks", "closet", "three", "breathing", "whispered", "leo", "friends", "knocked", "laughed", "follow"],
+  "bottom": "territory",
+  "cast": {
+    "maya": { "species": "bean", "color": "#ff9f1c", "name": "Maya" },
+    "leo": { "species": "bean", "color": "#8ecae6", "name": "Leo" },
+    "door": { "emoji": "🚪" },
+    "dog": { "emoji": "🐕" }
+  },
+  "scenes": [
+    {
+      "id": "knock", "text": "Every night at three thirty three, someone knocks. From inside Maya's closet.",
+      "setting": "room", "light": "night", "focus": "maya", "effects": ["vignette", "shake"], "sfx": "vineBoom", "flash": "closet",
+      "actors": [
+        { "who": "maya", "x": 320, "size": 1.4, "mood": "shock", "action": "shake" },
+        { "who": "door", "x": 800, "size": 1.7, "action": "shake" }
+      ],
+      "stickers": [{ "word": "knocks", "emoji": "✊" }, { "word": "closet", "emoji": "😱" }]
+    },
+    {
+      "id": "wall", "text": "Three knocks. Always three. But her closet is just a wall.",
+      "setting": "room", "light": "night", "focus": "door", "effects": ["vignette"],
+      "actors": [
+        { "who": "maya", "x": 280, "mood": "shock" },
+        { "who": "door", "x": 760, "size": 1.7, "action": "jump" }
+      ],
+      "stickers": [{ "word": "always", "emoji": "3️⃣" }, { "word": "wall", "emoji": "🧱" }]
+    },
+    {
+      "id": "dog", "text": "Her parents heard nothing. And the dog refused to go near it.",
+      "setting": "room", "light": "dusk", "focus": "dog", "sfx": "recordScratch",
+      "actors": [
+        { "who": "maya", "x": 700, "face": "left", "mood": "sad" },
+        { "who": "dog", "x": 280, "size": 1.1, "action": "shake", "at": "refused" }
+      ],
+      "stickers": [{ "word": "nothing", "emoji": "🤷" }, { "word": "refused", "emoji": "🚫" }]
+    },
+    {
+      "id": "breathing", "text": "On night seven, Maya pressed her ear to the wall. And heard breathing.",
+      "setting": "room", "light": "danger", "focus": "maya", "effects": ["vignette", "shake"], "sfx": "dramaticBoomer", "flash": "breathing",
+      "actors": [
+        { "who": "maya", "x": 420, "toX": 640, "size": 1.2, "mood": "shock", "at": "wall" },
+        { "who": "door", "x": 880, "size": 1.7 }
+      ],
+      "stickers": [{ "word": "seven", "emoji": "7️⃣" }, { "word": "breathing", "emoji": "😮‍💨" }]
+    },
+    {
+      "id": "whisper", "text": "Then a tiny voice whispered: are you awake too?",
+      "setting": "room", "light": "night", "focus": "maya", "effects": ["vignette"],
+      "actors": [{ "who": "maya", "x": 540, "size": 1.4, "mood": "shock", "action": "jump", "at": "whispered" }],
+      "stickers": [{ "word": "whispered", "emoji": "🤫" }, { "word": "awake", "emoji": "👀" }]
+    },
+    {
+      "id": "leo", "text": "On the other side lived Leo. Eight years old. New in town.",
+      "setting": "room", "light": "day", "focus": "leo",
+      "actors": [{ "who": "leo", "x": 540, "size": 0.9, "mood": "happy", "action": "enter", "at": "leo" }],
+      "stickers": [{ "word": "eight", "emoji": "8️⃣" }, { "word": "town", "emoji": "🏙️" }]
+    },
+    {
+      "id": "lonely", "text": "No friends yet. So every night, he knocked, hoping someone would knock back.",
+      "setting": "room", "light": "night", "focus": "leo", "effects": ["rain"],
+      "actors": [{ "who": "leo", "x": 540, "size": 1.1, "mood": "sad", "action": "bow", "at": "hoping" }],
+      "stickers": [{ "word": "friends", "emoji": "🥺" }, { "word": "back", "emoji": "🤞" }]
+    },
+    {
+      "id": "back", "text": "So at three thirty three, Maya knocked three times. And Leo laughed.",
+      "setting": "room", "light": "gold", "focus": "maya", "effects": ["rays", "confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "maya", "x": 300, "mood": "happy", "action": "jump", "at": "knocked" },
+        { "who": "leo", "x": 780, "size": 0.9, "face": "left", "mood": "happy", "action": "jump", "at": "laughed" }
+      ],
+      "stickers": [{ "word": "knocked", "emoji": "✊" }, { "word": "laughed", "emoji": "😂" }]
+    },
+    {
+      "id": "loop", "text": "Now they talk through the wall every night. Follow, someone might be knocking for you.",
+      "setting": "room", "light": "night", "focus": "maya", "effects": ["vignette"],
+      "actors": [
+        { "who": "maya", "x": 300, "mood": "smug" },
+        { "who": "door", "x": 780, "size": 1.7, "action": "shake", "at": "knocking" }
+      ],
+      "stickers": [{ "word": "talk", "emoji": "💬" }, { "word": "follow", "emoji": "👉" }]
+    }
+  ]
+}

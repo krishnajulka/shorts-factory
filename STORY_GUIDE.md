@@ -6,6 +6,24 @@ turns it into `out/shorts/<id>/<id>.mp4` (plus preview stills and `upload.txt`).
 uses every technique below. The other stories in `stories/` show more engine features
 but are weaker stories.
 
+## The first 2 seconds decide everything
+
+YouTube Studio shows most viewers swipe away before the story starts ("Stayed to watch"
+was 39% on the first Shorts). The validator enforces the first three rules:
+
+1. **`hook` text on screen from frame 0** — 3-6 words, ALL CAPS energy, one emoji, a
+   question or a warning: "WHO IS KNOCKING? 🚪", "DON'T OPEN THE CLOSET 😨",
+   "WHERE DO YOUR SOCKS GO? 🧦". It must create tension, not summarize.
+2. **First sentence ≤ 10 words, starting inside the conflict.** No setup, no "Once
+   upon a time", no names first. "Every night at three thirty three, someone knocks."
+3. **Short: ≤ 115 words of narration total** (about 35-40 s), 7-9 scenes.
+4. **First scene is visually loud:** hero big and moving, a drop/burst/crowd, danger
+   light or a dramatic effect. Never a calm establishing shot.
+5. **Re-hook every ~10 seconds** with a turn: "Then the dog wouldn't go near it.",
+   "And heard breathing." Each scene must raise a new question or answer one and
+   raise a bigger one.
+6. **Don't answer the main question until the last 2 scenes.**
+
 ## Story craft — what makes people watch to the end
 
 A Short lives or dies on whether the viewer *needs to know what happens next*. Random
@@ -102,6 +120,7 @@ log the category with the story.
   "id": "kebab-case-unique-id",
   "title": "Internal title",
   "youtube": { "title": "≤60 chars with 1-2 emoji", "description": "1-2 lines + #shorts", "tags": ["shorts", "..."] },
+  "hook": "WHO IS KNOCKING? 🚪",          // on-screen text for the first 3 seconds (8-40 chars)
   "narrator": "brian",                  // brian | george | jessica | liam | callum (ElevenLabs)
   "voice": "Microsoft David Desktop",   // Windows fallback voice (or "Microsoft Zira Desktop")
   "rate": 1,                            // Windows fallback speed; keep 1

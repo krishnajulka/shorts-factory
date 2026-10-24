@@ -1,0 +1,84 @@
+{
+  "id": "2026-10-25-sock-escape",
+  "title": "The Great Sock Escape",
+  "youtube": {
+    "title": "This is where ALL your missing socks go 🧦😳",
+    "description": "At 2 AM, when the dryer stops, one sock opens its eyes. #shorts #story #funny #animation",
+    "tags": ["shorts", "story", "funny", "heist", "socks", "animation"]
+  },
+  "hook": "WHERE DO YOUR SOCKS GO? 🧦",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["socks", "dryer", "sid", "escape", "cat", "eye", "pinned", "thousand", "couch", "follow"],
+  "bottom": "plinko",
+  "cast": {
+    "sid": { "emoji": "🧦", "name": "Sid" },
+    "cat": { "species": "cat", "color": "#6c757d" },
+    "sock": { "emoji": "🧦" }
+  },
+  "scenes": [
+    {
+      "id": "promise", "text": "Every house loses socks. Tonight, I'll show you where they go.",
+      "setting": "room", "light": "night", "focus": "sid", "effects": ["rays"], "sfx": "vineBoom",
+      "actors": [{ "who": "sid", "x": 540, "size": 1.6, "action": "jump" }],
+      "stickers": [{ "word": "socks", "emoji": "😳" }, { "word": "go", "emoji": "👀" }]
+    },
+    {
+      "id": "eyes", "text": "At two in the morning, when the dryer stops, one sock opens its eyes.",
+      "setting": "room", "light": "night", "focus": "sid", "effects": ["vignette"], "flash": "eyes",
+      "actors": [{ "who": "sid", "x": 540, "size": 1.3, "action": "grow", "at": "eyes" }],
+      "stickers": [{ "word": "dryer", "emoji": "🌀" }, { "word": "eyes", "emoji": "👁️" }]
+    },
+    {
+      "id": "plan", "text": "His name is Sid. He has been planning this escape for three years.",
+      "setting": "room", "light": "dusk", "focus": "sid",
+      "actors": [{ "who": "sid", "x": 540, "size": 1.2, "hat": "🎩", "hold": "🗺️", "action": "float" }],
+      "stickers": [{ "word": "planning", "emoji": "🗺️" }, { "word": "years", "emoji": "📅" }]
+    },
+    {
+      "id": "run", "text": "Down the hallway. Past the sleeping cat. Straight for the front door.",
+      "setting": "room", "light": "night", "focus": "sid", "effects": ["speed"],
+      "actors": [
+        { "who": "cat", "x": 220, "size": 0.9, "mood": "smug" },
+        { "who": "sid", "x": 600, "size": 0.9, "action": "run" }
+      ],
+      "stickers": [{ "word": "sleeping", "emoji": "😴" }, { "word": "door", "emoji": "🚪" }]
+    },
+    {
+      "id": "awake", "text": "Then the cat opened one eye.",
+      "setting": "room", "light": "danger", "focus": "cat", "effects": ["vignette", "shake"], "sfx": "omgHellNah", "flash": "eye",
+      "actors": [{ "who": "cat", "x": 540, "size": 1.5, "mood": "smug", "action": "grow", "at": "eye", "changes": [{ "at": "eye", "mood": "angry" }] }],
+      "stickers": [{ "word": "eye", "emoji": "😾" }]
+    },
+    {
+      "id": "pinned", "text": "One leap. Sid was pinned. Inches from freedom.",
+      "setting": "room", "light": "danger", "focus": "sid", "effects": ["shake", "vignette"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "cat", "x": 200, "toX": 600, "size": 1.1, "mood": "angry", "action": "jump", "at": "leap" },
+        { "who": "sid", "x": 820, "size": 0.9, "action": "shake" }
+      ],
+      "stickers": [{ "word": "leap", "emoji": "💥" }, { "word": "freedom", "emoji": "🚪" }]
+    },
+    {
+      "id": "army", "text": "Then a thousand missing socks burst out from under the couch.",
+      "setting": "room", "light": "gold", "focus": "cat", "effects": ["rays"], "sfx": "animeWow",
+      "actors": [{ "who": "cat", "x": 540, "size": 1.1, "mood": "shock", "action": "faint", "at": "couch" }],
+      "crowd": { "who": "sock", "count": 45, "until": "couch" },
+      "burst": { "at": "burst", "emoji": "🧦" },
+      "stickers": [{ "word": "thousand", "emoji": "😱" }, { "word": "couch", "emoji": "🛋️" }]
+    },
+    {
+      "id": "lead", "text": "Every sock you ever lost. Training. Waiting. For one sock brave enough to lead them.",
+      "setting": "room", "light": "gold", "focus": "sid", "effects": ["rays", "confetti"], "sfx": "yippee",
+      "actors": [{ "who": "sid", "x": 540, "size": 1.5, "hat": "crown", "action": "float" }],
+      "stickers": [{ "word": "training", "emoji": "💪" }, { "word": "lead", "emoji": "👑" }]
+    },
+    {
+      "id": "loop", "text": "So check your dryer tonight. Follow, before your socks follow Sid.",
+      "setting": "room", "light": "night", "focus": "sid", "effects": ["vignette"],
+      "actors": [{ "who": "sid", "x": 540, "size": 1.4, "hat": "crown", "action": "exit", "at": "sid" }],
+      "stickers": [{ "word": "dryer", "emoji": "🌀" }, { "word": "follow", "emoji": "👉" }]
+    }
+  ]
+}

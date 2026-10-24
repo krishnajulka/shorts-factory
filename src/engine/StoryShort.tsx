@@ -81,8 +81,47 @@ const StoryStage: React.FC<{ scene: RenderScene; cast: Record<string, Character>
       <g transform={`translate(${STAGE_W / 2 + shake} ${STAGE_H / 2}) rotate(${shot.rot}) scale(${z}) translate(${-cx} ${-cy})`}>
         <SceneView scene={scene} cast={cast} endSeconds={seconds} />
       </g>
-      <rect width={STAGE_W} height={STAGE_H} fill="#fff" opacity={interpolate(frame, [0, 5], [0.75, 0], { extrapolateRight: "clamp" })} />
+      {/* Flash on scene cuts — never on the very first frame, which is what
+          viewers judge before swiping. */}
+      {index > 0 ? (
+        <rect width={STAGE_W} height={STAGE_H} fill="#fff" opacity={interpolate(frame, [0, 5], [0.75, 0], { extrapolateRight: "clamp" })} />
+      ) : null}
     </svg>
+  );
+};
+
+const HOOK_SECONDS = 2.8;
+
+// Big suspense line on screen from frame 0, readable before the narrator speaks.
+const HookCard: React.FC<{ text: string }> = ({ text }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const t = frame / fps;
+  if (t > HOOK_SECONDS) return null;
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: 130,
+        left: 50,
+        right: 50,
+        textAlign: "center",
+        fontFamily,
+        fontWeight: 900,
+        fontSize: 92,
+        lineHeight: 1.05,
+        color: "#fff",
+        textTransform: "uppercase",
+        WebkitTextStroke: "16px #000",
+        paintOrder: "stroke fill",
+        textShadow: "0 10px 0 rgba(0,0,0,0.6)",
+        // Fully visible on frame 0, then a slow pulse; fades out at the end.
+        scale: 1 + Math.sin(t * 6) * 0.03,
+        opacity: interpolate(t, [HOOK_SECONDS - 0.3, HOOK_SECONDS], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
+      }}
+    >
+      <span style={{ background: "#ff2d55", padding: "4px 22px", borderRadius: 18, WebkitTextStroke: "10px #000" }}>{text}</span>
+    </div>
   );
 };
 
@@ -144,6 +183,7 @@ export const StoryShort: React.FC<{ story: RenderStory }> = ({ story }) => {
           <Captions words={scene.words} fontFamily={fontFamily} keywords={story.keywords} />
         </Sequence>
       ))}
+      {story.hook ? <HookCard text={story.hook} /> : null}
       <ProgressBar />
     </AbsoluteFill>
   );

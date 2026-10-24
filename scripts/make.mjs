@@ -42,6 +42,12 @@ const validate = (story) => {
     need(c.emoji || SPECIES.includes(c.species), `cast.${key}: needs "emoji" or species in ${SPECIES.join("|")}`);
   }
   need((story.scenes?.length ?? 0) >= 5, "need at least 5 scenes");
+  // Retention: an on-screen hook from frame 0, a short first line, a short Short.
+  need(typeof story.hook === "string" && story.hook.length >= 8 && story.hook.length <= 40, "hook (on-screen text for the first 3s) is required, 8-40 characters");
+  const firstLine = (story.scenes?.[0]?.text ?? "").split(/[.!?]/)[0].split(/\s+/).filter(Boolean).length;
+  need(firstLine <= 10, `the first sentence of scene 1 must be 10 words or fewer (has ${firstLine}) — the hook has to land in under 2 seconds`);
+  const totalWords = (story.scenes ?? []).reduce((n, s) => n + (s.text ?? "").split(/\s+/).filter(Boolean).length, 0);
+  need(totalWords <= 115, `narration is ${totalWords} words; keep it at 115 or fewer (about 40 seconds)`);
   const ids = new Set();
   for (const s of story.scenes ?? []) {
     const where = `scene "${s.id}"`;
