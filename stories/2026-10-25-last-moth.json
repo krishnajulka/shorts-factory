@@ -1,0 +1,90 @@
+{
+  "id": "2026-10-25-last-moth",
+  "title": "The Moth Who Finished Last",
+  "youtube": {
+    "title": "10,000 moths raced to one light. He came last. 🦋💡",
+    "description": "Milo always finished last. Tonight that saved every moth in the sky. #shorts #story #wholesome #animation",
+    "tags": ["shorts", "story", "wholesome", "underdog", "moth", "animation"]
+  },
+  "hook": "NEVER TRUST THIS LIGHT 💡",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["moths", "light", "last", "crooked", "hums", "hum", "jar", "latch", "laughs", "follow", "moon"],
+  "bottom": "race",
+  "racers": ["🦋", "💡", "🫙", "🌙"],
+  "cast": {
+    "milo": { "species": "bean", "color": "#b8a58a", "name": "Milo" },
+    "moth": { "emoji": "🦋" },
+    "lamp": { "emoji": "💡" },
+    "jar": { "emoji": "🫙" },
+    "moon": { "emoji": "🌙" }
+  },
+  "scenes": [
+    {
+      "id": "hook", "text": "Every night, ten thousand moths race to one light. Milo always finishes last.",
+      "setting": "city", "light": "dusk", "focus": "milo", "effects": ["speed"], "sfx": "vineBoom",
+      "actors": [{ "who": "milo", "x": 330, "size": 1.3, "mood": "sad", "action": "run" }],
+      "burst": { "at": "light", "emoji": "🦋" },
+      "stickers": [{ "word": "thousand", "emoji": "🦋" }, { "word": "last", "emoji": "🐌" }]
+    },
+    {
+      "id": "wings", "text": "His wings were tiny and crooked. Grandma's only advice: never trust a light that hums.",
+      "setting": "forest", "light": "night", "focus": "milo",
+      "actors": [{ "who": "milo", "x": 540, "size": 1.2, "mood": "sad", "action": "shake", "at": "crooked", "changes": [{ "at": "hums", "mood": "shock" }] }],
+      "crowd": { "who": "moth", "count": 16, "mood": "smug", "until": "crooked" },
+      "stickers": [{ "word": "crooked", "emoji": "〰️" }, { "word": "hums", "emoji": "🔊" }]
+    },
+    {
+      "id": "bright", "text": "Tonight, a light appeared brighter than the moon. Every moth shot toward it.",
+      "setting": "city", "light": "gold", "focus": "lamp", "effects": ["rays", "speed"],
+      "actors": [
+        { "who": "lamp", "x": 780, "size": 2, "action": "grow", "at": "appeared" },
+        { "who": "milo", "x": 160, "size": 0.8, "mood": "happy", "action": "run" }
+      ],
+      "burst": { "at": "shot", "emoji": "🦋" },
+      "stickers": [{ "word": "brighter", "emoji": "✨" }, { "word": "moon", "emoji": "🌙" }]
+    },
+    {
+      "id": "hum", "text": "Milo trailed behind. Then he heard it: a low hum. He screamed. Nobody listened.",
+      "setting": "forest", "light": "danger", "focus": "milo", "effects": ["vignette", "speed"], "sfx": "recordScratch",
+      "actors": [{ "who": "milo", "x": 360, "toX": 640, "size": 1.3, "mood": "shock", "action": "run" }],
+      "stickers": [{ "word": "hum", "emoji": "🔊" }, { "word": "screamed", "emoji": "😱" }]
+    },
+    {
+      "id": "jar", "text": "Ten thousand moths dove inside. A glass lid slammed shut. Everyone was trapped in a jar.",
+      "setting": "city", "light": "danger", "focus": "jar", "effects": ["vignette", "shake"], "sfx": "dramaticBoomer", "flash": "slammed",
+      "actors": [
+        { "who": "jar", "x": 700, "size": 2, "action": "grow", "at": "slammed" },
+        { "who": "milo", "x": 190, "size": 0.9, "mood": "shock", "action": "jump", "at": "trapped" }
+      ],
+      "burst": { "at": "dove", "emoji": "🦋" },
+      "stickers": [{ "word": "slammed", "emoji": "💥" }, { "word": "jar", "emoji": "🫙" }]
+    },
+    {
+      "id": "latch", "text": "The only gap was narrow and crooked. Milo wriggled through and pushed the latch open.",
+      "setting": "room", "light": "night", "focus": "milo", "effects": ["vignette"],
+      "actors": [
+        { "who": "jar", "x": 760, "size": 1.8, "action": "shake", "at": "latch" },
+        { "who": "milo", "x": 260, "toX": 520, "size": 1.1, "mood": "angry", "action": "jump", "at": "wriggled" }
+      ],
+      "stickers": [{ "word": "narrow", "emoji": "🤏" }, { "word": "latch", "emoji": "🔓" }]
+    },
+    {
+      "id": "freed", "text": "They laughed at his wings for years. Now nobody laughs, and everyone waits for him.",
+      "setting": "space", "light": "gold", "focus": "milo", "effects": ["rays", "confetti"], "sfx": "animeWow",
+      "actors": [{ "who": "milo", "x": 540, "size": 1.4, "mood": "happy", "action": "float", "changes": [{ "at": "nobody", "hat": "crown" }] }],
+      "crowd": { "who": "moth", "count": 20, "mood": "happy", "until": "waits" },
+      "stickers": [{ "word": "laughed", "emoji": "🥲" }, { "word": "waits", "emoji": "🥹" }]
+    },
+    {
+      "id": "loop", "text": "Now they wait for Milo. Follow, and stay behind him. Because every night,",
+      "setting": "space", "light": "night", "focus": "milo",
+      "actors": [
+        { "who": "moon", "x": 800, "size": 2, "action": "float" },
+        { "who": "milo", "x": 300, "toX": 540, "size": 1.2, "mood": "smug", "action": "run" }
+      ],
+      "stickers": [{ "word": "follow", "emoji": "👉" }, { "word": "night", "emoji": "🌙" }]
+    }
+  ]
+}

@@ -12,3 +12,4 @@ and a different bottom than the last 2.
 - 2026-10-25 — 2026-10-25-lighthouse-looked-away — fake history / legend — a lighthouse beams away from the sea for 30 years; in a storm it is the only safe path, leading to a widow's lamp (beach, room, city) [wheel]
 - 2026-10-25 — 2026-10-25-closet-knock — mini mystery / creepy-to-wholesome — knocks at 3:33 from inside Maya's closet turn out to be a lonely new kid next door (room) [territory]
 - 2026-10-25 — 2026-10-25-sock-escape — heist / comedy suspense — a sock escapes the dryer, gets pinned by the cat, and is rescued by an army of every lost sock (room) [plinko]
+- 2026-10-25 — 2026-10-25-last-moth — underdog competition / wholesome twist — the slowest moth hears a hum, so he's the only one not trapped in a jar-lantern and frees all ten thousand (city, forest, room, space) [race]
