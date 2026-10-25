@@ -14,3 +14,4 @@ and a different bottom than the last 2.
 - 2026-10-25 — 2026-10-25-sock-escape — heist / comedy suspense — a sock escapes the dryer, gets pinned by the cat, and is rescued by an army of every lost sock (room) [plinko]
 - 2026-10-25 — 2026-10-25-last-moth — underdog competition / wholesome twist — the slowest moth hears a hum, so he's the only one not trapped in a jar-lantern and frees all ten thousand (city, forest, room, space) [race]
 - 2026-10-25 — 2026-10-25-vending-machine-knows — object with a secret life / creepy-funny twist — a vending machine gives Walt exactly what he needs, then a note "Don't go home tonight"; sleepwalking Walt has been stocking it himself, warning about a gas leak (city, room) [breakout]
+- 2026-10-25 — 2026-10-25-ghost-sings — spooky-but-funny / wholesome twist — something under Ned's bed whimpers at midnight; the shy ghost was trying to sing along to his trumpet (room) [rings]

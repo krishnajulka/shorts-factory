@@ -1,0 +1,95 @@
+{
+  "id": "2026-10-25-ghost-sings",
+  "title": "The Ghost Under the Bed",
+  "youtube": {
+    "title": "Something under his bed whimpered every midnight 👻🎺",
+    "description": "Ned slept in the bathtub for a week. Then the wardrobe creaked open. #shorts #story #funny",
+    "tags": ["shorts", "story", "funny", "ghost", "wholesome", "animation"]
+  },
+  "hook": "WHAT'S UNDER THE BED? 👻",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["midnight", "whimpered", "bathtub", "trumpet", "wardrobe", "bedsheet", "ghost", "screamed", "sing", "neighbors", "follow", "happily"],
+  "bottom": "rings",
+  "cast": {
+    "ned": { "species": "bean", "color": "#4d96ff", "name": "Ned" },
+    "ghost": { "emoji": "👻" },
+    "tub": { "emoji": "🛁" },
+    "neighbor": { "species": "bean", "color": "#ffb347" }
+  },
+  "scenes": [
+    {
+      "id": "hook", "text": "Every night at midnight, something under Ned's bed whimpered. Ned slept in the bathtub.",
+      "setting": "room", "light": "danger", "focus": "ned", "effects": ["vignette", "shake"], "sfx": "vineBoom",
+      "actors": [
+        { "who": "ned", "x": 420, "size": 1.4, "mood": "shock", "action": "shake", "at": "whimpered" },
+        { "who": "tub", "x": 800, "size": 1.3, "action": "enter", "at": "bathtub" }
+      ],
+      "stickers": [{ "word": "midnight", "emoji": "🕛" }, { "word": "bathtub", "emoji": "🛁" }]
+    },
+    {
+      "id": "tries", "text": "Garlic failed. Salt failed. He tried his trumpet. The whimpering got louder.",
+      "setting": "room", "light": "night", "focus": "ned",
+      "actors": [{ "who": "ned", "x": 300, "toX": 640, "size": 1.2, "mood": "angry", "hold": "🎺", "action": "jump" }],
+      "drop": { "at": "garlic", "emoji": "🧄", "to": "ned" },
+      "burst": { "at": "louder", "emoji": "🎵" },
+      "stickers": [{ "word": "salt", "emoji": "🧂" }, { "word": "trumpet", "emoji": "🎺" }]
+    },
+    {
+      "id": "wardrobe", "text": "Then the wardrobe creaked. Out floated a bedsheet. It whispered, boo. Very politely.",
+      "setting": "room", "light": "danger", "focus": "ghost", "effects": ["vignette"], "sfx": "dramaticBoomer", "flash": "bedsheet",
+      "actors": [
+        { "who": "ghost", "x": 700, "size": 1.5, "action": "float", "mood": "shock" },
+        { "who": "ned", "x": 200, "size": 0.9, "mood": "shock", "action": "faint", "at": "boo" }
+      ],
+      "stickers": [{ "word": "wardrobe", "emoji": "🚪" }, { "word": "politely", "emoji": "🎩" }]
+    },
+    {
+      "id": "scream", "text": "Ned screamed. The ghost screamed louder. They both locked themselves in the bathroom.",
+      "setting": "room", "light": "night", "focus": "ned", "effects": ["speed", "shake"], "sfx": "wilhelmScream",
+      "actors": [
+        { "who": "ned", "x": 100, "toX": 760, "mood": "shock", "action": "run" },
+        { "who": "ghost", "x": -150, "toX": 500, "size": 1.3, "mood": "shock", "action": "run" }
+      ],
+      "stickers": [{ "word": "screamed", "emoji": "😱" }, { "word": "locked", "emoji": "🔒" }]
+    },
+    {
+      "id": "sob", "text": "Forty years I've haunted this house, the ghost sobbed, and I'm still scared of people.",
+      "setting": "room", "light": "dusk", "focus": "ghost", "effects": ["rain"],
+      "actors": [
+        { "who": "ghost", "x": 640, "size": 1.4, "mood": "sad", "action": "bow", "at": "sobbed" },
+        { "who": "ned", "x": 220, "size": 0.9, "mood": "sad", "action": "jump", "at": "scared" }
+      ],
+      "stickers": [{ "word": "Forty", "emoji": "📅" }, { "word": "sobbed", "emoji": "😭" }]
+    },
+    {
+      "id": "twist", "text": "Then he said it. The whimpering wasn't fear. He was trying to sing along to the trumpet.",
+      "setting": "room", "light": "gold", "focus": "ghost", "effects": ["rays"], "sfx": "recordScratch", "flash": "sing",
+      "actors": [
+        { "who": "ghost", "x": 620, "size": 1.5, "mood": "happy", "action": "float" },
+        { "who": "ned", "x": 220, "size": 1.0, "mood": "shock", "hold": "🎺" }
+      ],
+      "burst": { "at": "sing", "emoji": "🎵" },
+      "stickers": [{ "word": "fear", "emoji": "🙅" }, { "word": "trumpet", "emoji": "🎺" }]
+    },
+    {
+      "id": "band", "text": "So Ned played. The ghost sang, terribly. Next door, the neighbors clapped through the wall.",
+      "setting": "room", "light": "gold", "focus": "ghost", "effects": ["confetti", "rays"], "sfx": "yippee",
+      "actors": [
+        { "who": "ned", "x": 280, "size": 1.1, "mood": "happy", "hold": "🎺", "action": "jump" },
+        { "who": "ghost", "x": 700, "size": 1.4, "mood": "happy", "action": "spin", "at": "sang" }
+      ],
+      "crowd": { "who": "neighbor", "count": 30, "mood": "happy", "until": "wall" },
+      "stickers": [{ "word": "sang", "emoji": "🎤" }, { "word": "clapped", "emoji": "👏" }]
+    },
+    {
+      "id": "loop", "text": "Follow, because tonight at midnight, something under Ned's bed is whimpering. Happily.",
+      "setting": "room", "light": "dusk", "focus": "ghost", "effects": ["vignette"],
+      "actors": [
+        { "who": "ghost", "x": 540, "size": 1.5, "mood": "happy", "action": "float", "hat": "🎩" }
+      ],
+      "stickers": [{ "word": "Follow", "emoji": "👉" }, { "word": "midnight", "emoji": "🕛" }]
+    }
+  ]
+}
