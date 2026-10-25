@@ -1,0 +1,102 @@
+{
+  "id": "2026-10-25-pell-vanishes",
+  "title": "The Town That Vanishes on Tuesdays",
+  "youtube": {
+    "title": "This town VANISHES every Tuesday for one hour 🐢😱",
+    "description": "Every Tuesday at 2:07, the town of Pell disappears. One girl stayed awake to find out why. #shorts #story #mystery",
+    "tags": ["shorts", "story", "mystery", "wholesome", "animation", "whatif"]
+  },
+  "hook": "WHERE DOES PELL GO? 😱",
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["tuesday", "pell", "vanishes", "seaweed", "bell", "tilted", "underwater", "turtle", "humming", "waves", "follow"],
+  "bottom": "spiral",
+  "cast": {
+    "pip": { "species": "bean", "color": "#ff7aa2", "name": "Pip" },
+    "town": { "emoji": "🏘️" },
+    "bell": { "emoji": "🔔" },
+    "turtle": { "emoji": "🐢" },
+    "fish": { "emoji": "🐟" },
+    "cat": { "emoji": "🐈" }
+  },
+  "scenes": [
+    {
+      "id": "hook", "text": "Every Tuesday, the town of Pell vanishes for one hour. Nobody remembers it.",
+      "setting": "city", "light": "danger", "focus": "town", "effects": ["vignette", "shake"], "sfx": "vineBoom", "flash": "vanishes",
+      "actors": [
+        { "who": "town", "x": 540, "size": 2, "action": "exit", "at": "vanishes" },
+        { "who": "pip", "x": 220, "size": 1, "mood": "shock", "action": "jump", "at": "vanishes" }
+      ],
+      "stickers": [{ "word": "Tuesday", "emoji": "📅" }, { "word": "vanishes", "emoji": "💨" }]
+    },
+    {
+      "id": "clues", "text": "Every Wednesday, the windows are wet. The cats smell like seaweed.",
+      "setting": "city", "light": "day", "focus": "cat", "effects": ["rain"],
+      "actors": [
+        { "who": "cat", "x": 300, "toX": 760, "size": 1.3, "mood": "shock", "action": "run" },
+        { "who": "pip", "x": 880, "size": 1, "face": "left", "mood": "shock" }
+      ],
+      "stickers": [{ "word": "wet", "emoji": "💦" }, { "word": "seaweed", "emoji": "🌿" }]
+    },
+    {
+      "id": "bell", "text": "So Pip tied a bell to her wrist and stayed awake until Tuesday.",
+      "setting": "room", "light": "night", "focus": "pip",
+      "actors": [{ "who": "pip", "x": 540, "size": 1.3, "mood": "smug", "hold": "🔔", "action": "jump", "at": "awake" }],
+      "stickers": [{ "word": "bell", "emoji": "🔔" }, { "word": "awake", "emoji": "👀" }]
+    },
+    {
+      "id": "tilt", "text": "At two oh seven, the street tilted. Her bell rang. The whole town began sinking.",
+      "setting": "city", "light": "danger", "focus": "pip", "effects": ["shake", "vignette"], "sfx": "dramaticBoomer", "flash": "tilted",
+      "actors": [
+        { "who": "pip", "x": 300, "toX": 760, "size": 1.2, "mood": "shock", "action": "shake", "at": "rang" },
+        { "who": "bell", "x": 880, "size": 1.2, "action": "shake" }
+      ],
+      "stickers": [{ "word": "tilted", "emoji": "😵" }, { "word": "sinking", "emoji": "⬇️" }]
+    },
+    {
+      "id": "waves", "text": "Waves climbed the windows. Fish drifted past the bakery.",
+      "setting": "beach", "light": "night", "focus": "fish", "effects": ["rain"],
+      "actors": [
+        { "who": "fish", "x": -100, "toX": 1100, "size": 1.6, "action": "float" },
+        { "who": "pip", "x": 280, "size": 1, "mood": "shock" }
+      ],
+      "crowd": { "who": "fish", "count": 7, "mood": "happy", "until": "bakery" },
+      "stickers": [{ "word": "waves", "emoji": "🌊" }, { "word": "fish", "emoji": "🐠" }]
+    },
+    {
+      "id": "turtle", "text": "Beneath the streets, something enormous moved. Pell was sitting on a giant turtle.",
+      "setting": "beach", "light": "danger", "focus": "turtle", "effects": ["shake", "rays"], "sfx": "illuminatiConfirmed", "flash": "turtle",
+      "actors": [
+        { "who": "turtle", "x": 640, "size": 2.2, "action": "grow", "at": "turtle" },
+        { "who": "pip", "x": 200, "size": 0.9, "mood": "shock", "action": "shake", "at": "turtle" }
+      ],
+      "stickers": [{ "word": "enormous", "emoji": "😱" }, { "word": "turtle", "emoji": "🐢" }]
+    },
+    {
+      "id": "humming", "text": "For nine hundred years, he carried them, and hummed everyone asleep when he dove to eat.",
+      "setting": "beach", "light": "dusk", "focus": "turtle", "effects": ["rain"],
+      "actors": [
+        { "who": "turtle", "x": 620, "size": 1.8, "mood": "happy", "action": "float" },
+        { "who": "pip", "x": 240, "size": 1, "mood": "sad", "action": "bow", "at": "hummed" }
+      ],
+      "burst": { "at": "hummed", "emoji": "🎵" },
+      "stickers": [{ "word": "nine", "emoji": "9️⃣" }, { "word": "asleep", "emoji": "😴" }]
+    },
+    {
+      "id": "thanks", "text": "Pip whispered thank you. The turtle blinked slowly, and hummed her bell's note back.",
+      "setting": "beach", "light": "gold", "focus": "pip", "effects": ["rays", "confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "pip", "x": 300, "size": 1.4, "mood": "happy", "hold": "🔔", "action": "jump", "at": "back" },
+        { "who": "turtle", "x": 760, "size": 1.8, "mood": "happy" }
+      ],
+      "stickers": [{ "word": "thank", "emoji": "🥹" }, { "word": "blinked", "emoji": "🐢" }]
+    },
+    {
+      "id": "loop", "text": "Follow, and wave at the sea. Because it all starts again.",
+      "setting": "city", "light": "dusk", "focus": "pip",
+      "actors": [{ "who": "pip", "x": 540, "size": 1.3, "mood": "happy", "action": "jump", "at": "wave" }],
+      "stickers": [{ "word": "Follow", "emoji": "👉" }, { "word": "sea", "emoji": "🌊" }]
+    }
+  ]
+}

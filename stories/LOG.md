@@ -15,3 +15,4 @@ and a different bottom than the last 2.
 - 2026-10-25 — 2026-10-25-last-moth — underdog competition / wholesome twist — the slowest moth hears a hum, so he's the only one not trapped in a jar-lantern and frees all ten thousand (city, forest, room, space) [race]
 - 2026-10-25 — 2026-10-25-vending-machine-knows — object with a secret life / creepy-funny twist — a vending machine gives Walt exactly what he needs, then a note "Don't go home tonight"; sleepwalking Walt has been stocking it himself, warning about a gas leak (city, room) [breakout]
 - 2026-10-25 — 2026-10-25-ghost-sings — spooky-but-funny / wholesome twist — something under Ned's bed whimpers at midnight; the shy ghost was trying to sing along to his trumpet (room) [rings]
+- 2026-10-25 — 2026-10-25-pell-vanishes — absurd what-if / wholesome twist — a town vanishes every Tuesday for one hour; it sits on a giant turtle who dives to eat and hums everyone asleep (city, room, beach) [spiral]
