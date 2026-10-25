@@ -125,16 +125,6 @@ const HookCard: React.FC<{ text: string }> = ({ text }) => {
   );
 };
 
-const ProgressBar: React.FC = () => {
-  const frame = useCurrentFrame();
-  const { durationInFrames } = useVideoConfig();
-  return (
-    <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 16, background: "rgba(0,0,0,0.5)" }}>
-      <div style={{ height: "100%", width: `${(frame / durationInFrames) * 100}%`, background: "#ff2d55" }} />
-    </div>
-  );
-};
-
 // Quiet pitched blips for the bottom loop's events (ring breaks, landings...).
 const BottomSounds: React.FC<{ kind: BottomKind; seed: number; racers?: string[] }> = ({ kind, seed, racers }) => {
   const { durationInFrames } = useVideoConfig();
@@ -184,7 +174,6 @@ export const StoryShort: React.FC<{ story: RenderStory }> = ({ story }) => {
         </Sequence>
       ))}
       {story.hook ? <HookCard text={story.hook} /> : null}
-      <ProgressBar />
     </AbsoluteFill>
   );
 };

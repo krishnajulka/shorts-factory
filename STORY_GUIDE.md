@@ -24,6 +24,26 @@ was 39% on the first Shorts). The validator enforces the first three rules:
    raise a bigger one.
 6. **Don't answer the main question until the last 2 scenes.**
 
+## Clarity — viewers must never think "wait, what's going on?"
+
+Viewers said earlier Shorts felt confusing. A confused viewer swipes. Rules:
+
+1. **Write the `logline` first** (required): one or two sentences that a 10-year-old
+   understands — *who* wants *what*, *what goes wrong*, and the *twist*. If you can't
+   write it simply, the story is too complicated: pick another premise.
+2. **One hero, one goal, one problem.** At most two named characters. No side plots.
+3. **Every scene follows from the one before** with an obvious "so" / "but" / "then".
+   No jumps in time or place without saying so ("The next morning…").
+4. **The visuals must literally show what the narration says.** If the line is about a
+   jar, there is a jar on screen. If you can't show it with the available characters,
+   settings and emoji, rewrite the line.
+5. **The twist must be explainable in one short sentence and must be set up earlier.**
+   Bad: "he was sleepwalking and stocking the machine because his brain noticed a gas
+   leak." Good: "the knocking was the lonely kid next door."
+6. **Plain words.** No invented terms, no lore. Say exactly what happens.
+7. **Before rendering, read only the captions out loud with no visuals.** If the story
+   doesn't make sense that way, fix the words.
+
 ## Story craft — what makes people watch to the end
 
 A Short lives or dies on whether the viewer *needs to know what happens next*. Random
@@ -120,6 +140,7 @@ log the category with the story.
   "id": "kebab-case-unique-id",
   "title": "Internal title",
   "youtube": { "title": "≤60 chars with 1-2 emoji", "description": "1-2 lines + #shorts", "tags": ["shorts", "..."] },
+  "logline": "Maya hears knocking inside her closet every night; it turns out to be the lonely new kid next door.",  // write this FIRST (40-280 chars)
   "hook": "WHO IS KNOCKING? 🚪",          // on-screen text for the first 3 seconds (8-40 chars)
   "narrator": "brian",                  // brian | george | jessica | liam | callum (ElevenLabs)
   "voice": "Microsoft David Desktop",   // Windows fallback voice (or "Microsoft Zira Desktop")

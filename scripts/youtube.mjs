@@ -1,6 +1,7 @@
 // Uploads finished Shorts to YouTube with the official Data API v3.
 //   node scripts/youtube.mjs auth                    one-time: sign in, store refresh token
 //   node scripts/youtube.mjs upload stories/<id>.json  upload out/shorts/<id>/<id>.mp4
+//   node scripts/youtube.mjs stats                   write every upload's numbers to stories/STATS.md
 // Credentials live outside the repo:
 //   ~/.youtube-client.json  OAuth client (Desktop app) downloaded from Google Cloud
 //   ~/.youtube-token.json   refresh token written by `auth`
@@ -9,7 +10,7 @@
 // Exit code 3 = not set up yet (caller should skip, not fail).
 import { createServer } from "node:http";
 import { exec } from "node:child_process";
-import { existsSync, readFileSync, statSync, writeFileSync, createReadStream } from "node:fs";
+import { existsSync, readFileSync, readdirSync, statSync, writeFileSync, createReadStream } from "node:fs";
 import { homedir } from "node:os";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -17,7 +18,12 @@ import { fileURLToPath } from "node:url";
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const CLIENT_PATH = join(homedir(), ".youtube-client.json");
 const TOKEN_PATH = join(homedir(), ".youtube-token.json");
-const SCOPE = "https://www.googleapis.com/auth/youtube.upload";
+// Upload, plus read access so `stats` can learn from each Short's performance.
+const SCOPE = [
+  "https://www.googleapis.com/auth/youtube.upload",
+  "https://www.googleapis.com/auth/youtube.readonly",
+  "https://www.googleapis.com/auth/yt-analytics.readonly",
+].join(" ");
 
 const config = () => {
   const path = join(root, "shorts.config.json");
@@ -149,12 +155,89 @@ const upload = async (storyArg) => {
   console.log(`✓ Uploaded (${cfg.privacy}): https://youtube.com/shorts/${json.id}`);
 };
 
+const getJson = async (url, token, { optional = false } = {}) => {
+  const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+  const json = await res.json();
+  if (optional && !res.ok) {
+    console.warn(`⚠ Skipping watch-time metrics: ${json.error?.message?.split(".")[0] ?? res.status}`);
+    return null;
+  }
+  if (res.status === 401 || res.status === 403) {
+    console.error(`No read access to YouTube stats (${json.error?.message ?? res.status}). Run: node scripts/youtube.mjs auth (and enable the YouTube Analytics API).`);
+    process.exit(3);
+  }
+  if (!res.ok) throw new Error(`${res.status} ${JSON.stringify(json).slice(0, 300)}`);
+  return json;
+};
+
+// Pulls every upload's numbers and writes stories/STATS.md, matched to story files
+// by title, so each run can learn what works.
+const stats = async () => {
+  const token = await accessToken();
+  const channel = await getJson("https://www.googleapis.com/youtube/v3/channels?part=contentDetails,id&mine=true", token);
+  const uploads = channel.items[0].contentDetails.relatedPlaylists.uploads;
+  const ids = [];
+  for (let page = ""; ; ) {
+    const list = await getJson(`https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&maxResults=50&playlistId=${uploads}${page}`, token);
+    ids.push(...list.items.map((i) => i.contentDetails.videoId));
+    if (!list.nextPageToken) break;
+    page = `&pageToken=${list.nextPageToken}`;
+  }
+  const videos = [];
+  for (let i = 0; i < ids.length; i += 50) {
+    const batch = await getJson(`https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&id=${ids.slice(i, i + 50).join(",")}`, token);
+    videos.push(...batch.items);
+  }
+
+  // Watch-time metrics from YouTube Analytics (lags ~1-2 days behind views).
+  const today = new Date().toISOString().slice(0, 10);
+  const analytics = await getJson(
+    `https://youtubeanalytics.googleapis.com/v2/reports?ids=channel==MINE&startDate=2026-01-01&endDate=${today}&metrics=views,averageViewDuration,averageViewPercentage,likes,shares,subscribersGained&dimensions=video&maxResults=200&sort=-views`,
+    token,
+    { optional: true },
+  );
+  const byVideo = Object.fromEntries((analytics?.rows ?? []).map((r) => [r[0], { avgSeconds: r[2], avgPercent: r[3], shares: r[5], subs: r[6] }]));
+
+  const stories = readdirSync(join(root, "stories"))
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => JSON.parse(readFileSync(join(root, "stories", f), "utf8")));
+  const storyFor = (title) => stories.find((s) => s.youtube?.title?.slice(0, 100) === title);
+
+  const rows = videos
+    .map((v) => {
+      const s = storyFor(v.snippet.title);
+      const a = byVideo[v.id] ?? {};
+      return {
+        published: v.snippet.publishedAt.slice(0, 16).replace("T", " "),
+        title: v.snippet.title,
+        story: s?.id ?? "?",
+        views: Number(v.statistics.viewCount ?? 0),
+        likes: Number(v.statistics.likeCount ?? 0),
+        comments: Number(v.statistics.commentCount ?? 0),
+        avgPercent: a.avgPercent === undefined ? "—" : `${Math.round(a.avgPercent)}%`,
+        avgSeconds: a.avgSeconds === undefined ? "—" : `${Math.round(a.avgSeconds)}s`,
+        subs: a.subs ?? "—",
+        narrator: s?.narrator ?? "?",
+        bottom: s?.bottom ?? "?",
+        url: `https://youtube.com/shorts/${v.id}`,
+      };
+    })
+    .sort((a, b) => b.views - a.views);
+
+  const header = "| views | likes | comments | avg watched | avg seconds | subs gained | story | narrator | bottom | published (UTC) | title |\n|---|---|---|---|---|---|---|---|---|---|---|";
+  const lines = rows.map((r) => `| ${r.views} | ${r.likes} | ${r.comments} | ${r.avgPercent} | ${r.avgSeconds} | ${r.subs} | ${r.story} | ${r.narrator} | ${r.bottom} | ${r.published} | [${r.title.replace(/\|/g, "/")}](${r.url}) |`);
+  const body = `# Channel stats\n\nUpdated ${new Date().toISOString().slice(0, 16).replace("T", " ")} UTC by \`node scripts/youtube.mjs stats\`. Sorted by views. "avg watched" is the average share of the Short people watched (YouTube Analytics; lags 1-2 days, "—" = not ready yet).\n\n${header}\n${lines.join("\n")}\n`;
+  writeFileSync(join(root, "stories/STATS.md"), body);
+  console.log(`✓ Wrote stories/STATS.md (${rows.length} videos)`);
+};
+
 const [command, arg] = process.argv.slice(2);
 try {
   if (command === "auth") await auth();
   else if (command === "upload" && arg) await upload(arg);
+  else if (command === "stats") await stats();
   else {
-    console.error("Usage: node scripts/youtube.mjs auth | upload stories/<id>.json");
+    console.error("Usage: node scripts/youtube.mjs auth | upload stories/<id>.json | stats");
     process.exit(1);
   }
 } catch (err) {

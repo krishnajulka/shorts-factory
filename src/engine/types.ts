@@ -73,6 +73,7 @@ export type StorySpec = {
   id: string;
   title: string;
   youtube: { title: string; description: string; tags: string[] };
+  logline?: string; // required for new stories: the whole story in 1-2 plain sentences
   hook?: string; // required for new stories (validator); on-screen text for the first ~3s, e.g. "WHO IS KNOCKING? 🚪"
   narrator?: "brian" | "george" | "jessica" | "liam" | "callum"; // ElevenLabs voice
   voice: string; // Windows fallback voice

@@ -42,6 +42,7 @@ const validate = (story) => {
     need(c.emoji || SPECIES.includes(c.species), `cast.${key}: needs "emoji" or species in ${SPECIES.join("|")}`);
   }
   need((story.scenes?.length ?? 0) >= 5, "need at least 5 scenes");
+  need(typeof story.logline === "string" && story.logline.length >= 40 && story.logline.length <= 280, "logline (who wants what, what goes wrong, the twist — in plain words) is required, 40-280 characters");
   // Retention: an on-screen hook from frame 0, a short first line, a short Short.
   need(typeof story.hook === "string" && story.hook.length >= 8 && story.hook.length <= 40, "hook (on-screen text for the first 3s) is required, 8-40 characters");
   const firstLine = (story.scenes?.[0]?.text ?? "").split(/[.!?]/)[0].split(/\s+/).filter(Boolean).length;
