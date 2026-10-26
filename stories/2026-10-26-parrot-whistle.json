@@ -1,0 +1,101 @@
+{
+  "id": "2026-10-26-parrot-whistle",
+  "title": "The Dogs at Two A.M.",
+  "youtube": {
+    "title": "Every dog in town howls at HIS house at 2 AM 🐕🌙",
+    "description": "63 dogs. Every night. Nobody could sleep. The answer was in his own house. #shorts #story #funny #mystery",
+    "tags": ["shorts", "story", "funny", "mystery", "dogs", "parrot", "animation"]
+  },
+  "logline": "Every night at two a.m. dozens of dogs come howling at Mr. Pim's house, until he finds out his new parrot learned the dog whistle because he wanted company.",
+  "hook": "WHY DO 63 DOGS COME? 🐕🌙",
+  "narrator": "callum",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["dog", "howls", "sixty-three", "earplugs", "fence", "parrot", "whistle", "company", "ice", "follow"],
+  "bottom": "plinko",
+  "cast": {
+    "pim": { "species": "bean", "color": "#e9c46a", "name": "Mr. Pim" },
+    "kiwi": { "emoji": "🦜" },
+    "dog": { "emoji": "🐕" },
+    "house": { "emoji": "🏠" },
+    "fence": { "emoji": "🚧" },
+    "truck": { "emoji": "🍦" }
+  },
+  "scenes": [
+    {
+      "id": "howl", "text": "At two a.m., every dog in town howls. All outside Mr. Pim's house.",
+      "setting": "city", "light": "night", "focus": "pim", "effects": ["vignette", "shake"], "sfx": "vineBoom",
+      "actors": [
+        { "who": "house", "x": 760, "size": 1.8 },
+        { "who": "pim", "x": 260, "size": 1.4, "mood": "shock", "action": "shake" }
+      ],
+      "crowd": { "who": "dog", "count": 20, "mood": "angry", "until": "howls" },
+      "stickers": [{ "word": "howls", "emoji": "🐺" }, { "word": "house", "emoji": "🏠" }]
+    },
+    {
+      "id": "count", "text": "Sixty-three dogs. Every night. Nobody could sleep, except his new parrot.",
+      "setting": "city", "light": "night", "focus": "pim", "effects": ["vignette"],
+      "actors": [
+        { "who": "pim", "x": 280, "mood": "sad", "size": 1.2 },
+        { "who": "kiwi", "x": 760, "size": 1.5, "action": "idle" }
+      ],
+      "crowd": { "who": "dog", "count": 63, "mood": "angry", "until": "sleep" },
+      "stickers": [{ "word": "Sixty-three", "emoji": "6️⃣" }, { "word": "parrot", "emoji": "🦜" }]
+    },
+    {
+      "id": "tried", "text": "He tried earplugs. He tried a fence. He even sang them lullabies.",
+      "setting": "room", "light": "dusk", "focus": "pim",
+      "actors": [
+        { "who": "fence", "x": 800, "size": 1.5 },
+        { "who": "pim", "x": 300, "size": 1.3, "mood": "angry", "action": "jump" }
+      ],
+      "stickers": [{ "word": "earplugs", "emoji": "🙉" }, { "word": "fence", "emoji": "🚧" }]
+    },
+    {
+      "id": "watch", "text": "Nothing worked. So tonight, Pim stayed awake and hid behind the curtain.",
+      "setting": "room", "light": "night", "focus": "pim", "effects": ["vignette"], "sfx": "recordScratch",
+      "actors": [
+        { "who": "pim", "x": 360, "size": 1.3, "mood": "smug", "action": "float" },
+        { "who": "kiwi", "x": 800, "size": 1.1 }
+      ],
+      "stickers": [{ "word": "awake", "emoji": "👀" }, { "word": "curtain", "emoji": "🪟" }]
+    },
+    {
+      "id": "whistle", "text": "At two, a tiny whistle came from inside the house. Every dog howled.",
+      "setting": "room", "light": "danger", "focus": "pim", "effects": ["vignette", "shake"], "sfx": "dramaticBoomer", "flash": "whistle",
+      "actors": [
+        { "who": "pim", "x": 280, "size": 1.3, "mood": "shock", "action": "shake", "at": "whistle" }
+      ],
+      "crowd": { "who": "dog", "count": 30, "mood": "angry", "until": "howled" },
+      "stickers": [{ "word": "whistle", "emoji": "🎵" }, { "word": "inside", "emoji": "😱" }]
+    },
+    {
+      "id": "found", "text": "Pim followed the sound. It was coming from his sleepy little parrot.",
+      "setting": "room", "light": "dusk", "focus": "kiwi", "sfx": "omgHellNah",
+      "actors": [
+        { "who": "pim", "x": 220, "toX": 460, "size": 1.1, "mood": "shock" },
+        { "who": "kiwi", "x": 780, "size": 1.8, "action": "shake", "at": "parrot" }
+      ],
+      "stickers": [{ "word": "sound", "emoji": "🔊" }, { "word": "parrot", "emoji": "🦜" }]
+    },
+    {
+      "id": "why", "text": "Kiwi had learned the dog whistle. He just wanted company.",
+      "setting": "room", "light": "gold", "focus": "kiwi", "effects": ["rays"],
+      "actors": [
+        { "who": "pim", "x": 240, "size": 1.1, "mood": "sad" },
+        { "who": "kiwi", "x": 790, "size": 1.3, "action": "jump" }
+      ],
+      "crowd": { "who": "dog", "count": 12, "mood": "happy", "until": "company" },
+      "stickers": [{ "word": "whistle", "emoji": "🎵" }, { "word": "company", "emoji": "🥺" }]
+    },
+    {
+      "id": "next", "text": "Now Kiwi is learning the ice cream truck song. Follow, before the kids arrive.",
+      "setting": "city", "light": "night", "focus": "kiwi", "effects": ["confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "kiwi", "x": 300, "size": 1.6, "mood": "smug", "action": "jump" },
+        { "who": "truck", "x": 800, "size": 1.6, "action": "float" }
+      ],
+      "stickers": [{ "word": "ice", "emoji": "🍦" }, { "word": "follow", "emoji": "👉" }]
+    }
+  ]
+}

@@ -20,6 +20,9 @@ evidence wins. Cite the stories a lesson comes from.
 - **Two Shorts uploaded in the same minute both flopped** (closet-knock 5 views and
   sock-escape 2, both uploaded 2026-10-24 18:56 UTC). Hypothesis: never upload
   back-to-back; keep at least 2 hours between uploads. Needs more evidence.
+- **Stats access is broken (2026-10-26):** the YouTube token lacks Analytics scope, so
+  `stats` exits 3 and no new numbers came in. Judgments above are from the 2026-10-25
+  snapshot. Hypothesis (1 data point): lunch-thief was never uploaded, so it has no data.
 - Likes are low everywhere (≤1.5% of views). Try an ending that invites a reaction:
   a joke punchline, or a question viewers want to answer in the comments.
 - 95% of views come from the Shorts feed, not search — titles matter less than the
