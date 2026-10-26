@@ -1,0 +1,104 @@
+{
+  "id": "2026-10-26-vacuum-race",
+  "title": "The Midnight Vacuum Race",
+  "youtube": {
+    "title": "His robot vacuum sneaks out every night 🤖🏁",
+    "description": "Mud on its wheels. Two percent battery. Where does it go at midnight? #shorts #story #funny",
+    "tags": ["shorts", "story", "funny", "robot", "vacuum", "animation"]
+  },
+  "logline": "Ben's robot vacuum is muddy and out of battery every morning, so he follows it at midnight and finds it racing against dozens of other robot vacuums in the park.",
+  "hook": "WHERE DOES IT GO AT NIGHT? 🤖",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["vacuum", "mud", "battery", "midnight", "dog", "park", "racing", "first", "cheering", "follow"],
+  "bottom": "race",
+  "racers": ["🤖", "🧹", "🐌", "🚗"],
+  "cast": {
+    "ben": { "species": "bean", "color": "#ffb703", "name": "Ben" },
+    "vac": { "emoji": "🤖" },
+    "door": { "emoji": "🚪" },
+    "trophy": { "emoji": "🏆" }
+  },
+  "scenes": [
+    {
+      "id": "mud", "text": "Every morning, Ben's robot vacuum was covered in mud.",
+      "setting": "room", "light": "day", "focus": "vac", "effects": ["shake"], "sfx": "vineBoom",
+      "actors": [
+        { "who": "ben", "x": 270, "size": 1.3, "mood": "shock", "action": "shake" },
+        { "who": "vac", "x": 760, "size": 1.6, "action": "shake" }
+      ],
+      "stickers": [{ "word": "morning", "emoji": "🌅" }, { "word": "mud", "emoji": "💩" }]
+    },
+    {
+      "id": "battery", "text": "Battery at two percent. Grass stuck in its wheels. Every single day.",
+      "setting": "room", "light": "day", "focus": "vac",
+      "actors": [
+        { "who": "ben", "x": 270, "mood": "sad" },
+        { "who": "vac", "x": 760, "size": 1.6, "action": "jump" }
+      ],
+      "stickers": [{ "word": "two", "emoji": "🪫" }, { "word": "grass", "emoji": "🌱" }]
+    },
+    {
+      "id": "wait", "text": "So at midnight, Ben hid behind the couch. And waited.",
+      "setting": "room", "light": "night", "focus": "ben", "effects": ["vignette"],
+      "actors": [
+        { "who": "ben", "x": 330, "size": 1.2, "mood": "smug" },
+        { "who": "vac", "x": 800, "size": 1.3 }
+      ],
+      "stickers": [{ "word": "midnight", "emoji": "🕛" }, { "word": "waited", "emoji": "👀" }]
+    },
+    {
+      "id": "sneak", "text": "The vacuum beeped, then rolled out the dog door.",
+      "setting": "room", "light": "danger", "focus": "vac", "effects": ["vignette"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "ben", "x": 250, "mood": "shock" },
+        { "who": "vac", "x": 560, "toX": 1000, "size": 1.3, "action": "run", "at": "rolled" },
+        { "who": "door", "x": 940, "size": 1.5 }
+      ],
+      "stickers": [{ "word": "beeped", "emoji": "📢" }, { "word": "door", "emoji": "🐕" }]
+    },
+    {
+      "id": "park", "text": "Ben followed it to the park. Then he froze.",
+      "setting": "forest", "light": "night", "focus": "ben", "effects": ["speed"],
+      "actors": [
+        { "who": "ben", "x": 200, "toX": 560, "size": 1.2, "mood": "shock", "action": "run" }
+      ],
+      "stickers": [{ "word": "park", "emoji": "🌳" }, { "word": "froze", "emoji": "🥶" }]
+    },
+    {
+      "id": "crowd", "text": "Dozens of robot vacuums. Racing around a muddy track.",
+      "setting": "forest", "light": "night", "focus": "ben", "effects": ["shake"], "sfx": "animeWow", "flash": "dozens",
+      "actors": [{ "who": "ben", "x": 540, "size": 1, "mood": "shock" }],
+      "crowd": { "who": "vac", "count": 40, "mood": "happy", "until": "track" },
+      "stickers": [{ "word": "dozens", "emoji": "🤯" }, { "word": "racing", "emoji": "🏁" }]
+    },
+    {
+      "id": "first", "text": "And Ben's vacuum was in first place.",
+      "setting": "forest", "light": "gold", "focus": "vac", "effects": ["speed", "rays"],
+      "actors": [
+        { "who": "vac", "x": 100, "toX": 900, "size": 1.5, "action": "run" },
+        { "who": "trophy", "x": 900, "size": 1 }
+      ],
+      "stickers": [{ "word": "first", "emoji": "🥇" }, { "word": "vacuum", "emoji": "🤖" }]
+    },
+    {
+      "id": "cheer", "text": "Ben didn't say a word. He just started cheering.",
+      "setting": "forest", "light": "gold", "focus": "ben", "effects": ["confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "ben", "x": 380, "size": 1.3, "mood": "happy", "action": "jump", "at": "cheering" },
+        { "who": "vac", "x": 780, "size": 1.3 }
+      ],
+      "stickers": [{ "word": "word", "emoji": "🤐" }, { "word": "cheering", "emoji": "📣" }]
+    },
+    {
+      "id": "loop", "text": "Now he leaves the dog door open. Follow, your vacuum might be racing too.",
+      "setting": "room", "light": "night", "focus": "vac", "effects": ["vignette"],
+      "actors": [
+        { "who": "ben", "x": 270, "mood": "smug" },
+        { "who": "vac", "x": 760, "size": 1.3, "action": "jump", "at": "racing" }
+      ],
+      "stickers": [{ "word": "open", "emoji": "🚪" }, { "word": "follow", "emoji": "👉" }]
+    }
+  ]
+}

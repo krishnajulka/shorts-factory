@@ -23,6 +23,10 @@ evidence wins. Cite the stories a lesson comes from.
 - **Stats access is broken (2026-10-26):** the YouTube token lacks Analytics scope, so
   `stats` exits 3 and no new numbers came in. Judgments above are from the 2026-10-25
   snapshot. Hypothesis (1 data point): lunch-thief was never uploaded, so it has no data.
+- **Still no stats (2026-10-26 run 2):** token still lacks Analytics scope (exit 3), so
+  no lesson changes from numbers. Fix: run `node scripts/youtube.mjs auth` on the PC with
+  the YouTube Analytics API enabled and update YOUTUBE_REFRESH_TOKEN. ElevenLabs is out of
+  credits (Piper voice in use), so narrator choice has no effect right now.
 - Likes are low everywhere (≤1.5% of views). Try an ending that invites a reaction:
   a joke punchline, or a question viewers want to answer in the comments.
 - 95% of views come from the Shorts feed, not search — titles matter less than the

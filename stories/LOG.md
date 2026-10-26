@@ -18,3 +18,4 @@ and a different bottom than the last 2.
 - 2026-10-25 — 2026-10-25-pell-vanishes — absurd what-if / wholesome twist — a town vanishes every Tuesday for one hour; it sits on a giant turtle who dives to eat and hums everyone asleep (city, room, beach) [spiral]
 - 2026-10-25 — 2026-10-25-lunch-thief — revenge / funny karma reveal — someone steals Max's lunch from his locked locker; he hides sour candy in the sandwich and the thief is the principal, the only other key holder (room) [corner] — not uploaded
 - 2026-10-26 — 2026-10-26-parrot-whistle — mini mystery / funny reveal — 63 dogs howl at Mr. Pim's house at 2 a.m.; his new parrot learned the dog whistle because he wanted company (city, room) [plinko]
+- 2026-10-26 — 2026-10-26-vacuum-race — object with a secret life / funny reveal — Ben's muddy robot vacuum sneaks out at midnight; it is racing dozens of other vacuums in the park (room, forest) [race]
