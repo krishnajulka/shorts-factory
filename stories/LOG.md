@@ -20,3 +20,4 @@ and a different bottom than the last 2.
 - 2026-10-26 — 2026-10-26-parrot-whistle — mini mystery / funny reveal — 63 dogs howl at Mr. Pim's house at 2 a.m.; his new parrot learned the dog whistle because he wanted company (city, room) [plinko]
 - 2026-10-26 — 2026-10-26-vacuum-race — object with a secret life / funny reveal — Ben's muddy robot vacuum sneaks out at midnight; it is racing dozens of other vacuums in the park (room, forest) [race]
 - 2026-10-26 — 2026-10-26-photo-stranger — spooky / creepy cliffhanger — a strange girl appears one step closer in each of Zoe's room photos; by Friday she's right behind her (room) [spiral]
+- 2026-10-26 — 2026-10-26-grandma-chair — clever trick / funny reveal — Grandma never loses hide and seek because she just sits in her own armchair, where nobody looks (room, city) [wheel]

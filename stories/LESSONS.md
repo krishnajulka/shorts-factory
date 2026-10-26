@@ -20,11 +20,12 @@ evidence wins. Cite the stories a lesson comes from.
 - **Two Shorts uploaded in the same minute both flopped** (closet-knock 5 views and
   sock-escape 2, both uploaded 2026-10-24 18:56 UTC). Hypothesis: never upload
   back-to-back; keep at least 2 hours between uploads. Needs more evidence.
-- **Stats access is broken (since 2026-10-26, 3 runs):** the YouTube token lacks Analytics
+- **Stats access is broken (since 2026-10-26, 4 runs):** the YouTube token lacks Analytics
   scope, so `stats` exits 3 and no numbers newer than 2026-10-25 exist. No lesson changes
   from numbers until fixed: run `node scripts/youtube.mjs auth` on the PC with the YouTube
   Analytics API enabled and update YOUTUBE_REFRESH_TOKEN. ElevenLabs is out of credits
   (Piper voice in use), so narrator choice has no effect right now.
+- Hypothesis (untested): relatable family/everyday premises with a visual-gag twist (grandma-chair, sneeze-loop) may fit the winners; check grandma-chair's views once stats work.
 - Hypothesis (1 data point): lunch-thief was never uploaded, so it has no data.
 - Likes are low everywhere (≤1.5% of views). Try an ending that invites a reaction:
   a joke punchline, or a question viewers want to answer in the comments.

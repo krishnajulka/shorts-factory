@@ -1,0 +1,106 @@
+{
+  "id": "2026-10-26-grandma-chair",
+  "title": "Grandma Never Loses",
+  "youtube": {
+    "title": "Grandma has NEVER lost hide and seek 👵🙈",
+    "description": "Twelve grandkids. Forty years. Zero wins. Where does she hide? #shorts #story #funny #grandma",
+    "tags": ["shorts", "story", "funny", "grandma", "hide and seek", "animation"]
+  },
+  "logline": "Grandma has never lost hide and seek because she just sits in her own armchair, where nobody ever thinks to look.",
+  "hook": "NOBODY CAN FIND GRANDMA 👵",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["grandma", "hide", "grandkids", "attic", "garage", "armchair", "chair", "ouch", "blanket", "follow"],
+  "bottom": "wheel",
+  "racers": ["🧒", "👧", "👦", "👵", "🧒🏽"],
+  "cast": {
+    "grandma": { "species": "bean", "color": "#b388eb", "name": "Grandma" },
+    "ben": { "species": "bean", "color": "#8ecae6", "name": "Ben" },
+    "kid": { "species": "bean", "color": "#ffd166", "name": "kid" },
+    "chair": { "emoji": "🛋️" },
+    "pot": { "emoji": "🪴" }
+  },
+  "scenes": [
+    {
+      "id": "never", "text": "Grandma has never lost hide and seek. Twelve grandkids, forty years, zero wins.",
+      "setting": "room", "light": "day", "focus": "grandma", "effects": ["vignette", "shake"], "sfx": "vineBoom", "flash": "never",
+      "actors": [
+        { "who": "chair", "x": 800, "size": 1.8 },
+        { "who": "grandma", "x": 800, "size": 0.9, "mood": "smug", "hat": "🧶" },
+        { "who": "ben", "x": 260, "size": 1.2, "mood": "angry", "action": "jump" }
+      ],
+      "stickers": [{ "word": "never", "emoji": "🚫" }, { "word": "zero", "emoji": "0️⃣" }]
+    },
+    {
+      "id": "attic", "text": "Today they searched the attic, the garage, even the washing machine.",
+      "setting": "room", "light": "day", "focus": "ben", "effects": ["speed"],
+      "actors": [
+        { "who": "chair", "x": 840, "size": 1.8 },
+        { "who": "grandma", "x": 840, "size": 0.9, "mood": "smug", "hat": "🧶" },
+        { "who": "ben", "x": 120, "toX": 560, "size": 1.1, "mood": "shock", "action": "run" },
+        { "who": "kid", "x": -100, "toX": 380, "action": "run" }
+      ],
+      "stickers": [{ "word": "attic", "emoji": "🏚️" }, { "word": "washing", "emoji": "🧺" }]
+    },
+    {
+      "id": "garden", "text": "They checked the garden, the roof, and one very small flowerpot.",
+      "setting": "city", "light": "day", "focus": "ben", "sfx": "bruh",
+      "actors": [
+        { "who": "pot", "x": 760, "size": 1.4 },
+        { "who": "ben", "x": 360, "size": 1.3, "mood": "shock", "action": "bow", "at": "flowerpot" },
+        { "who": "kid", "x": 120, "size": 0.9, "mood": "sad" }
+      ],
+      "stickers": [{ "word": "roof", "emoji": "🏠" }, { "word": "flowerpot", "emoji": "🪴" }]
+    },
+    {
+      "id": "gaveup", "text": "Two hours later, the kids gave up. Ben flopped onto the old armchair.",
+      "setting": "room", "light": "dusk", "focus": "ben",
+      "actors": [
+        { "who": "chair", "x": 780, "size": 1.8 },
+        { "who": "grandma", "x": 800, "size": 0.9, "mood": "smug", "hat": "🧶" },
+        { "who": "ben", "x": 200, "toX": 600, "size": 1.2, "mood": "sad", "action": "faint", "at": "flopped" }
+      ],
+      "stickers": [{ "word": "gave", "emoji": "🏳️" }, { "word": "armchair", "emoji": "🛋️" }]
+    },
+    {
+      "id": "ouch", "text": "The chair said, ouch. Grandma had been sitting there since minute one.",
+      "setting": "room", "light": "danger", "focus": "grandma", "effects": ["vignette", "shake"], "sfx": "ohMyGodVine", "flash": "ouch",
+      "actors": [
+        { "who": "chair", "x": 780, "size": 1.8 },
+        { "who": "grandma", "x": 780, "size": 1.1, "mood": "smug", "hat": "🧶", "action": "jump", "at": "ouch" },
+        { "who": "ben", "x": 300, "size": 1.3, "mood": "shock", "action": "shake" }
+      ],
+      "stickers": [{ "word": "ouch", "emoji": "😖" }, { "word": "minute", "emoji": "⏱️" }]
+    },
+    {
+      "id": "secret", "text": "Her secret? Nobody ever checks the chair where Grandma always sits.",
+      "setting": "room", "light": "gold", "focus": "grandma", "effects": ["rays"],
+      "actors": [
+        { "who": "chair", "x": 700, "size": 1.8 },
+        { "who": "grandma", "x": 700, "size": 1.1, "mood": "smug", "hat": "🧶" },
+        { "who": "ben", "x": 220, "size": 1, "mood": "angry" }
+      ],
+      "stickers": [{ "word": "secret", "emoji": "🤫" }, { "word": "chair", "emoji": "🛋️" }]
+    },
+    {
+      "id": "rematch", "text": "Ben demanded a rematch. Grandma smiled and said, count to twenty.",
+      "setting": "room", "light": "day", "focus": "ben", "sfx": "yippee",
+      "actors": [
+        { "who": "ben", "x": 300, "size": 1.3, "mood": "angry", "action": "jump", "at": "rematch" },
+        { "who": "grandma", "x": 780, "size": 1.2, "mood": "smug", "hat": "🧶" }
+      ],
+      "stickers": [{ "word": "rematch", "emoji": "🔁" }, { "word": "twenty", "emoji": "2️⃣0️⃣" }]
+    },
+    {
+      "id": "copy", "text": "This time Ben hid in her armchair too. Grandma found him in two seconds. Follow, she's coming for you.",
+      "setting": "room", "light": "night", "focus": "grandma", "effects": ["vignette"],
+      "actors": [
+        { "who": "chair", "x": 760, "size": 1.8 },
+        { "who": "ben", "x": 760, "size": 0.8, "mood": "shock", "lift": 60 },
+        { "who": "grandma", "x": 300, "toX": 540, "size": 1.3, "mood": "smug", "hat": "🧶", "action": "run", "at": "found" }
+      ],
+      "stickers": [{ "word": "seconds", "emoji": "😏" }, { "word": "follow", "emoji": "👉" }]
+    }
+  ]
+}
