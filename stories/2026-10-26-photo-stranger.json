@@ -1,0 +1,97 @@
+{
+  "id": "2026-10-26-photo-stranger",
+  "title": "The Stranger in the Photos",
+  "youtube": {
+    "title": "Every photo she takes has a stranger. Closer each time 📸😨",
+    "description": "Monday by the door. Friday right behind her. What does Saturday's photo show? #shorts #story #creepy #cliffhanger",
+    "tags": ["shorts", "story", "creepy", "mystery", "cliffhanger", "animation"]
+  },
+  "logline": "Zoe's phone photos of her room show a strange girl who stands one step closer every day, and by Friday she is right behind Zoe.",
+  "hook": "WHO IS IN THE PHOTO? 📸😨",
+  "narrator": "brian",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["photos", "stranger", "girl", "closer", "nobody", "phone", "behind", "smiling", "saturday", "follow"],
+  "bottom": "spiral",
+  "cast": {
+    "zoe": { "species": "bean", "color": "#ffadad", "name": "Zoe" },
+    "girl": { "species": "bean", "color": "#cfd8dc", "name": "the girl" },
+    "phone": { "emoji": "📱" },
+    "bed": { "emoji": "🛏️" }
+  },
+  "scenes": [
+    {
+      "id": "photos", "text": "Zoe's photos all have a stranger in them. Always standing in her room.",
+      "setting": "room", "light": "night", "focus": "zoe", "effects": ["vignette", "shake"], "sfx": "vineBoom", "flash": "stranger",
+      "actors": [
+        { "who": "zoe", "x": 300, "size": 1.4, "mood": "shock", "hold": "📱", "action": "shake" },
+        { "who": "girl", "x": 790, "size": 0.9, "face": "left" }
+      ],
+      "stickers": [{ "word": "photos", "emoji": "📸" }, { "word": "stranger", "emoji": "😨" }]
+    },
+    {
+      "id": "door", "text": "On Monday, the girl stood by the door. On Tuesday, one step closer.",
+      "setting": "room", "light": "dusk", "focus": "girl",
+      "actors": [
+        { "who": "zoe", "x": 250, "mood": "shock", "hold": "📱" },
+        { "who": "girl", "x": 960, "toX": 800, "size": 0.9, "face": "left", "at": "closer" }
+      ],
+      "stickers": [{ "word": "Monday", "emoji": "1️⃣" }, { "word": "closer", "emoji": "👣" }]
+    },
+    {
+      "id": "search", "text": "Zoe searched the whole room. Under the bed. Inside the closet. Nobody.",
+      "setting": "room", "light": "night", "focus": "zoe", "sfx": "recordScratch",
+      "actors": [
+        { "who": "zoe", "x": 300, "toX": 760, "mood": "sad" },
+        { "who": "bed", "x": 780, "size": 1.5 }
+      ],
+      "stickers": [{ "word": "bed", "emoji": "🛏️" }, { "word": "Nobody", "emoji": "🤷" }]
+    },
+    {
+      "id": "bed", "text": "On Wednesday, the girl stood beside her bed. Zoe deleted every photo.",
+      "setting": "room", "light": "danger", "focus": "girl", "effects": ["vignette"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "bed", "x": 780, "size": 1.5 },
+        { "who": "girl", "x": 640, "size": 1, "face": "left" },
+        { "who": "zoe", "x": 230, "mood": "shock", "hold": "📱", "action": "shake", "at": "deleted" }
+      ],
+      "stickers": [{ "word": "Wednesday", "emoji": "3️⃣" }, { "word": "deleted", "emoji": "🗑️" }]
+    },
+    {
+      "id": "alone", "text": "But Thursday at three in the morning, her phone took a photo. By itself.",
+      "setting": "room", "light": "night", "focus": "phone", "effects": ["vignette", "shake"], "flash": "itself",
+      "actors": [
+        { "who": "phone", "x": 540, "size": 2.2, "action": "shake", "at": "photo" },
+        { "who": "zoe", "x": 200, "size": 0.9, "mood": "shock" }
+      ],
+      "stickers": [{ "word": "three", "emoji": "🕒" }, { "word": "itself", "emoji": "😱" }]
+    },
+    {
+      "id": "behind", "text": "In that photo, the girl stood right behind Zoe. Smiling.",
+      "setting": "room", "light": "danger", "focus": "zoe", "effects": ["vignette", "shake"], "sfx": "ohMyGodVine",
+      "actors": [
+        { "who": "zoe", "x": 480, "size": 1.4, "mood": "shock", "hold": "📱" },
+        { "who": "girl", "x": 700, "size": 1.1, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "behind", "emoji": "👻" }, { "word": "Smiling", "emoji": "😁" }]
+    },
+    {
+      "id": "turn", "text": "Zoe turned around slowly. Nobody. But the next photo showed the girl waving.",
+      "setting": "room", "light": "night", "focus": "zoe", "effects": ["vignette"],
+      "actors": [
+        { "who": "zoe", "x": 420, "size": 1.3, "mood": "shock", "face": "left", "action": "shake", "at": "slowly" },
+        { "who": "girl", "x": 760, "size": 0.8, "face": "left", "mood": "happy", "action": "jump", "at": "waving" }
+      ],
+      "stickers": [{ "word": "slowly", "emoji": "😰" }, { "word": "waving", "emoji": "👋" }]
+    },
+    {
+      "id": "saturday", "text": "Tonight is Saturday. Zoe is not sleeping. Follow, to see photo six.",
+      "setting": "room", "light": "night", "focus": "zoe", "effects": ["vignette"],
+      "actors": [
+        { "who": "zoe", "x": 350, "size": 1.3, "mood": "shock", "hold": "📱" },
+        { "who": "phone", "x": 820, "size": 1.6, "action": "shake", "at": "photo" }
+      ],
+      "stickers": [{ "word": "Saturday", "emoji": "🌙" }, { "word": "follow", "emoji": "👉" }]
+    }
+  ]
+}
