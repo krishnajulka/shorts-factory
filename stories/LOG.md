@@ -24,3 +24,4 @@ and a different bottom than the last 2.
 - 2026-10-27 — 2026-10-27-spider-prank — revenge / funny karma reveal — Ben hides a fake spider in his sister Mia's bed for 30 days; she saved all 29 and drops them on him from his closet (room, city) [breakout]
 - 2026-10-27 — 2026-10-27-snowman-spring — absurd what-if / bittersweet — Ada can't find her snowman Pip a flower before he melts; a flower grows where he melted (forest, city) [rings]
 - 2026-10-27 — 2026-10-27-gnome-walks — mini mystery / funny reveal — a garden gnome creeps closer to Leo's house each night; ants are carrying it for the cake in its hat (forest, room) [territory]
+- 2026-10-27 — 2026-10-27-clock-snaps — villain origin / funny reveal — Sam smacks his alarm clock 1,000 times; its 3 a.m. revenge ring wakes him for the meteor shower he always wanted (room) [corner]
