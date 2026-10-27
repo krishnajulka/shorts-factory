@@ -1,0 +1,99 @@
+{
+  "id": "2026-10-27-spider-prank",
+  "title": "Thirty Spiders",
+  "youtube": {
+    "title": "He pranked his sister 30 days. She waited. 🕷️😂",
+    "description": "Ben hid a fake spider for Mia every day. She never screamed. Then came day thirty one. #shorts #story #funny #prank",
+    "tags": ["shorts", "story", "funny", "prank", "karma", "siblings", "animation"]
+  },
+  "logline": "Ben hides a fake spider in his sister Mia's bed every day and she never screams; on day thirty she gets her revenge by dropping all the spiders on him.",
+  "hook": "SHE NEVER SCREAMED 🕷️😳",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["spider", "scream", "thanks", "thirty", "twenty", "closet", "pillow", "follow", "shoe", "backpack"],
+  "bottom": "breakout",
+  "cast": {
+    "ben": { "species": "bean", "color": "#ff9f1c", "name": "Ben" },
+    "mia": { "species": "bean", "color": "#c77dff", "name": "Mia" },
+    "spider": { "emoji": "🕷️" },
+    "bed": { "emoji": "🛏️" },
+    "closet": { "emoji": "🚪" }
+  },
+  "scenes": [
+    {
+      "id": "prank", "text": "Ben hid a fake spider in Mia's bed. She didn't scream.",
+      "setting": "room", "light": "night", "focus": "ben", "effects": ["vignette"], "sfx": "vineBoom", "flash": "spider",
+      "actors": [
+        { "who": "ben", "x": 260, "size": 1.3, "mood": "smug", "action": "jump" },
+        { "who": "bed", "x": 700, "size": 1.8 },
+        { "who": "spider", "x": 700, "lift": 150, "size": 1.3, "action": "shake" }
+      ],
+      "stickers": [{ "word": "spider", "emoji": "🕷️" }, { "word": "scream", "emoji": "😱" }]
+    },
+    {
+      "id": "more", "text": "So he tried her shoe. Then her backpack. Then her cereal. Nothing.",
+      "setting": "city", "light": "day", "focus": "ben", "effects": ["speed"],
+      "actors": [
+        { "who": "ben", "x": 300, "size": 1.2, "mood": "angry", "action": "run" },
+        { "who": "mia", "x": 760, "size": 1, "mood": "smug" }
+      ],
+      "stickers": [{ "word": "shoe", "emoji": "👟" }, { "word": "backpack", "emoji": "🎒" }]
+    },
+    {
+      "id": "thanks", "text": "Mia just picked each spider up, and said thanks. Then she took them away.",
+      "setting": "room", "light": "day", "focus": "mia",
+      "actors": [
+        { "who": "mia", "x": 420, "size": 1.2, "mood": "smug", "hold": "🕷️", "action": "bow", "at": "thanks" },
+        { "who": "ben", "x": 820, "size": 1, "face": "left", "mood": "shock" }
+      ],
+      "stickers": [{ "word": "thanks", "emoji": "🙂" }, { "word": "away", "emoji": "🤨" }]
+    },
+    {
+      "id": "giant", "text": "On day thirty, Ben went all in. A giant spider, right on her pillow.",
+      "setting": "room", "light": "danger", "focus": "spider", "effects": ["shake", "vignette"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "bed", "x": 540, "size": 1.8 },
+        { "who": "spider", "x": 540, "lift": 220, "size": 2.4, "action": "shake" },
+        { "who": "ben", "x": 180, "size": 1, "mood": "smug" }
+      ],
+      "stickers": [{ "word": "giant", "emoji": "😈" }, { "word": "pillow", "emoji": "🛏️" }]
+    },
+    {
+      "id": "calm", "text": "Mia just yawned. Ben asked, where did the other twenty nine go? She only smiled.",
+      "setting": "room", "light": "night", "focus": "mia", "sfx": "recordScratch",
+      "actors": [
+        { "who": "mia", "x": 330, "size": 1.3, "mood": "smug" },
+        { "who": "ben", "x": 780, "size": 1, "face": "left", "mood": "shock", "action": "shake", "at": "twenty" }
+      ],
+      "stickers": [{ "word": "yawned", "emoji": "🥱" }, { "word": "twenty", "emoji": "2️⃣" }]
+    },
+    {
+      "id": "closet", "text": "The next morning, Ben opened his closet.",
+      "setting": "room", "light": "dusk", "focus": "ben", "effects": ["vignette"],
+      "actors": [
+        { "who": "ben", "x": 360, "size": 1.3, "mood": "shock", "action": "bow", "at": "opened" },
+        { "who": "closet", "x": 780, "size": 1.8, "action": "shake", "at": "closet" }
+      ],
+      "stickers": [{ "word": "morning", "emoji": "🌅" }, { "word": "closet", "emoji": "🚪" }]
+    },
+    {
+      "id": "fall", "text": "Twenty nine spiders fell on his head. Mia waved from the doorway.",
+      "setting": "room", "light": "danger", "focus": "ben", "effects": ["shake"], "sfx": "wilhelmScream", "burst": { "at": "fell", "emoji": "🕷️" },
+      "actors": [
+        { "who": "ben", "x": 380, "size": 1.4, "mood": "shock", "action": "jump" },
+        { "who": "mia", "x": 880, "size": 1, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "Twenty", "emoji": "2️⃣" }, { "word": "waved", "emoji": "👋" }]
+    },
+    {
+      "id": "loop", "text": "Thirty days, thirty spiders. Follow, before Ben hides another one.",
+      "setting": "room", "light": "gold", "focus": "mia", "effects": ["confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "mia", "x": 320, "size": 1.3, "mood": "happy", "action": "jump", "at": "Thirty" },
+        { "who": "ben", "x": 780, "size": 1, "face": "left", "mood": "sad" }
+      ],
+      "stickers": [{ "word": "thirty", "emoji": "3️⃣" }, { "word": "follow", "emoji": "👉" }]
+    }
+  ]
+}
