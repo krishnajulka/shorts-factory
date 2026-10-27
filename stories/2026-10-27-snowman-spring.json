@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-27-snowman-spring",
+  "title": "One Day Before Spring",
+  "youtube": {
+    "title": "A snowman had one day left to see spring ⛄🌼",
+    "description": "Pip had never seen a flower. Ada had one day to find him one. #shorts #story #sad #wholesome",
+    "tags": ["shorts", "story", "bittersweet", "snowman", "spring", "animation"]
+  },
+  "logline": "Ada wants to show her snowman Pip a flower before he melts, but every garden is still frozen; after he melts, a flower grows exactly where he stood.",
+  "hook": "WILL HE SEE SPRING? ⛄",
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["snowman", "spring", "flower", "ada", "pip", "melted", "seed", "garden", "yellow", "follow"],
+  "bottom": "rings",
+  "cast": {
+    "pip": { "emoji": "⛄" },
+    "ada": { "species": "bean", "color": "#ff8fab", "name": "Ada" },
+    "seed": { "emoji": "🌱" },
+    "flower": { "emoji": "🌼" },
+    "sun": { "emoji": "☀️" }
+  },
+  "scenes": [
+    {
+      "id": "one-day", "text": "A snowman had exactly one day before spring. His name was Pip.",
+      "setting": "forest", "light": "dusk", "focus": "pip", "effects": ["snow", "vignette"], "sfx": "vineBoom", "flash": "spring",
+      "actors": [
+        { "who": "pip", "x": 400, "size": 1.8, "action": "shake" },
+        { "who": "sun", "x": 880, "size": 1.4, "lift": 380, "action": "grow", "at": "spring" }
+      ],
+      "stickers": [{ "word": "exactly", "emoji": "⏰" }, { "word": "spring", "emoji": "🌸" }]
+    },
+    {
+      "id": "never", "text": "Pip had never seen a flower. Only snow. Under his feet, one tiny seed slept.",
+      "setting": "forest", "light": "day", "focus": "pip", "effects": ["snow"],
+      "actors": [
+        { "who": "pip", "x": 420, "size": 1.4, "action": "jump" },
+        { "who": "seed", "x": 760, "size": 0.7, "action": "float", "at": "seed" }
+      ],
+      "stickers": [{ "word": "flower", "emoji": "🌼" }, { "word": "seed", "emoji": "🌰" }]
+    },
+    {
+      "id": "promise", "text": "Ada, the girl who built him, promised: I will find you one flower today.",
+      "setting": "city", "light": "day", "focus": "ada", "effects": ["snow"],
+      "actors": [
+        { "who": "ada", "x": 300, "size": 1.2, "mood": "happy", "action": "jump", "at": "promised" },
+        { "who": "pip", "x": 780, "size": 1.3, "face": "left" }
+      ],
+      "stickers": [{ "word": "promised", "emoji": "🤞" }, { "word": "today", "emoji": "📅" }]
+    },
+    {
+      "id": "search", "text": "She ran to every garden. But the ground was frozen. Not one flower.",
+      "setting": "city", "light": "dusk", "focus": "ada", "effects": ["speed", "snow"],
+      "actors": [{ "who": "ada", "x": 200, "toX": 880, "size": 1.2, "mood": "sad", "action": "run" }],
+      "stickers": [{ "word": "garden", "emoji": "🏡" }, { "word": "frozen", "emoji": "🧊" }]
+    },
+    {
+      "id": "melting", "text": "The sun came out. Pip began to melt, drip by drip.",
+      "setting": "forest", "light": "gold", "focus": "pip", "effects": ["rays"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "sun", "x": 860, "size": 1.5, "lift": 380 },
+        { "who": "pip", "x": 420, "size": 1.3, "action": "shake", "at": "melt" }
+      ],
+      "stickers": [{ "word": "sun", "emoji": "🥵" }, { "word": "drip", "emoji": "💧" }]
+    },
+    {
+      "id": "empty", "text": "Ada came back with empty hands. I'm sorry, she cried. I found nothing.",
+      "setting": "forest", "light": "dusk", "focus": "ada", "effects": ["vignette"],
+      "actors": [
+        { "who": "ada", "x": 700, "size": 1.2, "face": "left", "mood": "sad", "action": "bow", "at": "sorry" },
+        { "who": "pip", "x": 300, "size": 0.9 }
+      ],
+      "stickers": [{ "word": "empty", "emoji": "🤲" }, { "word": "cried", "emoji": "😢" }]
+    },
+    {
+      "id": "thanks", "text": "Pip smiled. Thank you for trying. Then he melted into the ground.",
+      "setting": "forest", "light": "gold", "focus": "pip", "effects": ["rays"],
+      "actors": [
+        { "who": "pip", "x": 440, "size": 0.7, "action": "exit", "at": "melted" },
+        { "who": "ada", "x": 760, "size": 1.1, "face": "left", "mood": "sad" }
+      ],
+      "stickers": [{ "word": "smiled", "emoji": "🙂" }, { "word": "ground", "emoji": "💧" }]
+    },
+    {
+      "id": "flower", "text": "Days later, a yellow flower grew exactly where he stood. Ada whispered: hi, Pip.",
+      "setting": "forest", "light": "gold", "focus": "flower", "effects": ["rays", "confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "flower", "x": 440, "size": 1.6, "action": "grow", "at": "yellow" },
+        { "who": "ada", "x": 780, "size": 1.1, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "yellow", "emoji": "🌼" }, { "word": "whispered", "emoji": "🤫" }]
+    },
+    {
+      "id": "loop", "text": "Follow, because somewhere, a snowman has one day before spring.",
+      "setting": "forest", "light": "dusk", "focus": "pip", "effects": ["snow"],
+      "actors": [{ "who": "pip", "x": 540, "size": 1.5, "action": "enter" }],
+      "stickers": [{ "word": "follow", "emoji": "👉" }, { "word": "spring", "emoji": "🌸" }]
+    }
+  ]
+}

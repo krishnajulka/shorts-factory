@@ -22,3 +22,4 @@ and a different bottom than the last 2.
 - 2026-10-26 — 2026-10-26-photo-stranger — spooky / creepy cliffhanger — a strange girl appears one step closer in each of Zoe's room photos; by Friday she's right behind her (room) [spiral]
 - 2026-10-26 — 2026-10-26-grandma-chair — clever trick / funny reveal — Grandma never loses hide and seek because she just sits in her own armchair, where nobody looks (room, city) [wheel]
 - 2026-10-27 — 2026-10-27-spider-prank — revenge / funny karma reveal — Ben hides a fake spider in his sister Mia's bed for 30 days; she saved all 29 and drops them on him from his closet (room, city) [breakout]
+- 2026-10-27 — 2026-10-27-snowman-spring — absurd what-if / bittersweet — Ada can't find her snowman Pip a flower before he melts; a flower grows where he melted (forest, city) [rings]
