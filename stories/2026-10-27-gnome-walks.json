@@ -1,0 +1,107 @@
+{
+  "id": "2026-10-27-gnome-walks",
+  "title": "The Gnome That Walks",
+  "youtube": {
+    "title": "The garden gnome creeps closer every night 🧙😨",
+    "description": "Monday the fence. Tuesday the tree. Thursday the porch. Who is moving it? #shorts #story #mystery #funny",
+    "tags": ["shorts", "story", "mystery", "funny", "gnome", "ants", "animation"]
+  },
+  "logline": "Leo's garden gnome moves closer to his house every night and nobody touches it; he films it and finds hundreds of ants carrying it, because dad's picnic cake is stuck in its hat.",
+  "hook": "THE GNOME IS MOVING 🧙😨",
+  "narrator": "callum",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["gnome", "closer", "footprints", "porch", "camera", "midnight", "ants", "cake", "hat", "follow"],
+  "bottom": "territory",
+  "cast": {
+    "leo": { "species": "bean", "color": "#8ecae6", "name": "Leo" },
+    "gnome": { "emoji": "🧙" },
+    "ant": { "emoji": "🐜" },
+    "cake": { "emoji": "🍰" },
+    "house": { "emoji": "🏠" }
+  },
+  "scenes": [
+    {
+      "id": "move", "text": "Every morning, the garden gnome was closer to Leo's house.",
+      "setting": "forest", "light": "dusk", "focus": "gnome", "effects": ["vignette", "shake"], "sfx": "vineBoom", "flash": "closer",
+      "actors": [
+        { "who": "leo", "x": 280, "size": 1.3, "mood": "shock", "action": "shake" },
+        { "who": "gnome", "x": 760, "size": 1.8, "action": "shake" }
+      ],
+      "stickers": [{ "word": "gnome", "emoji": "😨" }, { "word": "closer", "emoji": "👉" }]
+    },
+    {
+      "id": "days", "text": "Monday, by the fence. Tuesday, by the tree. Wednesday, by the window.",
+      "setting": "forest", "light": "day", "focus": "gnome", "effects": ["speed"],
+      "actors": [
+        { "who": "leo", "x": 230, "mood": "shock" },
+        { "who": "gnome", "x": 900, "toX": 560, "size": 1.5, "action": "jump" }
+      ],
+      "stickers": [{ "word": "fence", "emoji": "🚧" }, { "word": "tree", "emoji": "🌳" }]
+    },
+    {
+      "id": "nobody", "text": "It began after Dad's picnic. Nobody touched it. No footprints either.",
+      "setting": "forest", "light": "day", "focus": "leo",
+      "actors": [
+        { "who": "leo", "x": 360, "size": 1.2, "mood": "sad", "action": "bow", "at": "footprints" },
+        { "who": "gnome", "x": 780, "size": 1.5 }
+      ],
+      "stickers": [{ "word": "nobody", "emoji": "🙅" }, { "word": "footprints", "emoji": "👣" }]
+    },
+    {
+      "id": "porch", "text": "Thursday, it was on the porch. Staring at Leo's door.",
+      "setting": "room", "light": "danger", "focus": "gnome", "effects": ["vignette"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "leo", "x": 250, "mood": "shock" },
+        { "who": "gnome", "x": 640, "size": 1.7, "action": "jump" },
+        { "who": "house", "x": 930, "size": 1.5 }
+      ],
+      "stickers": [{ "word": "porch", "emoji": "🚪" }, { "word": "staring", "emoji": "👀" }]
+    },
+    {
+      "id": "camera", "text": "So that night, Leo set up a camera. And waited.",
+      "setting": "forest", "light": "night", "focus": "leo", "effects": ["vignette"],
+      "actors": [
+        { "who": "leo", "x": 330, "size": 1.2, "mood": "smug" },
+        { "who": "gnome", "x": 800, "size": 1.4 }
+      ],
+      "stickers": [{ "word": "camera", "emoji": "📹" }, { "word": "waited", "emoji": "⏳" }]
+    },
+    {
+      "id": "slide", "text": "At midnight, the gnome slid across the grass. By itself.",
+      "setting": "forest", "light": "danger", "focus": "gnome", "effects": ["vignette", "shake"], "sfx": "recordScratch",
+      "actors": [
+        { "who": "leo", "x": 220, "mood": "shock", "action": "shake" },
+        { "who": "gnome", "x": 900, "toX": 520, "size": 1.5, "action": "run", "at": "slid" }
+      ],
+      "stickers": [{ "word": "midnight", "emoji": "🕛" }, { "word": "itself", "emoji": "😱" }]
+    },
+    {
+      "id": "ants", "text": "Leo crept closer with a flashlight. Hundreds of ants were carrying it.",
+      "setting": "forest", "light": "night", "focus": "leo", "effects": ["shake"], "sfx": "animeWow", "flash": "hundreds",
+      "actors": [
+        { "who": "leo", "x": 540, "size": 1, "mood": "shock" }
+      ],
+      "crowd": { "who": "ant", "count": 40, "mood": "happy", "until": "carrying" },
+      "stickers": [{ "word": "flashlight", "emoji": "🔦" }, { "word": "ants", "emoji": "🐜" }]
+    },
+    {
+      "id": "why", "text": "Why? Dad's picnic cake was still stuck in its hat. The ants wanted dessert.",
+      "setting": "forest", "light": "gold", "focus": "gnome", "effects": ["rays"],
+      "actors": [
+        { "who": "gnome", "x": 430, "size": 1.6, "mood": "smug", "hat": "🍰" },
+        { "who": "ant", "x": 800, "size": 1.0, "action": "jump", "at": "ants" }
+      ],
+      "stickers": [{ "word": "cake", "emoji": "🍰" }, { "word": "dessert", "emoji": "😋" }]
+    },
+    {
+      "id": "end", "text": "Leo wiped off the hat. Follow, or the gnome comes for your cake next.",
+      "setting": "forest", "light": "day", "focus": "leo", "effects": ["confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "leo", "x": 320, "size": 1.3, "mood": "happy", "action": "jump", "at": "follow" },
+        { "who": "gnome", "x": 760, "size": 1.5, "mood": "smug" }
+      ],
+      "stickers": [{ "word": "follow", "emoji": "👉" }, { "word": "cake", "emoji": "🍰" }]
+    }
+  ]
+}
