@@ -26,3 +26,4 @@ and a different bottom than the last 2.
 - 2026-10-27 — 2026-10-27-gnome-walks — mini mystery / funny reveal — a garden gnome creeps closer to Leo's house each night; ants are carrying it for the cake in its hat (forest, room) [territory]
 - 2026-10-27 — 2026-10-27-clock-snaps — villain origin / funny reveal — Sam smacks his alarm clock 1,000 times; its 3 a.m. revenge ring wakes him for the meteor shower he always wanted (room) [corner]
 - 2026-10-28 — 2026-10-28-last-pancake — time loop / funny reveal — Theo relives Monday 41 times until he gives sister Pip the last pancake he always grabs; then Pip steals his toast (room, city) [plinko]
+- 2026-10-28 — 2026-10-28-hamster-escape — heist / scheme / funny reveal — Bo the hamster fails 99 escape plans, then finds the cage door was unlocked all along; he escapes, finds outside too scary, and goes home (room, city) [wheel]

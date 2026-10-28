@@ -1,0 +1,109 @@
+{
+  "id": "2026-10-28-hamster-escape",
+  "title": "Bo's Great Escape",
+  "youtube": {
+    "title": "He tried to escape for 99 nights. The door was OPEN 🐹🔓",
+    "description": "Bo the hamster plans the perfect escape. He missed one thing. #shorts #story #funny #hamster",
+    "tags": ["shorts", "story", "funny", "hamster", "escape", "animation"]
+  },
+  "logline": "Bo the hamster spends 99 nights on failed escape plans, then finds out his cage door was unlocked the whole time.",
+  "hook": "ESCAPE TONIGHT! 🐹🔓",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["escape", "cage", "plan", "bars", "rope", "ladder", "ninety", "door", "unlocked", "outside", "follow"],
+  "bottom": "wheel",
+  "racers": ["🐹", "🌻", "🧵", "🔒", "🐕"],
+  "cast": {
+    "bo": { "emoji": "🐹" },
+    "cage": { "emoji": "🔒" },
+    "seeds": { "emoji": "🌻" },
+    "rope": { "emoji": "🧵" },
+    "dog": { "emoji": "🐕" }
+  },
+  "scenes": [
+    {
+      "id": "plan", "text": "Bo the hamster had a plan. Escape his cage. Tonight.",
+      "setting": "room", "light": "night", "focus": "bo", "effects": ["vignette", "shake"], "sfx": "vineBoom",
+      "actors": [
+        { "who": "bo", "x": 330, "size": 1.7, "action": "jump" },
+        { "who": "cage", "x": 790, "size": 1.6, "action": "shake" }
+      ],
+      "stickers": [{ "word": "plan", "emoji": "📝" }, { "word": "cage", "emoji": "🔒" }]
+    },
+    {
+      "id": "bars", "text": "Step one: chew the bars. His teeth hurt. The bars won.",
+      "setting": "room", "light": "night", "focus": "bo",
+      "actors": [
+        { "who": "bo", "x": 300, "size": 1.3, "action": "shake" },
+        { "who": "cage", "x": 780, "size": 1.5 }
+      ],
+      "stickers": [{ "word": "chew", "emoji": "🦷" }, { "word": "won", "emoji": "🏆" }]
+    },
+    {
+      "id": "rope", "text": "Step two: a sock-thread rope. It snapped.",
+      "setting": "room", "light": "dusk", "focus": "rope",
+      "actors": [
+        { "who": "bo", "x": 280, "size": 1.2, "action": "faint", "at": "snapped" },
+        { "who": "rope", "x": 780, "size": 1.5, "action": "spin" }
+      ],
+      "stickers": [{ "word": "rope", "emoji": "🧦" }, { "word": "snapped", "emoji": "💥" }]
+    },
+    {
+      "id": "ladder", "text": "Step three: a seed ladder. It fell over.",
+      "setting": "room", "light": "dusk", "focus": "seeds", "sfx": "spongebobFail",
+      "actors": [
+        { "who": "bo", "x": 300, "size": 1.2, "action": "jump" },
+        { "who": "seeds", "x": 780, "size": 1.7, "action": "shake", "at": "fell" }
+      ],
+      "stickers": [{ "word": "ladder", "emoji": "🪜" }, { "word": "fell", "emoji": "😵" }]
+    },
+    {
+      "id": "ninety", "text": "Ninety nine nights. Ninety nine failed plans. Bo was exhausted.",
+      "setting": "room", "light": "night", "focus": "bo", "effects": ["rain"],
+      "actors": [{ "who": "bo", "x": 540, "size": 1.3, "action": "bow", "at": "exhausted" }],
+      "stickers": [{ "word": "Ninety", "emoji": "9️⃣9️⃣" }, { "word": "exhausted", "emoji": "😩" }]
+    },
+    {
+      "id": "open", "text": "On night one hundred, he slumped against the door. And it swung open.",
+      "setting": "room", "light": "danger", "focus": "bo", "effects": ["vignette", "shake"], "sfx": "recordScratch", "flash": "open",
+      "actors": [
+        { "who": "bo", "x": 420, "toX": 640, "size": 1.4, "action": "jump" },
+        { "who": "cage", "x": 860, "size": 1.5, "action": "shake", "at": "swung" }
+      ],
+      "stickers": [{ "word": "slumped", "emoji": "😮‍💨" }, { "word": "open", "emoji": "🔓" }]
+    },
+    {
+      "id": "unlocked", "text": "It had been unlocked since day one. Bo screamed for a full minute.",
+      "setting": "room", "light": "night", "focus": "bo", "sfx": "omgHellNah",
+      "actors": [
+        { "who": "bo", "x": 540, "size": 1.8, "action": "shake" }
+      ],
+      "stickers": [{ "word": "unlocked", "emoji": "🔓" }, { "word": "screamed", "emoji": "😱" }]
+    },
+    {
+      "id": "free", "text": "Then he ran. Past the sleeping dog. Out the door.",
+      "setting": "room", "light": "gold", "focus": "bo", "effects": ["speed", "rays"], "sfx": "yippee",
+      "actors": [
+        { "who": "bo", "x": 160, "toX": 900, "size": 1.3, "action": "run" },
+        { "who": "dog", "x": 560, "size": 1.3, "action": "faint" }
+      ],
+      "stickers": [{ "word": "ran", "emoji": "💨" }, { "word": "dog", "emoji": "😴" }]
+    },
+    {
+      "id": "outside", "text": "Outside was loud, rainy and huge. Bo thought for one second.",
+      "setting": "city", "light": "dusk", "focus": "bo", "effects": ["rain"],
+      "actors": [{ "who": "bo", "x": 540, "size": 1.4, "action": "shake" }],
+      "stickers": [{ "word": "rainy", "emoji": "🌧️" }, { "word": "huge", "emoji": "🏙️" }]
+    },
+    {
+      "id": "home", "text": "He walked home, climbed in, and shut the door. Follow, if you love your cage too.",
+      "setting": "room", "light": "night", "focus": "bo", "effects": ["vignette"],
+      "actors": [
+        { "who": "bo", "x": 300, "size": 1.2, "action": "jump", "at": "climbed" },
+        { "who": "cage", "x": 780, "size": 1.5 }
+      ],
+      "stickers": [{ "word": "home", "emoji": "🏠" }, { "word": "Follow", "emoji": "👉" }]
+    }
+  ]
+}
