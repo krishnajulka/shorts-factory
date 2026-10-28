@@ -1,0 +1,99 @@
+{
+  "id": "2026-10-28-last-pancake",
+  "title": "The Last Pancake",
+  "youtube": {
+    "title": "He relived the same Monday 41 times. The fix? 🥞⏰",
+    "description": "Theo can't escape Monday until he changes one tiny thing. #shorts #story #funny #timeloop",
+    "tags": ["shorts", "story", "funny", "time loop", "monday", "animation"]
+  },
+  "logline": "Theo is stuck reliving the same Monday, and it only ends when he finally gives his little sister Pip the last pancake he always grabs first.",
+  "hook": "SAME MONDAY AGAIN? ⏰😵",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["monday", "alarm", "pancake", "pip", "restarted", "forty", "cape", "tuesday", "follow"],
+  "bottom": "plinko",
+  "cast": {
+    "theo": { "species": "bean", "color": "#ffb703", "name": "Theo" },
+    "pip": { "species": "bean", "color": "#f4a6c0", "name": "Pip" },
+    "clock": { "emoji": "⏰" },
+    "pancake": { "emoji": "🥞" }
+  },
+  "scenes": [
+    {
+      "id": "again", "text": "Theo woke up to the same Monday. Again.",
+      "setting": "room", "light": "danger", "focus": "theo", "effects": ["vignette", "shake"], "sfx": "vineBoom",
+      "actors": [
+        { "who": "theo", "x": 330, "size": 1.5, "mood": "shock", "action": "shake" },
+        { "who": "clock", "x": 780, "size": 1.8, "action": "shake" }
+      ],
+      "stickers": [{ "word": "Monday", "emoji": "😵" }, { "word": "Again", "emoji": "🔁" }]
+    },
+    {
+      "id": "same", "text": "Same alarm. Same rain. Same last pancake on the plate.",
+      "setting": "room", "light": "dusk", "focus": "pancake", "effects": ["rain"],
+      "actors": [
+        { "who": "theo", "x": 280, "mood": "sad" },
+        { "who": "pancake", "x": 760, "size": 1.5, "action": "jump" }
+      ],
+      "stickers": [{ "word": "alarm", "emoji": "⏰" }, { "word": "pancake", "emoji": "🥞" }]
+    },
+    {
+      "id": "grab", "text": "And every time, Theo grabbed it first. His sister Pip frowned.",
+      "setting": "room", "light": "day", "focus": "theo",
+      "actors": [
+        { "who": "theo", "x": 300, "size": 1.2, "mood": "smug", "hold": "🥞", "action": "jump", "at": "grabbed" },
+        { "who": "pip", "x": 780, "size": 0.8, "face": "left", "mood": "sad" }
+      ],
+      "stickers": [{ "word": "grabbed", "emoji": "😋" }, { "word": "frowned", "emoji": "🥺" }]
+    },
+    {
+      "id": "try", "text": "He ran to school. Monday restarted. He stayed in bed. Monday restarted.",
+      "setting": "city", "light": "day", "focus": "theo", "effects": ["speed"], "sfx": "recordScratch",
+      "actors": [{ "who": "theo", "x": 200, "toX": 880, "size": 1.2, "mood": "angry", "action": "run" }],
+      "stickers": [{ "word": "ran", "emoji": "🏃" }, { "word": "bed", "emoji": "🛏️" }]
+    },
+    {
+      "id": "cape", "text": "Forty times he tried everything. Even wearing a cape. Monday still restarted.",
+      "setting": "city", "light": "dusk", "focus": "theo", "effects": ["shake"],
+      "actors": [{ "who": "theo", "x": 540, "size": 1.4, "mood": "angry", "hat": "🦸", "action": "spin", "at": "cape" }],
+      "stickers": [{ "word": "Forty", "emoji": "4️⃣0️⃣" }, { "word": "cape", "emoji": "🦸" }]
+    },
+    {
+      "id": "notice", "text": "Then, on try forty-one, he saw the one thing he never changed.",
+      "setting": "room", "light": "night", "focus": "pancake", "effects": ["vignette"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "theo", "x": 280, "size": 1.2, "mood": "shock" },
+        { "who": "pancake", "x": 760, "size": 1.6, "action": "float" }
+      ],
+      "stickers": [{ "word": "never", "emoji": "🤔" }, { "word": "thing", "emoji": "🥞" }]
+    },
+    {
+      "id": "give", "text": "So Theo did something new. He gave Pip the last pancake.",
+      "setting": "room", "light": "gold", "focus": "pip", "effects": ["rays"],
+      "actors": [
+        { "who": "theo", "x": 300, "mood": "happy", "action": "bow", "at": "gave" },
+        { "who": "pip", "x": 760, "size": 1, "face": "left", "mood": "happy", "hold": "🥞", "action": "jump", "at": "pancake" }
+      ],
+      "stickers": [{ "word": "new", "emoji": "✨" }, { "word": "gave", "emoji": "🎁" }]
+    },
+    {
+      "id": "tuesday", "text": "The clock hit seven oh one. And Tuesday finally came.",
+      "setting": "room", "light": "gold", "focus": "theo", "effects": ["rays", "confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "theo", "x": 300, "size": 1.4, "mood": "happy", "action": "jump", "at": "Tuesday" },
+        { "who": "clock", "x": 780, "size": 1.8 }
+      ],
+      "stickers": [{ "word": "Tuesday", "emoji": "🎉" }, { "word": "finally", "emoji": "😭" }]
+    },
+    {
+      "id": "loop", "text": "Pip ate it, then stole his toast. Follow, or Monday starts again.",
+      "setting": "room", "light": "day", "focus": "pip",
+      "actors": [
+        { "who": "pip", "x": 760, "size": 1, "face": "left", "mood": "smug", "hold": "🍞", "action": "jump", "at": "toast" },
+        { "who": "theo", "x": 300, "mood": "shock" }
+      ],
+      "stickers": [{ "word": "toast", "emoji": "🍞" }, { "word": "Follow", "emoji": "👉" }]
+    }
+  ]
+}
