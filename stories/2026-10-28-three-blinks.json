@@ -1,0 +1,104 @@
+{
+  "id": "2026-10-28-three-blinks",
+  "title": "Three Blinks at Nine Oh Nine",
+  "youtube": {
+    "title": "A light blinks 3 times outside her window every night 💡🚌",
+    "description": "Every night at 9:09, three blinks. Ana always blinked back. #shorts #story #wholesome #mystery",
+    "tags": ["shorts", "story", "wholesome", "mystery", "bus", "animation"]
+  },
+  "logline": "Every night at 9:09 a bus blinks its lights three times outside Ana's window and she blinks back; when it stops coming, she learns the lonely driver was only saying goodnight.",
+  "hook": "WHY DOES IT BLINK? 💡",
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["nine", "blinks", "window", "bus", "lamp", "goodnight", "driver", "note", "alone", "answered", "follow"],
+  "bottom": "rings",
+  "cast": {
+    "ana": { "species": "bean", "color": "#ffb703", "name": "Ana" },
+    "bus": { "emoji": "🚌" },
+    "lamp": { "emoji": "💡" },
+    "note": { "emoji": "📝" }
+  },
+  "scenes": [
+    {
+      "id": "blink", "text": "Every night at nine oh nine, a light blinks. Three times, outside Ana's window.",
+      "setting": "room", "light": "night", "focus": "ana", "effects": ["vignette", "shake"], "sfx": "vineBoom", "flash": "blinks",
+      "actors": [
+        { "who": "ana", "x": 320, "size": 1.4, "mood": "shock", "action": "shake" },
+        { "who": "lamp", "x": 800, "size": 1.8, "action": "shake" }
+      ],
+      "stickers": [{ "word": "nine", "emoji": "9️⃣" }, { "word": "blinks", "emoji": "💡" }]
+    },
+    {
+      "id": "bus", "text": "A night bus parks below. Nobody else on the street ever notices.",
+      "setting": "city", "light": "night", "focus": "bus", "effects": ["vignette"],
+      "actors": [
+        { "who": "bus", "x": 100, "toX": 700, "size": 2, "action": "enter" },
+        { "who": "ana", "x": 880, "size": 0.9, "face": "left", "mood": "shock" }
+      ],
+      "stickers": [{ "word": "bus", "emoji": "🚌" }, { "word": "Nobody", "emoji": "🤷" }]
+    },
+    {
+      "id": "back", "text": "So Ana tried something. She flashed her lamp three times back.",
+      "setting": "room", "light": "night", "focus": "ana",
+      "actors": [
+        { "who": "ana", "x": 340, "size": 1.2, "mood": "happy", "action": "jump", "at": "flashed" },
+        { "who": "lamp", "x": 780, "size": 1.8, "action": "shake", "at": "flashed" }
+      ],
+      "stickers": [{ "word": "tried", "emoji": "🤔" }, { "word": "lamp", "emoji": "💡" }]
+    },
+    {
+      "id": "goodnight", "text": "The bus blinked once, happily, and drove away. That became their goodnight.",
+      "setting": "city", "light": "dusk", "focus": "bus", "effects": ["speed"], "sfx": "yippee",
+      "actors": [
+        { "who": "bus", "x": 300, "toX": 1200, "size": 2, "action": "exit", "at": "away" },
+        { "who": "ana", "x": 900, "size": 0.8, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "happily", "emoji": "😊" }, { "word": "goodnight", "emoji": "🌙" }]
+    },
+    {
+      "id": "years", "text": "Two years. Seven hundred goodnights. She never saw the driver's face.",
+      "setting": "room", "light": "gold", "focus": "ana", "effects": ["rays"],
+      "actors": [
+        { "who": "ana", "x": 400, "size": 1.2, "mood": "happy", "action": "jump" },
+        { "who": "lamp", "x": 800, "size": 1.5, "action": "jump" }
+      ],
+      "stickers": [{ "word": "Two", "emoji": "2️⃣" }, { "word": "face", "emoji": "❓" }]
+    },
+    {
+      "id": "gone", "text": "Then one night, the bus never came. Ana waited until midnight. Nothing.",
+      "setting": "room", "light": "danger", "focus": "ana", "effects": ["vignette", "rain"], "sfx": "recordScratch",
+      "actors": [
+        { "who": "ana", "x": 540, "size": 1.4, "mood": "sad", "action": "bow", "at": "waited" }
+      ],
+      "stickers": [{ "word": "never", "emoji": "😟" }, { "word": "midnight", "emoji": "🕛" }]
+    },
+    {
+      "id": "note", "text": "A note was taped to her door. I drove alone for years. You answered.",
+      "setting": "room", "light": "day", "focus": "note", "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "note", "x": 760, "size": 1.8, "action": "jump", "at": "alone" },
+        { "who": "ana", "x": 300, "size": 1.1, "mood": "shock" }
+      ],
+      "stickers": [{ "word": "note", "emoji": "📝" }, { "word": "alone", "emoji": "🥺" }]
+    },
+    {
+      "id": "return", "text": "At nine oh nine, Ana flashed three times. Down the street, a bus blinked back.",
+      "setting": "city", "light": "gold", "focus": "ana", "effects": ["rays", "confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "ana", "x": 880, "size": 1.0, "face": "left", "mood": "happy", "action": "jump", "at": "flashed" },
+        { "who": "bus", "x": 150, "toX": 450, "size": 2, "action": "enter" }
+      ],
+      "stickers": [{ "word": "three", "emoji": "3️⃣" }, { "word": "blinked", "emoji": "💡" }]
+    },
+    {
+      "id": "loop", "text": "Now they still blink goodnight. Follow, someone out there is waiting for you.",
+      "setting": "room", "light": "night", "focus": "ana", "effects": ["vignette"],
+      "actors": [
+        { "who": "ana", "x": 320, "mood": "smug" },
+        { "who": "lamp", "x": 780, "size": 1.6, "action": "shake", "at": "waiting" }
+      ],
+      "stickers": [{ "word": "goodnight", "emoji": "🌙" }, { "word": "Follow", "emoji": "👉" }]
+    }
+  ]
+}
