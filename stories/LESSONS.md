@@ -20,7 +20,7 @@ evidence wins. Cite the stories a lesson comes from.
 - **Two Shorts uploaded in the same minute both flopped** (closet-knock 5 views and
   sock-escape 2, both uploaded 2026-10-24 18:56 UTC). Hypothesis: never upload
   back-to-back; keep at least 2 hours between uploads. Needs more evidence.
-- **Stats access is broken (since 2026-10-26, 10+ runs; still failing 2026-10-28, 2 runs):** the YouTube token lacks Analytics
+- **Stats access is broken (since 2026-10-26, 10+ runs; still failing 2026-10-28, 3 runs):** the YouTube token lacks Analytics
   scope, so `stats` exits 3 and no numbers newer than 2026-10-25 exist. No lesson changes
   from numbers until fixed: run `node scripts/youtube.mjs auth` on the PC with the YouTube
   Analytics API enabled and update YOUTUBE_REFRESH_TOKEN. ElevenLabs is out of credits

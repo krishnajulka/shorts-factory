@@ -1,0 +1,104 @@
+{
+  "id": "2026-10-28-elevator-buttons",
+  "title": "The Extra Button",
+  "youtube": {
+    "title": "His elevator grows ONE new button every night 🛗😨",
+    "description": "Forty buttons. Nobody else can see them. Until one says his name. #shorts #story #creepy #mystery",
+    "tags": ["shorts", "story", "creepy", "mystery", "elevator", "animation"]
+  },
+  "logline": "Kai's apartment elevator grows one new button every night that nobody else notices; on the last night a button with his name glows, and he presses it.",
+  "hook": "DON'T PRESS THAT BUTTON 🛗😨",
+  "narrator": "callum",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["elevator", "button", "twelve", "fourteen", "stairs", "forty", "kai", "glowing", "pressed", "follow"],
+  "bottom": "spiral",
+  "cast": {
+    "kai": { "species": "bean", "color": "#8ecae6", "name": "Kai" },
+    "lift": { "emoji": "🛗" },
+    "btn": { "emoji": "🔘" },
+    "door": { "emoji": "🚪" }
+  },
+  "scenes": [
+    {
+      "id": "new", "text": "Every morning, Kai's elevator has one new button. Nobody else notices.",
+      "setting": "room", "light": "danger", "focus": "kai", "effects": ["vignette", "shake"], "sfx": "vineBoom", "flash": "button",
+      "actors": [
+        { "who": "kai", "x": 300, "size": 1.4, "mood": "shock", "action": "shake" },
+        { "who": "lift", "x": 800, "size": 1.8, "action": "shake" }
+      ],
+      "stickers": [{ "word": "elevator", "emoji": "🛗" }, { "word": "button", "emoji": "🔘" }]
+    },
+    {
+      "id": "fourteen", "text": "Monday, a button marked fourteen. But his building has only twelve floors.",
+      "setting": "room", "light": "night", "focus": "lift", "effects": ["vignette"],
+      "actors": [
+        { "who": "kai", "x": 280, "mood": "shock" },
+        { "who": "lift", "x": 780, "size": 1.8, "action": "jump" }
+      ],
+      "stickers": [{ "word": "fourteen", "emoji": "1️⃣" }, { "word": "twelve", "emoji": "🏢" }]
+    },
+    {
+      "id": "stairs", "text": "Kai pressed nothing. He took the stairs. But the buttons kept coming.",
+      "setting": "room", "light": "dusk", "focus": "kai", "sfx": "recordScratch", "effects": ["speed"],
+      "actors": [
+        { "who": "kai", "x": 200, "toX": 800, "mood": "sad", "action": "run", "at": "stairs" },
+        { "who": "btn", "x": 880, "size": 1.2, "action": "shake", "at": "buttons" }
+      ],
+      "stickers": [{ "word": "stairs", "emoji": "🪜" }, { "word": "coming", "emoji": "🔘" }]
+    },
+    {
+      "id": "forty", "text": "By Friday, there were forty buttons. Still, nobody else could see them.",
+      "setting": "room", "light": "night", "focus": "lift", "effects": ["vignette"],
+      "burst": { "at": "forty", "emoji": "🔘" },
+      "actors": [
+        { "who": "kai", "x": 280, "mood": "shock" },
+        { "who": "lift", "x": 780, "size": 1.8 }
+      ],
+      "stickers": [{ "word": "forty", "emoji": "4️⃣" }, { "word": "see", "emoji": "👀" }]
+    },
+    {
+      "id": "name", "text": "Then one button started glowing. It had a name on it. Kai.",
+      "setting": "room", "light": "danger", "focus": "kai", "effects": ["vignette", "shake"], "sfx": "dramaticBoomer", "flash": "glowing",
+      "actors": [
+        { "who": "kai", "x": 300, "size": 1.3, "mood": "shock", "action": "shake", "at": "name" },
+        { "who": "btn", "x": 800, "size": 1.9, "action": "float" }
+      ],
+      "stickers": [{ "word": "glowing", "emoji": "✨" }, { "word": "name", "emoji": "😱" }]
+    },
+    {
+      "id": "press", "text": "He waited all night. At three in the morning, he pressed it.",
+      "setting": "room", "light": "night", "focus": "kai", "effects": ["vignette"],
+      "actors": [
+        { "who": "kai", "x": 400, "toX": 650, "size": 1.2, "mood": "shock", "action": "run", "at": "pressed" },
+        { "who": "lift", "x": 850, "size": 1.8 }
+      ],
+      "stickers": [{ "word": "three", "emoji": "🕒" }, { "word": "pressed", "emoji": "👆" }]
+    },
+    {
+      "id": "down", "text": "The doors closed. The elevator went down, down, past the lobby.",
+      "setting": "room", "light": "danger", "focus": "lift", "effects": ["speed", "shake"], "sfx": "loadingLag",
+      "actors": [
+        { "who": "kai", "x": 400, "size": 1.3, "mood": "shock", "action": "shake" },
+        { "who": "lift", "x": 800, "size": 1.8, "action": "shake" }
+      ],
+      "stickers": [{ "word": "closed", "emoji": "🚪" }, { "word": "down", "emoji": "⬇️" }]
+    },
+    {
+      "id": "hall", "text": "The doors opened on a hallway. Forty doors. And one was already open.",
+      "setting": "room", "light": "night", "focus": "kai", "effects": ["vignette"], "sfx": "vineBoom",
+      "crowd": { "who": "door", "count": 40, "mood": "shock", "until": "doors" },
+      "actors": [{ "who": "kai", "x": 540, "size": 1.0, "mood": "shock" }],
+      "stickers": [{ "word": "Forty", "emoji": "4️⃣" }, { "word": "open", "emoji": "😨" }]
+    },
+    {
+      "id": "loop", "text": "Follow. Tomorrow morning, check your elevator for one new button.",
+      "setting": "room", "light": "night", "focus": "lift", "effects": ["vignette"],
+      "actors": [
+        { "who": "kai", "x": 300, "mood": "shock" },
+        { "who": "lift", "x": 780, "size": 1.8, "action": "shake", "at": "button" }
+      ],
+      "stickers": [{ "word": "Follow", "emoji": "👉" }, { "word": "button", "emoji": "🔘" }]
+    }
+  ]
+}
