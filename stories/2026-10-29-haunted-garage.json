@@ -1,0 +1,90 @@
+{
+  "id": "2026-10-29-haunted-garage",
+  "title": "The Fake Haunted Garage",
+  "youtube": {
+    "title": "His FAKE haunted house got a REAL ghost 👻🪙",
+    "description": "Ben charged one coin for a fake haunted garage. Then a real ghost bought a ticket. #shorts #story #funny #ghost",
+    "tags": ["shorts", "story", "ghost", "funny", "haunted", "animation"]
+  },
+  "logline": "Ben charges kids a coin to enter his fake haunted garage; on day three a real ghost buys a ticket, scares Ben out of his own garage, and takes the whole coin jar as his fee.",
+  "hook": "FAKE GHOST, REAL GHOST 👻",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["coin", "haunted", "garage", "fake", "ghost", "boo", "jar", "floated", "screaming", "follow"],
+  "bottom": "plinko",
+  "cast": {
+    "ben": { "species": "bean", "color": "#e76f51", "name": "Ben" },
+    "kid": { "species": "bean", "color": "#8ecae6", "name": "Kid" },
+    "ghost": { "emoji": "👻" },
+    "jar": { "emoji": "🫙" }
+  },
+  "scenes": [
+    {
+      "id": "sign", "text": "Ben charges one coin to enter his haunted garage. It is totally fake.",
+      "setting": "room", "light": "danger", "focus": "ben", "effects": ["vignette", "shake"], "sfx": "vineBoom", "flash": "haunted",
+      "actors": [
+        { "who": "ben", "x": 540, "size": 1.5, "mood": "smug", "hat": "👻", "action": "jump" }
+      ],
+      "stickers": [{ "word": "coin", "emoji": "🪙" }, { "word": "fake", "emoji": "🤥" }]
+    },
+    {
+      "id": "line", "text": "Kids lined up for blocks. Ben hid under a bedsheet and yelled boo.",
+      "setting": "city", "light": "dusk", "focus": "ben",
+      "crowd": { "who": "kid", "count": 20, "mood": "happy", "until": "blocks" },
+      "actors": [{ "who": "ben", "x": 540, "size": 1.1, "mood": "smug", "hat": "👻", "action": "jump", "at": "boo" }],
+      "stickers": [{ "word": "blocks", "emoji": "🧍" }, { "word": "boo", "emoji": "😝" }]
+    },
+    {
+      "id": "jar", "text": "Day one, ten coins. Day two, fifty. His jar was almost full.",
+      "setting": "room", "light": "gold", "focus": "jar", "effects": ["rays"],
+      "actors": [
+        { "who": "ben", "x": 300, "mood": "happy", "action": "jump", "at": "full" },
+        { "who": "jar", "x": 760, "size": 1.8, "action": "grow", "at": "fifty" }
+      ],
+      "stickers": [{ "word": "ten", "emoji": "🪙" }, { "word": "full", "emoji": "💰" }]
+    },
+    {
+      "id": "real", "text": "Then on day three, a ghost joined the line. A real one.",
+      "setting": "city", "light": "night", "focus": "ghost", "effects": ["vignette"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "ghost", "x": 700, "size": 1.6, "action": "float" },
+        { "who": "ben", "x": 220, "size": 0.9, "mood": "shock" }
+      ],
+      "stickers": [{ "word": "ghost", "emoji": "😱" }, { "word": "real", "emoji": "👀" }]
+    },
+    {
+      "id": "pays", "text": "He paid one coin. And floated inside.",
+      "setting": "room", "light": "night", "focus": "ghost", "effects": ["vignette"],
+      "actors": [
+        { "who": "ghost", "x": 100, "toX": 700, "size": 1.5, "action": "float" },
+        { "who": "ben", "x": 860, "size": 0.9, "mood": "shock", "face": "left" }
+      ],
+      "stickers": [{ "word": "paid", "emoji": "🪙" }, { "word": "floated", "emoji": "☁️" }]
+    },
+    {
+      "id": "boo", "text": "Ben jumped out and yelled boo. The ghost yawned. Then the ghost yelled boo back.",
+      "setting": "room", "light": "danger", "focus": "ghost", "effects": ["shake", "vignette"], "sfx": "wilhelmScream", "flash": "back",
+      "actors": [
+        { "who": "ghost", "x": 560, "size": 2.2, "action": "grow", "at": "back" },
+        { "who": "ben", "x": 220, "size": 0.9, "mood": "shock", "action": "shake", "at": "back" }
+      ],
+      "stickers": [{ "word": "yawned", "emoji": "🥱" }, { "word": "back", "emoji": "😤" }]
+    },
+    {
+      "id": "run", "text": "Ben ran out screaming, straight past the line, all the way home.",
+      "setting": "city", "light": "dusk", "focus": "ben", "effects": ["speed"],
+      "actors": [{ "who": "ben", "x": 200, "toX": 900, "action": "run", "mood": "shock" }],
+      "stickers": [{ "word": "screaming", "emoji": "🙀" }, { "word": "home", "emoji": "🏠" }]
+    },
+    {
+      "id": "fee", "text": "The ghost took the whole jar. Fee for the scare. Follow, or he charges you next.",
+      "setting": "room", "light": "gold", "focus": "ghost", "effects": ["confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "ghost", "x": 400, "size": 1.5, "hat": "crown", "action": "float" },
+        { "who": "jar", "x": 780, "size": 1.6, "action": "jump", "at": "jar" }
+      ],
+      "stickers": [{ "word": "jar", "emoji": "💰" }, { "word": "follow", "emoji": "👉" }]
+    }
+  ]
+}
