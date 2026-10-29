@@ -1,0 +1,102 @@
+{
+  "id": "2026-10-29-snail-race",
+  "title": "The Snail Who Beat a Cheetah",
+  "youtube": {
+    "title": "A snail challenged a cheetah to a race. He won. 🐌🏁",
+    "description": "The rule never said when to start. #shorts #story #funny #clevertrick",
+    "tags": ["shorts", "story", "funny", "clever", "animals", "animation"]
+  },
+  "logline": "Everyone laughs when a snail challenges a cheetah to a race, but the rule only says first to the finish line wins, so the snail left on Monday and is already sitting there when the cheetah arrives.",
+  "hook": "SNAIL VS CHEETAH: WHO WINS? 🐌🐆",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["snail", "cheetah", "race", "rule", "finish", "monday", "sandwich", "crowd", "follow"],
+  "bottom": "race",
+  "racers": ["🐌", "🐆", "🐢", "🐇"],
+  "cast": {
+    "snail": { "emoji": "🐌" },
+    "cheetah": { "emoji": "🐆" },
+    "flag": { "emoji": "🏁" },
+    "fan": { "emoji": "😂" },
+    "sandwich": { "emoji": "🥪" }
+  },
+  "scenes": [
+    {
+      "id": "laugh", "text": "They laughed when a snail challenged a cheetah.",
+      "setting": "city", "light": "day", "focus": "snail", "effects": ["shake"], "sfx": "vineBoom",
+      "crowd": { "who": "fan", "count": 24, "mood": "happy", "until": "cheetah" },
+      "actors": [
+        { "who": "snail", "x": 330, "size": 1.5, "action": "jump" },
+        { "who": "cheetah", "x": 780, "size": 1.6, "face": "left", "action": "shake" }
+      ],
+      "stickers": [{ "word": "laughed", "emoji": "🤣" }, { "word": "cheetah", "emoji": "💨" }]
+    },
+    {
+      "id": "rule", "text": "The rule was simple. First one to the finish line wins.",
+      "setting": "forest", "light": "day", "focus": "flag",
+      "actors": [
+        { "who": "flag", "x": 540, "size": 1.8, "action": "jump" }
+      ],
+      "stickers": [{ "word": "rule", "emoji": "📜" }, { "word": "finish", "emoji": "🏁" }]
+    },
+    {
+      "id": "left", "text": "Five days before, the snail packed a sandwich and slowly left. Nobody asked where.",
+      "setting": "forest", "light": "dusk", "focus": "snail",
+      "actors": [
+        { "who": "snail", "x": 200, "toX": 760, "size": 1.2, "hold": "🥪", "at": "left" }
+      ],
+      "stickers": [{ "word": "sandwich", "emoji": "🥪" }, { "word": "slowly", "emoji": "🐌" }]
+    },
+    {
+      "id": "day", "text": "Race day. The cheetah stretched. The snail was missing.",
+      "setting": "city", "light": "day", "focus": "cheetah", "sfx": "recordScratch",
+      "actors": [
+        { "who": "cheetah", "x": 540, "size": 1.7, "mood": "smug", "action": "spin", "at": "stretched" }
+      ],
+      "stickers": [{ "word": "stretched", "emoji": "💪" }, { "word": "missing", "emoji": "❓" }]
+    },
+    {
+      "id": "go", "text": "The cheetah said who needs him, and blasted off like a rocket.",
+      "setting": "forest", "light": "day", "focus": "cheetah", "effects": ["speed", "rays"],
+      "actors": [
+        { "who": "cheetah", "x": 100, "toX": 900, "size": 1.5, "mood": "smug", "action": "run" }
+      ],
+      "stickers": [{ "word": "blasted", "emoji": "🚀" }, { "word": "rocket", "emoji": "💨" }]
+    },
+    {
+      "id": "cross", "text": "He crossed the line in nine seconds. Then he froze.",
+      "setting": "beach", "light": "gold", "focus": "cheetah", "effects": ["vignette"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "flag", "x": 800, "size": 1.5 },
+        { "who": "cheetah", "x": 200, "toX": 560, "size": 1.4, "mood": "shock", "action": "run", "at": "froze" }
+      ],
+      "stickers": [{ "word": "nine", "emoji": "9️⃣" }, { "word": "froze", "emoji": "🥶" }]
+    },
+    {
+      "id": "sat", "text": "There sat the snail. Eating the last bite of his sandwich.",
+      "setting": "beach", "light": "gold", "focus": "snail", "effects": ["rays"], "sfx": "animeWow",
+      "actors": [
+        { "who": "cheetah", "x": 230, "size": 1.2, "mood": "shock", "action": "shake" },
+        { "who": "snail", "x": 760, "size": 1.5, "mood": "smug", "hold": "🥪" }
+      ],
+      "stickers": [{ "word": "snail", "emoji": "😎" }, { "word": "sandwich", "emoji": "🥪" }]
+    },
+    {
+      "id": "monday", "text": "He had left on Monday. The rule never said when to start.",
+      "setting": "beach", "light": "gold", "focus": "snail", "effects": ["confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "snail", "x": 540, "size": 1.6, "mood": "happy", "action": "jump", "at": "monday" }
+      ],
+      "stickers": [{ "word": "monday", "emoji": "📅" }, { "word": "rule", "emoji": "📜" }]
+    },
+    {
+      "id": "loop", "text": "Rematch is next year. The snail leaves tonight. Follow before they laugh again.",
+      "setting": "city", "light": "night", "focus": "snail", "effects": ["vignette"],
+      "actors": [
+        { "who": "snail", "x": 200, "toX": 700, "size": 1.3, "hold": "🥪", "at": "leaves" }
+      ],
+      "stickers": [{ "word": "tonight", "emoji": "🌙" }, { "word": "follow", "emoji": "👉" }]
+    }
+  ]
+}
