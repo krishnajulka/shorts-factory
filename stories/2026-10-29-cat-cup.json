@@ -1,0 +1,106 @@
+{
+  "id": "2026-10-29-cat-cup",
+  "title": "Why Cats Push Cups",
+  "youtube": {
+    "title": "Why your cat pushes cups off tables 🐱🥛",
+    "description": "The royal cat who saved the king's milk. #shorts #story #funny #cats",
+    "tags": ["shorts", "story", "funny", "cats", "legend", "animation"]
+  },
+  "logline": "The king's milk cup keeps running low, so his guard cat pushes the cup off the table and a tiny mouse falls out, which is why cats still push cups today.",
+  "hook": "WHY DO CATS DO THIS? 🐱",
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["cat", "king", "cup", "milk", "mouse", "medal", "fish", "cups", "follow"],
+  "bottom": "breakout",
+  "cast": {
+    "cat": { "species": "cat", "color": "#e9a23b" },
+    "king": { "species": "bean", "color": "#8e6bd8" },
+    "cup": { "emoji": "🥛" },
+    "mouse": { "emoji": "🐭" },
+    "medal": { "emoji": "🏅" }
+  },
+  "scenes": [
+    {
+      "id": "guard", "text": "Long ago, one cat guarded the king's golden cup.",
+      "setting": "city", "light": "gold", "focus": "cat", "effects": ["rays", "shake"], "sfx": "vineBoom",
+      "actors": [
+        { "who": "cat", "x": 320, "size": 1.7, "mood": "smug", "action": "jump" },
+        { "who": "cup", "x": 780, "size": 1.6 }
+      ],
+      "stickers": [{ "word": "cat", "emoji": "🐱" }, { "word": "golden", "emoji": "✨" }]
+    },
+    {
+      "id": "low", "text": "Every night, the milk in the cup got lower. Nobody knew why.",
+      "setting": "city", "light": "night", "focus": "cup", "effects": ["vignette"],
+      "actors": [
+        { "who": "cup", "x": 600, "size": 1.8, "action": "shake", "at": "lower" },
+        { "who": "cat", "x": 240, "size": 1.1, "mood": "shock" }
+      ],
+      "stickers": [{ "word": "milk", "emoji": "🥛" }, { "word": "why", "emoji": "❓" }]
+    },
+    {
+      "id": "furious", "text": "The king was furious. The guards searched everywhere. Nothing.",
+      "setting": "city", "light": "danger", "focus": "king", "effects": ["shake"], "sfx": "bruh",
+      "actors": [
+        { "who": "king", "x": 560, "size": 1.5, "mood": "angry", "hat": "crown", "action": "shake" },
+        { "who": "cat", "x": 220, "size": 1, "mood": "sad" }
+      ],
+      "stickers": [{ "word": "furious", "emoji": "😡" }, { "word": "searched", "emoji": "🔍" }]
+    },
+    {
+      "id": "push", "text": "So the cat stared at the cup. Then, very slowly, pushed it.",
+      "setting": "city", "light": "dusk", "focus": "cat", "effects": ["vignette"],
+      "actors": [
+        { "who": "cat", "x": 300, "toX": 480, "size": 1.5, "mood": "smug", "at": "pushed" },
+        { "who": "cup", "x": 700, "toX": 900, "size": 1.5, "at": "pushed" }
+      ],
+      "stickers": [{ "word": "stared", "emoji": "👀" }, { "word": "slowly", "emoji": "🐌" }]
+    },
+    {
+      "id": "crash", "text": "It crashed on the floor. And out tumbled a tiny mouse covered in milk.",
+      "setting": "city", "light": "danger", "focus": "mouse", "effects": ["shake"], "sfx": "ohMyGodVine",
+      "burst": { "at": "crashed", "emoji": "🥛" },
+      "actors": [
+        { "who": "mouse", "x": 600, "size": 1.6, "action": "jump", "at": "tumbled" },
+        { "who": "cat", "x": 240, "size": 1.2, "mood": "happy" }
+      ],
+      "stickers": [{ "word": "crashed", "emoji": "💥" }, { "word": "mouse", "emoji": "🐭" }]
+    },
+    {
+      "id": "living", "text": "He had been living in the cup, drinking the king's milk.",
+      "setting": "city", "light": "day", "focus": "mouse",
+      "actors": [
+        { "who": "mouse", "x": 560, "size": 1.7, "mood": "smug", "hold": "🥛" },
+        { "who": "king", "x": 220, "size": 1.1, "mood": "shock", "hat": "crown" }
+      ],
+      "stickers": [{ "word": "living", "emoji": "🏠" }, { "word": "drinking", "emoji": "🥤" }]
+    },
+    {
+      "id": "medal", "text": "The king cheered. The cat got a medal and a lifetime of fish.",
+      "setting": "city", "light": "gold", "focus": "cat", "effects": ["rays", "confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "cat", "x": 360, "size": 1.5, "mood": "happy", "hat": "🏅", "hold": "🐟", "action": "jump" },
+        { "who": "king", "x": 780, "face": "left", "size": 1.2, "mood": "happy", "hat": "crown" }
+      ],
+      "stickers": [{ "word": "cheered", "emoji": "🎉" }, { "word": "fish", "emoji": "🐟" }]
+    },
+    {
+      "id": "since", "text": "Ever since, cats push cups off tables. They're just checking for mice.",
+      "setting": "room", "light": "day", "focus": "cat", "sfx": "recordScratch",
+      "actors": [
+        { "who": "cat", "x": 280, "toX": 460, "size": 1.5, "mood": "smug", "at": "push" },
+        { "who": "cup", "x": 720, "toX": 920, "size": 1.3, "at": "tables" }
+      ],
+      "stickers": [{ "word": "cups", "emoji": "🥛" }, { "word": "mice", "emoji": "🐭" }]
+    },
+    {
+      "id": "follow", "text": "Follow, before your cat checks your cup.",
+      "setting": "room", "light": "night", "focus": "cat", "effects": ["vignette"],
+      "actors": [
+        { "who": "cat", "x": 540, "size": 1.6, "mood": "smug" }
+      ],
+      "stickers": [{ "word": "follow", "emoji": "👉" }, { "word": "cup", "emoji": "🥛" }]
+    }
+  ]
+}
