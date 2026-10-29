@@ -8,6 +8,22 @@ evidence wins. Cite the stories a lesson comes from.
 
 ## From the numbers
 
+(Updated 2026-10-29 from STATS.md, 25 Shorts, 19 subscribers.)
+
+- **The 8 PM India slot (~14:50 UTC upload) flops every time — 5 out of 5:** pell-vanishes
+  9 views, grandma-chair 21, clock-snaps 7, three-blinks 2, haunted-garage 0. Most 8 AM /
+  12 PM / 4 PM uploads get 800-1,700. Likely YouTube gives a new channel's 4th upload of
+  the day almost no reach. Strongest pattern we have.
+- **What holds viewers: one simple rule that escalates.** Best average % watched:
+  photo-stranger 86% ("a stranger in every photo, closer each time"), vacuum-race 64%,
+  spider-prank 61%, ghost-sings 59%. Worst: sock-escape 14% and closet-knock 15%
+  (viewers left within 5-7 s), lighthouse 33%.
+- **Top views:** snowman-spring 1,716 (bittersweet: a simple goal with a deadline),
+  sneeze-loop 1,366, ghost-sings 1,281, spider-prank 1,266 (family prank with karma),
+  gnome-walks 1,261 (creepy escalation). Common thread: an everyday or childlike
+  premise anyone gets in one line, plus a clear stake.
+- **Bottom-half loops don't matter much:** winners are spread across rings, corner,
+  breakout, territory, plinko and race. Keep rotating them.
 - **Most viewers decide in the first 1-2 seconds.** Studio showed only 39% "stayed to
   watch" on the first Shorts. Since then: no white flash on frame 0, an on-screen
   `hook`, and a first sentence of 10 words or fewer. Check whether "stayed to watch"
@@ -20,11 +36,10 @@ evidence wins. Cite the stories a lesson comes from.
 - **Two Shorts uploaded in the same minute both flopped** (closet-knock 5 views and
   sock-escape 2, both uploaded 2026-10-24 18:56 UTC). Hypothesis: never upload
   back-to-back; keep at least 2 hours between uploads. Needs more evidence.
-- **Stats access is broken (since 2026-10-26, 10+ runs; still failing 2026-10-29, 8 runs):** the YouTube token lacks Analytics
-  scope, so `stats` exits 3 and no numbers newer than 2026-10-25 exist. No lesson changes
-  from numbers until fixed: run `node scripts/youtube.mjs auth` on the PC with the YouTube
-  Analytics API enabled and update YOUTUBE_REFRESH_TOKEN. ElevenLabs is out of credits
-  (Piper voice in use), so narrator choice has no effect right now.
+- **Cloud stats still fail** because the cloud's YOUTUBE_REFRESH_TOKEN is the old one
+  without read access. Stats work from the PC (refreshed 2026-10-29); the user has to
+  paste the new token into the cloud environment. ElevenLabs credits are used up, so
+  the Piper voice is in use and narrator choice has no effect right now.
 - Hypothesis (untested): relatable family/everyday premises with a visual-gag twist (grandma-chair, sneeze-loop) may fit the winners; check grandma-chair's views once stats work.
 - Hypothesis (1 data point): lunch-thief was never uploaded, so it has no data.
 - Likes are low everywhere (≤1.5% of views). Try an ending that invites a reaction:

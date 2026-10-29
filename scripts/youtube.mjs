@@ -174,7 +174,7 @@ const getJson = async (url, token, { optional = false } = {}) => {
 // by title, so each run can learn what works.
 const stats = async () => {
   const token = await accessToken();
-  const channel = await getJson("https://www.googleapis.com/youtube/v3/channels?part=contentDetails,id&mine=true", token);
+  const channel = await getJson("https://www.googleapis.com/youtube/v3/channels?part=contentDetails,id,statistics&mine=true", token);
   const uploads = channel.items[0].contentDetails.relatedPlaylists.uploads;
   const ids = [];
   for (let page = ""; ; ) {
@@ -226,7 +226,9 @@ const stats = async () => {
 
   const header = "| views | likes | comments | avg watched | avg seconds | subs gained | story | narrator | bottom | published (UTC) | title |\n|---|---|---|---|---|---|---|---|---|---|---|";
   const lines = rows.map((r) => `| ${r.views} | ${r.likes} | ${r.comments} | ${r.avgPercent} | ${r.avgSeconds} | ${r.subs} | ${r.story} | ${r.narrator} | ${r.bottom} | ${r.published} | [${r.title.replace(/\|/g, "/")}](${r.url}) |`);
-  const body = `# Channel stats\n\nUpdated ${new Date().toISOString().slice(0, 16).replace("T", " ")} UTC by \`node scripts/youtube.mjs stats\`. Sorted by views. "avg watched" is the average share of the Short people watched (YouTube Analytics; lags 1-2 days, "—" = not ready yet).\n\n${header}\n${lines.join("\n")}\n`;
+  const body = `# Channel stats\n\nUpdated ${new Date().toISOString().slice(0, 16).replace("T", " ")} UTC by \`node scripts/youtube.mjs stats\`. **Subscribers: ${channel.items[0].statistics.subscriberCount} · total channel views: ${channel.items[0].statistics.viewCount} · videos: ${channel.items[0].statistics.videoCount}.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
+
+Sorted by views. "avg watched" is the average share of the Short people watched (YouTube Analytics; lags 1-2 days, "—" = not ready yet).\n\n${header}\n${lines.join("\n")}\n`;
   writeFileSync(join(root, "stories/STATS.md"), body);
   console.log(`✓ Wrote stories/STATS.md (${rows.length} videos)`);
 };
