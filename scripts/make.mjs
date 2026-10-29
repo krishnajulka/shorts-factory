@@ -44,6 +44,7 @@ const validate = (story) => {
   }
   need((story.scenes?.length ?? 0) >= 5, "need at least 5 scenes");
   need(typeof story.logline === "string" && story.logline.length >= 40 && story.logline.length <= 280, "logline (who wants what, what goes wrong, the twist — in plain words) is required, 40-280 characters");
+  need(typeof story.comment === "string" && story.comment.length >= 15 && story.comment.length <= 150 && story.comment.includes("?"), "comment (a question posted under the Short to get replies, 15-150 characters, must contain a ?) is required");
   // Retention: an on-screen hook from frame 0, a short first line, a short Short.
   need(typeof story.hook === "string" && story.hook.length >= 8 && story.hook.length <= 40, "hook (on-screen text for the first 3s) is required, 8-40 characters");
   const firstLine = (story.scenes?.[0]?.text ?? "").split(/[.!?]/)[0].split(/\s+/).filter(Boolean).length;

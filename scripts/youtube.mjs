@@ -2,6 +2,7 @@
 //   node scripts/youtube.mjs auth                    one-time: sign in, store refresh token
 //   node scripts/youtube.mjs upload stories/<id>.json  upload out/shorts/<id>/<id>.mp4
 //   node scripts/youtube.mjs stats                   write every upload's numbers to stories/STATS.md
+//   node scripts/youtube.mjs comment stories/<id>.json  post the story's question under its Short
 // Credentials live outside the repo:
 //   ~/.youtube-client.json  OAuth client (Desktop app) downloaded from Google Cloud
 //   ~/.youtube-token.json   refresh token written by `auth`
@@ -18,12 +19,31 @@ import { fileURLToPath } from "node:url";
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const CLIENT_PATH = join(homedir(), ".youtube-client.json");
 const TOKEN_PATH = join(homedir(), ".youtube-token.json");
-// Upload, plus read access so `stats` can learn from each Short's performance.
+// Upload, read access so `stats` can learn from each Short's performance, and
+// force-ssl so the story's question can be posted as a comment.
 const SCOPE = [
   "https://www.googleapis.com/auth/youtube.upload",
   "https://www.googleapis.com/auth/youtube.readonly",
   "https://www.googleapis.com/auth/yt-analytics.readonly",
+  "https://www.googleapis.com/auth/youtube.force-ssl",
 ].join(" ");
+
+// Posts the story's question under the video. Never fails the caller: a
+// missing permission just prints a warning.
+const postComment = async (token, videoId, text) => {
+  const res = await fetch("https://www.googleapis.com/youtube/v3/commentThreads?part=snippet", {
+    method: "POST",
+    headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ snippet: { videoId, topLevelComment: { snippet: { textOriginal: text } } } }),
+  });
+  const json = await res.json();
+  if (!res.ok) {
+    console.warn(`⚠ Comment not posted (${res.status}): ${json.error?.message?.split(".")[0] ?? "unknown error"}. Run: node scripts/youtube.mjs auth`);
+    return false;
+  }
+  console.log(`✓ Commented: "${text}"`);
+  return true;
+};
 
 const config = () => {
   const path = join(root, "shorts.config.json");
@@ -153,6 +173,22 @@ const upload = async (storyArg) => {
 
   writeFileSync(record, JSON.stringify({ videoId: json.id, privacy: cfg.privacy, uploadedAt: new Date().toISOString() }, null, 2));
   console.log(`✓ Uploaded (${cfg.privacy}): https://youtube.com/shorts/${json.id}`);
+  if (story.comment) await postComment(token, json.id, story.comment);
+};
+
+// Posts a question under an already-uploaded Short, found by its YouTube title.
+//   node scripts/youtube.mjs comment stories/<id>.json "Would you open photo six? 👇"
+const comment = async (storyArg, text) => {
+  const story = JSON.parse(readFileSync(join(root, storyArg), "utf8"));
+  const question = text ?? story.comment;
+  if (!question) throw new Error("No comment text: pass one, or add \"comment\" to the story file");
+  const token = await accessToken();
+  const channel = await getJson("https://www.googleapis.com/youtube/v3/channels?part=contentDetails&mine=true", token);
+  const uploads = channel.items[0].contentDetails.relatedPlaylists.uploads;
+  const list = await getJson(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${uploads}`, token);
+  const item = list.items.find((i) => i.snippet.title === story.youtube.title.slice(0, 100));
+  if (!item) throw new Error(`No upload titled "${story.youtube.title}" among the latest 50`);
+  await postComment(token, item.snippet.resourceId.videoId, question);
 };
 
 const getJson = async (url, token, { optional = false } = {}) => {
@@ -238,8 +274,9 @@ try {
   if (command === "auth") await auth();
   else if (command === "upload" && arg) await upload(arg);
   else if (command === "stats") await stats();
+  else if (command === "comment" && arg) await comment(arg, process.argv[4]);
   else {
-    console.error("Usage: node scripts/youtube.mjs auth | upload stories/<id>.json | stats");
+    console.error("Usage: node scripts/youtube.mjs auth | upload stories/<id>.json | stats | comment stories/<id>.json [\"question\"]");
     process.exit(1);
   }
 } catch (err) {

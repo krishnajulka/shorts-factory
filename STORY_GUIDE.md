@@ -44,6 +44,14 @@ high likes) — all share one shape. **Read those three files before writing.**
 5. **Emotion lands harder than cleverness.** Funny (prank karma), creepy (closer each
    time) or bittersweet (snowman) — pick one feeling and commit.
 
+**Comments: every story has a `comment` question** that's posted under the Short right
+after upload. Comments and replies push a Short to more people. A good one:
+- asks something viewers *want* to answer about **this** story: a choice ("Would you
+  open photo six? 👇"), a guess ("What was in the 30th box? 🤔"), or a confession
+  ("Who's the Mia in your family? 😂");
+- is short, one emoji, and never spoils the ending for people reading comments first;
+- is never "like and subscribe", never begs for engagement, never asks for personal info.
+
 **Endings: aim for a reaction.** A punchline people want to share, a creepy last image,
 a lump in the throat, or a question viewers will answer in the comments ("Would you
 open photo six?"). Never end on an explanation.
@@ -165,6 +173,7 @@ log the category with the story.
   "title": "Internal title",
   "youtube": { "title": "≤60 chars with 1-2 emoji", "description": "1-2 lines + #shorts", "tags": ["shorts", "..."] },
   "logline": "Maya hears knocking inside her closet every night; it turns out to be the lonely new kid next door.",  // write this FIRST (40-280 chars)
+  "comment": "Would you knock back at 3:33? 👇",  // posted under the Short right after upload (see Comments)
   "hook": "WHO IS KNOCKING? 🚪",          // on-screen text for the first 3 seconds (8-40 chars)
   "narrator": "brian",                  // brian | george | jessica | liam | callum (ElevenLabs)
   "voice": "Microsoft David Desktop",   // Windows fallback voice (or "Microsoft Zira Desktop")
