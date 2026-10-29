@@ -25,7 +25,8 @@ const LIGHTS = ["day", "dusk", "night", "danger", "gold"];
 const MOODS = ["happy", "sad", "angry", "shock", "smug"];
 const ACTIONS = ["idle", "run", "jump", "bow", "shake", "spin", "grow", "enter", "exit", "float", "faint"];
 const EFFECTS = ["rays", "rain", "speed", "vignette", "confetti", "shake", "snow"];
-const BOTTOMS = ["rings", "plinko", "race", "breakout", "spiral", "territory", "wheel", "corner"];
+// New stories use the clean pastel loops (older neon ones still render for old stories).
+const BOTTOMS = ["soap", "stack", "dominoes"];
 const SFX = ["vineBoom", "recordScratch", "animeWow", "yippee", "bruh", "omgHellNah", "dramaticBoomer", "illuminatiConfirmed", "wilhelmScream", "spongebobFail", "loadingLag", "ohMyGodVine"];
 
 // Returns a list of human-readable problems; empty means the story is valid.

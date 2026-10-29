@@ -2,7 +2,7 @@ import { loadFont } from "@remotion/fonts";
 import { Audio } from "@remotion/media";
 import React, { useMemo } from "react";
 import { AbsoluteFill, CalculateMetadataFunction, Easing, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { BOTTOM_KINDS, Bottom, BottomKind, bottomSounds } from "../satisfying";
+import { Bottom, BottomKind, CLEAN_BOTTOMS, bottomSounds } from "../satisfying";
 import { Captions, chunkStarts } from "./Captions";
 import { ToonDefs } from "./characters";
 import { SceneView, focusPoint } from "./SceneView";
@@ -145,7 +145,7 @@ const HookCard: React.FC<{ text: string }> = ({ text }) => {
 const BottomSounds: React.FC<{ kind: BottomKind; seed: number; racers?: string[] }> = ({ kind, seed, racers }) => {
   const { durationInFrames } = useVideoConfig();
   const sounds = useMemo(() => bottomSounds(kind, durationInFrames, seed, racers), [kind, durationInFrames, seed, racers]);
-  const src = sfx(kind === "race" ? "whip" : kind === "plinko" || kind === "wheel" || kind === "territory" ? "mouseClick" : "ding");
+  const src = sfx(kind === "race" ? "whip" : kind === "soap" ? "whoosh" : ["plinko", "wheel", "territory", "stack", "dominoes"].includes(kind) ? "mouseClick" : "ding");
   const volume = kind === "plinko" ? 0.25 : 0.18;
   return (
     <>
@@ -161,7 +161,7 @@ const BottomSounds: React.FC<{ kind: BottomKind; seed: number; racers?: string[]
 export const StoryShort: React.FC<{ story: RenderStory }> = ({ story }) => {
   const items = layout(story);
   const seed = seedOf(story.id);
-  const bottom = story.bottom ?? BOTTOM_KINDS[seed % BOTTOM_KINDS.length];
+  const bottom = story.bottom ?? CLEAN_BOTTOMS[seed % CLEAN_BOTTOMS.length];
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
       <AbsoluteFill style={{ top: 0, height: STAGE_H, overflow: "hidden" }}>

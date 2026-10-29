@@ -170,8 +170,7 @@ log the category with the story.
   "voice": "Microsoft David Desktop",   // Windows fallback voice (or "Microsoft Zira Desktop")
   "rate": 1,                            // Windows fallback speed; keep 1
   "keywords": ["..."],
-  "bottom": "rings" | "plinko" | "race" | "breakout" | "spiral",   // split-screen loop, see below
-  "racers": ["🐌", "🚀", "..."],        // only for "race": 2-5 emoji, ideally tied to the story
+  "bottom": "soap" | "stack" | "dominoes",   // clean split-screen loop, see below
   "cast": {                             // key -> character, reused across scenes
     "hero": { "species": "pigeon" | "cat" | "frog" | "bean", "color": "#hex (optional)" },
     "rocket": { "emoji": "🚀" }         // ANY emoji can be a character or prop
@@ -217,22 +216,17 @@ Actor:
 
 ## Bottom half (split screen)
 
-The bottom half is a satisfying loop that keeps eyes on screen.
+The bottom half is a clean, satisfying loop that keeps eyes on screen without
+competing with the story: light pastel backgrounds, soft shadows, almost no text.
+New stories must use one of these (the validator enforces it):
 
+- `soap` — a blade slices colorful layered soap bars; slices tip over and fall
+- `stack` — pastel 3D blocks slide in and stack into a rising tower, with "PERFECT!" pops
+- `dominoes` — hundreds of pastel dominoes fall in a winding wave, with a live counter
 
-- `rings` — ball escaping rotating neon rings (shatter + rising dings)
-- `plinko` — balls bouncing down a peg board into bins with counters
-- `race` — 2-5 emoji racing with lead changes and a "WHO WINS? 👇" banner (great comment bait;
-  set `racers` to emoji that relate to the story, e.g. the hero vs. villains)
-- `breakout` — self-playing brick breaker
-- `spiral` — hypnotic morphing color spiral (calm; good for spooky/mystery stories)
-- `territory` — two colors fight for the board, score swings ("WHICH COLOR WINS?")
-- `wheel` — elimination wheel spins and knocks one emoji out per round, last one wins
-  (set `racers` to 3-8 emoji tied to the story for extra fun)
-- `corner` — a bouncing block with near misses that finally hits the exact corner at the end
-
-**Never reuse the previous story's bottom.** Across one day's stories, every bottom must
-be different; prefer the ones used least recently in `stories/LOG.md`.
+**Never reuse the previous story's bottom.** Rotate through all three in order of least
+recently used in `stories/LOG.md`. (Older stories used neon loops — rings, plinko, race,
+breakout, spiral, territory, wheel, corner — which still render but are retired.)
 
 **Every word used in `at`, `until`, `flash`, `stickers`, `drop`, `burst`, `changes` must
 appear in that scene's `text`** (case and punctuation ignored). The validator in

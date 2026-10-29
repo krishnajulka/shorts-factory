@@ -1,18 +1,24 @@
 import React from "react";
 import { Breakout, breakoutSounds } from "./Breakout";
 import { Corner, cornerSounds } from "./Corner";
+import { Dominoes, dominoSounds } from "./Dominoes";
 import { Plinko, plinkoSounds } from "./Plinko";
 import { Race, defaultRacers, raceSounds } from "./Race";
 import { RingEscape } from "./RingEscape";
 import { simulate as simulateRings } from "./ringsSim";
+import { Soap, soapSounds } from "./Soap";
 import { Spiral } from "./Spiral";
+import { Stack, stackSounds } from "./Stack";
 import { Territory, territorySounds } from "./Territory";
 import { Wheel, wheelLineup, wheelSounds } from "./Wheel";
 
 // Bottom-half "satisfying" loops. Each is deterministic for a given seed and
 // reports the frames where it wants a sound (pitch via `rate`).
 
-export const BOTTOM_KINDS = ["rings", "plinko", "race", "breakout", "spiral", "territory", "wheel", "corner"] as const;
+// The clean pastel set used for new stories; the older neon loops stay
+// renderable for stories that already name them.
+export const CLEAN_BOTTOMS = ["soap", "stack", "dominoes"] as const;
+export const BOTTOM_KINDS = [...CLEAN_BOTTOMS, "rings", "plinko", "race", "breakout", "spiral", "territory", "wheel", "corner"] as const;
 export type BottomKind = (typeof BOTTOM_KINDS)[number];
 
 export type BottomSound = { frame: number; rate: number };
@@ -33,6 +39,12 @@ export const Bottom: React.FC<{ kind: BottomKind; seed: number; racers?: string[
       return <Wheel seed={seed} racers={racers} />;
     case "corner":
       return <Corner seed={seed} />;
+    case "soap":
+      return <Soap seed={seed} />;
+    case "stack":
+      return <Stack seed={seed} />;
+    case "dominoes":
+      return <Dominoes seed={seed} />;
     default:
       return <RingEscape seed={seed} />;
   }
@@ -54,6 +66,12 @@ export const bottomSounds = (kind: BottomKind, frames: number, seed: number, rac
       return wheelSounds(frames, seed, wheelLineup(seed, racers).length);
     case "corner":
       return cornerSounds(frames, seed);
+    case "soap":
+      return soapSounds(frames);
+    case "stack":
+      return stackSounds(frames, seed);
+    case "dominoes":
+      return dominoSounds(frames, seed);
     default:
       return simulateRings(frames, seed).breaks.map((b) => ({ frame: b.frame, rate: 0.85 + b.ring * 0.07 }));
   }
