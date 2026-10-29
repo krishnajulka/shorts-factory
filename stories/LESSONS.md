@@ -22,6 +22,12 @@ evidence wins. Cite the stories a lesson comes from.
   sneeze-loop 1,366, ghost-sings 1,281, spider-prank 1,266 (family prank with karma),
   gnome-walks 1,261 (creepy escalation). Common thread: an everyday or childlike
   premise anyone gets in one line, plus a clear stake.
+- **Never repeat a premise:** 2026-10-29-shadow-quits was the same idea as shadow-quit
+  (2026-10-24). Before writing, search LOG.md for the hero and the core idea, not
+  just the category.
+- **The winning formula** (see STORY_GUIDE.md): a counter or deadline that escalates
+  in visible steps, and an ending that pays off that counter (photo-stranger,
+  spider-prank, snowman-spring).
 - **Bottom-half loops don't matter much:** winners are spread across rings, corner,
   breakout, territory, plinko and race. Keep rotating them.
 - **Most viewers decide in the first 1-2 seconds.** Studio showed only 39% "stayed to

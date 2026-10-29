@@ -1,0 +1,381 @@
+{
+  "id": "2026-10-29-bus-stop-dog",
+  "title": "The Dog at the Bus Stop",
+  "youtube": {
+    "title": "He waited at the bus stop for 1,000 days 🐕🚌",
+    "description": "Every day at 3:15, the same old dog. The same bus stop. Day one thousand changed everything. #shorts #story #dog #wholesome",
+    "tags": [
+      "shorts",
+      "story",
+      "dog",
+      "emotional",
+      "wholesome",
+      "animation"
+    ]
+  },
+  "logline": "An old dog waits at the bus stop at 3:15 every day for the boy who grew up and moved away, and on day one thousand the boy, now a man, finally steps off the bus.",
+  "hook": "HE WAITED 1,000 DAYS 🐕",
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": [
+    "fifteen",
+    "dog",
+    "sam",
+    "waited",
+    "hundred",
+    "thousand",
+    "bus",
+    "home",
+    "follow"
+  ],
+  "bottom": "rings",
+  "cast": {
+    "buddy": {
+      "emoji": "🐕",
+      "name": "Buddy"
+    },
+    "kid": {
+      "species": "bean",
+      "color": "#ffb703",
+      "name": "Sam"
+    },
+    "man": {
+      "species": "bean",
+      "color": "#ffb703",
+      "name": "Sam, grown up"
+    },
+    "bus": {
+      "emoji": "🚌"
+    }
+  },
+  "scenes": [
+    {
+      "id": "waits",
+      "text": "Every day at three fifteen, a dog waits. Same bus stop. Same spot.",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "buddy",
+      "effects": [
+        "rays"
+      ],
+      "sfx": "vineBoom",
+      "actors": [
+        {
+          "who": "buddy",
+          "x": 540,
+          "size": 1.3,
+          "action": "idle"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "fifteen",
+          "emoji": "🕒"
+        },
+        {
+          "word": "spot",
+          "emoji": "🐾"
+        }
+      ]
+    },
+    {
+      "id": "boy",
+      "text": "For eight years, a boy named Sam got off that bus and ran straight to him.",
+      "setting": "city",
+      "light": "day",
+      "focus": "kid",
+      "actors": [
+        {
+          "who": "bus",
+          "x": 860,
+          "size": 1.8
+        },
+        {
+          "who": "kid",
+          "x": 700,
+          "toX": 420,
+          "size": 0.85,
+          "mood": "happy",
+          "action": "run",
+          "at": "him"
+        },
+        {
+          "who": "buddy",
+          "x": 220,
+          "size": 0.9,
+          "action": "jump",
+          "face": "left"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "eight",
+          "emoji": "8️⃣"
+        },
+        {
+          "word": "ran",
+          "emoji": "🥰"
+        }
+      ]
+    },
+    {
+      "id": "grew",
+      "text": "Then Sam grew up. And moved to a city far away.",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "man",
+      "actors": [
+        {
+          "who": "man",
+          "x": 540,
+          "size": 1.2,
+          "mood": "sad",
+          "hold": "🧳",
+          "action": "exit",
+          "at": "away"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "grew",
+          "emoji": "🎓"
+        },
+        {
+          "word": "away",
+          "emoji": "✈️"
+        }
+      ]
+    },
+    {
+      "id": "nobody",
+      "text": "Nobody told the dog. So at three fifteen, he waited.",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "buddy",
+      "effects": [
+        "vignette"
+      ],
+      "actors": [
+        {
+          "who": "bus",
+          "x": 1100,
+          "toX": -300,
+          "size": 1.8,
+          "at": "waited"
+        },
+        {
+          "who": "buddy",
+          "x": 540,
+          "size": 1.1,
+          "action": "idle"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "nobody",
+          "emoji": "💔"
+        },
+        {
+          "word": "waited",
+          "emoji": "⏳"
+        }
+      ]
+    },
+    {
+      "id": "rain",
+      "text": "Day one hundred. Rain. He waited.",
+      "setting": "city",
+      "light": "night",
+      "focus": "buddy",
+      "effects": [
+        "rain",
+        "vignette"
+      ],
+      "actors": [
+        {
+          "who": "buddy",
+          "x": 540,
+          "size": 1.1,
+          "action": "shake"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "hundred",
+          "emoji": "💯"
+        }
+      ]
+    },
+    {
+      "id": "snow",
+      "text": "Day five hundred. Snow. His legs were slower now. He still waited.",
+      "setting": "city",
+      "light": "night",
+      "focus": "buddy",
+      "effects": [
+        "snow",
+        "vignette"
+      ],
+      "actors": [
+        {
+          "who": "buddy",
+          "x": 540,
+          "size": 1,
+          "action": "idle"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "snow",
+          "emoji": "❄️"
+        },
+        {
+          "word": "slower",
+          "emoji": "🥺"
+        }
+      ]
+    },
+    {
+      "id": "doors",
+      "text": "Day one thousand. Three fifteen. The bus doors opened.",
+      "setting": "city",
+      "light": "gold",
+      "focus": "bus",
+      "effects": [
+        "rays"
+      ],
+      "sfx": "dramaticBoomer",
+      "flash": "opened",
+      "actors": [
+        {
+          "who": "bus",
+          "x": 1200,
+          "toX": 760,
+          "size": 2,
+          "at": "opened"
+        },
+        {
+          "who": "buddy",
+          "x": 260,
+          "size": 1,
+          "action": "jump",
+          "at": "opened",
+          "face": "left"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "thousand",
+          "emoji": "😳"
+        },
+        {
+          "word": "opened",
+          "emoji": "🚪"
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "text": "A tall man stepped off. He knelt down and whispered: good boy. I'm home.",
+      "setting": "city",
+      "light": "gold",
+      "focus": "man",
+      "effects": [
+        "rays"
+      ],
+      "actors": [
+        {
+          "who": "man",
+          "x": 760,
+          "toX": 560,
+          "size": 1.3,
+          "mood": "happy",
+          "at": "knelt",
+          "action": "bow"
+        },
+        {
+          "who": "buddy",
+          "x": 260,
+          "size": 1,
+          "action": "jump",
+          "at": "home",
+          "face": "left"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "tall",
+          "emoji": "🧍"
+        },
+        {
+          "word": "home",
+          "emoji": "🥹"
+        }
+      ]
+    },
+    {
+      "id": "puppy",
+      "text": "And that old dog ran like a puppy again.",
+      "setting": "beach",
+      "light": "gold",
+      "focus": "buddy",
+      "effects": [
+        "confetti"
+      ],
+      "sfx": "yippee",
+      "actors": [
+        {
+          "who": "buddy",
+          "x": 200,
+          "toX": 600,
+          "size": 1.1,
+          "action": "run",
+          "face": "left"
+        },
+        {
+          "who": "man",
+          "x": 860,
+          "size": 1.1,
+          "face": "left",
+          "mood": "happy",
+          "action": "jump"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "puppy",
+          "emoji": "🐶"
+        }
+      ]
+    },
+    {
+      "id": "follow",
+      "text": "Follow, and hug your dog tonight. Someone is always waiting for you.",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "buddy",
+      "effects": [
+        "rays"
+      ],
+      "actors": [
+        {
+          "who": "buddy",
+          "x": 540,
+          "size": 1.3,
+          "action": "idle"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "follow",
+          "emoji": "👉"
+        },
+        {
+          "word": "waiting",
+          "emoji": "❤️"
+        }
+      ]
+    }
+  ]
+}

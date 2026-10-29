@@ -2,7 +2,7 @@
 
 Each Short is one JSON file in `stories/<id>.json`. `node scripts/make.mjs stories/<id>.json`
 turns it into `out/shorts/<id>/<id>.mp4` (plus preview stills and `upload.txt`).
-**`stories/2026-10-25-closet-knock.json` is the model to beat** for hook and suspense (and `stories/duck-doorstep.json` for twist and feeling) — read them first and notice how they
+**Model stories:** `stories/2026-10-26-photo-stranger.json`, `stories/2026-10-27-snowman-spring.json` and `stories/2026-10-27-spider-prank.json` are our proven winners (see "The winning formula"); `stories/2026-10-25-lunch-thief.json` shows the newest rules. Read them first and notice how they
 uses every technique below. The other stories in `stories/` show more engine features
 but are weaker stories.
 
@@ -16,13 +16,37 @@ was 39% on the first Shorts). The validator enforces the first three rules:
    "WHERE DO YOUR SOCKS GO? 🧦". It must create tension, not summarize.
 2. **First sentence ≤ 10 words, starting inside the conflict.** No setup, no "Once
    upon a time", no names first. "Every night at three thirty three, someone knocks."
-3. **Short: ≤ 115 words of narration total** (about 35-40 s), 7-9 scenes.
+3. **Short: ≤ 135 words of narration total** (about 40-45 s), 7-11 scenes.
 4. **First scene is visually loud:** hero big and moving, a drop/burst/crowd, danger
    light or a dramatic effect. Never a calm establishing shot.
 5. **Re-hook every ~10 seconds** with a turn: "Then the dog wouldn't go near it.",
    "And heard breathing." Each scene must raise a new question or answer one and
    raise a bigger one.
 6. **Don't answer the main question until the last 2 scenes.**
+
+## The winning formula (from this channel's best Shorts)
+
+Our top Shorts by views and by % watched — `2026-10-26-photo-stranger` (86% watched),
+`2026-10-27-snowman-spring` (most views), `2026-10-27-spider-prank` (61% watched,
+high likes) — all share one shape. **Read those three files before writing.**
+
+1. **A counter or a deadline the viewer can track.** Days of the week, "day thirty",
+   "one day left", "photo six". The viewer always knows where we are and feels the
+   next step coming.
+2. **One simple rule that escalates in visible steps.** "One step closer each night."
+   "Shoe → backpack → cereal → pillow." Each scene is the next step, so the story is
+   impossible to get lost in, and each step raises the stakes.
+3. **A turn just before the end** where the pattern breaks ("Mia just yawned",
+   "her phone took a photo by itself").
+4. **A payoff that uses the counter itself** — the punchline *is* the number: "Thirty
+   days, thirty spiders." "A flower grew exactly where he stood." "Follow to see photo
+   six." Endings like this get likes, comments and replays.
+5. **Emotion lands harder than cleverness.** Funny (prank karma), creepy (closer each
+   time) or bittersweet (snowman) — pick one feeling and commit.
+
+**Endings: aim for a reaction.** A punchline people want to share, a creepy last image,
+a lump in the throat, or a question viewers will answer in the comments ("Would you
+open photo six?"). Never end on an explanation.
 
 ## Clarity — viewers must never think "wait, what's going on?"
 

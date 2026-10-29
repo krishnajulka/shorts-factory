@@ -48,7 +48,7 @@ const validate = (story) => {
   const firstLine = (story.scenes?.[0]?.text ?? "").split(/[.!?]/)[0].split(/\s+/).filter(Boolean).length;
   need(firstLine <= 10, `the first sentence of scene 1 must be 10 words or fewer (has ${firstLine}) — the hook has to land in under 2 seconds`);
   const totalWords = (story.scenes ?? []).reduce((n, s) => n + (s.text ?? "").split(/\s+/).filter(Boolean).length, 0);
-  need(totalWords <= 115, `narration is ${totalWords} words; keep it at 115 or fewer (about 40 seconds)`);
+  need(totalWords <= 135, `narration is ${totalWords} words; keep it at 135 or fewer (about 45 seconds)`);
   const ids = new Set();
   for (const s of story.scenes ?? []) {
     const where = `scene "${s.id}"`;

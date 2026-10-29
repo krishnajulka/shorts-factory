@@ -1,9 +1,10 @@
 import { loadFont } from "@remotion/fonts";
 import { Audio } from "@remotion/media";
 import React, { useMemo } from "react";
-import { AbsoluteFill, CalculateMetadataFunction, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, CalculateMetadataFunction, Easing, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { BOTTOM_KINDS, Bottom, BottomKind, bottomSounds } from "../satisfying";
 import { Captions, chunkStarts } from "./Captions";
+import { ToonDefs } from "./characters";
 import { SceneView, focusPoint } from "./SceneView";
 import { STAGE_H, STAGE_W } from "./settings";
 import { Stickers, stickerTimes } from "./Stickers";
@@ -76,19 +77,34 @@ const StoryStage: React.FC<{ scene: RenderScene; cast: Record<string, Character>
   const cy = Math.min(Math.max(STAGE_H / 2 + (fy - STAGE_H / 2) * shot.f, halfH), STAGE_H - halfH);
   const shake = scene.effects?.includes("shake") || scene.effects?.includes("speed") ? Math.sin(frame * 2.1) * 6 : 0;
 
+  // Scene cuts whip-pan in from the right with horizontal motion blur. Never on
+  // the very first scene: frame 0 is what viewers judge before swiping.
+  const cut = index > 0 ? interpolate(frame, [0, WHIP_FRAMES], [1, 0], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) }) : 0;
+  const blurId = `whip-${scene.id}`;
+
   return (
     <svg width={STAGE_W} height={STAGE_H} viewBox={`0 0 ${STAGE_W} ${STAGE_H}`} style={{ display: "block", overflow: "hidden" }}>
-      <g transform={`translate(${STAGE_W / 2 + shake} ${STAGE_H / 2}) rotate(${shot.rot}) scale(${z}) translate(${-cx} ${-cy})`}>
-        <SceneView scene={scene} cast={cast} endSeconds={seconds} />
+      <ToonDefs />
+      <defs>
+        <filter id={blurId} x="-10%" y="0" width="120%" height="100%">
+          <feGaussianBlur stdDeviation={`${cut * 38} 0`} />
+        </filter>
+        <radialGradient id="cine-vignette" cx="0.5" cy="0.45" r="0.8">
+          <stop offset="0.55" stopColor="#000" stopOpacity={0} />
+          <stop offset="1" stopColor="#000" stopOpacity={0.5} />
+        </radialGradient>
+      </defs>
+      <g transform={`translate(${cut * 380} 0)`} filter={cut > 0.01 ? `url(#${blurId})` : undefined}>
+        <g transform={`translate(${STAGE_W / 2 + shake} ${STAGE_H / 2}) rotate(${shot.rot}) scale(${z}) translate(${-cx} ${-cy})`}>
+          <SceneView scene={scene} cast={cast} endSeconds={seconds} />
+        </g>
       </g>
-      {/* Flash on scene cuts — never on the very first frame, which is what
-          viewers judge before swiping. */}
-      {index > 0 ? (
-        <rect width={STAGE_W} height={STAGE_H} fill="#fff" opacity={interpolate(frame, [0, 5], [0.75, 0], { extrapolateRight: "clamp" })} />
-      ) : null}
+      <rect width={STAGE_W} height={STAGE_H} fill="url(#cine-vignette)" />
     </svg>
   );
 };
+
+const WHIP_FRAMES = 7;
 
 const HOOK_SECONDS = 2.8;
 

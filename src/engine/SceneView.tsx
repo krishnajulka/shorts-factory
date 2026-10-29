@@ -125,6 +125,27 @@ const Particles: React.FC<{ kind: "rain" | "snow" | "confetti"; frame: number }>
   </g>
 );
 
+// Always-on atmosphere so no shot looks flat: drifting dust by day, glowing
+// fireflies at night/dusk/danger.
+const Ambient: React.FC<{ frame: number; glow: boolean; color: string }> = ({ frame, glow, color }) => (
+  <g>
+    {new Array(18).fill(0).map((_, i) => {
+      const x = (random(`ax${i}`) * STAGE_W + Math.sin(frame / 40 + i) * 30 + frame * 0.4) % STAGE_W;
+      const y = (random(`ay${i}`) * (STAGE_H - 160) + Math.cos(frame / 33 + i * 2) * 24 - frame * 0.6 + STAGE_H * 4) % (STAGE_H - 120);
+      const r = 3 + random(`ar${i}`) * 5;
+      const twinkle = 0.35 + 0.35 * Math.sin(frame / 9 + i * 1.7);
+      return glow ? (
+        <g key={i} opacity={twinkle + 0.2}>
+          <circle cx={x} cy={y} r={r * 3.2} fill={color} opacity={0.22} />
+          <circle cx={x} cy={y} r={r} fill="#fff8d0" />
+        </g>
+      ) : (
+        <circle key={i} cx={x} cy={y} r={r * 0.7} fill="#fff" opacity={twinkle * 0.5} />
+      );
+    })}
+  </g>
+);
+
 export const SceneView: React.FC<{ scene: RenderScene; cast: Record<string, Character>; endSeconds: number }> = ({ scene, cast, endSeconds }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -146,8 +167,14 @@ export const SceneView: React.FC<{ scene: RenderScene; cast: Record<string, Char
 
   return (
     <g>
-      <Backdrop setting={scene.setting} light={scene.light} scroll={effects.has("speed") ? frame * 28 : 0} id={scene.id} />
+      {/* Slightly soft background (depth of field) so characters pop. */}
+      <g filter="url(#toon-dof)">
+        <Backdrop setting={scene.setting} light={scene.light} scroll={effects.has("speed") ? frame * 28 : 0} id={scene.id} />
+      </g>
       {effects.has("rays") ? <Rays color={palette.glow} spin={t * 25} opacity={0.35} /> : null}
+      {effects.has("rain") || effects.has("snow") || effects.has("confetti") ? null : (
+        <Ambient frame={frame} glow={scene.light !== "day" && scene.light !== "gold"} color={palette.glow} />
+      )}
 
       {scene.crowd && cast[scene.crowd.who]
         ? (() => {
@@ -169,6 +196,7 @@ export const SceneView: React.FC<{ scene: RenderScene; cast: Record<string, Char
                     s={Math.max(sc, 0.001)}
                     mood={crowd.mood ?? "angry"}
                     flip={col > cols / 2}
+                    plain
                   />
                 );
               })
@@ -183,7 +211,7 @@ export const SceneView: React.FC<{ scene: RenderScene; cast: Record<string, Char
         : null}
 
       {actors.map((a, i) => (
-        <CharacterView key={i} character={a.character} x={a.x} y={a.y} s={a.s} flip={a.flip} mood={a.mood} hold={a.hold} hat={a.hat} rot={a.rot} step={a.step} />
+        <CharacterView key={i} character={a.character} x={a.x} y={a.y} s={a.s} flip={a.flip} mood={a.mood} hold={a.hold} hat={a.hat} rot={a.rot} step={a.step} groundY={FEET_Y - (a.spec.lift ?? 0)} />
       ))}
 
       {scene.drop && dropTarget && dropAt !== null && t < dropAt ? (
