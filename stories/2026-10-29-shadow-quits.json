@@ -1,0 +1,101 @@
+{
+  "id": "2026-10-29-shadow-quits",
+  "title": "The Shadow Who Quit",
+  "youtube": {
+    "title": "His shadow QUIT and ran away 🌑🏃",
+    "description": "Tom never went outside, so his shadow left. #shorts #story #funny #wholesome",
+    "tags": ["shorts", "story", "shadow", "funny", "wholesome", "animation"]
+  },
+  "logline": "Tom never goes outside, so his shadow quits and runs away; Tom chases it across town and finds it dancing alone, so he finally joins in.",
+  "hook": "WHERE IS HIS SHADOW? 😱",
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["shadow", "gone", "quit", "outside", "chased", "sunset", "dancing", "wobble", "evening", "follow"],
+  "bottom": "territory",
+  "cast": {
+    "tom": { "species": "bean", "color": "#ffb703", "name": "Tom" },
+    "shadow": { "species": "bean", "color": "#2b2d42", "name": "Shadow" },
+    "note": { "emoji": "📝" }
+  },
+  "scenes": [
+    {
+      "id": "gone", "text": "One morning, Tom woke up. His shadow was gone.",
+      "setting": "room", "light": "danger", "focus": "tom", "effects": ["vignette", "shake"], "sfx": "vineBoom", "flash": "gone",
+      "actors": [{ "who": "tom", "x": 540, "size": 1.5, "mood": "shock", "action": "shake" }],
+      "stickers": [{ "word": "shadow", "emoji": "🌑" }, { "word": "gone", "emoji": "😱" }]
+    },
+    {
+      "id": "note", "text": "On the floor was a note. It said: I quit. You never go outside.",
+      "setting": "room", "light": "day", "focus": "note", "sfx": "recordScratch",
+      "actors": [
+        { "who": "tom", "x": 280, "mood": "sad" },
+        { "who": "note", "x": 760, "size": 1.6, "action": "jump" }
+      ],
+      "stickers": [{ "word": "quit", "emoji": "🚫" }, { "word": "outside", "emoji": "🌳" }]
+    },
+    {
+      "id": "chase", "text": "Through the window, Tom saw it running down the street. He chased it across town.",
+      "setting": "city", "light": "day", "focus": "tom", "effects": ["speed"],
+      "actors": [
+        { "who": "shadow", "x": 800, "toX": 950, "action": "run", "face": "right" },
+        { "who": "tom", "x": 200, "toX": 500, "action": "run", "mood": "angry", "at": "chased" }
+      ],
+      "stickers": [{ "word": "running", "emoji": "🏃" }, { "word": "chased", "emoji": "💨" }]
+    },
+    {
+      "id": "slip", "text": "But it was fast. Every time Tom jumped on it, it slipped away.",
+      "setting": "city", "light": "day", "focus": "tom", "effects": ["speed"], "sfx": "bruh",
+      "actors": [
+        { "who": "shadow", "x": 700, "toX": 960, "action": "run" },
+        { "who": "tom", "x": 250, "mood": "angry", "action": "jump", "at": "jumped" }
+      ],
+      "stickers": [{ "word": "fast", "emoji": "⚡" }, { "word": "slipped", "emoji": "🙈" }]
+    },
+    {
+      "id": "park", "text": "At sunset, Tom found it in the park. Dancing all alone.",
+      "setting": "forest", "light": "dusk", "focus": "shadow", "effects": ["rays"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "shadow", "x": 640, "size": 1.4, "mood": "happy", "action": "spin" },
+        { "who": "tom", "x": 160, "size": 0.9, "mood": "shock", "action": "enter" }
+      ],
+      "stickers": [{ "word": "sunset", "emoji": "🌇" }, { "word": "dancing", "emoji": "💃" }]
+    },
+    {
+      "id": "never", "text": "It looked so happy. And Tom had never danced in his life.",
+      "setting": "forest", "light": "dusk", "focus": "tom", "effects": ["vignette"],
+      "actors": [
+        { "who": "tom", "x": 300, "size": 1.2, "mood": "sad" },
+        { "who": "shadow", "x": 760, "mood": "happy", "action": "jump" }
+      ],
+      "stickers": [{ "word": "happy", "emoji": "😊" }, { "word": "never", "emoji": "🥺" }]
+    },
+    {
+      "id": "try", "text": "So he stepped next to it, and tried. It was terrible.",
+      "setting": "forest", "light": "dusk", "focus": "tom", "sfx": "spongebobFail",
+      "actors": [
+        { "who": "tom", "x": 420, "size": 1.3, "mood": "happy", "action": "spin", "at": "tried" },
+        { "who": "shadow", "x": 700, "face": "left", "mood": "shock" }
+      ],
+      "stickers": [{ "word": "stepped", "emoji": "👣" }, { "word": "terrible", "emoji": "🤪" }]
+    },
+    {
+      "id": "laugh", "text": "The shadow laughed, and copied every single wobble.",
+      "setting": "forest", "light": "gold", "focus": "shadow", "effects": ["rays", "confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "tom", "x": 330, "mood": "happy", "action": "jump" },
+        { "who": "shadow", "x": 750, "face": "left", "mood": "happy", "action": "jump", "at": "copied" }
+      ],
+      "stickers": [{ "word": "laughed", "emoji": "😂" }, { "word": "wobble", "emoji": "🕺" }]
+    },
+    {
+      "id": "evening", "text": "Now they dance every evening. Follow, or your shadow might quit too.",
+      "setting": "city", "light": "gold", "focus": "tom", "effects": ["rays"],
+      "actors": [
+        { "who": "tom", "x": 330, "mood": "smug", "action": "jump" },
+        { "who": "shadow", "x": 750, "face": "left", "mood": "smug", "action": "jump" }
+      ],
+      "stickers": [{ "word": "evening", "emoji": "🌆" }, { "word": "follow", "emoji": "👉" }]
+    }
+  ]
+}

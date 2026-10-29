@@ -31,3 +31,4 @@ and a different bottom than the last 2.
 - 2026-10-28 — 2026-10-28-three-blinks — mini mystery / wholesome — a bus blinks three times outside Ana's window every night; when it stops, a note shows the lonely driver was just saying goodnight to the one kid who answered (room, city) [rings]
 - 2026-10-29 — 2026-10-29-snail-race — underdog competition / clever trick — a snail challenges a cheetah to a race; the rule only says first to the finish line, so he left on Monday and is already sitting there (city, forest, beach) [race]
 - 2026-10-29 — 2026-10-29-cat-cup — fake history / funny reveal — the king's guard cat pushes his milk cup off the table and a tiny mouse falls out, which is why cats push cups (city, room) [breakout]
+- 2026-10-29 — 2026-10-29-shadow-quits — absurd what-if / bittersweet — Tom's shadow quits because he never goes outside; he chases it across town and finds it dancing alone, so he joins in (room, city, forest) [territory]
