@@ -1,0 +1,383 @@
+{
+  "id": "2026-10-30-snow-globe-sign",
+  "title": "The Snow Globe Sign",
+  "youtube": {
+    "title": "She shook her snow globe every night. Day 6: a sign 🔮🪧",
+    "description": "Lina shakes her snow globe every night. The tiny people inside finally had enough. #shorts #story #funny",
+    "tags": [
+      "shorts",
+      "story",
+      "funny",
+      "snowglobe",
+      "animation"
+    ]
+  },
+  "logline": "Lina shakes her snow globe every night, and the tiny people inside get more scared each day until one holds up a sign telling her to stop.",
+  "hook": "THE TINY PEOPLE HAVE A MESSAGE 🔮",
+  "comment": "What would YOUR tiny sign say? 🪧👇",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": [
+    "shook",
+    "snow",
+    "globe",
+    "tiny",
+    "helmet",
+    "rope",
+    "sign",
+    "stop",
+    "sorry",
+    "follow"
+  ],
+  "bottom": "soap",
+  "cast": {
+    "lina": {
+      "species": "bean",
+      "color": "#ff8fab",
+      "name": "Lina"
+    },
+    "globe": {
+      "emoji": "🔮"
+    },
+    "tiny": {
+      "emoji": "🙋"
+    },
+    "helmet": {
+      "emoji": "⛑️"
+    },
+    "sign": {
+      "emoji": "🪧"
+    }
+  },
+  "scenes": [
+    {
+      "id": "shake",
+      "text": "Lina shook her snow globe every night. And every night, something changed.",
+      "setting": "room",
+      "light": "night",
+      "focus": "lina",
+      "effects": [
+        "shake"
+      ],
+      "sfx": "vineBoom",
+      "actors": [
+        {
+          "who": "lina",
+          "x": 300,
+          "size": 1.1,
+          "mood": "happy",
+          "action": "shake",
+          "face": "right"
+        },
+        {
+          "who": "globe",
+          "x": 760,
+          "size": 1.8,
+          "action": "shake"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "shook",
+          "emoji": "💫"
+        },
+        {
+          "word": "changed",
+          "emoji": "😳"
+        }
+      ]
+    },
+    {
+      "id": "d1",
+      "text": "Day one. Inside, one tiny person was waving.",
+      "setting": "room",
+      "light": "night",
+      "focus": "tiny",
+      "actors": [
+        {
+          "who": "globe",
+          "x": 540,
+          "size": 2.4
+        },
+        {
+          "who": "tiny",
+          "x": 540,
+          "size": 0.7,
+          "action": "jump"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "tiny",
+          "emoji": "🙋"
+        },
+        {
+          "word": "waving",
+          "emoji": "👋"
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "text": "Day two. The tiny person wore a helmet.",
+      "setting": "room",
+      "light": "night",
+      "focus": "tiny",
+      "actors": [
+        {
+          "who": "globe",
+          "x": 540,
+          "size": 2.4
+        },
+        {
+          "who": "tiny",
+          "x": 540,
+          "size": 0.7,
+          "hat": "⛑️",
+          "mood": "shock",
+          "action": "shake"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "helmet",
+          "emoji": "⛑️"
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "text": "Day three. Ten tiny people. All holding on tight.",
+      "setting": "room",
+      "light": "night",
+      "focus": "tiny",
+      "crowd": {
+        "who": "tiny",
+        "count": 10,
+        "mood": "shock",
+        "until": "tight"
+      },
+      "actors": [],
+      "stickers": [
+        {
+          "word": "ten",
+          "emoji": "🔟"
+        },
+        {
+          "word": "tight",
+          "emoji": "😰"
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "text": "Day four. They tied themselves down with rope.",
+      "setting": "room",
+      "light": "danger",
+      "focus": "tiny",
+      "effects": [
+        "vignette"
+      ],
+      "actors": [
+        {
+          "who": "globe",
+          "x": 540,
+          "size": 2.4
+        },
+        {
+          "who": "tiny",
+          "x": 540,
+          "size": 0.7,
+          "hold": "🪢",
+          "hat": "⛑️",
+          "mood": "shock",
+          "action": "shake"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "rope",
+          "emoji": "🪢"
+        },
+        {
+          "word": "tied",
+          "emoji": "😨"
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "text": "Day five. Lina saw them waving both arms. She waved back.",
+      "setting": "room",
+      "light": "night",
+      "focus": "lina",
+      "actors": [
+        {
+          "who": "lina",
+          "x": 330,
+          "size": 0.8,
+          "mood": "happy",
+          "action": "jump",
+          "face": "right"
+        },
+        {
+          "who": "globe",
+          "x": 760,
+          "size": 1.4
+        },
+        {
+          "who": "tiny",
+          "x": 760,
+          "size": 0.45,
+          "action": "jump",
+          "face": "left"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "five",
+          "emoji": "5️⃣"
+        },
+        {
+          "word": "waved",
+          "emoji": "👋"
+        }
+      ]
+    },
+    {
+      "id": "d6",
+      "text": "Day six. A tiny sign. Lina squinted. It said: stop shaking us.",
+      "setting": "room",
+      "light": "danger",
+      "focus": "sign",
+      "sfx": "dramaticBoomer",
+      "flash": "stop",
+      "actors": [
+        {
+          "who": "globe",
+          "x": 540,
+          "size": 2.4
+        },
+        {
+          "who": "sign",
+          "x": 540,
+          "size": 0.9,
+          "action": "float"
+        },
+        {
+          "who": "lina",
+          "x": 150,
+          "size": 0.9,
+          "mood": "shock",
+          "face": "right"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "sign",
+          "emoji": "🪧"
+        },
+        {
+          "word": "stop",
+          "emoji": "🛑"
+        }
+      ]
+    },
+    {
+      "id": "sorry",
+      "text": "Lina gasped. She whispered sorry, and set the globe down gently.",
+      "setting": "room",
+      "light": "dusk",
+      "focus": "lina",
+      "actors": [
+        {
+          "who": "lina",
+          "x": 300,
+          "size": 1.2,
+          "mood": "sad",
+          "action": "bow",
+          "at": "sorry",
+          "face": "right"
+        },
+        {
+          "who": "globe",
+          "x": 760,
+          "size": 1.6
+        }
+      ],
+      "stickers": [
+        {
+          "word": "sorry",
+          "emoji": "🥺"
+        },
+        {
+          "word": "gently",
+          "emoji": "🤲"
+        }
+      ]
+    },
+    {
+      "id": "cheer",
+      "text": "That night, the snow fell by itself, soft and slow. The tiny people cheered.",
+      "setting": "room",
+      "light": "gold",
+      "focus": "tiny",
+      "effects": [
+        "snow",
+        "confetti"
+      ],
+      "sfx": "yippee",
+      "crowd": {
+        "who": "tiny",
+        "count": 12,
+        "mood": "happy",
+        "until": "cheered"
+      },
+      "actors": [],
+      "stickers": [
+        {
+          "word": "snow",
+          "emoji": "❄️"
+        },
+        {
+          "word": "cheered",
+          "emoji": "🎉"
+        }
+      ]
+    },
+    {
+      "id": "follow",
+      "text": "Follow, and be kind to your snow globe. Tiny people have signs.",
+      "setting": "room",
+      "light": "dusk",
+      "focus": "globe",
+      "effects": [
+        "rays"
+      ],
+      "actors": [
+        {
+          "who": "globe",
+          "x": 540,
+          "size": 2
+        },
+        {
+          "who": "sign",
+          "x": 540,
+          "size": 0.7,
+          "action": "float"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "follow",
+          "emoji": "👉"
+        },
+        {
+          "word": "signs",
+          "emoji": "🪧"
+        }
+      ]
+    }
+  ]
+}
