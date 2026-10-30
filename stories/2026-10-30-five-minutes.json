@@ -1,0 +1,121 @@
+{
+  "id": "2026-10-30-five-minutes",
+  "title": "Five More Minutes",
+  "youtube": {
+    "title": "Dad said five more minutes. Kiki counted. ⏰😤",
+    "description": "Dad was glued to his phone at the park. Kiki counted every minute, then came the twist. #shorts #story #funny #family",
+    "tags": ["shorts", "story", "funny", "family", "dad", "karma", "animation"]
+  },
+  "logline": "Dad keeps saying five more minutes while stuck on his phone at the park, so Kiki counts the minutes, tricks him into playing, and at sunset he begs her for five more minutes.",
+  "comment": "Whose parent says five more minutes the most? 😂👇",
+  "hook": "DAD SAID FIVE MORE MINUTES ⏰",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["dad", "minutes", "minute", "phone", "pizza", "asleep", "pigeon", "slide", "home", "sunset"],
+  "bottom": "dominoes",
+  "cast": {
+    "kiki": { "species": "bean", "color": "#ff7eb6", "name": "Kiki" },
+    "dad": { "species": "bean", "color": "#4d96ff", "name": "Dad" },
+    "phone": { "emoji": "📱" },
+    "pizza": { "emoji": "🍕" },
+    "bird": { "emoji": "🐦" },
+    "slide": { "emoji": "🛝" }
+  },
+  "scenes": [
+    {
+      "id": "five", "text": "Dad said, five more minutes. Kiki started counting.",
+      "setting": "city", "light": "day", "focus": "kiki", "effects": ["vignette"], "sfx": "vineBoom", "flash": "counting",
+      "actors": [
+        { "who": "dad", "x": 760, "size": 1.3, "face": "left", "mood": "smug", "hold": "📱" },
+        { "who": "kiki", "x": 260, "size": 1.3, "mood": "angry", "action": "jump" }
+      ],
+      "stickers": [{ "word": "minutes", "emoji": "⏰" }, { "word": "counting", "emoji": "🔢" }]
+    },
+    {
+      "id": "m1", "text": "Minute one. Dad scrolled his phone and laughed.",
+      "setting": "city", "light": "day", "focus": "dad",
+      "actors": [
+        { "who": "dad", "x": 700, "size": 1.3, "face": "left", "mood": "happy", "hold": "📱", "action": "shake" },
+        { "who": "kiki", "x": 260, "size": 1.1, "mood": "sad" }
+      ],
+      "stickers": [{ "word": "one", "emoji": "1️⃣" }, { "word": "phone", "emoji": "📱" }]
+    },
+    {
+      "id": "m2", "text": "Minute two. Dad ordered a pizza. Just for himself.",
+      "setting": "city", "light": "day", "focus": "dad",
+      "actors": [
+        { "who": "dad", "x": 640, "size": 1.3, "face": "left", "mood": "happy", "hold": "📱" },
+        { "who": "pizza", "x": 880, "size": 1.4, "action": "float" },
+        { "who": "kiki", "x": 240, "size": 1.1, "mood": "angry", "action": "shake" }
+      ],
+      "stickers": [{ "word": "two", "emoji": "2️⃣" }, { "word": "pizza", "emoji": "🍕" }]
+    },
+    {
+      "id": "m3", "text": "Minute three. Dad fell asleep. A pigeon landed on his head.",
+      "setting": "city", "light": "dusk", "focus": "dad", "sfx": "spongebobFail",
+      "actors": [
+        { "who": "dad", "x": 700, "size": 1.1, "face": "left", "mood": "sad", "hat": "🐦", "action": "shake", "at": "asleep" },
+        { "who": "kiki", "x": 260, "size": 1.1, "mood": "shock" }
+      ],
+      "stickers": [{ "word": "asleep", "emoji": "😴" }, { "word": "pigeon", "emoji": "🐦" }]
+    },
+    {
+      "id": "m4", "text": "Minute four. Kiki hid his phone at the top of the slide.",
+      "setting": "city", "light": "day", "focus": "kiki",
+      "actors": [
+        { "who": "slide", "x": 760, "size": 2 },
+        { "who": "phone", "x": 760, "lift": 320, "size": 1, "action": "shake" },
+        { "who": "kiki", "x": 300, "size": 1.3, "mood": "smug", "hold": "📱", "action": "run" }
+      ],
+      "stickers": [{ "word": "four", "emoji": "4️⃣" }, { "word": "slide", "emoji": "🛝" }]
+    },
+    {
+      "id": "m5", "text": "Minute five. Dad woke up, and shouted: where is my phone?",
+      "setting": "city", "light": "day", "focus": "dad", "effects": ["shake"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "dad", "x": 640, "size": 1.5, "mood": "shock", "action": "jump" },
+        { "who": "kiki", "x": 220, "size": 1.1, "mood": "smug" }
+      ],
+      "stickers": [{ "word": "five", "emoji": "5️⃣" }, { "word": "phone", "emoji": "❓" }]
+    },
+    {
+      "id": "climb", "text": "Kiki said, come get it. So Dad climbed the slide.",
+      "setting": "city", "light": "day", "focus": "dad",
+      "actors": [
+        { "who": "slide", "x": 760, "size": 2 },
+        { "who": "phone", "x": 760, "lift": 320, "size": 1 },
+        { "who": "dad", "x": 380, "toX": 700, "size": 1.2, "mood": "angry", "action": "run" },
+        { "who": "kiki", "x": 180, "size": 1, "mood": "happy", "action": "jump" }
+      ],
+      "stickers": [{ "word": "climbed", "emoji": "🧗" }, { "word": "slide", "emoji": "🛝" }]
+    },
+    {
+      "id": "play", "text": "Then he slid. He swung. Dad became the loudest kid at the park.",
+      "setting": "city", "light": "gold", "focus": "dad", "effects": ["confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "dad", "x": 700, "size": 1.4, "face": "left", "mood": "happy", "action": "jump" },
+        { "who": "kiki", "x": 260, "size": 1.2, "mood": "happy", "action": "jump" }
+      ],
+      "stickers": [{ "word": "slid", "emoji": "🛝" }, { "word": "loudest", "emoji": "📣" }]
+    },
+    {
+      "id": "sunset", "text": "Then the sun went down. Kiki said, time to go home.",
+      "setting": "city", "light": "dusk", "focus": "kiki", "effects": ["rays"],
+      "actors": [
+        { "who": "kiki", "x": 260, "size": 1.2, "mood": "smug" },
+        { "who": "dad", "x": 760, "size": 1.3, "face": "left", "mood": "sad" }
+      ],
+      "stickers": [{ "word": "sun", "emoji": "🌇" }, { "word": "home", "emoji": "🏠" }]
+    },
+    {
+      "id": "loop", "text": "Dad said, five more minutes. Kiki sat down and started counting.",
+      "setting": "city", "light": "dusk", "focus": "dad", "sfx": "recordScratch",
+      "actors": [
+        { "who": "dad", "x": 740, "size": 1.4, "face": "left", "mood": "happy", "action": "jump" },
+        { "who": "kiki", "x": 260, "size": 1.2, "mood": "smug", "action": "bow", "at": "counting" }
+      ],
+      "stickers": [{ "word": "minutes", "emoji": "⏰" }, { "word": "counting", "emoji": "😏" }]
+    }
+  ]
+}

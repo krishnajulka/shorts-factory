@@ -36,3 +36,4 @@ and a different bottom than the last 2.
 - 2026-10-29 — 2026-10-29-bus-stop-dog — bittersweet / emotional reunion — an old dog waits at the bus stop at 3:15 for 1,000 days until the boy, now grown, steps off (city, beach) [dominoes]
 - 2026-10-30 — 2026-10-30-tooth-fairy-traps — heist / scheme-to-wholesome — Leo sets four traps for the Tooth Fairy, then leaves a note asking what she does with teeth; she builds a castle from them (room) [soap]
 - 2026-10-30 — 2026-10-30-scarecrow-nest — absurd what-if / wholesome — Stu the scarecrow must scare crows, but a crow nests on his hat and he stands still all snowy night to keep three eggs warm (forest) [stack]
+- 2026-10-30 — 2026-10-30-five-minutes — family comedy / funny reveal (role reversal) — Dad says five more minutes at the park; Kiki counts five minutes, hides his phone up the slide, he plays, then at sunset he begs for five more minutes (city) [dominoes]
