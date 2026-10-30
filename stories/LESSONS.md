@@ -8,7 +8,7 @@ evidence wins. Cite the stories a lesson comes from.
 
 ## From the numbers
 
-(Updated 2026-10-29 from STATS.md, 25 Shorts, 19 subscribers.)
+(Updated 2026-10-30. Cloud stats failed again (insufficient scopes), so numbers are still from the 2026-10-29 refresh: 25 Shorts, 19 subscribers. No new conclusions this run.)
 
 - **The 8 PM India slot (~14:50 UTC upload) flops every time — 5 out of 5:** pell-vanishes
   9 views, grandma-chair 21, clock-snaps 7, three-blinks 2, haunted-garage 0. Most 8 AM /
@@ -42,9 +42,9 @@ evidence wins. Cite the stories a lesson comes from.
 - **Two Shorts uploaded in the same minute both flopped** (closet-knock 5 views and
   sock-escape 2, both uploaded 2026-10-24 18:56 UTC). Hypothesis: never upload
   back-to-back; keep at least 2 hours between uploads. Needs more evidence.
-- **Cloud stats still fail** because the cloud's YOUTUBE_REFRESH_TOKEN is the old one
+- **Cloud stats and comment posting still fail (2026-10-30)** because the cloud's YOUTUBE_REFRESH_TOKEN is the old one
   without read access. Stats work from the PC (refreshed 2026-10-29); the user has to
-  paste the new token into the cloud environment. ElevenLabs credits are used up, so
+  re-run `node scripts/youtube.mjs auth` and paste the new token into the cloud environment. ElevenLabs credits are used up, so
   the Piper voice is in use and narrator choice has no effect right now.
 - Hypothesis (untested): relatable family/everyday premises with a visual-gag twist (grandma-chair, sneeze-loop) may fit the winners; check grandma-chair's views once stats work.
 - Hypothesis (1 data point): lunch-thief was never uploaded, so it has no data.
