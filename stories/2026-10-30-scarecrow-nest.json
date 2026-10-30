@@ -1,0 +1,178 @@
+{
+  "id": "2026-10-30-scarecrow-nest",
+  "title": "The Scarecrow Who Failed",
+  "youtube": {
+    "title": "The scarecrow had ONE job: scare crows 🐦🌾",
+    "description": "Stu the scarecrow had one job. He failed three times. Best failure ever. #shorts #story #scarecrow #wholesome",
+    "tags": ["shorts", "story", "scarecrow", "wholesome", "funny", "animation"]
+  },
+  "logline": "Stu the scarecrow is told to scare every crow, but a crow nests on his hat, and when snow comes he stands perfectly still all night to keep her eggs warm.",
+  "hook": "ONE JOB: SCARE CROWS 🐦",
+  "comment": "Would you have kept the eggs warm? 🥚👇",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["scarecrow", "crows", "nest", "egg", "eggs", "snow", "still", "crack", "job"],
+  "bottom": "stack",
+  "cast": {
+    "stu": { "species": "bean", "color": "#c98a3a", "name": "Stu" },
+    "crow": { "emoji": "🐦‍⬛" },
+    "egg": { "emoji": "🥚" },
+    "chick": { "emoji": "🐥" }
+  },
+  "scenes": [
+    {
+      "id": "job",
+      "text": "Stu the scarecrow had one job: scare crows. He was terrible at it.",
+      "setting": "forest",
+      "light": "day",
+      "focus": "stu",
+      "effects": ["rays"],
+      "sfx": "vineBoom",
+      "actors": [
+        { "who": "stu", "x": 540, "size": 1.5, "mood": "angry", "action": "shake" },
+        { "who": "crow", "x": 140, "toX": 380, "lift": 160, "size": 0.8, "action": "run" }
+      ],
+      "stickers": [
+        { "word": "job", "emoji": "💼" },
+        { "word": "terrible", "emoji": "😬" }
+      ]
+    },
+    {
+      "id": "land",
+      "text": "He waved his arms. He shouted boo. A crow landed right on his hat.",
+      "setting": "forest",
+      "light": "day",
+      "focus": "stu",
+      "actors": [
+        { "who": "stu", "x": 540, "size": 1.4, "mood": "shock", "action": "shake" },
+        { "who": "crow", "x": 540, "size": 0.6, "lift": 330, "action": "enter", "at": "landed" }
+      ],
+      "stickers": [
+        { "word": "boo", "emoji": "👻" },
+        { "word": "hat", "emoji": "🎩" }
+      ]
+    },
+    {
+      "id": "nest",
+      "text": "Day two. She built a nest in his hat. Stu could not move. He was stuffed with straw.",
+      "setting": "forest",
+      "light": "day",
+      "focus": "stu",
+      "actors": [
+        { "who": "stu", "x": 540, "size": 1.4, "mood": "angry" },
+        { "who": "crow", "x": 540, "size": 0.6, "lift": 330, "action": "jump" }
+      ],
+      "stickers": [
+        { "word": "nest", "emoji": "🪹" },
+        { "word": "straw", "emoji": "🌾" }
+      ]
+    },
+    {
+      "id": "egg1",
+      "text": "Day five. One egg. Day six. Two eggs. Stu grumbled. But he stopped waving.",
+      "setting": "forest",
+      "light": "dusk",
+      "focus": "stu",
+      "actors": [
+        { "who": "stu", "x": 540, "size": 1.4, "mood": "sad" },
+        { "who": "egg", "x": 400, "lift": 330, "size": 0.5 },
+        { "who": "egg", "x": 680, "lift": 330, "size": 0.5, "action": "enter", "at": "Two" }
+      ],
+      "stickers": [
+        { "word": "One", "emoji": "1️⃣" },
+        { "word": "Two", "emoji": "2️⃣" }
+      ]
+    },
+    {
+      "id": "egg3",
+      "text": "Day seven. Three eggs. Then the sky turned white. It started to snow.",
+      "setting": "forest",
+      "light": "night",
+      "focus": "stu",
+      "effects": ["snow", "vignette"],
+      "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "stu", "x": 540, "size": 1.4, "mood": "shock" },
+        { "who": "egg", "x": 400, "lift": 330, "size": 0.45 },
+        { "who": "egg", "x": 540, "lift": 360, "size": 0.45 },
+        { "who": "egg", "x": 680, "lift": 330, "size": 0.45 }
+      ],
+      "stickers": [
+        { "word": "Three", "emoji": "3️⃣" },
+        { "word": "snow", "emoji": "❄️" }
+      ]
+    },
+    {
+      "id": "cold",
+      "text": "The mama crow flew off to find food. The eggs began to get cold.",
+      "setting": "forest",
+      "light": "night",
+      "focus": "stu",
+      "effects": ["snow", "vignette"],
+      "actors": [
+        { "who": "stu", "x": 540, "size": 1.4, "mood": "sad" },
+        { "who": "crow", "x": 540, "toX": 1200, "lift": 400, "size": 0.6, "action": "run", "at": "off" },
+        { "who": "egg", "x": 540, "lift": 340, "size": 0.6, "action": "shake" }
+      ],
+      "stickers": [
+        { "word": "food", "emoji": "🍽️" },
+        { "word": "cold", "emoji": "🥶" }
+      ]
+    },
+    {
+      "id": "still",
+      "text": "So Stu stood perfectly still. All night. Snow piled on his shoulders. Not one egg got cold.",
+      "setting": "forest",
+      "light": "night",
+      "focus": "stu",
+      "effects": ["snow", "vignette"],
+      "actors": [
+        { "who": "stu", "x": 540, "size": 1.5, "mood": "happy" },
+        { "who": "egg", "x": 540, "lift": 350, "size": 0.6 }
+      ],
+      "stickers": [
+        { "word": "still", "emoji": "🧍" },
+        { "word": "cold", "emoji": "🔥" }
+      ]
+    },
+    {
+      "id": "crack",
+      "text": "Morning. Crack. Crack. Crack. Three tiny crows peeked out and chirped at him.",
+      "setting": "forest",
+      "light": "gold",
+      "focus": "stu",
+      "effects": ["rays", "confetti"],
+      "sfx": "yippee",
+      "flash": "Morning",
+      "actors": [
+        { "who": "stu", "x": 540, "size": 1.5, "mood": "happy" },
+        { "who": "chick", "x": 420, "lift": 270, "size": 0.45, "action": "jump" },
+        { "who": "chick", "x": 540, "lift": 300, "size": 0.45, "action": "jump" },
+        { "who": "chick", "x": 660, "lift": 270, "size": 0.45, "action": "jump" }
+      ],
+      "stickers": [
+        { "word": "Crack", "emoji": "🐣" },
+        { "word": "chirped", "emoji": "🎶" }
+      ]
+    },
+    {
+      "id": "end",
+      "text": "Stu had one job. Scare crows. He failed three times. Best failure ever. Follow. Stu is staying put.",
+      "setting": "forest",
+      "light": "gold",
+      "focus": "stu",
+      "effects": ["rays"],
+      "actors": [
+        { "who": "stu", "x": 540, "size": 1.5, "mood": "happy" },
+        { "who": "chick", "x": 420, "lift": 270, "size": 0.45 },
+        { "who": "chick", "x": 540, "lift": 300, "size": 0.45 },
+        { "who": "chick", "x": 660, "lift": 270, "size": 0.45 }
+      ],
+      "stickers": [
+        { "word": "failed", "emoji": "🏆" },
+        { "word": "Follow", "emoji": "👉" }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@ evidence wins. Cite the stories a lesson comes from.
 
 ## From the numbers
 
-(Updated 2026-10-30. Cloud stats failed again (insufficient scopes), so numbers are still from the 2026-10-29 refresh: 25 Shorts, 19 subscribers. No new conclusions this run.)
+(Updated 2026-10-30, 2nd run. Cloud stats still fail (insufficient scopes); numbers are from the 2026-10-29 refresh. No new conclusions.)
 
 - **The 8 PM India slot (~14:50 UTC upload) flops every time — 5 out of 5:** pell-vanishes
   9 views, grandma-chair 21, clock-snaps 7, three-blinks 2, haunted-garage 0. Most 8 AM /

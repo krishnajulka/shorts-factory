@@ -35,3 +35,4 @@ and a different bottom than the last 2.
 - 2026-10-29 — 2026-10-29-haunted-garage — scheme / karma funny reveal — Ben charges a coin for a fake haunted garage; a real ghost buys a ticket, scares him out and takes the coin jar as his fee (room, city) [plinko]
 - 2026-10-29 — 2026-10-29-bus-stop-dog — bittersweet / emotional reunion — an old dog waits at the bus stop at 3:15 for 1,000 days until the boy, now grown, steps off (city, beach) [dominoes]
 - 2026-10-30 — 2026-10-30-tooth-fairy-traps — heist / scheme-to-wholesome — Leo sets four traps for the Tooth Fairy, then leaves a note asking what she does with teeth; she builds a castle from them (room) [soap]
+- 2026-10-30 — 2026-10-30-scarecrow-nest — absurd what-if / wholesome — Stu the scarecrow must scare crows, but a crow nests on his hat and he stands still all snowy night to keep three eggs warm (forest) [stack]
