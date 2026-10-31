@@ -38,3 +38,4 @@ and a different bottom than the last 2.
 - 2026-10-30 — 2026-10-30-scarecrow-nest — absurd what-if / wholesome — Stu the scarecrow must scare crows, but a crow nests on his hat and he stands still all snowy night to keep three eggs warm (forest) [stack]
 - 2026-10-30 — 2026-10-30-five-minutes — family comedy / funny reveal (role reversal) — Dad says five more minutes at the park; Kiki counts five minutes, hides his phone up the slide, he plays, then at sunset he begs for five more minutes (city) [dominoes]
 - 2026-10-30 — 2026-10-30-snow-globe-sign — object with a secret life / funny reveal — Lina shakes her snow globe nightly; the tiny people inside grow more scared each day until one holds up a sign: stop shaking us (room) [soap]
+- 2026-10-31 — 2026-10-31-forgot-acorns — absurd what-if / bittersweet — Sam the squirrel buries 100 acorns, forgets where, digs up only junk all winter; in spring a hundred new trees surround him (forest, city) [stack]

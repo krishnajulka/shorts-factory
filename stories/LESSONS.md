@@ -8,7 +8,7 @@ evidence wins. Cite the stories a lesson comes from.
 
 ## From the numbers
 
-(Updated 2026-10-30, 4th run (snow-globe-sign uploaded; stats still blocked by insufficient scopes, no new data). Cloud stats still fail (insufficient scopes); numbers are from the 2026-10-29 refresh. No new conclusions. Hypothesis: today's runs (tooth-fairy-traps, scarecrow-nest, five-minutes) have no data yet.)
+(Updated 2026-10-31, 8 AM run (forgot-acorns uploaded). Stats still blocked (insufficient scopes), so numbers are from the 2026-10-29 refresh and no lessons changed. Hypothesis: 2026-10-30 stories and snail-race/cat-cup/shadow-quits have no 24h+ data yet; the 8 AM slot pattern is still untested for this run.)
 
 - **The 8 PM India slot (~14:50 UTC upload) flops every time — 5 out of 5:** pell-vanishes
   9 views, grandma-chair 21, clock-snaps 7, three-blinks 2, haunted-garage 0. Most 8 AM /

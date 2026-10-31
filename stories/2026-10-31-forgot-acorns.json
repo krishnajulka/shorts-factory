@@ -1,0 +1,98 @@
+{
+  "id": "2026-10-31-forgot-acorns",
+  "title": "Sam Forgot a Hundred Acorns",
+  "youtube": {
+    "title": "He buried 100 acorns. Then forgot where. 🐿️🌳",
+    "description": "Sam the squirrel dug and dug all winter and found nothing. Then spring came. #shorts #story #animals #wholesome",
+    "tags": ["shorts", "story", "squirrel", "animals", "bittersweet", "animation"]
+  },
+  "logline": "Sam the squirrel buries one hundred acorns and forgets where, so he digs all winter and finds only junk; in spring he wakes up inside a forest of one hundred new trees.",
+  "comment": "What would you have found in Sam's holes? 👇",
+  "hook": "HE FORGOT 100 ACORNS 🐿️",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["acorns", "forgot", "dug", "nothing", "sock", "boot", "winter", "spring", "trees", "forest", "hundred"],
+  "bottom": "stack",
+  "cast": {
+    "sam": { "emoji": "🐿️", "name": "Sam" },
+    "acorn": { "emoji": "🌰" },
+    "sock": { "emoji": "🧦" },
+    "boot": { "emoji": "🥾" },
+    "tree": { "emoji": "🌳" },
+    "sprout": { "emoji": "🌱" }
+  },
+  "scenes": [
+    {
+      "id": "buried", "text": "Sam buried one hundred acorns. Then he forgot where.",
+      "setting": "forest", "light": "day", "focus": "sam", "sfx": "vineBoom", "flash": "forgot", "burst": { "at": "buried", "emoji": "🌰" },
+      "actors": [
+        { "who": "sam", "x": 540, "size": 1.6, "mood": "shock", "action": "jump", "face": "left" }
+      ],
+      "stickers": [{ "word": "hundred", "emoji": "💯" }, { "word": "forgot", "emoji": "🤯" }]
+    },
+    {
+      "id": "dig1", "text": "Winter came. Sam dug under the bench. Nothing. Under the slide. Nothing.",
+      "setting": "city", "light": "dusk", "focus": "sam", "effects": ["snow"],
+      "actors": [
+        { "who": "sam", "x": 400, "size": 1.3, "mood": "sad", "action": "jump", "face": "left" }
+      ],
+      "stickers": [{ "word": "winter", "emoji": "❄️" }, { "word": "Nothing", "emoji": "🕳️" }]
+    },
+    {
+      "id": "junk", "text": "Day ten, he dug up a sock. Day thirty, a boot. Still no acorns.",
+      "setting": "city", "light": "dusk", "focus": "sam", "effects": ["snow"],
+      "actors": [
+        { "who": "sam", "x": 300, "size": 1.2, "mood": "angry", "action": "jump", "face": "left" },
+        { "who": "sock", "x": 620, "size": 1, "action": "shake", "at": "sock" },
+        { "who": "boot", "x": 840, "size": 1.2, "action": "shake", "at": "boot" }
+      ],
+      "stickers": [{ "word": "sock", "emoji": "🧦" }, { "word": "boot", "emoji": "🥾" }]
+    },
+    {
+      "id": "cold", "text": "Day ninety nine. Sam was cold, thin and hungry. He still found nothing.",
+      "setting": "forest", "light": "night", "focus": "sam", "effects": ["snow", "vignette"],
+      "actors": [
+        { "who": "sam", "x": 540, "size": 1.1, "mood": "sad", "action": "shake", "face": "left" }
+      ],
+      "stickers": [{ "word": "hungry", "emoji": "😭" }, { "word": "ninety", "emoji": "9️⃣" }]
+    },
+    {
+      "id": "giveup", "text": "On day one hundred, he gave up. He curled up under a tree stump and slept.",
+      "setting": "forest", "light": "night", "focus": "sam", "effects": ["snow"], "sfx": "recordScratch",
+      "actors": [
+        { "who": "sam", "x": 540, "size": 1, "mood": "sad", "action": "faint", "at": "slept", "face": "left" }
+      ],
+      "stickers": [{ "word": "gave", "emoji": "🏳️" }, { "word": "slept", "emoji": "😴" }]
+    },
+    {
+      "id": "spring", "text": "Spring came. Sam woke up and rubbed his eyes. Something was very different.",
+      "setting": "forest", "light": "gold", "focus": "sam", "effects": ["rays"], "sfx": "animeWow",
+      "actors": [
+        { "who": "sam", "x": 300, "size": 1.3, "mood": "shock", "action": "bow", "at": "woke", "face": "left" },
+        { "who": "sprout", "x": 650, "size": 1.2 },
+        { "who": "sprout", "x": 820, "size": 1.2 },
+        { "who": "sprout", "x": 960, "size": 1.2 }
+      ],
+      "stickers": [{ "word": "Spring", "emoji": "🌸" }, { "word": "different", "emoji": "❓" }]
+    },
+    {
+      "id": "trees", "text": "A hundred little trees stood around him. One for every lost acorn.",
+      "setting": "forest", "light": "gold", "focus": "sam", "effects": ["rays", "confetti"], "sfx": "yippee",
+      "crowd": { "who": "tree", "count": 40, "mood": "happy", "until": "acorn" },
+      "actors": [
+        { "who": "sam", "x": 540, "size": 1.4, "mood": "happy", "action": "jump", "face": "left" }
+      ],
+      "stickers": [{ "word": "hundred", "emoji": "💯" }, { "word": "acorn", "emoji": "🌰" }]
+    },
+    {
+      "id": "end", "text": "Sam forgot a hundred acorns, and grew a forest. Follow, so he never forgets another one.",
+      "setting": "forest", "light": "gold", "focus": "sam", "effects": ["confetti"],
+      "crowd": { "who": "tree", "count": 24, "mood": "happy", "until": "forest" },
+      "actors": [
+        { "who": "sam", "x": 540, "size": 1.3, "mood": "happy", "hat": "🌰", "action": "spin", "at": "forest", "face": "left" }
+      ],
+      "stickers": [{ "word": "forest", "emoji": "🌳" }, { "word": "Follow", "emoji": "👉" }]
+    }
+  ]
+}
