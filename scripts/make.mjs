@@ -45,12 +45,16 @@ const validate = (story) => {
   need((story.scenes?.length ?? 0) >= 5, "need at least 5 scenes");
   need(typeof story.logline === "string" && story.logline.length >= 40 && story.logline.length <= 280, "logline (who wants what, what goes wrong, the twist — in plain words) is required, 40-280 characters");
   need(typeof story.comment === "string" && story.comment.length >= 15 && story.comment.length <= 150 && story.comment.includes("?"), "comment (a question posted under the Short to get replies, 15-150 characters, must contain a ?) is required");
+  if (story.series) {
+    need(typeof story.series.name === "string" && Number.isInteger(story.series.part) && story.series.part >= 2, "series needs { name, part } with part 2 or higher");
+    need(story.youtube?.title?.trim().endsWith(`(Part ${story.series.part})`), `series episodes need a YouTube title ending with "(Part ${story.series?.part})"`);
+  }
   // Retention: an on-screen hook from frame 0, a short first line, a short Short.
   need(typeof story.hook === "string" && story.hook.length >= 8 && story.hook.length <= 40, "hook (on-screen text for the first 3s) is required, 8-40 characters");
   const firstLine = (story.scenes?.[0]?.text ?? "").split(/[.!?]/)[0].split(/\s+/).filter(Boolean).length;
   need(firstLine <= 10, `the first sentence of scene 1 must be 10 words or fewer (has ${firstLine}) — the hook has to land in under 2 seconds`);
   const totalWords = (story.scenes ?? []).reduce((n, s) => n + (s.text ?? "").split(/\s+/).filter(Boolean).length, 0);
-  need(totalWords <= 135, `narration is ${totalWords} words; keep it at 135 or fewer (about 45 seconds)`);
+  need(totalWords <= 100, `narration is ${totalWords} words; keep it at 100 or fewer (about 25-35 seconds)`);
   const ids = new Set();
   for (const s of story.scenes ?? []) {
     const where = `scene "${s.id}"`;
@@ -102,17 +106,20 @@ if (errors.length) {
 console.log(`✓ ${spec.id} is valid`);
 
 // Voice chain so a Short always gets made: ElevenLabs (when a key is set and
-// it has credits) → Piper, a free offline voice (Windows and the cloud) → the
-// Windows voice as a last resort on a PC. Exit 4 = no voice at all.
+// it has credits) → Kokoro, a free natural-sounding voice → Piper, a free
+// robotic one → the Windows voice as a last resort on a PC. Exit 4 = no voice.
 const storyArgPath = relative(root, storyPath);
 const windowsVoice = () => {
   if (process.platform !== "win32") {
-    console.error("✗ No voice available: ElevenLabs and Piper both failed. Skipping this Short.");
+    console.error("✗ No voice available: ElevenLabs, Kokoro and Piper all failed. Skipping this Short.");
     process.exit(4);
   }
   run("powershell", ["-ExecutionPolicy", "Bypass", "-File", "scripts/voiceover.ps1", "-StoryPath", storyArgPath]);
 };
 const freeVoice = () => {
+  const kokoro = spawnSync("node", ["scripts/voiceover-kokoro.mjs", storyArgPath], { cwd: root, stdio: "inherit" });
+  if (kokoro.status === 0) return;
+  console.warn("⚠ Kokoro voice failed — trying the Piper voice");
   const piper = spawnSync("node", ["scripts/voiceover-piper.mjs", storyArgPath], { cwd: root, stdio: "inherit" });
   if (piper.status !== 0) {
     console.warn("⚠ Piper voice failed — trying the Windows voice");
@@ -126,7 +133,7 @@ if (process.argv.includes("--windows-voice")) {
 } else {
   const eleven = spawnSync("node", ["scripts/voiceover-elevenlabs.mjs", storyArgPath], { cwd: root, stdio: "inherit" });
   if (eleven.status === 2) {
-    console.warn("⚠ ElevenLabs unavailable (out of credits or key problem) — using the free Piper voice");
+    console.warn("⚠ ElevenLabs unavailable (out of credits or key problem) — using the free Kokoro voice");
     freeVoice();
   } else if (eleven.status !== 0) {
     process.exit(eleven.status ?? 1);

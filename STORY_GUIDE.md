@@ -16,7 +16,7 @@ was 39% on the first Shorts). The validator enforces the first three rules:
    "WHERE DO YOUR SOCKS GO? 🧦". It must create tension, not summarize.
 2. **First sentence ≤ 10 words, starting inside the conflict.** No setup, no "Once
    upon a time", no names first. "Every night at three thirty three, someone knocks."
-3. **Short: ≤ 135 words of narration total** (about 40-45 s), 7-11 scenes.
+3. **Short: ≤ 100 words of narration total** (about 25-35 s), 6-9 scenes. Our best holders are the short ones (snail-race 77% watched at ~25 s; grandma-chair 114%, i.e. rewatched).
 4. **First scene is visually loud:** hero big and moving, a drop/burst/crowd, danger
    light or a dramatic effect. Never a calm establishing shot.
 5. **Re-hook every ~10 seconds** with a turn: "Then the dog wouldn't go near it.",
@@ -97,7 +97,7 @@ events in a row are not a story. Use all of these:
    along; the victim was the villain; it was happening to the viewer too.
 6. **One genuine feeling.** Funny, sad, wholesome, creepy — pick one and land it. A
    story that makes you *feel* something gets shared.
-7. **Loop ending.** Make the final line flow back into the first line so a replay feels
+7. **Loop ending (required).** Make the final line flow back into the first line so a replay feels
    seamless ("...someone else gets the first duck." → "For 400 days, someone left one
    rubber duck..."). Replays boost the algorithm.
 8. **Earned call-to-action.** Fold "follow" into the last line in a way that fits the
@@ -157,9 +157,30 @@ Gerald (pigeon + food) and Frank (frog + food) already exist. **Do not write ano
 Each day pick a category that isn't in the last 3 entries of `stories/LOG.md`, and
 log the category with the story.
 
+## Series (every other Short)
+
+Recurring characters turn viewers into subscribers. **If the previous story in LOG.md
+was not a series episode, this one must be.** Read `stories/SERIES.md` for the
+series, their character bible and the rules (same cast and narrator, stands alone,
+title ends with "(Part N)", set the `series` field, add the episode to SERIES.md).
+
+## Seasonal calendar
+
+Holidays bring a surge of people looking for that feeling. **In the 3 days before a
+holiday and on the day itself, one Short per day is themed to it** (still following
+every other rule — the holiday is the setting, not the whole idea). Upcoming:
+
+- Oct 31 — Halloween (spooky-but-funny, costumes, trick-or-treat)
+- Nov 8 (2026; check the date) — Diwali (lights, sweets, family, firecrackers)
+- Nov 14 — Children's Day in India (kids outsmarting grown-ups)
+- Nov 26 — US Thanksgiving; Nov 27 — Black Friday (family dinner chaos, deals)
+- Dec 24-25 — Christmas (gifts, snow, Santa logistics)
+- Dec 31 / Jan 1 — New Year (countdowns, resolutions)
+Add the next ones (look them up) when this list runs short.
+
 ## Shape
 
-- 8–10 scenes, each `text` 8–18 words (validator allows 5–22). Total ≈ 40–55 s.
+- 6–9 scenes, each `text` 6–14 words (validator allows 5–22). Total ≈ 25–35 s, ≤ 100 words.
 - Every scene should have something moving: an action, a drop, a burst, a crowd,
   or the `speed` effect. Static scenes are where people swipe away.
 - 2 stickers per scene on punchy words. 8–12 story `keywords` (lowercase words

@@ -8,6 +8,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { timeWords } from "./voice-timing.mjs";
 
 const RELEASE = "https://github.com/rhasspy/piper/releases/download/2023.11.14-2";
 const VOICE = "en_US-ryan-high";
@@ -39,59 +40,6 @@ const ensurePiper = async () => {
     await download(`${VOICE_URL}/${VOICE}.onnx.json`, `${model}.json`);
   }
   return { exe, model };
-};
-
-// [start, end] seconds of each stretch of speech between pauses.
-const speechSegments = (wavPath) => {
-  const buf = readFileSync(wavPath);
-  const dataAt = buf.indexOf("data") + 8;
-  const rate = buf.readInt32LE(24);
-  const n = Math.floor((buf.length - dataAt) / 2);
-  const win = Math.round(rate * 0.02);
-  const segments = [];
-  let start = null;
-  let silentSince = null;
-  for (let i = 0; i < n; i += win) {
-    let peak = 0;
-    for (let k = i; k < Math.min(i + win, n); k++) peak = Math.max(peak, Math.abs(buf.readInt16LE(dataAt + k * 2)));
-    const t = i / rate;
-    if (peak >= 600) {
-      if (start === null) start = t;
-      silentSince = null;
-    } else if (start !== null) {
-      if (silentSince === null) silentSince = t;
-      if (t - silentSince > 0.15) {
-        segments.push([start, silentSince]);
-        start = null;
-        silentSince = null;
-      }
-    }
-  }
-  if (start !== null) segments.push([start, silentSince ?? n / rate]);
-  return { segments, duration: n / rate };
-};
-
-// Spread words across a time span in proportion to their length.
-const spread = (words, from, to) => {
-  const weights = words.map((w) => w.replace(/[^\w']/g, "").length + 2);
-  const total = weights.reduce((a, b) => a + b, 0);
-  let t = from;
-  return words.map((word, i) => {
-    const out = { word, start: Math.round(t * 1000) / 1000 };
-    t += ((to - from) * weights[i]) / total;
-    return out;
-  });
-};
-
-const timeWords = (text, wavPath) => {
-  const { segments, duration } = speechSegments(wavPath);
-  const phrases = text.split(/(?<=[.,!?;:])\s+/).map((p) => p.split(/\s+/).filter(Boolean)).filter((p) => p.length);
-  // Phrases usually line up 1:1 with pauses; if not, spread over the whole line.
-  const words =
-    segments.length === phrases.length
-      ? phrases.flatMap((p, i) => spread(p, segments[i][0], segments[i][1]))
-      : spread(phrases.flat(), segments[0]?.[0] ?? 0, segments.at(-1)?.[1] ?? duration);
-  return { words, duration: Math.round((Math.min(duration, (segments.at(-1)?.[1] ?? duration) + 0.35)) * 1000) / 1000 };
 };
 
 const main = async () => {

@@ -75,6 +75,7 @@ export type StorySpec = {
   youtube: { title: string; description: string; tags: string[] };
   logline?: string; // required for new stories: the whole story in 1-2 plain sentences
   comment?: string; // required for new stories: question posted as a comment after upload
+  series?: { name: string; part: number }; // set for series episodes (see stories/SERIES.md)
   hook?: string; // required for new stories (validator); on-screen text for the first ~3s, e.g. "WHO IS KNOCKING? 🚪"
   narrator?: "brian" | "george" | "jessica" | "liam" | "callum"; // ElevenLabs voice
   voice: string; // Windows fallback voice

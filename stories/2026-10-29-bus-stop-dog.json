@@ -82,7 +82,7 @@
     },
     {
       "id": "boy",
-      "text": "For eight years, a boy named Sam got off that bus and ran straight to him.",
+      "text": "For eight years, Sam got off that bus and ran to him.",
       "setting": "city",
       "light": "day",
       "focus": "kid",
@@ -122,7 +122,7 @@
     },
     {
       "id": "grew",
-      "text": "Then Sam grew up. And moved to a city far away.",
+      "text": "Then Sam grew up and moved far away.",
       "setting": "city",
       "light": "dusk",
       "focus": "man",
@@ -210,7 +210,7 @@
     },
     {
       "id": "snow",
-      "text": "Day five hundred. Snow. His legs were slower now. He still waited.",
+      "text": "Day five hundred. Snow. Slower legs. He still waited.",
       "setting": "city",
       "light": "night",
       "focus": "buddy",
@@ -278,7 +278,7 @@
     },
     {
       "id": "home",
-      "text": "A tall man stepped off. He knelt down and whispered: good boy. I'm home.",
+      "text": "A tall man stepped off, knelt down, and whispered: good boy. I'm home.",
       "setting": "city",
       "light": "gold",
       "focus": "man",
@@ -352,7 +352,7 @@
     },
     {
       "id": "follow",
-      "text": "Follow, and hug your dog tonight. Someone is always waiting for you.",
+      "text": "Follow, and hug your dog tonight. Someone's always waiting.",
       "setting": "city",
       "light": "dusk",
       "focus": "buddy",
