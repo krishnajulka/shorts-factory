@@ -81,7 +81,7 @@ export type StorySpec = {
   rate: number; // Windows fallback speed
   keywords: string[];
   // Bottom-half loop; omitted = picked from the story id.
-  bottom?: "soap" | "stack" | "dominoes" | "rings" | "plinko" | "race" | "breakout" | "spiral" | "territory" | "wheel" | "corner";
+  bottom?: "soap" | "stack" | "dominoes" | "obby" | "rings" | "plinko" | "race" | "breakout" | "spiral" | "territory" | "wheel" | "corner";
   racers?: string[]; // emoji for bottom "race" (2-5) or "wheel" (3-8)
   cast: Record<string, Character>;
   scenes: SceneSpec[];

@@ -232,8 +232,9 @@ New stories must use one of these (the validator enforces it):
 - `soap` — a blade slices colorful layered soap bars; slices tip over and fall
 - `stack` — pastel 3D blocks slide in and stack into a rising tower, with "PERFECT!" pops
 - `dominoes` — hundreds of pastel dominoes fall in a winding wave, with a live counter
+- `obby` — a blocky avatar runs and jumps across floating platforms over lava (a Roblox-style obstacle course), with a STAGE counter, checkpoint flags and the odd fall and respawn
 
-**Never reuse the previous story's bottom.** Rotate through all three in order of least
+**Never reuse the previous story's bottom.** Rotate through all four in order of least
 recently used in `stories/LOG.md`. (Older stories used neon loops — rings, plinko, race,
 breakout, spiral, territory, wheel, corner — which still render but are retired.)
 

@@ -145,7 +145,7 @@ const HookCard: React.FC<{ text: string }> = ({ text }) => {
 const BottomSounds: React.FC<{ kind: BottomKind; seed: number; racers?: string[] }> = ({ kind, seed, racers }) => {
   const { durationInFrames } = useVideoConfig();
   const sounds = useMemo(() => bottomSounds(kind, durationInFrames, seed, racers), [kind, durationInFrames, seed, racers]);
-  const src = sfx(kind === "race" ? "whip" : kind === "soap" ? "whoosh" : ["plinko", "wheel", "territory", "stack", "dominoes"].includes(kind) ? "mouseClick" : "ding");
+  const src = sfx(kind === "race" ? "whip" : kind === "soap" ? "whoosh" : ["plinko", "wheel", "territory", "stack", "dominoes", "obby"].includes(kind) ? "mouseClick" : "ding");
   const volume = kind === "plinko" ? 0.25 : 0.18;
   return (
     <>
