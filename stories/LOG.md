@@ -4,8 +4,6 @@ One line per published story: date — id — category — premise (settings) [b
 Before writing a new one: use a category not in the last 3 lines, a different hero type,
 and a different bottom than the last 2.
 
-**Pinned (requested by the channel owner, 2026-10-31): the NEXT story must use bottom "obby".** After that one, rotate obby in like the other clean bottoms, and delete this pinned line in the same commit as that story.
-
 - 2026-10-24 — gerald — underdog/food — pigeon steals one fry, splits it with 300 pigeons, becomes king of New York (city) [rings]
 - 2026-10-24 — frank-moon-frog — absurd what-if/food — frog eats a glowing fly, launches to the moon (forest, space) [rings]
 - 2026-10-24 — shadow-quit — absurd what-if — a man's shadow quits to travel the world, he ends up paying for its vacations (city, room, forest, beach) [race]
@@ -41,3 +39,4 @@ and a different bottom than the last 2.
 - 2026-10-30 — 2026-10-30-five-minutes — family comedy / funny reveal (role reversal) — Dad says five more minutes at the park; Kiki counts five minutes, hides his phone up the slide, he plays, then at sunset he begs for five more minutes (city) [dominoes]
 - 2026-10-30 — 2026-10-30-snow-globe-sign — object with a secret life / funny reveal — Lina shakes her snow globe nightly; the tiny people inside grow more scared each day until one holds up a sign: stop shaking us (room) [soap]
 - 2026-10-31 — 2026-10-31-forgot-acorns — absurd what-if / bittersweet — Sam the squirrel buries 100 acorns, forgets where, digs up only junk all winter; in spring a hundred new trees surround him (forest, city) [stack]
+- 2026-10-31 — 2026-10-31-candy-tax — revenge / funny karma reveal (Halloween) — SERIES Ben vs Mia Part 2: Ben taxes one of Mia's candies at each of five houses; she always hands him a red one, all chili (city, room) [obby]

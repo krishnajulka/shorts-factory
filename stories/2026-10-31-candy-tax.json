@@ -1,0 +1,105 @@
+{
+  "id": "2026-10-31-candy-tax",
+  "title": "Candy Tax",
+  "youtube": {
+    "title": "Ben taxed Mia's Halloween candy 🎃🌶️ (Part 2)",
+    "description": "Ben charged his sister one candy at every house. Mia always picked a red one for him. #shorts #story #funny #halloween",
+    "tags": ["shorts", "story", "funny", "halloween", "karma", "siblings", "animation"]
+  },
+  "logline": "On Halloween, Ben takes one candy from his sister Mia at every house, and she always hands him a red one; at home he finds out they were all chili candy.",
+  "series": { "name": "Ben vs Mia: the prank war", "part": 2 },
+  "comment": "Would you eat the fifth red candy? 🌶️👇",
+  "hook": "BEN TAXED HER CANDY 🎃😈",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["halloween", "candy", "tax", "house", "red", "thanks", "five", "chili", "peppers"],
+  "bottom": "obby",
+  "cast": {
+    "ben": { "species": "bean", "color": "#ff9f1c", "name": "Ben" },
+    "mia": { "species": "bean", "color": "#c77dff", "name": "Mia" },
+    "candy": { "emoji": "🍬" },
+    "pepper": { "emoji": "🌶️" },
+    "house": { "emoji": "🏠" },
+    "pumpkin": { "emoji": "🎃" }
+  },
+  "scenes": [
+    {
+      "id": "tax", "text": "On Halloween, Ben taxed Mia's candy. One piece, every house.",
+      "setting": "city", "light": "dusk", "focus": "ben", "effects": ["vignette"], "sfx": "vineBoom", "flash": "taxed",
+      "actors": [
+        { "who": "ben", "x": 270, "size": 1.2, "mood": "smug", "action": "jump" },
+        { "who": "mia", "x": 790, "size": 1, "face": "left", "mood": "smug", "hold": "🍬" },
+        { "who": "house", "x": 950, "size": 1.4 }
+      ],
+      "stickers": [{ "word": "Halloween", "emoji": "🎃" }, { "word": "taxed", "emoji": "😈" }]
+    },
+    {
+      "id": "one", "text": "House one. Mia picked a red candy for him. Thanks.",
+      "setting": "city", "light": "night", "focus": "mia",
+      "actors": [
+        { "who": "house", "x": 880, "size": 1.6 },
+        { "who": "mia", "x": 520, "size": 1.2, "mood": "smug", "hold": "🍬", "action": "bow", "at": "Thanks" },
+        { "who": "ben", "x": 200, "size": 1.1, "mood": "happy" }
+      ],
+      "stickers": [{ "word": "red", "emoji": "🔴" }, { "word": "Thanks", "emoji": "🙂" }]
+    },
+    {
+      "id": "two", "text": "House two. Red candy. Thanks. House three. Red candy. Thanks.",
+      "setting": "city", "light": "night", "focus": "ben", "effects": ["speed"],
+      "actors": [
+        { "who": "ben", "x": 300, "size": 1.2, "mood": "happy", "action": "run" },
+        { "who": "mia", "x": 760, "size": 1, "mood": "smug", "hold": "🍬" }
+      ],
+      "stickers": [{ "word": "two", "emoji": "2️⃣" }, { "word": "three", "emoji": "3️⃣" }]
+    },
+    {
+      "id": "four", "text": "House four. Ben grinned. Mia's bag was still full.",
+      "setting": "city", "light": "night", "focus": "ben", "sfx": "recordScratch",
+      "actors": [
+        { "who": "ben", "x": 330, "size": 1.3, "mood": "smug", "hold": "🍬" },
+        { "who": "mia", "x": 800, "size": 1, "face": "left", "mood": "smug" },
+        { "who": "pumpkin", "x": 960, "size": 1.2 }
+      ],
+      "stickers": [{ "word": "four", "emoji": "4️⃣" }, { "word": "grinned", "emoji": "😁" }]
+    },
+    {
+      "id": "five", "text": "House five. The last red candy. Thanks, Ben.",
+      "setting": "city", "light": "dusk", "focus": "mia",
+      "actors": [
+        { "who": "house", "x": 900, "size": 1.6 },
+        { "who": "mia", "x": 500, "size": 1.3, "mood": "smug", "hold": "🍬", "action": "bow", "at": "Thanks" },
+        { "who": "ben", "x": 180, "size": 1.1, "mood": "happy" }
+      ],
+      "stickers": [{ "word": "five", "emoji": "5️⃣" }, { "word": "last", "emoji": "🔴" }]
+    },
+    {
+      "id": "eat", "text": "At home, Ben ate all five at once.",
+      "setting": "room", "light": "day", "focus": "ben",
+      "actors": [
+        { "who": "ben", "x": 380, "size": 1.5, "mood": "happy", "hold": "🍬", "action": "bow", "at": "ate" },
+        { "who": "mia", "x": 860, "size": 1, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "home", "emoji": "🏠" }, { "word": "five", "emoji": "5️⃣" }]
+    },
+    {
+      "id": "chili", "text": "Chili candy. Five houses, five peppers. Mia smiled.",
+      "setting": "room", "light": "danger", "focus": "ben", "effects": ["shake", "vignette"], "sfx": "wilhelmScream", "burst": { "at": "peppers", "emoji": "🔥" },
+      "actors": [
+        { "who": "ben", "x": 380, "size": 1.5, "mood": "shock", "action": "jump" },
+        { "who": "pepper", "x": 140, "size": 1.2, "lift": 250, "action": "shake" },
+        { "who": "mia", "x": 880, "size": 1, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "Chili", "emoji": "🌶️" }, { "word": "peppers", "emoji": "🥵" }]
+    },
+    {
+      "id": "loop", "text": "Next year, Ben will tax Mia's candy again.",
+      "setting": "room", "light": "gold", "focus": "mia", "effects": ["confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "mia", "x": 320, "size": 1.3, "mood": "happy", "hold": "🍬", "action": "jump", "at": "Next" },
+        { "who": "ben", "x": 780, "size": 1, "face": "left", "mood": "sad" }
+      ],
+      "stickers": [{ "word": "Next", "emoji": "🎃" }, { "word": "again", "emoji": "🔁" }]
+    }
+  ]
+}

@@ -27,6 +27,7 @@ From `2026-10-27-spider-prank` (1,266 views, 61% watched, 19 likes).
 - **Running gag:** Mia just smiles and says "thanks". Ben never learns.
 - **Episodes:**
   - Part 1 — `2026-10-27-spider-prank`: 30 fake spiders, she drops all 29 on him.
+  - Part 2 — `2026-10-31-candy-tax`: Halloween; Ben taxes one candy per house, Mia always hands him a red one: five chili candies.
 
 ## Turbo the snail
 

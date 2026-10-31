@@ -8,11 +8,11 @@ evidence wins. Cite the stories a lesson comes from.
 
 ## From the numbers
 
-(Updated 2026-10-31, 8 AM run (forgot-acorns uploaded). Stats still blocked (insufficient scopes), so numbers are from the 2026-10-29 refresh and no lessons changed. Hypothesis: 2026-10-30 stories and snail-race/cat-cup/shadow-quits have no 24h+ data yet; the 8 AM slot pattern is still untested for this run.)
+(Updated 2026-10-31, 12 PM run. Stats now work from the cloud (exit 0), so the refresh is automatic again; the old "cloud stats fail" note is deleted. Newly aged 24h+: five-minutes 1,119, scarecrow-nest 1,089, cat-cup 1,255, shadow-quits 1,291. Hypothesis: the new 6 AM IST slot has no data yet; the first 6 AM upload is due tomorrow. Compare its reach to 1,000-1,300.)
 
 - **The 8 PM India slot (~14:50 UTC upload) flops every time — 5 out of 5:** pell-vanishes
   9 views, grandma-chair 21, clock-snaps 7, three-blinks 2, haunted-garage 0. Most 8 AM /
-  12 PM / 4 PM uploads get 800-1,700. Likely YouTube gives a new channel's 4th upload of
+  12 PM / 4 PM uploads get 800-1,700 (2026-10-29/30 again: 1,000-1,300 each, except the 8 PM ones). Likely YouTube gives a new channel's 4th upload of
   the day almost no reach. Strongest pattern we have.
 - **What holds viewers: one simple rule that escalates.** Best average % watched:
   photo-stranger 86% ("a stranger in every photo, closer each time"), vacuum-race 64%,
@@ -42,10 +42,7 @@ evidence wins. Cite the stories a lesson comes from.
 - **Two Shorts uploaded in the same minute both flopped** (closet-knock 5 views and
   sock-escape 2, both uploaded 2026-10-24 18:56 UTC). Hypothesis: never upload
   back-to-back; keep at least 2 hours between uploads. Needs more evidence.
-- **Cloud stats and comment posting still fail (2026-10-30)** because the cloud's YOUTUBE_REFRESH_TOKEN is the old one
-  without read access. Stats work from the PC (refreshed 2026-10-29); the user has to
-  re-run `node scripts/youtube.mjs auth` and paste the new token into the cloud environment. ElevenLabs credits are used up, so
-  the Piper voice is in use and narrator choice has no effect right now.
+- **Voice:** ElevenLabs credits are used up (3 left), so Kokoro/Piper voices are in use and narrator choice has no effect right now. Comments post fine from the cloud (2026-10-31).
 - Hypothesis (untested): relatable family/everyday premises with a visual-gag twist (grandma-chair, sneeze-loop) may fit the winners; check grandma-chair's views once stats work.
 - Hypothesis (1 data point): lunch-thief was never uploaded, so it has no data.
 - Likes are low everywhere (≤1.5% of views). Try an ending that invites a reaction:
