@@ -40,3 +40,4 @@ and a different bottom than the last 2.
 - 2026-10-30 — 2026-10-30-snow-globe-sign — object with a secret life / funny reveal — Lina shakes her snow globe nightly; the tiny people inside grow more scared each day until one holds up a sign: stop shaking us (room) [soap]
 - 2026-10-31 — 2026-10-31-forgot-acorns — absurd what-if / bittersweet — Sam the squirrel buries 100 acorns, forgets where, digs up only junk all winter; in spring a hundred new trees surround him (forest, city) [stack]
 - 2026-10-31 — 2026-10-31-candy-tax — revenge / funny karma reveal (Halloween) — SERIES Ben vs Mia Part 2: Ben taxes one of Mia's candies at each of five houses; she always hands him a red one, all chili (city, room) [obby]
+- 2026-11-01 — 2026-11-01-robot-letter — underdog quest / wholesome surprise — Bolt the robot crosses town on a draining battery (90% → 0%) to deliver one letter to Grandma; the envelope says To Bolt: it's his birthday (room, city, forest) [soap]

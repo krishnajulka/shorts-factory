@@ -8,12 +8,9 @@ evidence wins. Cite the stories a lesson comes from.
 
 ## From the numbers
 
-(Updated 2026-10-31, 12 PM run. Stats now work from the cloud (exit 0), so the refresh is automatic again; the old "cloud stats fail" note is deleted. Newly aged 24h+: five-minutes 1,119, scarecrow-nest 1,089, cat-cup 1,255, shadow-quits 1,291. Hypothesis: the new 6 AM IST slot has no data yet; the first 6 AM upload is due tomorrow. Compare its reach to 1,000-1,300.)
+(Updated 2026-11-01, 8 AM run. Newly aged 24h+: candy-tax 931 (series part 2, 10 likes, 2 comments: the most comments of any Short), forgot-acorns 202. Hypothesis: the 6 AM IST slot (~00:30 UTC) still has no upload to judge; the first one is due soon.)
 
-- **The 8 PM India slot (~14:50 UTC upload) flops every time — 5 out of 5:** pell-vanishes
-  9 views, grandma-chair 21, clock-snaps 7, three-blinks 2, haunted-garage 0. Most 8 AM /
-  12 PM / 4 PM uploads get 800-1,700 (2026-10-29/30 again: 1,000-1,300 each, except the 8 PM ones). Likely YouTube gives a new channel's 4th upload of
-  the day almost no reach. Strongest pattern we have.
+- **Late-day uploads flop; the low-reach pattern is about slot position, not clock time alone.** 8 PM India (~14:50 UTC): pell-vanishes 10, grandma-chair 21, clock-snaps 7, three-blinks 3, haunted-garage 5, snow-globe-sign 9, bus-stop-dog 1 (all ~15:00-16:30 UTC). Most 8 AM / 12 PM / 4 PM uploads get 900-1,800. Exceptions at 02:50 UTC: tooth-fairy-traps 3, last-pancake 422, forgot-acorns 202 (weak premises or the 3rd-4th upload of a day?). Hypothesis: premise quality matters too: weak "wacky" premises die even in good slots.
 - **What holds viewers: one simple rule that escalates.** Best average % watched:
   photo-stranger 86% ("a stranger in every photo, closer each time"), vacuum-race 64%,
   spider-prank 61%, ghost-sings 59%. Worst: sock-escape 14% and closet-knock 15%
@@ -38,6 +35,7 @@ evidence wins. Cite the stories a lesson comes from.
   (time-loop comedy, everyday problem, liam, corner bottom) is #1 with 1,186 views and
   the best like rate (18 likes, 1.5%). Next: lighthouse 840, ghost-sings 839, duck 614.
   (Day one looked the opposite — duck 93 vs sneeze 12 — so judge after 24h, not 1h.)
+- **Hypothesis (2 data points): series part 2 holds up** (candy-tax 931 views, 2 comments) but below part 1 (1,266).
 - **Abstract or complicated premises do worse**: vending-machine-knows 238, last-moth 175.
 - **Two Shorts uploaded in the same minute both flopped** (closet-knock 5 views and
   sock-escape 2, both uploaded 2026-10-24 18:56 UTC). Hypothesis: never upload
