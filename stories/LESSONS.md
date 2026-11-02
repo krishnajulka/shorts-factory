@@ -8,7 +8,7 @@ evidence wins. Cite the stories a lesson comes from.
 
 ## From the numbers
 
-(Updated 2026-11-02, 8 AM run. No new Shorts aged past 24h with new information. 6 AM IST test: eagle-mountain (uploaded 00:53 UTC) had 143 views after ~2h, roughly on pace with other morning uploads, so no sign 6 AM reach is bad yet; recheck tomorrow. robot-letter (4 PM IST) is at 331 views after ~16h, below the 900-1,800 norm, so hypothesis: wholesome-quest premises with no counter pull less than formula stories. Failing Shorts all show 5-8 s average watch time (sock-escape, closet-knock, hamster-escape, haunted-garage): the first 5 seconds are the real filter.)
+(Updated 2026-11-02, 12 PM run. 6 AM IST test: eagle-mountain (00:53 UTC) has 912 views after ~6h, already near the 900-1,300 norm, so 6 AM reach looks normal. robot-letter (4 PM IST slot, no counter) sits at 374 after ~20h, hypothesis: wholesome quests without a visible counter pull less than formula stories. Highest % watched: cat-cup 83%, photo-stranger 83%, snail-race 78%, all ~25-28 s with a clear rule; failing Shorts all show 5-8 s average watch: the first 5 seconds are the filter.)
 
 - **Late-day uploads flop; the low-reach pattern is about slot position, not clock time alone.** 8 PM India (~14:50 UTC): pell-vanishes 10, grandma-chair 21, clock-snaps 7, three-blinks 3, haunted-garage 5, snow-globe-sign 9, bus-stop-dog 1 (all ~15:00-16:30 UTC). Most 8 AM / 12 PM / 4 PM uploads get 900-1,800. Exceptions at 02:50 UTC: tooth-fairy-traps 3, last-pancake 422, forgot-acorns 202 (weak premises or the 3rd-4th upload of a day?). Hypothesis: premise quality matters too: weak "wacky" premises die even in good slots.
 - **What holds viewers: one simple rule that escalates.** Best average % watched:
@@ -35,7 +35,7 @@ evidence wins. Cite the stories a lesson comes from.
   (time-loop comedy, everyday problem, liam, corner bottom) is #1 with 1,186 views and
   the best like rate (18 likes, 1.5%). Next: lighthouse 840, ghost-sings 839, duck 614.
   (Day one looked the opposite — duck 93 vs sneeze 12 — so judge after 24h, not 1h.)
-- **Hypothesis (2 data points): series part 2 holds up** (candy-tax 931 views, 2 comments) but below part 1 (1,266).
+- **Hypothesis (2 data points): series part 2 holds up** (candy-tax 938 views, 2 comments; eagle-mountain part 2 of Turbo 912 so far) but below part 1 (1,266).
 - **Abstract or complicated premises do worse**: vending-machine-knows 238, last-moth 175.
 - **Two Shorts uploaded in the same minute both flopped** (closet-knock 5 views and
   sock-escape 2, both uploaded 2026-10-24 18:56 UTC). Hypothesis: never upload

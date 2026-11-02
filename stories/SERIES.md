@@ -28,6 +28,7 @@ From `2026-10-27-spider-prank` (1,266 views, 61% watched, 19 likes).
 - **Episodes:**
   - Part 1 — `2026-10-27-spider-prank`: 30 fake spiders, she drops all 29 on him.
   - Part 2 — `2026-10-31-candy-tax`: Halloween; Ben taxes one candy per house, Mia always hands him a red one: five chili candies.
+  - Part 3 — `2026-11-02-toll-booth`: Ben's hallway toll doubles daily (1,2,4,8,16 = 31 coins); Mia paid with coins from his own piggy bank, then builds her own toll booth.
 
 ## Turbo the snail
 
