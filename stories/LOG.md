@@ -44,3 +44,4 @@ and a different bottom than the last 2.
 - 2026-11-02 — 2026-11-02-eagle-mountain — underdog competition / clever trick — SERIES Turbo the snail Part 2: Turbo races an eagle up a mountain, hitches a ride on its tail and slides off first at the top (forest, city, beach) [dominoes]
 - 2026-11-02 — 2026-11-02-moon-mouse — fake history / wholesome twist — Nia watches the moon shrink night by night, finds a hungry mouse nibbling it, and feeds him real cheese so it grows back (city) [stack]
 - 2026-11-02 — 2026-11-02-toll-booth — revenge / funny karma reveal — SERIES Ben vs Mia Part 3: Ben's hallway toll doubles daily to 31 coins; Mia paid him with his own piggy-bank money (room) [obby]
+- 2026-11-02 — 2026-11-02-vase-five-minutes — family comedy / funny reveal + twist — Lia has five minutes to hide Grandma's broken vase (glue, tape, plant, blame the cat); Mom hated it, then hands her the other vase (room) [soap]
