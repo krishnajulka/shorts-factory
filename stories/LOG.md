@@ -41,3 +41,4 @@ and a different bottom than the last 2.
 - 2026-10-31 — 2026-10-31-forgot-acorns — absurd what-if / bittersweet — Sam the squirrel buries 100 acorns, forgets where, digs up only junk all winter; in spring a hundred new trees surround him (forest, city) [stack]
 - 2026-10-31 — 2026-10-31-candy-tax — revenge / funny karma reveal (Halloween) — SERIES Ben vs Mia Part 2: Ben taxes one of Mia's candies at each of five houses; she always hands him a red one, all chili (city, room) [obby]
 - 2026-11-01 — 2026-11-01-robot-letter — underdog quest / wholesome surprise — Bolt the robot crosses town on a draining battery (90% → 0%) to deliver one letter to Grandma; the envelope says To Bolt: it's his birthday (room, city, forest) [soap]
+- 2026-11-02 — 2026-11-02-eagle-mountain — underdog competition / clever trick — SERIES Turbo the snail Part 2: Turbo races an eagle up a mountain, hitches a ride on its tail and slides off first at the top (forest, city, beach) [dominoes]

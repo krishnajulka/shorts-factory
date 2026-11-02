@@ -40,3 +40,4 @@ From `2026-10-29-snail-race` (1,063 views, 77% watched — best % watched of any
 - **Running gag:** everyone laughs at the challenge; Turbo just says "deal".
 - **Episodes:**
   - Part 1 — `2026-10-29-snail-race`: beat the cheetah by leaving on Monday.
+  - Part 2 — `2026-11-02-eagle-mountain`: race an eagle up a mountain; Turbo hides on the eagle's tail and slides off at the top (the rule never said who had to climb).

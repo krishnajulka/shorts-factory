@@ -1,0 +1,105 @@
+{
+  "id": "2026-11-02-eagle-mountain",
+  "title": "Turbo vs the Eagle",
+  "youtube": {
+    "title": "A snail raced an eagle up a mountain 🐌🦅 (Part 2)",
+    "description": "The rule never said who had to climb. Turbo the snail strikes again. #shorts #story #funny #clevertrick",
+    "tags": ["shorts", "story", "funny", "clever", "animals", "snail", "animation"]
+  },
+  "logline": "Turbo the snail challenges an eagle to a race to the top of a mountain, and wins by hiding on the eagle's tail, because the rule never said who had to climb.",
+  "comment": "Who should Turbo race next? 🐌👇",
+  "hook": "SNAIL VS EAGLE: WHO WINS? 🐌🦅",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "series": { "name": "Turbo the snail", "part": 2 },
+  "keywords": ["snail", "eagle", "mountain", "turbo", "deal", "tail", "thousand", "rule", "rematch", "climb"],
+  "bottom": "dominoes",
+  "cast": {
+    "turbo": { "emoji": "🐌", "name": "Turbo" },
+    "eagle": { "emoji": "🦅" },
+    "fan": { "emoji": "😂" },
+    "peak": { "emoji": "⛰️" }
+  },
+  "scenes": [
+    {
+      "id": "race", "text": "A snail raced an eagle up a mountain.",
+      "setting": "forest", "light": "day", "focus": "turbo", "effects": ["shake"], "sfx": "vineBoom",
+      "actors": [
+        { "who": "peak", "x": 540, "size": 2.2 },
+        { "who": "turbo", "x": 300, "size": 1.5, "action": "jump" },
+        { "who": "eagle", "x": 780, "size": 1.7, "face": "left", "action": "shake" }
+      ],
+      "stickers": [{ "word": "snail", "emoji": "🐌" }, { "word": "eagle", "emoji": "🦅" }]
+    },
+    {
+      "id": "laugh", "text": "Everyone laughed. Turbo just said, deal.",
+      "setting": "forest", "light": "day", "focus": "turbo",
+      "crowd": { "who": "fan", "count": 24, "mood": "happy", "until": "laughed" },
+      "actors": [
+        { "who": "turbo", "x": 540, "size": 1.6, "mood": "smug", "action": "jump", "at": "deal" }
+      ],
+      "stickers": [{ "word": "laughed", "emoji": "🤣" }, { "word": "deal", "emoji": "🤝" }]
+    },
+    {
+      "id": "start", "text": "First one to the top wins. Turbo waited, right behind the eagle's tail.",
+      "setting": "forest", "light": "day", "focus": "eagle",
+      "actors": [
+        { "who": "turbo", "x": 700, "size": 0.9, "mood": "smug" },
+        { "who": "eagle", "x": 540, "size": 1.8, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "top", "emoji": "🏔️" }, { "word": "tail", "emoji": "👀" }]
+    },
+    {
+      "id": "up", "text": "The eagle shot up. One thousand meters. Two thousand.",
+      "setting": "city", "light": "day", "focus": "eagle", "effects": ["speed", "rays"],
+      "actors": [
+        { "who": "eagle", "x": 540, "size": 1.7, "face": "left", "action": "float", "lift": 250 }
+      ],
+      "stickers": [{ "word": "thousand", "emoji": "1️⃣" }, { "word": "Two", "emoji": "2️⃣" }]
+    },
+    {
+      "id": "smug", "text": "He laughed at the slow snail. Never looked back.",
+      "setting": "city", "light": "day", "focus": "eagle", "effects": ["speed"],
+      "actors": [
+        { "who": "eagle", "x": 540, "size": 1.6, "face": "left", "mood": "smug", "action": "float", "lift": 300 }
+      ],
+      "stickers": [{ "word": "laughed", "emoji": "😆" }, { "word": "back", "emoji": "🙈" }]
+    },
+    {
+      "id": "top", "text": "Three thousand meters. He landed on top, smug and proud.",
+      "setting": "beach", "light": "gold", "focus": "eagle", "effects": ["rays"], "sfx": "animeWow",
+      "actors": [
+        { "who": "peak", "x": 540, "size": 2.4 },
+        { "who": "eagle", "x": 540, "size": 1.5, "face": "left", "mood": "smug", "action": "bow", "lift": 380 }
+      ],
+      "stickers": [{ "word": "Three", "emoji": "3️⃣" }, { "word": "proud", "emoji": "😤" }]
+    },
+    {
+      "id": "slid", "text": "Then a snail slid off his tail. Turbo.",
+      "setting": "beach", "light": "gold", "focus": "turbo", "effects": ["vignette"], "sfx": "recordScratch",
+      "actors": [
+        { "who": "eagle", "x": 400, "size": 1.6, "face": "left", "mood": "shock", "action": "shake" },
+        { "who": "turbo", "x": 760, "size": 1.5, "mood": "smug", "action": "enter", "at": "slid" }
+      ],
+      "stickers": [{ "word": "snail", "emoji": "😎" }, { "word": "Turbo", "emoji": "🐌" }]
+    },
+    {
+      "id": "rule", "text": "The rule never said who had to climb.",
+      "setting": "beach", "light": "gold", "focus": "turbo", "effects": ["confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "turbo", "x": 540, "size": 1.7, "mood": "happy", "action": "jump" }
+      ],
+      "stickers": [{ "word": "rule", "emoji": "📜" }, { "word": "climb", "emoji": "🧗" }]
+    },
+    {
+      "id": "loop", "text": "Rematch tomorrow. Turbo says deal. A snail races an eagle up a mountain.",
+      "setting": "forest", "light": "dusk", "focus": "turbo", "effects": ["vignette"],
+      "actors": [
+        { "who": "turbo", "x": 300, "size": 1.4, "mood": "smug", "action": "jump", "at": "deal" },
+        { "who": "eagle", "x": 780, "size": 1.5, "face": "left", "mood": "angry" }
+      ],
+      "stickers": [{ "word": "Rematch", "emoji": "🔁" }, { "word": "deal", "emoji": "🤝" }]
+    }
+  ]
+}
