@@ -1,0 +1,104 @@
+{
+  "id": "2026-11-02-moon-mouse",
+  "title": "The Moon Mouse",
+  "youtube": {
+    "title": "Every night, the moon gets smaller. Here's why 🌙🐭",
+    "description": "Nia noticed a bite missing from the moon every night. Then she found out who was eating it. #shorts #story #moon #cute",
+    "tags": ["shorts", "story", "moon", "cute", "legend", "mouse", "animation"]
+  },
+  "logline": "Nia sees the moon shrink every night and discovers a hungry mouse is eating it; she feeds him real cheese so the moon can grow back.",
+  "comment": "What would YOU feed the moon mouse? 🧀👇",
+  "hook": "WHO IS EATING THE MOON? 🌙",
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["moon", "smaller", "bite", "sliver", "nibbling", "mouse", "cheese", "hungry", "telescope", "gone"],
+  "bottom": "stack",
+  "cast": {
+    "nia": { "species": "bean", "color": "#4cc9f0", "name": "Nia" },
+    "full": { "emoji": "🌕" },
+    "half": { "emoji": "🌗" },
+    "thin": { "emoji": "🌘" },
+    "newmoon": { "emoji": "🌑" },
+    "mouse": { "emoji": "🐭" },
+    "cheese": { "emoji": "🧀" },
+    "scope": { "emoji": "🔭" }
+  },
+  "scenes": [
+    {
+      "id": "one", "text": "Every night, the moon gets a little smaller.",
+      "setting": "city", "light": "night", "focus": "nia", "effects": ["vignette"], "sfx": "vineBoom", "flash": "smaller",
+      "actors": [
+        { "who": "full", "x": 760, "lift": 260, "size": 1.8, "action": "float" },
+        { "who": "nia", "x": 240, "size": 1.2, "mood": "shock", "action": "jump" }
+      ],
+      "stickers": [{ "word": "moon", "emoji": "🌕" }, { "word": "smaller", "emoji": "📉" }]
+    },
+    {
+      "id": "count", "text": "Nia counted. Night five, a bite. Night ten, half gone.",
+      "setting": "city", "light": "night", "focus": "nia",
+      "actors": [
+        { "who": "half", "x": 760, "lift": 260, "size": 1.8, "action": "float" },
+        { "who": "nia", "x": 280, "size": 1.2, "mood": "sad" }
+      ],
+      "stickers": [{ "word": "five", "emoji": "5️⃣" }, { "word": "ten", "emoji": "🔟" }]
+    },
+    {
+      "id": "sliver", "text": "Night fourteen, one thin sliver. Something was nibbling it.",
+      "setting": "city", "light": "danger", "focus": "nia", "effects": ["vignette"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "thin", "x": 760, "lift": 260, "size": 1.8, "action": "float" },
+        { "who": "nia", "x": 280, "size": 1.2, "mood": "shock", "action": "shake", "at": "nibbling" }
+      ],
+      "stickers": [{ "word": "fourteen", "emoji": "1️⃣4️⃣" }, { "word": "nibbling", "emoji": "😬" }]
+    },
+    {
+      "id": "mouse", "text": "So Nia climbed the roof with her telescope. A tiny mouse was eating the moon.",
+      "setting": "city", "light": "night", "focus": "nia", "sfx": "recordScratch",
+      "actors": [
+        { "who": "thin", "x": 760, "lift": 260, "size": 1.8 },
+        { "who": "mouse", "x": 760, "lift": 340, "size": 0.8, "action": "shake" },
+        { "who": "scope", "x": 330, "size": 1.3, "lift": 40 },
+        { "who": "nia", "x": 170, "size": 1.1, "mood": "shock" }
+      ],
+      "stickers": [{ "word": "telescope", "emoji": "🔭" }, { "word": "mouse", "emoji": "🐭" }]
+    },
+    {
+      "id": "gone", "text": "Night fifteen, the moon was gone. The mouse looked up, still hungry.",
+      "setting": "city", "light": "night", "focus": "nia",
+      "actors": [
+        { "who": "nia", "x": 240, "size": 1.2, "mood": "sad" },
+        { "who": "mouse", "x": 760, "lift": 120, "size": 1.0, "mood": "sad" }
+      ],
+      "stickers": [{ "word": "gone", "emoji": "🌑" }, { "word": "hungry", "emoji": "🥺" }]
+    },
+    {
+      "id": "cheese", "text": "So Nia gave him a giant slice of real cheese.",
+      "setting": "city", "light": "gold", "focus": "nia", "sfx": "yippee", "drop": { "at": "cheese", "emoji": "🧀", "to": "mouse" },
+      "actors": [
+        { "who": "mouse", "x": 700, "size": 1.8, "mood": "happy", "action": "jump" },
+        { "who": "nia", "x": 250, "size": 1.2, "mood": "happy" }
+      ],
+      "stickers": [{ "word": "giant", "emoji": "🤩" }, { "word": "cheese", "emoji": "🧀" }]
+    },
+    {
+      "id": "grow", "text": "He stopped nibbling. Night by night, the moon grew back.",
+      "setting": "city", "light": "gold", "focus": "nia", "effects": ["rays"],
+      "actors": [
+        { "who": "full", "x": 760, "lift": 260, "size": 1.8, "action": "grow" },
+        { "who": "nia", "x": 300, "size": 1.2, "mood": "happy", "action": "jump" }
+      ],
+      "stickers": [{ "word": "nibbling", "emoji": "🛑" }, { "word": "moon", "emoji": "🌕" }]
+    },
+    {
+      "id": "loop", "text": "But he's hungry again. Every night, the moon gets a little smaller.",
+      "setting": "city", "light": "dusk", "focus": "nia", "effects": ["vignette"], "sfx": "bruh",
+      "actors": [
+        { "who": "half", "x": 760, "lift": 260, "size": 1.8 },
+        { "who": "mouse", "x": 760, "lift": 340, "size": 0.8, "mood": "smug" },
+        { "who": "nia", "x": 280, "size": 1.2, "mood": "shock" }
+      ],
+      "stickers": [{ "word": "hungry", "emoji": "😋" }, { "word": "smaller", "emoji": "📉" }]
+    }
+  ]
+}

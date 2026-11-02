@@ -8,7 +8,7 @@ evidence wins. Cite the stories a lesson comes from.
 
 ## From the numbers
 
-(Updated 2026-11-02, 6 AM run. No new Shorts aged 24h+ beyond candy-tax (935 views, 2 comments, series part 2 still holds). robot-letter (301 views at ~14h, 4 PM IST) is too new to judge. Hypothesis: the 6 AM IST slot (~00:30 UTC) has still not been used, so nothing to judge yet; this Short (eagle-mountain, series Turbo part 2) is the first one to track.)
+(Updated 2026-11-02, 8 AM run. No new Shorts aged past 24h with new information. 6 AM IST test: eagle-mountain (uploaded 00:53 UTC) had 143 views after ~2h, roughly on pace with other morning uploads, so no sign 6 AM reach is bad yet; recheck tomorrow. robot-letter (4 PM IST) is at 331 views after ~16h, below the 900-1,800 norm, so hypothesis: wholesome-quest premises with no counter pull less than formula stories. Failing Shorts all show 5-8 s average watch time (sock-escape, closet-knock, hamster-escape, haunted-garage): the first 5 seconds are the real filter.)
 
 - **Late-day uploads flop; the low-reach pattern is about slot position, not clock time alone.** 8 PM India (~14:50 UTC): pell-vanishes 10, grandma-chair 21, clock-snaps 7, three-blinks 3, haunted-garage 5, snow-globe-sign 9, bus-stop-dog 1 (all ~15:00-16:30 UTC). Most 8 AM / 12 PM / 4 PM uploads get 900-1,800. Exceptions at 02:50 UTC: tooth-fairy-traps 3, last-pancake 422, forgot-acorns 202 (weak premises or the 3rd-4th upload of a day?). Hypothesis: premise quality matters too: weak "wacky" premises die even in good slots.
 - **What holds viewers: one simple rule that escalates.** Best average % watched:
