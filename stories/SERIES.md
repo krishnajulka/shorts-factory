@@ -42,3 +42,4 @@ From `2026-10-29-snail-race` (1,063 views, 77% watched — best % watched of any
 - **Episodes:**
   - Part 1 — `2026-10-29-snail-race`: beat the cheetah by leaving on Monday.
   - Part 2 — `2026-11-02-eagle-mountain`: race an eagle up a mountain; Turbo hides on the eagle's tail and slides off at the top (the rule never said who had to climb).
+  - Part 3 — `2026-11-03-rabbit-tower`: race a rabbit up 100 floors (counter: floor 20/40/60/80/100); Turbo takes the elevator because the rule never said stairs.
