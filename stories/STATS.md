@@ -1,6 +1,6 @@
 # Channel stats
 
-Updated 2026-11-03 00:45 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 25 · total channel views: 23000 · videos: 37.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
+Updated 2026-11-03 02:45 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 25 · total channel views: 23000 · videos: 38.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
 
 Sorted by views. "avg watched" is the average share of the Short people watched (YouTube Analytics; lags 1-2 days, "—" = not ready yet).
 
@@ -19,7 +19,7 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 1112 | 7 | 0 | 41% | 19s | 1 | 2026-10-30-scarecrow-nest | jessica | stack | 2026-10-30 06:59 | [The scarecrow had ONE job: scare crows 🐦🌾](https://youtube.com/shorts/N3qaQVc2pw8) |
 | 1069 | 8 | 1 | — | — | — | 2026-11-02-eagle-mountain | liam | dominoes | 2026-11-02 00:53 | [A snail raced an eagle up a mountain 🐌🦅 (Part 2)](https://youtube.com/shorts/pZqf7zlgxp0) |
 | 1064 | 14 | 0 | 78% | 25s | 3 | 2026-10-29-snail-race | liam | race | 2026-10-29 02:49 | [A snail challenged a cheetah to a race. He won. 🐌🏁](https://youtube.com/shorts/bF4ibGemgHw) |
-| 1028 | 11 | 2 | — | — | — | 2026-11-02-moon-mouse | george | stack | 2026-11-02 02:55 | [Every night, the moon gets smaller. Here's why 🌙🐭](https://youtube.com/shorts/iqEKdZh334o) |
+| 1029 | 11 | 2 | — | — | — | 2026-11-02-moon-mouse | george | stack | 2026-11-02 02:55 | [Every night, the moon gets smaller. Here's why 🌙🐭](https://youtube.com/shorts/iqEKdZh334o) |
 | 1016 | 12 | 0 | 83% | 28s | 1 | 2026-10-26-photo-stranger | brian | spiral | 2026-10-26 10:49 | [Every photo she takes has a stranger. Closer each time 📸😨](https://youtube.com/shorts/IXPt38YADJI) |
 | 972 | 5 | 0 | 33% | 20s | 0 | 2026-10-25-lighthouse-looked-away | george | wheel | 2026-10-24 18:46 | [The lighthouse that turned AWAY from the sea 🗼🌊](https://youtube.com/shorts/sRxTZhzLgsc) |
 | 941 | 11 | 2 | 51% | 15s | 2 | 2026-10-31-candy-tax | jessica | obby | 2026-10-31 06:57 | [Ben taxed Mia's Halloween candy 🎃🌶️ (Part 2)](https://youtube.com/shorts/sar3PMsNJaA) |
@@ -31,6 +31,7 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 316 | 3 | 0 | 38% | 16s | 0 | 2026-10-25-vending-machine-knows | brian | breakout | 2026-10-25 06:49 | [The vending machine never gives what he picks 🥤😨](https://youtube.com/shorts/XHeV9VH5Tzs) |
 | 264 | 6 | 0 | 60% | 22s | 0 | 2026-10-31-forgot-acorns | jessica | stack | 2026-10-31 02:53 | [He buried 100 acorns. Then forgot where. 🐿️🌳](https://youtube.com/shorts/8a86eiZrPHo) |
 | 232 | 2 | 0 | 46% | 20s | 0 | 2026-10-25-last-moth | liam | race | 2026-10-25 02:43 | [10,000 moths raced to one light. He came last. 🦋💡](https://youtube.com/shorts/aMExlWBjoUA) |
+| 120 | 0 | 1 | — | — | — | 2026-11-03-rabbit-tower | liam | dominoes | 2026-11-03 00:52 | [A snail raced a rabbit up 100 floors 🐌🐇 (Part 3)](https://youtube.com/shorts/xzKwdmUnI0o) |
 | 21 | 0 | 0 | 99% | 35s | 0 | 2026-10-26-grandma-chair | jessica | wheel | 2026-10-26 14:49 | [Grandma has NEVER lost hide and seek 👵🙈](https://youtube.com/shorts/KBAvLz8TtYQ) |
 | 16 | 0 | 0 | 23% | 8s | 0 | 2026-10-28-hamster-escape | jessica | wheel | 2026-10-28 06:49 | [He tried to escape for 99 nights. The door was OPEN 🐹🔓](https://youtube.com/shorts/KHgADMXxEg8) |
 | 12 | 0 | 0 | 80% | 31s | 0 | 2026-10-30-snow-globe-sign | jessica | soap | 2026-10-30 15:41 | [She shook her snow globe every night. Day 6: a sign 🔮🪧](https://youtube.com/shorts/EtC1uch9EEo) |

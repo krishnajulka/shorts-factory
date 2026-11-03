@@ -1,0 +1,324 @@
+{
+  "id": "2026-11-03-tiny-door",
+  "title": "The Tiny Door",
+  "youtube": {
+    "title": "A tiny door grew in her wall. Day 5: it opened 🚪🐭",
+    "description": "A door one inch tall. Then bigger every day. Nora opened it on day five. #shorts #story #funny #mystery",
+    "tags": [
+      "shorts",
+      "story",
+      "funny",
+      "mystery",
+      "tiny door",
+      "mice",
+      "animation"
+    ]
+  },
+  "logline": "A tiny door in Nora's wall grows bigger every day; on day five she opens it and a mouse asks her to babysit his forty babies.",
+  "comment": "Would you open the door on day five? 👇",
+  "hook": "WHAT IS BEHIND THE DOOR? 🚪",
+  "narrator": "callum",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": [
+    "door",
+    "tiny",
+    "bigger",
+    "nora",
+    "opened",
+    "mice",
+    "babysitter",
+    "babies",
+    "wall",
+    "follow"
+  ],
+  "bottom": "stack",
+  "cast": {
+    "nora": {
+      "species": "bean",
+      "color": "#4cc9f0",
+      "name": "Nora"
+    },
+    "door": {
+      "emoji": "🚪"
+    },
+    "mouse": {
+      "emoji": "🐭"
+    },
+    "baby": {
+      "emoji": "🍼"
+    }
+  },
+  "scenes": [
+    {
+      "id": "tiny",
+      "text": "A tiny door appeared in Nora's wall. One inch tall.",
+      "setting": "room",
+      "light": "night",
+      "focus": "door",
+      "effects": [
+        "vignette"
+      ],
+      "sfx": "vineBoom",
+      "flash": "tiny",
+      "actors": [
+        {
+          "who": "nora",
+          "x": 260,
+          "size": 1.2,
+          "mood": "shock",
+          "action": "shake"
+        },
+        {
+          "who": "door",
+          "x": 700,
+          "size": 0.9
+        }
+      ],
+      "stickers": [
+        {
+          "word": "tiny",
+          "emoji": "🔍"
+        },
+        {
+          "word": "inch",
+          "emoji": "📏"
+        }
+      ]
+    },
+    {
+      "id": "day-two",
+      "text": "Day two. The door was bigger. Day three, bigger again.",
+      "setting": "room",
+      "light": "dusk",
+      "focus": "door",
+      "effects": [],
+      "actors": [
+        {
+          "who": "nora",
+          "x": 260,
+          "size": 1.3,
+          "mood": "shock"
+        },
+        {
+          "who": "door",
+          "x": 700,
+          "size": 0.9
+        }
+      ],
+      "stickers": [
+        {
+          "word": "two",
+          "emoji": "2️⃣"
+        },
+        {
+          "word": "three",
+          "emoji": "3️⃣"
+        }
+      ]
+    },
+    {
+      "id": "day-four",
+      "text": "Day four. It was as tall as her cat. Something whispered behind it.",
+      "setting": "room",
+      "light": "night",
+      "focus": "door",
+      "effects": [
+        "vignette"
+      ],
+      "sfx": "dramaticBoomer",
+      "actors": [
+        {
+          "who": "nora",
+          "x": 260,
+          "size": 1.3,
+          "mood": "shock",
+          "action": "shake",
+          "at": "whispered"
+        },
+        {
+          "who": "door",
+          "x": 700,
+          "size": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "word": "four",
+          "emoji": "4️⃣"
+        },
+        {
+          "word": "whispered",
+          "emoji": "🤫"
+        }
+      ]
+    },
+    {
+      "id": "day-five",
+      "text": "Day five. The door was Nora-sized. She opened it.",
+      "setting": "room",
+      "light": "danger",
+      "focus": "door",
+      "effects": [
+        "shake"
+      ],
+      "actors": [
+        {
+          "who": "nora",
+          "x": 260,
+          "size": 1.4,
+          "mood": "shock",
+          "action": "jump",
+          "at": "opened"
+        },
+        {
+          "who": "door",
+          "x": 700,
+          "size": 2.0
+        }
+      ],
+      "stickers": [
+        {
+          "word": "five",
+          "emoji": "5️⃣"
+        },
+        {
+          "word": "opened",
+          "emoji": "😱"
+        }
+      ]
+    },
+    {
+      "id": "mice",
+      "text": "A hundred tiny mice stared back. Nobody moved.",
+      "setting": "room",
+      "light": "night",
+      "focus": "nora",
+      "effects": [
+        "vignette"
+      ],
+      "actors": [
+        {
+          "who": "nora",
+          "x": 200,
+          "size": 1.0,
+          "mood": "shock"
+        }
+      ],
+      "crowd": {
+        "who": "mouse",
+        "count": 40,
+        "mood": "shock",
+        "until": "moved"
+      },
+      "stickers": [
+        {
+          "word": "hundred",
+          "emoji": "💯"
+        },
+        {
+          "word": "stared",
+          "emoji": "👀"
+        }
+      ]
+    },
+    {
+      "id": "babysitter",
+      "text": "One mouse stepped forward. Finally, he whispered. We need a babysitter.",
+      "setting": "room",
+      "light": "day",
+      "focus": "mouse",
+      "effects": [],
+      "actors": [
+        {
+          "who": "nora",
+          "x": 250,
+          "size": 1.3,
+          "mood": "shock"
+        },
+        {
+          "who": "mouse",
+          "x": 800,
+          "toX": 620,
+          "size": 1.5,
+          "mood": "happy",
+          "action": "bow",
+          "at": "babysitter"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "Finally",
+          "emoji": "😮‍💨"
+        },
+        {
+          "word": "babysitter",
+          "emoji": "🍼"
+        }
+      ]
+    },
+    {
+      "id": "babies",
+      "text": "Nora said yes. Then came forty screaming baby mice.",
+      "setting": "room",
+      "light": "day",
+      "focus": "nora",
+      "effects": [
+        "shake"
+      ],
+      "sfx": "ohMyGodVine",
+      "actors": [
+        {
+          "who": "nora",
+          "x": 540,
+          "size": 1.3,
+          "mood": "shock",
+          "action": "jump"
+        }
+      ],
+      "crowd": {
+        "who": "mouse",
+        "count": 40,
+        "mood": "angry",
+        "until": "mice"
+      },
+      "stickers": [
+        {
+          "word": "yes",
+          "emoji": "✅"
+        },
+        {
+          "word": "screaming",
+          "emoji": "😭"
+        }
+      ]
+    },
+    {
+      "id": "loop",
+      "text": "Follow, or a tiny door appears in your wall tonight.",
+      "setting": "room",
+      "light": "night",
+      "focus": "door",
+      "effects": [
+        "vignette"
+      ],
+      "actors": [
+        {
+          "who": "door",
+          "x": 540,
+          "size": 1.0
+        }
+      ],
+      "stickers": [
+        {
+          "word": "Follow",
+          "emoji": "👉"
+        },
+        {
+          "word": "tiny",
+          "emoji": "🚪"
+        }
+      ]
+    }
+  ]
+}
