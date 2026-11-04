@@ -30,6 +30,7 @@ From `2026-10-27-spider-prank` (1,266 views, 61% watched, 19 likes).
   - Part 2 — `2026-10-31-candy-tax`: Halloween; Ben taxes one candy per house, Mia always hands him a red one: five chili candies.
   - Part 3 — `2026-11-02-toll-booth`: Ben's hallway toll doubles daily (1,2,4,8,16 = 31 coins); Mia paid with coins from his own piggy bank, then builds her own toll booth.
   - Part 4 — `2026-11-03-alarm-clock`: Ben hides an alarm under Mia's bed ringing 5,4,3,2,1 AM; Mia carries it into his room each night, so Ben is the exhausted one.
+  - Part 5 — `2026-11-04-beach-hole`: Ben digs a 5-foot trap hole at the beach under Mia's towel (1-5 feet counter); Mia sends him running for ice cream across it and eats his cone.
 
 ## Turbo the snail
 

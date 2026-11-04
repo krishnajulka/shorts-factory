@@ -1,0 +1,107 @@
+{
+  "id": "2026-11-04-beach-hole",
+  "title": "Beach Hole",
+  "youtube": {
+    "title": "Ben dug a trap for his sister at the beach 🕳️😈 (Part 5)",
+    "description": "Ben dug a secret hole to catch Mia: one foot, two, three, four, five. Guess who fell in. #shorts #story #funny #siblings",
+    "tags": ["shorts", "story", "funny", "karma", "siblings", "animation", "beach"]
+  },
+  "logline": "Ben digs a secret hole at the beach to trap his sister Mia, but Mia sends him running for ice cream across his own hidden hole.",
+  "series": { "name": "Ben vs Mia: the prank war", "part": 5 },
+  "comment": "Would you have stepped on the towel? 🕳️👇",
+  "hook": "BEN DUG A TRAP FOR MIA 🕳️😈",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["hole", "dug", "feet", "towel", "ice", "cream", "shortcut", "trap", "thanks"],
+  "bottom": "soap",
+  "cast": {
+    "ben": { "species": "bean", "color": "#ff9f1c", "name": "Ben" },
+    "mia": { "species": "bean", "color": "#c77dff", "name": "Mia" },
+    "hole": { "emoji": "🕳️" },
+    "towel": { "emoji": "🏖️" },
+    "ice": { "emoji": "🍦" }
+  },
+  "scenes": [
+    {
+      "id": "dig", "text": "Ben dug a hole to catch Mia. One foot deep.",
+      "setting": "beach", "light": "day", "focus": "ben", "effects": ["vignette"], "sfx": "vineBoom", "flash": "hole",
+      "actors": [
+        { "who": "hole", "x": 420, "size": 1.5 },
+        { "who": "ben", "x": 320, "size": 1.4, "mood": "smug", "action": "jump" },
+        { "who": "mia", "x": 940, "size": 0.8, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "hole", "emoji": "🕳️" }, { "word": "One", "emoji": "1️⃣" }]
+    },
+    {
+      "id": "deeper", "text": "Two feet. Three feet. Four feet. Ben dug all afternoon.",
+      "setting": "beach", "light": "dusk", "focus": "ben", "effects": ["speed"],
+      "actors": [
+        { "who": "hole", "x": 460, "size": 1.8 },
+        { "who": "ben", "x": 300, "size": 1.4, "mood": "angry", "action": "jump" },
+        { "who": "mia", "x": 950, "size": 0.8, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "Two", "emoji": "2️⃣" }, { "word": "Four", "emoji": "4️⃣" }]
+    },
+    {
+      "id": "cover", "text": "Five feet. He hid it under Mia's favorite towel.",
+      "setting": "beach", "light": "day", "focus": "ben", "sfx": "animeWow",
+      "actors": [
+        { "who": "towel", "x": 560, "size": 1.8 },
+        { "who": "ben", "x": 300, "size": 1.4, "mood": "smug", "action": "jump" },
+        { "who": "mia", "x": 950, "size": 0.8, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "Five", "emoji": "5️⃣" }, { "word": "towel", "emoji": "🏖️" }]
+    },
+    {
+      "id": "stop", "text": "Mia walked up. Then she stopped. And smiled.",
+      "setting": "beach", "light": "dusk", "focus": "mia", "effects": ["vignette"], "sfx": "recordScratch",
+      "actors": [
+        { "who": "towel", "x": 540, "size": 1.8 },
+        { "who": "ben", "x": 220, "size": 1.2, "mood": "shock" },
+        { "who": "mia", "x": 900, "toX": 760, "size": 1.3, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "stopped", "emoji": "✋" }, { "word": "smiled", "emoji": "🙂" }]
+    },
+    {
+      "id": "truck", "text": "Mia said, the ice cream truck is here! Ben ran.",
+      "setting": "beach", "light": "day", "focus": "ben", "effects": ["speed"], "sfx": "yippee",
+      "actors": [
+        { "who": "ice", "x": 980, "size": 1.3, "action": "shake" },
+        { "who": "ben", "x": 80, "toX": 560, "size": 1.4, "mood": "happy", "action": "run" },
+        { "who": "mia", "x": 830, "size": 1.1, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "ice", "emoji": "🍦" }, { "word": "ran", "emoji": "💨" }]
+    },
+    {
+      "id": "fall", "text": "He took the shortcut. Straight across his own towel.",
+      "setting": "beach", "light": "danger", "focus": "ben", "effects": ["shake"], "sfx": "wilhelmScream",
+      "actors": [
+        { "who": "towel", "x": 540, "size": 1.8 },
+        { "who": "ben", "x": 540, "size": 1.4, "mood": "shock", "action": "faint", "at": "own" },
+        { "who": "mia", "x": 930, "size": 1, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "shortcut", "emoji": "💨" }, { "word": "towel", "emoji": "🏖️" }]
+    },
+    {
+      "id": "thanks", "text": "Five feet down. Mia ate his cone. Thanks, Ben.",
+      "setting": "beach", "light": "gold", "focus": "mia", "effects": ["rays"], "sfx": "ohMyGodVine",
+      "actors": [
+        { "who": "hole", "x": 380, "size": 1.8 },
+        { "who": "ben", "x": 380, "size": 0.9, "mood": "sad" },
+        { "who": "mia", "x": 800, "size": 1.3, "face": "left", "mood": "happy", "hold": "🍦" }
+      ],
+      "stickers": [{ "word": "cone", "emoji": "🍦" }, { "word": "Thanks", "emoji": "🙂" }]
+    },
+    {
+      "id": "loop", "text": "Tomorrow, Ben digs a hole to catch Mia.",
+      "setting": "beach", "light": "day", "focus": "ben", "sfx": "yippee",
+      "actors": [
+        { "who": "hole", "x": 420, "size": 1.5 },
+        { "who": "ben", "x": 320, "size": 1.4, "mood": "smug", "action": "jump" },
+        { "who": "mia", "x": 940, "size": 0.8, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "Tomorrow", "emoji": "🌅" }, { "word": "hole", "emoji": "🕳️" }]
+    }
+  ]
+}

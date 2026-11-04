@@ -8,7 +8,7 @@ evidence wins. Cite the stories a lesson comes from.
 
 ## From the numbers
 
-(Updated 2026-11-04, second 6 AM-slot run: 6 AM IST (~00:50 UTC) uploads reach normally: rabbit-tower 978, eagle-mountain 1,135 at ~1 day, so the 8 PM->6 AM move worked (rows: eagle-mountain, rabbit-tower, alarm-clock). Series: Ben vs Mia 1,271 -> 948 -> 910 -> 1,022 (decay stopped, hypothesis: holds ~1,000); Turbo 1,066 -> 1,135 -> 978 (pigeon-mail <24h). Best % watched: cat-cup 84%, photo-stranger 83%, snail-race 78%, snowman 61% at ~25 s. gray-crayon and vase-five-minutes 5 views each at <24h: hypothesis, 10:50 UTC 4 PM-slot Shorts start low; wait for 24h. Today's test: standalone family comedy with a Day 1-5 counter and a reversal ending (puppy-chores).)
+(Updated 2026-11-04, third run: 6 AM IST (~00:50 UTC) reach is normal: eagle-mountain 1,170, rabbit-tower 981 and puppy-chores 660 at only ~4 h; alarm-clock (06:51 UTC slot) 1,022. Series: Ben vs Mia 1,271 -> 947 -> 910 -> 1,022 (hypothesis: holds ~1,000); Turbo 1,066 -> 1,170 -> 981 (pigeon-mail 0 views at <6 h). The 10:50 UTC (4 PM) Shorts gray-crayon 6 and vase-five-minutes 8 are still <24 h old: judge tomorrow. Today's test: Ben vs Mia Part 5 at the beach (a new setting for the series) with a feet-deep counter.)
 
 - **Late-day uploads flop; the low-reach pattern is about slot position, not clock time alone.** 8 PM India (~14:50 UTC): pell-vanishes 10, grandma-chair 21, clock-snaps 7, three-blinks 3, haunted-garage 5, snow-globe-sign 9, bus-stop-dog 1 (all ~15:00-16:30 UTC). Most 8 AM / 12 PM / 4 PM uploads get 900-1,800. Exceptions at 02:50 UTC: tooth-fairy-traps 3, last-pancake 422, forgot-acorns 202 (weak premises or the 3rd-4th upload of a day?). Hypothesis: premise quality matters too: weak "wacky" premises die even in good slots.
 - **What holds viewers: one simple rule that escalates.** Best average % watched:
@@ -35,7 +35,7 @@ evidence wins. Cite the stories a lesson comes from.
   (time-loop comedy, everyday problem, liam, corner bottom) is #1 with 1,186 views and
   the best like rate (18 likes, 1.5%). Next: lighthouse 840, ghost-sings 839, duck 614.
   (Day one looked the opposite — duck 93 vs sneeze 12 — so judge after 24h, not 1h.)
-- **Hypothesis (2 data points): series part 2 holds up** (candy-tax 938 views, 2 comments; eagle-mountain part 2 of Turbo 912 so far) but below part 1 (1,266).
+- **Series parts hold up (4 data points):** Ben vs Mia parts 2-4 (947, 910, 1,022) and Turbo parts 2-3 (1,170, 981) all land around 900-1,200, near the channel's typical 1,000-1,300, but none has beaten the standalone best (snowman 1,777).
 - **Abstract or complicated premises do worse**: vending-machine-knows 238, last-moth 175.
 - **Two Shorts uploaded in the same minute both flopped** (closet-knock 5 views and
   sock-escape 2, both uploaded 2026-10-24 18:56 UTC). Hypothesis: never upload

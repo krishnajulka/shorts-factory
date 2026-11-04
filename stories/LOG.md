@@ -51,3 +51,4 @@ and a different bottom than the last 2.
 - 2026-11-03 — 2026-11-03-gray-crayon — underdog / wholesome funny twist — nobody picks Gray the gray crayon all week (Mon-Fri counter); Friday's storm needs gray and Mina wins first prize, so now nobody picks yellow (room) [soap]
 - 2026-11-04 — 2026-11-04-pigeon-mail — underdog competition / clever trick — SERIES Turbo the snail Part 4: Turbo races a pigeon to Grandma's house over 3 days; he mailed himself and is already inside eating cake (city, forest, room) [dominoes]
 - 2026-11-04 — 2026-11-04-puppy-chores — family comedy / funny reveal (reversal) — Max does five days of chores (Day 1-5) to earn a puppy; the puppy wrecks the clean house in ten seconds and Mom hands him the mop: Day one (room) [stack]
+- 2026-11-04 — 2026-11-04-beach-hole — revenge / funny karma reveal — SERIES Ben vs Mia Part 5: Ben digs a 5-foot trap hole under Mia's towel; she sends him running for ice cream across it and eats his cone (beach) [soap]
