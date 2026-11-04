@@ -49,3 +49,4 @@ and a different bottom than the last 2.
 - 2026-11-03 — 2026-11-03-tiny-door — mini mystery / funny reveal — a tiny door in Nora's wall grows bigger each day (counter 1-5); day five a mouse asks her to babysit forty baby mice (room) [stack]
 - 2026-11-03 — 2026-11-03-alarm-clock — revenge / funny karma reveal — SERIES Ben vs Mia Part 4: Ben's alarm under Mia's bed rings 5,4,3,2,1 AM; Mia moved it into his room every night, so he's the exhausted one (room) [obby]
 - 2026-11-03 — 2026-11-03-gray-crayon — underdog / wholesome funny twist — nobody picks Gray the gray crayon all week (Mon-Fri counter); Friday's storm needs gray and Mina wins first prize, so now nobody picks yellow (room) [soap]
+- 2026-11-04 — 2026-11-04-pigeon-mail — underdog competition / clever trick — SERIES Turbo the snail Part 4: Turbo races a pigeon to Grandma's house over 3 days; he mailed himself and is already inside eating cake (city, forest, room) [dominoes]

@@ -1,0 +1,112 @@
+{
+  "id": "2026-11-04-pigeon-mail",
+  "title": "Turbo vs the Pigeon",
+  "youtube": {
+    "title": "A snail raced a pigeon across the country 🐌🕊️ (Part 4)",
+    "description": "The rule never said fly. Turbo the snail strikes again. #shorts #story #funny #clevertrick",
+    "tags": ["shorts", "story", "funny", "clever", "animals", "snail", "pigeon", "animation"]
+  },
+  "logline": "Turbo the snail challenges a pigeon to race to Grandma's house across the country, and wins by mailing himself, because the rule never said fly.",
+  "comment": "How would YOU beat a pigeon? 🐌👇",
+  "hook": "SNAIL VS PIGEON: 3 DAYS! 🐌🕊️",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "series": { "name": "Turbo the snail", "part": 4 },
+  "keywords": ["snail", "pigeon", "grandma", "turbo", "deal", "stamp", "mail", "fly", "day", "rule"],
+  "bottom": "dominoes",
+  "cast": {
+    "turbo": { "emoji": "🐌", "name": "Turbo" },
+    "pigeon": { "emoji": "🕊️" },
+    "fan": { "emoji": "😂" },
+    "stamp": { "emoji": "✉️" },
+    "box": { "emoji": "📮" },
+    "granny": { "emoji": "👵" },
+    "house": { "emoji": "🏠" },
+    "storm": { "emoji": "⛈️" },
+    "mount": { "emoji": "🏔️" }
+  },
+  "scenes": [
+    {
+      "id": "race", "text": "A snail raced a pigeon across the country.",
+      "setting": "city", "light": "day", "focus": "turbo", "effects": ["shake"], "sfx": "vineBoom",
+      "actors": [
+        { "who": "turbo", "x": 280, "size": 1.5, "face": "right", "action": "jump" },
+        { "who": "pigeon", "x": 800, "size": 1.6, "action": "shake" }
+      ],
+      "stickers": [{ "word": "snail", "emoji": "🐌" }, { "word": "pigeon", "emoji": "🕊️" }]
+    },
+    {
+      "id": "laugh", "text": "Everyone laughed. Turbo just said, deal.",
+      "setting": "city", "light": "day", "focus": "turbo",
+      "crowd": { "who": "fan", "count": 24, "mood": "happy", "until": "laughed" },
+      "actors": [
+        { "who": "turbo", "x": 540, "size": 1.6, "mood": "smug", "face": "right", "action": "jump", "at": "deal" }
+      ],
+      "stickers": [{ "word": "laughed", "emoji": "🤣" }, { "word": "deal", "emoji": "🤝" }]
+    },
+    {
+      "id": "start", "text": "First one to Grandma's house wins. Turbo licked a stamp.",
+      "setting": "city", "light": "day", "focus": "turbo",
+      "actors": [
+        { "who": "pigeon", "x": 250, "size": 1.5, "mood": "smug", "face": "right", "action": "jump" },
+        { "who": "box", "x": 780, "size": 1.3 },
+        { "who": "turbo", "x": 900, "size": 0.9, "mood": "smug", "hold": "✉️" }
+      ],
+      "stickers": [{ "word": "Grandma's", "emoji": "👵" }, { "word": "stamp", "emoji": "📮" }]
+    },
+    {
+      "id": "d1", "text": "Day one. The pigeon flew over huge mountains.",
+      "setting": "forest", "light": "day", "focus": "pigeon", "effects": ["speed"],
+      "actors": [
+        { "who": "mount", "x": 300, "size": 2.2 },
+        { "who": "pigeon", "x": 600, "size": 1.6, "face": "right", "action": "run" }
+      ],
+      "stickers": [{ "word": "Day", "emoji": "1️⃣" }, { "word": "mountains", "emoji": "🏔️" }]
+    },
+    {
+      "id": "d2", "text": "Day two. Thunder and rain. The pigeon was soaked.",
+      "setting": "forest", "light": "night", "focus": "pigeon", "effects": ["rain", "vignette"],
+      "actors": [
+        { "who": "storm", "x": 540, "size": 2.2, "lift": 300 },
+        { "who": "pigeon", "x": 540, "size": 1.5, "face": "right", "mood": "sad", "action": "shake" }
+      ],
+      "stickers": [{ "word": "two", "emoji": "2️⃣" }, { "word": "soaked", "emoji": "💦" }]
+    },
+    {
+      "id": "d3", "text": "Day three. He landed at Grandma's door, sure he'd won.",
+      "setting": "city", "light": "gold", "focus": "pigeon", "effects": ["rays"], "sfx": "animeWow",
+      "actors": [
+        { "who": "house", "x": 800, "size": 2.0 },
+        { "who": "pigeon", "x": 400, "size": 1.6, "face": "right", "mood": "smug", "action": "bow" }
+      ],
+      "stickers": [{ "word": "three", "emoji": "3️⃣" }, { "word": "won", "emoji": "🏆" }]
+    },
+    {
+      "id": "ding", "text": "Then Grandma opened the door. Turbo was already inside, eating cake.",
+      "setting": "room", "light": "gold", "focus": "turbo", "effects": ["vignette"], "sfx": "recordScratch",
+      "actors": [
+        { "who": "granny", "x": 250, "size": 1.5, "mood": "happy" },
+        { "who": "turbo", "x": 700, "size": 1.5, "mood": "smug", "hold": "🍰" }
+      ],
+      "stickers": [{ "word": "inside", "emoji": "🚪" }, { "word": "cake", "emoji": "🍰" }]
+    },
+    {
+      "id": "rule", "text": "He came by mail. The rule never said fly.",
+      "setting": "room", "light": "gold", "focus": "turbo", "effects": ["confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "turbo", "x": 540, "size": 1.7, "mood": "happy", "action": "jump" }
+      ],
+      "stickers": [{ "word": "mail", "emoji": "📬" }, { "word": "fly", "emoji": "🚫" }]
+    },
+    {
+      "id": "loop", "text": "Rematch tomorrow. Turbo says deal. A snail raced a pigeon across the country.",
+      "setting": "city", "light": "dusk", "focus": "turbo", "effects": ["vignette"],
+      "actors": [
+        { "who": "turbo", "x": 300, "size": 1.4, "mood": "smug", "face": "right", "action": "jump", "at": "deal" },
+        { "who": "pigeon", "x": 780, "size": 1.5, "mood": "angry" }
+      ],
+      "stickers": [{ "word": "Rematch", "emoji": "🔁" }, { "word": "deal", "emoji": "🤝" }]
+    }
+  ]
+}
