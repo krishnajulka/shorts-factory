@@ -1,0 +1,109 @@
+{
+  "id": "2026-11-04-puppy-chores",
+  "title": "Five Days For A Puppy",
+  "youtube": {
+    "title": "He did 5 days of chores to earn a puppy 🐶🧹",
+    "description": "Max cleaned for five days. Then the puppy ran in. #shorts #story #funny #family",
+    "tags": ["shorts", "story", "funny", "family", "puppy", "chores", "animation"]
+  },
+  "logline": "Max does five days of chores to earn a puppy; on day five the puppy wrecks the whole clean house in ten seconds and Mom hands him the mop.",
+  "comment": "Would you do 5 days of chores for a puppy? 👇",
+  "hook": "5 DAYS FOR A PUPPY 🐶",
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["puppy", "max", "chores", "dish", "laundry", "floor", "mom", "mop", "day", "follow"],
+  "bottom": "stack",
+  "cast": {
+    "max": { "species": "bean", "color": "#2ec4b6", "name": "Max" },
+    "mom": { "species": "bean", "color": "#e76f51", "name": "Mom" },
+    "puppy": { "emoji": "🐶" },
+    "dish": { "emoji": "🍽️" },
+    "shirt": { "emoji": "👕" },
+    "broom": { "emoji": "🧹" },
+    "mop": { "emoji": "🧽" }
+  },
+  "scenes": [
+    {
+      "id": "deal", "text": "Max wanted a puppy. Mom said: five days of chores.",
+      "setting": "room", "light": "day", "focus": "max", "effects": ["vignette"], "sfx": "vineBoom", "flash": "puppy",
+      "actors": [
+        { "who": "max", "x": 330, "size": 1.5, "mood": "happy", "action": "jump", "at": "puppy" },
+        { "who": "mom", "x": 780, "size": 1.3, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "puppy", "emoji": "🐶" }, { "word": "five", "emoji": "5️⃣" }]
+    },
+    {
+      "id": "d1", "text": "Day one. He washed every single dish.",
+      "setting": "room", "light": "day", "focus": "max",
+      "actors": [
+        { "who": "max", "x": 330, "size": 1.4, "mood": "happy", "action": "jump" },
+        { "who": "dish", "x": 760, "size": 1.6, "action": "float" }
+      ],
+      "stickers": [{ "word": "one", "emoji": "1️⃣" }, { "word": "dish", "emoji": "🍽️" }]
+    },
+    {
+      "id": "d2", "text": "Day two. He folded a mountain of laundry.",
+      "setting": "room", "light": "day", "focus": "max",
+      "crowd": { "who": "shirt", "count": 24, "mood": "happy", "until": "laundry" },
+      "actors": [{ "who": "max", "x": 540, "size": 1.4, "mood": "happy", "action": "jump" }],
+      "stickers": [{ "word": "two", "emoji": "2️⃣" }, { "word": "laundry", "emoji": "🧺" }]
+    },
+    {
+      "id": "d3", "text": "Day three. He swept the floor until it sparkled.",
+      "setting": "room", "light": "gold", "focus": "max", "effects": ["rays"],
+      "actors": [
+        { "who": "max", "x": 200, "toX": 760, "size": 1.4, "mood": "happy", "action": "run" },
+        { "who": "broom", "x": 820, "size": 1.3 }
+      ],
+      "stickers": [{ "word": "three", "emoji": "3️⃣" }, { "word": "sparkled", "emoji": "✨" }]
+    },
+    {
+      "id": "d4", "text": "Day four. He was so tired, he fell asleep standing up.",
+      "setting": "room", "light": "dusk", "focus": "max",
+      "actors": [
+        { "who": "max", "x": 540, "size": 1.5, "mood": "sad", "action": "faint", "at": "asleep" }
+      ],
+      "stickers": [{ "word": "four", "emoji": "4️⃣" }, { "word": "tired", "emoji": "😴" }]
+    },
+    {
+      "id": "d5", "text": "Day five. Mom opened the door. A puppy ran in!",
+      "setting": "room", "light": "gold", "focus": "puppy", "effects": ["rays", "confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "mom", "x": 820, "size": 1.2, "face": "left", "mood": "happy" },
+        { "who": "puppy", "x": -100, "toX": 380, "size": 1.5, "action": "run", "at": "ran" },
+        { "who": "max", "x": 560, "size": 1.2, "mood": "happy", "action": "jump", "at": "puppy" }
+      ],
+      "stickers": [{ "word": "five", "emoji": "5️⃣" }, { "word": "puppy", "emoji": "🐶" }]
+    },
+    {
+      "id": "wreck", "text": "In ten seconds, the puppy destroyed everything. Mud. Shirts. Dishes everywhere.",
+      "setting": "room", "light": "danger", "focus": "puppy", "effects": ["shake"], "sfx": "ohMyGodVine",
+      "crowd": { "who": "shirt", "count": 30, "mood": "shock", "until": "everywhere" },
+      "actors": [
+        { "who": "puppy", "x": 640, "size": 1.2, "mood": "happy", "action": "jump" },
+        { "who": "max", "x": 260, "size": 1.2, "mood": "shock", "action": "shake", "at": "destroyed" }
+      ],
+      "stickers": [{ "word": "mud", "emoji": "💩" }, { "word": "dishes", "emoji": "🍽️" }]
+    },
+    {
+      "id": "mop", "text": "Mom smiled and handed him the mop. Day one.",
+      "setting": "room", "light": "dusk", "focus": "max", "effects": ["vignette"], "sfx": "recordScratch",
+      "actors": [
+        { "who": "mom", "x": 780, "size": 1.3, "face": "left", "mood": "smug" },
+        { "who": "max", "x": 330, "size": 1.4, "mood": "shock", "action": "bow", "at": "mop" },
+        { "who": "mop", "x": 540, "size": 1.0, "action": "float", "at": "mop" }
+      ],
+      "stickers": [{ "word": "mop", "emoji": "🧽" }, { "word": "smiled", "emoji": "😏" }]
+    },
+    {
+      "id": "loop", "text": "Max wanted a puppy. Follow for day two.",
+      "setting": "room", "light": "day", "focus": "max",
+      "actors": [
+        { "who": "max", "x": 330, "size": 1.4, "mood": "sad", "action": "idle" },
+        { "who": "puppy", "x": 690, "size": 1.0, "face": "left", "mood": "happy", "action": "jump" }
+      ],
+      "stickers": [{ "word": "puppy", "emoji": "🐶" }, { "word": "follow", "emoji": "👉" }]
+    }
+  ]
+}
