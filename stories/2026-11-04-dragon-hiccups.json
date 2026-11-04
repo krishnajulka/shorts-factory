@@ -1,0 +1,396 @@
+{
+  "id": "2026-11-04-dragon-hiccups",
+  "title": "Dragon Hiccups",
+  "youtube": {
+    "title": "A baby dragon got the hiccups. Each one burned more 🐉🔥",
+    "description": "Five hiccups. Five fires. One brave knight. #shorts #story #funny #dragon",
+    "tags": [
+      "shorts",
+      "story",
+      "funny",
+      "dragon",
+      "hiccups",
+      "knight",
+      "animation"
+    ]
+  },
+  "logline": "A baby dragon's hiccups burn something bigger each time, until a knight scares the hiccups out of him and catches them himself.",
+  "comment": "What would YOU do to stop dragon hiccups? 👇",
+  "hook": "DRAGON HICCUPS! 🐉🔥",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": [
+    "hiccup",
+    "dragon",
+    "burned",
+    "toast",
+    "curtains",
+    "cake",
+    "tree",
+    "castle",
+    "knight",
+    "boo",
+    "hiccups"
+  ],
+  "bottom": "obby",
+  "cast": {
+    "dragon": {
+      "emoji": "🐉",
+      "name": "Dragon"
+    },
+    "knight": {
+      "emoji": "🤺",
+      "name": "Knight"
+    },
+    "toast": {
+      "emoji": "🍞"
+    },
+    "curtain": {
+      "emoji": "🪟"
+    },
+    "cake": {
+      "emoji": "🎂"
+    },
+    "tree": {
+      "emoji": "🌳"
+    },
+    "castle": {
+      "emoji": "🏰"
+    }
+  },
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "Hic! The baby dragon's first hiccup burned the toast.",
+      "setting": "room",
+      "light": "day",
+      "focus": "dragon",
+      "effects": [
+        "vignette"
+      ],
+      "sfx": "vineBoom",
+      "burst": {
+        "at": "toast",
+        "emoji": "🔥"
+      },
+      "actors": [
+        {
+          "who": "dragon",
+          "x": 380,
+          "size": 1.2,
+          "face": "right",
+          "mood": "shock",
+          "action": "jump",
+          "at": "Hic"
+        },
+        {
+          "who": "toast",
+          "x": 700,
+          "size": 1.1,
+          "action": "shake",
+          "at": "toast"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "Hic",
+          "emoji": "😲"
+        },
+        {
+          "word": "toast",
+          "emoji": "🍞"
+        }
+      ]
+    },
+    {
+      "id": "h2",
+      "text": "Hiccup two burned the curtains.",
+      "setting": "room",
+      "light": "dusk",
+      "focus": "dragon",
+      "burst": {
+        "at": "curtains",
+        "emoji": "🔥"
+      },
+      "actors": [
+        {
+          "who": "dragon",
+          "x": 380,
+          "size": 1.2,
+          "face": "right",
+          "mood": "shock",
+          "action": "jump",
+          "at": "two"
+        },
+        {
+          "who": "curtain",
+          "x": 700,
+          "size": 1.1,
+          "action": "shake",
+          "at": "curtains"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "two",
+          "emoji": "2️⃣"
+        },
+        {
+          "word": "curtains",
+          "emoji": "🔥"
+        }
+      ]
+    },
+    {
+      "id": "h3",
+      "text": "Hiccup three burned the birthday cake.",
+      "setting": "city",
+      "light": "day",
+      "focus": "dragon",
+      "sfx": "ohMyGodVine",
+      "burst": {
+        "at": "cake",
+        "emoji": "🔥"
+      },
+      "actors": [
+        {
+          "who": "dragon",
+          "x": 380,
+          "size": 1.2,
+          "face": "right",
+          "mood": "shock",
+          "action": "jump",
+          "at": "three"
+        },
+        {
+          "who": "cake",
+          "x": 700,
+          "size": 1.1,
+          "action": "shake",
+          "at": "cake"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "three",
+          "emoji": "3️⃣"
+        },
+        {
+          "word": "cake",
+          "emoji": "🎂"
+        }
+      ]
+    },
+    {
+      "id": "h4",
+      "text": "Hiccup four burned the biggest tree in town.",
+      "setting": "forest",
+      "light": "dusk",
+      "focus": "dragon",
+      "effects": [
+        "shake"
+      ],
+      "burst": {
+        "at": "tree",
+        "emoji": "🔥"
+      },
+      "actors": [
+        {
+          "who": "dragon",
+          "x": 380,
+          "size": 1.2,
+          "face": "right",
+          "mood": "shock",
+          "action": "jump",
+          "at": "four"
+        },
+        {
+          "who": "tree",
+          "x": 700,
+          "size": 1.5,
+          "action": "shake",
+          "at": "tree"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "four",
+          "emoji": "4️⃣"
+        },
+        {
+          "word": "biggest",
+          "emoji": "😱"
+        }
+      ]
+    },
+    {
+      "id": "h5",
+      "text": "Hiccup five was headed straight for the castle!",
+      "setting": "city",
+      "light": "danger",
+      "focus": "dragon",
+      "effects": [
+        "shake",
+        "vignette"
+      ],
+      "sfx": "dramaticBoomer",
+      "actors": [
+        {
+          "who": "dragon",
+          "x": 380,
+          "size": 1.2,
+          "face": "right",
+          "mood": "shock",
+          "action": "jump",
+          "at": "five"
+        },
+        {
+          "who": "castle",
+          "x": 700,
+          "size": 1.5,
+          "action": "shake",
+          "at": "castle"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "five",
+          "emoji": "5️⃣"
+        },
+        {
+          "word": "castle",
+          "emoji": "🏰"
+        }
+      ]
+    },
+    {
+      "id": "boo",
+      "text": "Then a knight jumped out and yelled, BOO!",
+      "setting": "city",
+      "light": "danger",
+      "focus": "knight",
+      "effects": [
+        "shake"
+      ],
+      "sfx": "wilhelmScream",
+      "flash": "BOO",
+      "actors": [
+        {
+          "who": "dragon",
+          "x": 380,
+          "size": 1.2,
+          "face": "right",
+          "mood": "shock",
+          "action": "shake",
+          "at": "BOO"
+        },
+        {
+          "who": "knight",
+          "x": 1250,
+          "toX": 700,
+          "size": 1.1,
+          "face": "left",
+          "mood": "angry",
+          "action": "jump",
+          "at": "jumped"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "knight",
+          "emoji": "🤺"
+        },
+        {
+          "word": "BOO",
+          "emoji": "👻"
+        }
+      ]
+    },
+    {
+      "id": "calm",
+      "text": "The dragon gasped. The hiccups stopped. The knight bowed proudly.",
+      "setting": "city",
+      "light": "gold",
+      "focus": "knight",
+      "effects": [
+        "rays",
+        "confetti"
+      ],
+      "sfx": "yippee",
+      "actors": [
+        {
+          "who": "dragon",
+          "x": 380,
+          "size": 1.2,
+          "face": "right",
+          "mood": "happy",
+          "action": "idle"
+        },
+        {
+          "who": "knight",
+          "x": 700,
+          "size": 1.1,
+          "face": "left",
+          "mood": "smug",
+          "action": "bow",
+          "at": "bowed"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "stopped",
+          "emoji": "✋"
+        },
+        {
+          "word": "proudly",
+          "emoji": "😎"
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "text": "Now the knight had the hiccups. Follow for hiccup six. Hic!",
+      "setting": "city",
+      "light": "day",
+      "focus": "knight",
+      "effects": [
+        "vignette"
+      ],
+      "sfx": "recordScratch",
+      "burst": {
+        "at": "Hic",
+        "emoji": "💨"
+      },
+      "actors": [
+        {
+          "who": "dragon",
+          "x": 380,
+          "size": 1.2,
+          "face": "right",
+          "mood": "smug",
+          "action": "idle"
+        },
+        {
+          "who": "knight",
+          "x": 700,
+          "size": 1.1,
+          "face": "left",
+          "mood": "shock",
+          "action": "jump",
+          "at": "hiccups"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "hiccups",
+          "emoji": "😳"
+        },
+        {
+          "word": "Follow",
+          "emoji": "👉"
+        }
+      ]
+    }
+  ]
+}
