@@ -1,0 +1,102 @@
+{
+  "id": "2026-11-05-wobbly-tooth",
+  "title": "The Tooth That Wouldn't Fall Out",
+  "youtube": {
+    "title": "His tooth would NOT fall out. 5 tries later... 🦷😂",
+    "description": "Leo tried five ways to pull his wobbly tooth. The sixth one was an accident. #shorts #story #funny #family",
+    "tags": ["shorts", "story", "funny", "family", "tooth", "kids", "animation"]
+  },
+  "logline": "Leo's wobbly tooth refuses to fall out through five silly tries, then pops out the moment he laughs at Dad slipping on the apple core.",
+  "comment": "How did YOUR wobbly tooth finally come out? 🦷👇",
+  "hook": "TOOTH WON'T FALL OUT! 🦷",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["tooth", "wobbly", "apple", "string", "dog", "dad", "candy", "laughed", "pop", "tries"],
+  "bottom": "dominoes",
+  "cast": {
+    "leo": { "species": "bean", "color": "#4cc9f0", "name": "Leo" },
+    "dad": { "species": "bean", "color": "#6a994e", "name": "Dad" },
+    "dog": { "emoji": "🐶" },
+    "apple": { "emoji": "🍎" },
+    "door": { "emoji": "🚪" },
+    "candy": { "emoji": "🍬" },
+    "tooth": { "emoji": "🦷" }
+  },
+  "scenes": [
+    {
+      "id": "wobbly", "text": "Leo's tooth was wobbly. It would not fall out.",
+      "setting": "room", "light": "day", "focus": "leo", "effects": ["vignette"], "sfx": "vineBoom", "flash": "wobbly",
+      "actors": [
+        { "who": "leo", "x": 420, "size": 1.8, "mood": "shock", "action": "shake" },
+        { "who": "tooth", "x": 700, "size": 0.9, "lift": 200, "action": "float" }
+      ],
+      "stickers": [{ "word": "wobbly", "emoji": "🦷" }, { "word": "not", "emoji": "🚫" }]
+    },
+    {
+      "id": "apple", "text": "Try one: he bit a big apple. The apple won.",
+      "setting": "room", "light": "day", "focus": "leo", "effects": ["shake"], "sfx": "bruh",
+      "actors": [
+        { "who": "leo", "x": 400, "size": 1.5, "mood": "angry", "hold": "🍎", "action": "jump" },
+        { "who": "dad", "x": 850, "size": 1, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "apple", "emoji": "🍎" }, { "word": "one", "emoji": "1️⃣" }]
+    },
+    {
+      "id": "door", "text": "Try two: a string on the door. Slam. Nothing.",
+      "setting": "room", "light": "day", "focus": "leo", "effects": ["shake"], "sfx": "spongebobFail",
+      "actors": [
+        { "who": "leo", "x": 330, "size": 1.5, "mood": "shock", "action": "shake" },
+        { "who": "door", "x": 700, "size": 1.8 }
+      ],
+      "stickers": [{ "word": "Slam", "emoji": "💥" }, { "word": "two", "emoji": "2️⃣" }]
+    },
+    {
+      "id": "dog", "text": "Try three: the dog pulled the string. The dog flipped.",
+      "setting": "room", "light": "day", "focus": "leo", "effects": ["speed"],
+      "actors": [
+        { "who": "leo", "x": 300, "size": 1.4, "mood": "shock" },
+        { "who": "dog", "x": 800, "toX": 600, "size": 1.3, "face": "left", "action": "spin" }
+      ],
+      "stickers": [{ "word": "dog", "emoji": "🐶" }, { "word": "three", "emoji": "3️⃣" }]
+    },
+    {
+      "id": "seesaw", "text": "Try four: Dad jumped. Leo flew. The tooth stayed.",
+      "setting": "room", "light": "dusk", "focus": "leo", "effects": ["shake"], "sfx": "wilhelmScream",
+      "actors": [
+        { "who": "dad", "x": 300, "size": 1.3, "mood": "angry", "action": "jump" },
+        { "who": "leo", "x": 760, "size": 1.3, "lift": 300, "mood": "shock", "action": "float" }
+      ],
+      "stickers": [{ "word": "flew", "emoji": "🚀" }, { "word": "four", "emoji": "4️⃣" }]
+    },
+    {
+      "id": "candy", "text": "Try five: super sour candy. His face squished. Still stuck.",
+      "setting": "room", "light": "day", "focus": "leo", "effects": ["vignette"],
+      "actors": [
+        { "who": "leo", "x": 420, "size": 1.8, "mood": "angry", "hold": "🍬", "action": "shake" },
+        { "who": "candy", "x": 760, "size": 0.9, "action": "float" }
+      ],
+      "stickers": [{ "word": "sour", "emoji": "😝" }, { "word": "five", "emoji": "5️⃣" }]
+    },
+    {
+      "id": "pop", "text": "Leo gave up. Then Dad slipped on the apple. Leo laughed. Pop!",
+      "setting": "room", "light": "gold", "focus": "leo", "effects": ["confetti"], "sfx": "yippee", "flash": "Pop",
+      "actors": [
+        { "who": "dad", "x": 300, "size": 1.3, "mood": "shock", "action": "faint" },
+        { "who": "apple", "x": 420, "size": 0.6 },
+        { "who": "leo", "x": 760, "size": 1.5, "face": "left", "mood": "happy", "action": "jump" },
+        { "who": "tooth", "x": 600, "size": 0.8, "lift": 400, "action": "float" }
+      ],
+      "stickers": [{ "word": "laughed", "emoji": "😂" }, { "word": "Pop", "emoji": "🦷" }]
+    },
+    {
+      "id": "loop", "text": "Then Leo felt his next tooth. Wobbly. It would not fall out.",
+      "setting": "room", "light": "danger", "focus": "leo", "effects": ["vignette"],
+      "actors": [
+        { "who": "leo", "x": 420, "size": 1.8, "mood": "shock", "action": "shake" },
+        { "who": "tooth", "x": 700, "size": 0.9, "lift": 200, "action": "float" }
+      ],
+      "stickers": [{ "word": "wobbly", "emoji": "🦷" }, { "word": "next", "emoji": "😬" }]
+    }
+  ]
+}
