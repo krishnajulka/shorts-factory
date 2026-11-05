@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-05-diwali-sky",
+  "title": "Turbo Diwali Sky",
+  "youtube": {
+    "title": "A snail raced a rabbit to light up Diwali night 🪔🐌 (Part 5)",
+    "description": "Five lamps versus one rocket. Turbo the snail reads the rules again. Happy Diwali! #shorts #diwali #story #funny",
+    "tags": ["shorts", "diwali", "story", "funny", "clever", "animals", "snail", "rabbit", "animation"]
+  },
+  "logline": "Turbo the snail races a rabbit to light up the Diwali sky; the rabbit lights five tiny lamps, but Turbo lights one rocket that fills the whole sky, because the rule said sky, not lamps.",
+  "comment": "How would YOU light up the sky? 🪔👇",
+  "hook": "SNAIL VS RABBIT: DIWALI! 🪔",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "series": { "name": "Turbo the snail", "part": 5 },
+  "keywords": ["snail", "rabbit", "diwali", "turbo", "deal", "lamp", "rocket", "sky", "rule", "five"],
+  "bottom": "dominoes",
+  "cast": {
+    "turbo": { "emoji": "🐌", "name": "Turbo" },
+    "rabbit": { "emoji": "🐇" },
+    "fan": { "emoji": "😂" },
+    "lamp": { "emoji": "🪔" },
+    "rocket": { "emoji": "🚀" },
+    "fire": { "emoji": "🎆" },
+    "house": { "emoji": "🏠" }
+  },
+  "scenes": [
+    {
+      "id": "race", "text": "A snail raced a rabbit to light up Diwali night.",
+      "setting": "city", "light": "dusk", "focus": "turbo", "effects": ["shake"], "sfx": "vineBoom",
+      "actors": [
+        { "who": "turbo", "x": 280, "size": 1.5, "face": "right", "action": "jump" },
+        { "who": "rabbit", "x": 800, "size": 1.6, "face": "left", "action": "shake" }
+      ],
+      "stickers": [{ "word": "snail", "emoji": "🐌" }, { "word": "Diwali", "emoji": "🪔" }]
+    },
+    {
+      "id": "laugh", "text": "Everyone laughed. Turbo just said, deal.",
+      "setting": "city", "light": "dusk", "focus": "turbo",
+      "crowd": { "who": "fan", "count": 24, "mood": "happy", "until": "laughed" },
+      "actors": [
+        { "who": "turbo", "x": 540, "size": 1.6, "mood": "smug", "face": "right", "action": "jump", "at": "deal" }
+      ],
+      "stickers": [{ "word": "laughed", "emoji": "🤣" }, { "word": "deal", "emoji": "🤝" }]
+    },
+    {
+      "id": "rule", "text": "First one to light the sky wins. Turbo grabbed one rocket.",
+      "setting": "city", "light": "dusk", "focus": "turbo",
+      "actors": [
+        { "who": "rabbit", "x": 250, "size": 1.5, "mood": "smug", "face": "right", "hold": "🪔", "action": "jump" },
+        { "who": "turbo", "x": 800, "size": 1.0, "mood": "smug", "face": "left", "hold": "🚀" }
+      ],
+      "stickers": [{ "word": "sky", "emoji": "🌌" }, { "word": "rocket", "emoji": "🚀" }]
+    },
+    {
+      "id": "l1", "text": "Lamp one. The rabbit lit a tiny flame.",
+      "setting": "city", "light": "night", "focus": "rabbit", "effects": ["speed"],
+      "actors": [
+        { "who": "house", "x": 760, "size": 2.0 },
+        { "who": "rabbit", "x": 350, "size": 1.6, "face": "right", "action": "run", "hold": "🪔" }
+      ],
+      "stickers": [{ "word": "one", "emoji": "1️⃣" }, { "word": "flame", "emoji": "🔥" }]
+    },
+    {
+      "id": "l3", "text": "Lamp three. He sprinted from rooftop to rooftop.",
+      "setting": "city", "light": "night", "focus": "rabbit", "effects": ["speed"],
+      "actors": [
+        { "who": "house", "x": 300, "size": 2.0 },
+        { "who": "rabbit", "x": 680, "size": 1.6, "face": "right", "action": "run", "hold": "🪔" }
+      ],
+      "stickers": [{ "word": "three", "emoji": "3️⃣" }, { "word": "rooftop", "emoji": "🏠" }]
+    },
+    {
+      "id": "l5", "text": "Lamp five. Just five little flames. The rabbit was sure he won.",
+      "setting": "city", "light": "gold", "focus": "rabbit", "effects": ["rays"], "sfx": "animeWow",
+      "actors": [
+        { "who": "lamp", "x": 220, "size": 1.0 },
+        { "who": "lamp", "x": 400, "size": 1.0 },
+        { "who": "rabbit", "x": 700, "size": 1.7, "face": "right", "mood": "smug", "action": "bow" }
+      ],
+      "stickers": [{ "word": "five", "emoji": "5️⃣" }, { "word": "won", "emoji": "🏆" }]
+    },
+    {
+      "id": "boom", "text": "Then Turbo's rocket exploded. The whole sky glowed gold.",
+      "setting": "city", "light": "gold", "focus": "turbo", "effects": ["rays", "shake"], "sfx": "recordScratch",
+      "burst": { "at": "exploded", "emoji": "🎆" },
+      "actors": [
+        { "who": "turbo", "x": 300, "size": 1.4, "mood": "smug", "face": "right" },
+        { "who": "rabbit", "x": 780, "size": 1.5, "face": "left", "mood": "shock" }
+      ],
+      "stickers": [{ "word": "rocket", "emoji": "🚀" }, { "word": "gold", "emoji": "✨" }]
+    },
+    {
+      "id": "win", "text": "Five lamps. One rocket. The rule said sky, not lamps. Happy Diwali!",
+      "setting": "city", "light": "gold", "focus": "turbo", "effects": ["confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "turbo", "x": 540, "size": 1.7, "mood": "happy", "action": "jump" }
+      ],
+      "stickers": [{ "word": "rocket", "emoji": "🎆" }, { "word": "Diwali", "emoji": "🪔" }]
+    },
+    {
+      "id": "loop", "text": "Rematch tomorrow. Turbo says deal. A snail raced a rabbit to light up Diwali night.",
+      "setting": "city", "light": "dusk", "focus": "turbo", "effects": ["vignette"],
+      "actors": [
+        { "who": "turbo", "x": 300, "size": 1.4, "mood": "smug", "face": "right", "action": "jump", "at": "deal" },
+        { "who": "rabbit", "x": 780, "size": 1.5, "face": "left", "mood": "angry" }
+      ],
+      "stickers": [{ "word": "Rematch", "emoji": "🔁" }, { "word": "deal", "emoji": "🤝" }]
+    }
+  ]
+}

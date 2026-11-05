@@ -8,9 +8,9 @@ evidence wins. Cite the stories a lesson comes from.
 
 ## From the numbers
 
-(Updated 2026-11-04, fourth run: 6 AM IST reach is still normal (eagle-mountain 1,188, rabbit-tower 1,010, puppy-chores 986 at ~8 h). The two 4 PM Shorts of Nov 2-3 (vase-five-minutes 8, gray-crayon 8, both `soap` bottom, 10:5x UTC) flopped at >24 h, while 4 PM on Oct 27-30 got 1,100-1,270. Today's test: a non-soap bottom (obby) in the 4 PM slot with a hiccup counter.)
+(Updated 2026-11-05, fifth run: 6 AM IST reach stays normal (eagle-mountain 1,224, tiny-door 1,133, alarm-clock 1,044, puppy-chores 986, beach-hole 945 within a day). The 4 PM slot is mixed: dragon-hiccups 4 and gray-crayon 13 flopped, while Oct 27-30 4 PM got 1,100-1,270; pigeon-mail (00:53 UTC) got 1 view, so the first slot after midnight UTC is also inconsistent. Hypothesis: weak or repeated-formula premises flop; series parts and simple counters hold ~1,000.)
 
-- **Hypothesis (6 data points): the `soap` bottom correlates with flops.** soap: tooth-fairy 6, snow-globe 19, vase 8, gray-crayon 8, robot-letter 694, beach-hole 642 (young). stack 266-1,120, dominoes 1,010-1,188, obby 910-1,028 all hold ~1,000. Avoid soap until a soap Short beats 1,000; confounded with premise quality (weak/abstract premises).
+- **Hypothesis (6 data points): the `soap` bottom correlates with flops.** soap: tooth-fairy 6, snow-globe 19, vase 9, gray-crayon 13, robot-letter 694, beach-hole 945 (young, 1 comment). stack 266-1,120, dominoes 1,010-1,188, obby 910-1,028 all hold ~1,000. Avoid soap until a soap Short beats 1,000; confounded with premise quality (weak/abstract premises).
 - **Late-day uploads flop; the low-reach pattern is about slot position, not clock time alone.** 8 PM India (~14:50 UTC): pell-vanishes 10, grandma-chair 21, clock-snaps 7, three-blinks 3, haunted-garage 5, snow-globe-sign 9, bus-stop-dog 1 (all ~15:00-16:30 UTC). Most 8 AM / 12 PM / 4 PM uploads get 900-1,800. Exceptions at 02:50 UTC: tooth-fairy-traps 3, last-pancake 422, forgot-acorns 202 (weak premises or the 3rd-4th upload of a day?). Hypothesis: premise quality matters too: weak "wacky" premises die even in good slots.
 - **What holds viewers: one simple rule that escalates.** Best average % watched:
   photo-stranger 86% ("a stranger in every photo, closer each time"), vacuum-race 64%,

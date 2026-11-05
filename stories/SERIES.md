@@ -46,3 +46,4 @@ From `2026-10-29-snail-race` (1,063 views, 77% watched — best % watched of any
   - Part 2 — `2026-11-02-eagle-mountain`: race an eagle up a mountain; Turbo hides on the eagle's tail and slides off at the top (the rule never said who had to climb).
   - Part 3 — `2026-11-03-rabbit-tower`: race a rabbit up 100 floors (counter: floor 20/40/60/80/100); Turbo takes the elevator because the rule never said stairs.
   - Part 4 — `2026-11-04-pigeon-mail`: race a pigeon across the country (Day 1/2/3 counter); Turbo mailed himself with a stamp and is already at Grandma's eating cake (the rule never said fly).
+  - Part 5 — `2026-11-05-diwali-sky`: Diwali; race a rabbit to light the sky (lamp 1/3/5 counter); rabbit lights five tiny lamps, Turbo launches one rocket (the rule said sky, not lamps).
