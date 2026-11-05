@@ -1,0 +1,104 @@
+{
+  "id": "2026-11-05-nine-lives",
+  "title": "Nine Lives, One Red Dot",
+  "youtube": {
+    "title": "A cat had 9 lives. A red dot wanted all of them 🐱🔴",
+    "description": "Mochi lost 8 lives to one red dot. The last one was the smartest. #shorts #story #funny #cat",
+    "tags": ["shorts", "story", "funny", "cat", "laser", "animation"]
+  },
+  "logline": "A cat burns through eight of his nine lives chasing a red laser dot; with one life left he finally ignores it and takes a nap.",
+  "comment": "How many lives would YOUR cat have left? 😹👇",
+  "hook": "9 LIVES. 1 RED DOT. 🔴",
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["cat", "lives", "dot", "shelf", "bathtub", "curtain", "nap", "boy", "red", "follow"],
+  "bottom": "stack",
+  "cast": {
+    "mochi": { "species": "cat", "color": "#f4a261", "name": "Mochi" },
+    "leo": { "species": "bean", "color": "#4cc9f0", "name": "Leo" },
+    "dot": { "emoji": "🔴" },
+    "pointer": { "emoji": "🔦" },
+    "zzz": { "emoji": "💤" }
+  },
+  "scenes": [
+    {
+      "id": "nine", "text": "A cat had nine lives. A red dot wanted all of them.",
+      "setting": "room", "light": "danger", "focus": "mochi", "effects": ["vignette"], "sfx": "vineBoom", "flash": "nine",
+      "actors": [
+        { "who": "mochi", "x": 360, "size": 1.8, "mood": "angry", "action": "jump" },
+        { "who": "dot", "x": 680, "size": 0.8, "action": "float" }
+      ],
+      "stickers": [{ "word": "nine", "emoji": "9️⃣" }, { "word": "red", "emoji": "🔴" }]
+    },
+    {
+      "id": "shelf", "text": "Life nine: he chased the dot off a shelf. Crash. Eight left.",
+      "setting": "room", "light": "day", "focus": "mochi", "effects": ["shake"], "sfx": "spongebobFail",
+      "actors": [
+        { "who": "mochi", "x": 300, "toX": 640, "size": 1.4, "mood": "shock", "action": "run" },
+        { "who": "dot", "x": 700, "size": 0.7, "action": "float" },
+        { "who": "leo", "x": 880, "size": 0.9, "face": "left", "hold": "🔦" }
+      ],
+      "stickers": [{ "word": "Crash", "emoji": "💥" }, { "word": "Eight", "emoji": "8️⃣" }]
+    },
+    {
+      "id": "bath", "text": "Life eight: the dot ran into the bathtub. Splash. Seven left.",
+      "setting": "room", "light": "day", "focus": "mochi", "effects": ["rain"], "sfx": "bruh",
+      "actors": [
+        { "who": "mochi", "x": 360, "size": 1.4, "mood": "shock", "action": "shake" },
+        { "who": "dot", "x": 680, "size": 0.7, "action": "float" },
+        { "who": "leo", "x": 880, "size": 0.9, "face": "left", "hold": "🔦" }
+      ],
+      "stickers": [{ "word": "bathtub", "emoji": "🛁" }, { "word": "Splash", "emoji": "💦" }]
+    },
+    {
+      "id": "curtain", "text": "Life seven: the dot went up the curtain. Rip. Six left.",
+      "setting": "room", "light": "dusk", "focus": "mochi", "effects": ["shake"],
+      "actors": [
+        { "who": "mochi", "x": 380, "size": 1.4, "mood": "angry", "action": "jump" },
+        { "who": "dot", "x": 720, "size": 0.7, "lift": 380, "action": "float" },
+        { "who": "leo", "x": 880, "size": 0.9, "face": "left", "hold": "🔦" }
+      ],
+      "stickers": [{ "word": "curtain", "emoji": "🪟" }, { "word": "Rip", "emoji": "🧵" }]
+    },
+    {
+      "id": "wild", "text": "Then five more lives vanished in one wild minute. One life left.",
+      "setting": "room", "light": "danger", "focus": "mochi", "effects": ["speed", "shake"], "sfx": "wilhelmScream",
+      "actors": [
+        { "who": "mochi", "x": 150, "toX": 800, "size": 1.3, "mood": "shock", "action": "run" },
+        { "who": "dot", "x": 820, "size": 0.7, "action": "float" },
+        { "who": "leo", "x": 900, "size": 0.8, "face": "left", "hold": "🔦" }
+      ],
+      "stickers": [{ "word": "vanished", "emoji": "💨" }, { "word": "One", "emoji": "1️⃣" }]
+    },
+    {
+      "id": "stare", "text": "The red dot came back. The cat stared. Then he yawned.",
+      "setting": "room", "light": "gold", "focus": "mochi", "effects": ["vignette"],
+      "actors": [
+        { "who": "mochi", "x": 360, "size": 1.7, "mood": "smug", "action": "idle" },
+        { "who": "dot", "x": 680, "size": 0.8, "action": "float" },
+        { "who": "leo", "x": 880, "size": 0.9, "face": "left", "hold": "🔦" }
+      ],
+      "stickers": [{ "word": "stared", "emoji": "👀" }, { "word": "yawned", "emoji": "🥱" }]
+    },
+    {
+      "id": "nap", "text": "He turned around and went to sleep. Behind him, the boy sighed.",
+      "setting": "room", "light": "dusk", "focus": "mochi", "effects": ["rays"], "sfx": "yippee",
+      "actors": [
+        { "who": "mochi", "x": 400, "size": 1.3, "mood": "smug", "action": "faint" },
+        { "who": "zzz", "x": 470, "size": 0.9, "lift": 260, "action": "float", "at": "sleep" },
+        { "who": "leo", "x": 800, "size": 1.3, "face": "left", "mood": "sad", "hold": "🔦" }
+      ],
+      "stickers": [{ "word": "sleep", "emoji": "😴" }, { "word": "sighed", "emoji": "😮‍💨" }]
+    },
+    {
+      "id": "loop", "text": "Follow, because a cat has nine lives, and a red dot wants all of them.",
+      "setting": "room", "light": "danger", "focus": "mochi", "effects": ["vignette"],
+      "actors": [
+        { "who": "mochi", "x": 360, "size": 1.7, "mood": "angry", "action": "enter" },
+        { "who": "dot", "x": 680, "size": 0.8, "action": "float" }
+      ],
+      "stickers": [{ "word": "Follow", "emoji": "👉" }, { "word": "nine", "emoji": "9️⃣" }]
+    }
+  ]
+}
