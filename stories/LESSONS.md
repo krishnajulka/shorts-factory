@@ -9,7 +9,7 @@ evidence wins. Cite the stories a lesson comes from.
 ## From the numbers
 
 (Full review 2026-11-06 of all 49 Shorts — 34 subscribers, ~32,700 views. Judge only
-Shorts older than 24 h.)
+Shorts older than 24 h. Run 2026-11-06 noon: Turbo Part 6 diwali-wind uploaded, stack bottom; judge it after 24 h.)
 
 - **A Short either gets ~900-1,800 views or is "dead on arrival" (0-25 views).** There
   is almost nothing in between, so the biggest lever is avoiding dead Shorts.

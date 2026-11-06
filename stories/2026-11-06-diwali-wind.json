@@ -1,0 +1,110 @@
+{
+  "id": "2026-11-06-diwali-wind",
+  "title": "Turbo Diwali Wind",
+  "youtube": {
+    "title": "A snail raced a rabbit: last Diwali lamp burning wins 🪔💨 (Part 6)",
+    "description": "Five lamps versus one shell. Turbo the snail reads the rules again. Happy Diwali! #shorts #diwali #story #funny",
+    "tags": ["shorts", "diwali", "story", "funny", "clever", "animals", "snail", "rabbit", "animation"]
+  },
+  "logline": "Turbo the snail and a rabbit race to keep a Diwali lamp burning longest; the wind blows out all five of the rabbit's lamps, but Turbo hid his one lamp inside his shell.",
+  "comment": "Where would YOU hide a lamp from the wind? 🪔👇",
+  "hook": "LAST LAMP BURNING WINS 🪔",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "series": { "name": "Turbo the snail", "part": 6 },
+  "keywords": ["snail", "rabbit", "diwali", "turbo", "deal", "lamp", "wind", "shell", "five", "rule"],
+  "bottom": "stack",
+  "cast": {
+    "turbo": { "emoji": "🐌", "name": "Turbo" },
+    "rabbit": { "emoji": "🐇" },
+    "fan": { "emoji": "😂" },
+    "lamp": { "emoji": "🪔" },
+    "wind": { "emoji": "💨" },
+    "smoke": { "emoji": "🌫️" }
+  },
+  "scenes": [
+    {
+      "id": "race", "text": "A snail raced a rabbit. Last lamp burning wins.",
+      "setting": "city", "light": "dusk", "focus": "turbo", "effects": ["shake"], "sfx": "vineBoom",
+      "actors": [
+        { "who": "turbo", "x": 280, "size": 1.5, "face": "right", "action": "jump", "hold": "🪔" },
+        { "who": "rabbit", "x": 800, "size": 1.6, "face": "left", "action": "shake", "hold": "🪔" }
+      ],
+      "stickers": [{ "word": "snail", "emoji": "🐌" }, { "word": "lamp", "emoji": "🪔" }]
+    },
+    {
+      "id": "laugh", "text": "Everyone laughed. Turbo just said, deal.",
+      "setting": "city", "light": "dusk", "focus": "turbo",
+      "crowd": { "who": "fan", "count": 24, "mood": "happy", "until": "laughed" },
+      "actors": [
+        { "who": "turbo", "x": 540, "size": 1.6, "mood": "smug", "face": "right", "action": "jump", "at": "deal" }
+      ],
+      "stickers": [{ "word": "laughed", "emoji": "🤣" }, { "word": "deal", "emoji": "🤝" }]
+    },
+    {
+      "id": "light", "text": "The rabbit lit five lamps. Turbo lit one, and tucked it in his shell.",
+      "setting": "city", "light": "night", "focus": "turbo",
+      "actors": [
+        { "who": "lamp", "x": 150, "size": 0.9 },
+        { "who": "lamp", "x": 300, "size": 0.9 },
+        { "who": "rabbit", "x": 480, "size": 1.4, "face": "left", "mood": "smug" },
+        { "who": "turbo", "x": 830, "size": 1.3, "face": "left", "mood": "smug", "hold": "🪔" }
+      ],
+      "stickers": [{ "word": "five", "emoji": "5️⃣" }, { "word": "shell", "emoji": "🐚" }]
+    },
+    {
+      "id": "w1", "text": "Then the wind blew. Lamp one went out.",
+      "setting": "city", "light": "night", "focus": "rabbit", "effects": ["speed"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "wind", "x": 900, "size": 1.8, "face": "left", "action": "float" },
+        { "who": "rabbit", "x": 450, "size": 1.6, "face": "right", "mood": "shock", "hold": "🪔" }
+      ],
+      "stickers": [{ "word": "wind", "emoji": "💨" }, { "word": "one", "emoji": "1️⃣" }]
+    },
+    {
+      "id": "w3", "text": "Lamp two died. Then three. The rabbit panicked.",
+      "setting": "city", "light": "night", "focus": "rabbit", "effects": ["speed", "shake"],
+      "actors": [
+        { "who": "wind", "x": 920, "size": 1.8, "face": "left", "action": "float" },
+        { "who": "rabbit", "x": 450, "size": 1.7, "face": "right", "mood": "shock", "action": "run" }
+      ],
+      "stickers": [{ "word": "three", "emoji": "3️⃣" }, { "word": "panicked", "emoji": "😱" }]
+    },
+    {
+      "id": "w5", "text": "Lamp four. Lamp five. Dark. The rabbit had nothing left.",
+      "setting": "city", "light": "night", "focus": "rabbit", "effects": ["vignette"], "sfx": "spongebobFail",
+      "actors": [
+        { "who": "smoke", "x": 250, "size": 1.0 },
+        { "who": "smoke", "x": 850, "size": 1.0 },
+        { "who": "rabbit", "x": 540, "size": 1.6, "face": "right", "mood": "sad", "action": "faint", "at": "left" }
+      ],
+      "stickers": [{ "word": "five", "emoji": "5️⃣" }, { "word": "Dark", "emoji": "🌑" }]
+    },
+    {
+      "id": "shell", "text": "Turbo's flame sat warm inside his shell, all night.",
+      "setting": "city", "light": "gold", "focus": "turbo", "effects": ["rays"],
+      "actors": [
+        { "who": "turbo", "x": 540, "size": 1.8, "mood": "smug", "face": "right", "action": "bow" }
+      ],
+      "stickers": [{ "word": "flame", "emoji": "🔥" }, { "word": "shell", "emoji": "🐚" }]
+    },
+    {
+      "id": "win", "text": "Sunrise. Still glowing. The rule said last lamp, not most. Happy Diwali!",
+      "setting": "city", "light": "gold", "focus": "turbo", "effects": ["confetti", "rays"], "sfx": "yippee",
+      "actors": [
+        { "who": "turbo", "x": 540, "size": 1.7, "mood": "happy", "action": "jump", "hold": "🪔" }
+      ],
+      "stickers": [{ "word": "glowing", "emoji": "✨" }, { "word": "Diwali", "emoji": "🪔" }]
+    },
+    {
+      "id": "loop", "text": "Rematch tomorrow. Turbo says deal. A snail raced a rabbit.",
+      "setting": "city", "light": "dusk", "focus": "turbo", "effects": ["vignette"],
+      "actors": [
+        { "who": "turbo", "x": 300, "size": 1.4, "mood": "smug", "face": "right", "action": "jump", "at": "deal" },
+        { "who": "rabbit", "x": 780, "size": 1.5, "face": "left", "mood": "angry" }
+      ],
+      "stickers": [{ "word": "Rematch", "emoji": "🔁" }, { "word": "deal", "emoji": "🤝" }]
+    }
+  ]
+}
