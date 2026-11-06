@@ -8,46 +8,49 @@ evidence wins. Cite the stories a lesson comes from.
 
 ## From the numbers
 
-(Updated 2026-11-05, eighth run. Slot map (UTC → IST): 00:5x = 6 AM, 02:5x = 8 AM, 06:5x = 12 PM, 10:5x = 4 PM. **6 AM** new-schedule check: eagle-mountain 1,281 and rabbit-tower 1,023 were normal, but pigeon-mail 1 (34h old) flopped and diwali-sky 0 (10h, not judged); so 6 AM is not dead by itself. **Turbo Parts 4-5 are the weak ones** (hypothesis: fatigue, or the pigeon premise was weak). **4 PM** still weak: robot-letter 694, vase 9, gray-crayon 17, dragon-hiccups 4. 8 AM and 12 PM hold ~950-1,140 (nine-lives 947, puppy-chores 988, beach-hole 948). Simon-says 257 is young. This run: standalone relatable family comedy with a 1-5 tries counter (wobbly-tooth), dominoes bottom.)
+(Full review 2026-11-06 of all 49 Shorts — 34 subscribers, ~32,700 views. Judge only
+Shorts older than 24 h.)
 
-- **Hypothesis (6 data points): the `soap` bottom correlates with flops.** soap: tooth-fairy 6, snow-globe 19, vase 9, gray-crayon 13, robot-letter 694, beach-hole 945 (young, 1 comment). stack 266-1,120, dominoes 1,010-1,188, obby 910-1,028 all hold ~1,000. Avoid soap until a soap Short beats 1,000; confounded with premise quality (weak/abstract premises).
-- **Late-day uploads flop; the low-reach pattern is about slot position, not clock time alone.** 8 PM India (~14:50 UTC): pell-vanishes 10, grandma-chair 21, clock-snaps 7, three-blinks 3, haunted-garage 5, snow-globe-sign 9, bus-stop-dog 1 (all ~15:00-16:30 UTC). Most 8 AM / 12 PM / 4 PM uploads get 900-1,800. Exceptions at 02:50 UTC: tooth-fairy-traps 3, last-pancake 422, forgot-acorns 202 (weak premises or the 3rd-4th upload of a day?). Hypothesis: premise quality matters too: weak "wacky" premises die even in good slots.
-- **What holds viewers: one simple rule that escalates.** Best average % watched:
-  photo-stranger 86% ("a stranger in every photo, closer each time"), vacuum-race 64%,
-  spider-prank 61%, ghost-sings 59%. Worst: sock-escape 14% and closet-knock 15%
-  (viewers left within 5-7 s), lighthouse 33%.
-- **Top views:** snowman-spring 1,716 (bittersweet: a simple goal with a deadline),
-  sneeze-loop 1,366, ghost-sings 1,281, spider-prank 1,266 (family prank with karma),
-  gnome-walks 1,261 (creepy escalation). Common thread: an everyday or childlike
-  premise anyone gets in one line, plus a clear stake.
-- **Never repeat a premise:** 2026-10-29-shadow-quits was the same idea as shadow-quit
-  (2026-10-24). Before writing, search LOG.md for the hero and the core idea, not
-  just the category.
-- **The winning formula** (see STORY_GUIDE.md): a counter or deadline that escalates
-  in visible steps, and an ending that pays off that counter (photo-stranger,
-  spider-prank, snowman-spring).
-- **Bottom-half loops don't matter much:** winners are spread across rings, corner,
-  breakout, territory, plinko and race. Keep rotating them.
-- **Most viewers decide in the first 1-2 seconds.** Studio showed only 39% "stayed to
-  watch" on the first Shorts. Since then: no white flash on frame 0, an on-screen
-  `hook`, and a first sentence of 10 words or fewer. Check whether "stayed to watch"
-  improved for stories made after 2026-10-25 (closet-knock onward).
-- **Funny, simple, relatable premises win so far.** As of 2026-10-25: sneeze-loop
-  (time-loop comedy, everyday problem, liam, corner bottom) is #1 with 1,186 views and
-  the best like rate (18 likes, 1.5%). Next: lighthouse 840, ghost-sings 839, duck 614.
-  (Day one looked the opposite — duck 93 vs sneeze 12 — so judge after 24h, not 1h.)
-- **Series parts hold up (4 data points):** Ben vs Mia parts 2-4 (947, 910, 1,022) and Turbo parts 2-3 (1,170, 981) all land around 900-1,200, near the channel's typical 1,000-1,300, but none has beaten the standalone best (snowman 1,777).
-- **Abstract or complicated premises do worse**: vending-machine-knows 238, last-moth 175.
-- **Two Shorts uploaded in the same minute both flopped** (closet-knock 5 views and
-  sock-escape 2, both uploaded 2026-10-24 18:56 UTC). Hypothesis: never upload
-  back-to-back; keep at least 2 hours between uploads. Needs more evidence.
-- **Voice:** ElevenLabs credits are used up (3 left), so Kokoro/Piper voices are in use and narrator choice has no effect right now. Comments post fine from the cloud (2026-10-31).
-- Hypothesis (untested): relatable family/everyday premises with a visual-gag twist (grandma-chair, sneeze-loop) may fit the winners; check grandma-chair's views once stats work.
-- Hypothesis (1 data point): lunch-thief was never uploaded, so it has no data.
-- Likes are low everywhere (≤1.5% of views). Try an ending that invites a reaction:
-  a joke punchline, or a question viewers want to answer in the comments.
-- 95% of views come from the Shorts feed, not search — titles matter less than the
-  first frame and first line.
+- **A Short either gets ~900-1,800 views or is "dead on arrival" (0-25 views).** There
+  is almost nothing in between, so the biggest lever is avoiding dead Shorts.
+- **The channel gets about 3 Shorts' worth of reach a day; extra uploads die.** Before
+  2026-10-31 (8 AM / 12 PM / 4 PM / 8 PM) the 8 PM one died 7/7. After moving to
+  6 AM / 8 AM / 12 PM / 4 PM, the *4 PM* one died 4/4 (vase 9, gray-crayon 21,
+  dragon-hiccups 11, wobbly-tooth 5) — even though 4 PM was a winning slot when it was
+  the 3rd upload (shadow-quit 1,317, ghost-sings 1,284, gnome 1,270, five-minutes
+  1,163, photo-stranger 1,018). On 2026-11-04/05 the 6 AM one died too (Turbo Parts 4-5,
+  2 and 0 views). Total daily views stay ~2-3k whatever the upload count. Strong
+  evidence: 3 uploads a day (8 AM, 12 PM, 4 PM) beats 4.
+- **Short and tight holds viewers.** Best average % watched: cat-cup 84% (99 words),
+  photo-stranger 83%, snail-race 78%, Turbo Part 3 69%, five-minutes 66%, Ben vs Mia
+  Parts 3-4 65-66%, vacuum-race 63%. Worst: lighthouse 33% (174 words), scarecrow 40%
+  (134), vending-machine 38%, robot-letter 38%, duck 45% (151). Keep 70-95 words.
+- **What wins (pillars):**
+  1. *Ben vs Mia* prank-war episodes — every one got reach (948-1,067), 51-66%
+     watched, and they bring subscribers (Part 4: +3, Part 2: +2, spider-prank: +3).
+     Family comedy with karma is our most reliable format.
+  2. *Funny "why animals do that" / clever animal* — cat-cup 1,293 & 84%, snail-race
+     1,066 & 78%, vacuum-race 1,258, parrot-whistle 1,259 (+4 subs, best single Short
+     for subs).
+  3. *Creepy escalation, one rule getting closer* — photo-stranger 83%, gnome-walks
+     1,270, elevator-buttons 923, tiny-door 1,163 (+3 subs).
+  4. *Bittersweet with a deadline* — snowman-spring 1,777, the #1 Short by views.
+- **What underperforms:** abstract or "lore" premises (vending-machine 319, last-moth
+  234, pell-vanishes 12) and long narration (see above).
+- **Turbo the snail is cooling off:** Part 2 1,294 and Part 3 1,026, then Parts 4-5 died
+  at 6 AM. Can't separate the slot from fatigue yet; keep Turbo but rest it and make
+  Ben vs Mia the main series.
+- **The `soap` bottom is on 6 Shorts and 4 are dead** (crayon, snow globe, vase, tooth
+  fairy; robot-letter 696 and beach-hole 955 survived). Partly the 4 PM/evening slot,
+  but stop using soap until the schedule is fixed and we can test it fairly. stack,
+  dominoes and obby all have hits.
+- **Likes are ~1% of views** — highest on relatable family/kid comedy (sneeze-loop 1.6%,
+  spider-prank 1.5%, snail-race 1.3%). Comments started on 2026-10-29; replies are
+  still rare.
+- **Monetization reality:** YouTube Partner Program needs 1,000 subscribers + 10M Shorts
+  views in 90 days (or 500 + 3M). At ~3k views a day we're far off; growth has to come
+  from subscribers (series) and from one Short breaking out (100k+). Every Short should
+  be a candidate: the four pillars, ≤95 words, a strong first frame.
 
 ## From the creator's feedback
 

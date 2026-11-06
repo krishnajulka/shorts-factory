@@ -157,6 +157,26 @@ Gerald (pigeon + food) and Frank (frog + food) already exist. **Do not write ano
 Each day pick a category that isn't in the last 3 entries of `stories/LOG.md`, and
 log the category with the story.
 
+## Content pillars (what to make, from the 2026-11-06 data review)
+
+Our Shorts either get ~1,000+ views or almost none, and the winners cluster in four
+pillars. **Every Short must belong to one of them.** Rotate so no pillar repeats twice in
+a row, but lean on pillar 1:
+
+1. **Ben vs Mia prank war** (series, the main one): every episode got reach and they
+   bring the most subscribers. Make it every other Short.
+2. **Funny "why animals do that" / clever animal**: cat-cup (84% watched), snail-race,
+   vacuum-race, parrot-whistle (+4 subscribers). A real everyday animal habit with a
+   funny made-up reason, or a small animal beating a big one by being clever.
+3. **Creepy escalation**: one rule that gets closer each night (photo-stranger 83%,
+   gnome-walks, elevator-buttons, tiny-door). Spooky, never gory, cliffhanger or funny
+   reveal.
+4. **Bittersweet with a deadline**: snowman-spring (our #1 by views). Someone has N
+   days/hours left; the ending lands a feeling.
+
+Avoid: abstract lore premises (a town on a turtle, a vending machine that knows), long
+narration, and anything that needs explaining. Aim for 70-95 words.
+
 ## Series (every other Short)
 
 Recurring characters turn viewers into subscribers. **If the previous story in LOG.md

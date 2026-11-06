@@ -26,7 +26,7 @@ const MOODS = ["happy", "sad", "angry", "shock", "smug"];
 const ACTIONS = ["idle", "run", "jump", "bow", "shake", "spin", "grow", "enter", "exit", "float", "faint"];
 const EFFECTS = ["rays", "rain", "speed", "vignette", "confetti", "shake", "snow"];
 // New stories use the clean pastel loops (older neon ones still render for old stories).
-const BOTTOMS = ["soap", "stack", "dominoes", "obby"];
+const BOTTOMS = ["stack", "dominoes", "obby"]; // "soap" paused 2026-11-06: 4 of its 6 Shorts got no reach (see LESSONS.md)
 const SFX = ["vineBoom", "recordScratch", "animeWow", "yippee", "bruh", "omgHellNah", "dramaticBoomer", "illuminatiConfirmed", "wilhelmScream", "spongebobFail", "loadingLag", "ohMyGodVine"];
 
 // Returns a list of human-readable problems; empty means the story is valid.

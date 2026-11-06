@@ -3,7 +3,9 @@
 Recurring characters give viewers a reason to subscribe ("I want the next one") and
 let YouTube recommend each new part to people who watched the last. **Every other
 Short is a series episode**: if the previous story in `LOG.md` was not a series
-episode, the next one must be. Alternate between the series below, and add a new
+episode, the next one must be. **Ben vs Mia is the main series** (every episode got
+reach and they bring the most subscribers); use Turbo at most once every 3 days while
+it rests (Parts 4-5 got no reach). Add a new
 series only when a standalone Short clearly outperforms (top 3 in STATS.md by views
 and % watched) — then turn its characters into a series here.
 
