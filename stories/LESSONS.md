@@ -13,6 +13,7 @@ Shorts older than 24 h. Run 2026-11-06 noon: Turbo Part 6 diwali-wind uploaded, 
 
 - **A Short either gets ~900-1,800 views or is "dead on arrival" (0-25 views).** There
   is almost nothing in between, so the biggest lever is avoiding dead Shorts.
+- **Update 2026-11-07:** 3 uploads/day started 2026-11-06. Of those, 11-06 4 PM (Turbo Part 6, 1 view) is still too young to judge; 11-05's 4 PM wobbly-tooth got 7. Hypothesis: the afternoon slot still gets no reach; keep tracking. Also ElevenLabs credits ran out (Kokoro voice in use) and Turbo Parts 4-6 all got ~0 views: Turbo is cooling off.
 - **The channel gets about 3 Shorts' worth of reach a day; extra uploads die.** Before
   2026-10-31 (8 AM / 12 PM / 4 PM / 8 PM) the 8 PM one died 7/7. After moving to
   6 AM / 8 AM / 12 PM / 4 PM, the *4 PM* one died 4/4 (vase 9, gray-crayon 21,

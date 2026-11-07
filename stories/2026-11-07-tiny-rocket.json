@@ -1,0 +1,355 @@
+{
+  "id": "2026-11-07-tiny-rocket",
+  "title": "The Tiny Rocket",
+  "youtube": {
+    "title": "The tiny rocket was picked last on Diwali 🚀🪔",
+    "description": "Five big rockets flew. One tiny rocket waited. Then the lights went out. #shorts #story #diwali #wholesome",
+    "tags": [
+      "shorts",
+      "story",
+      "diwali",
+      "rocket",
+      "wholesome",
+      "animation"
+    ]
+  },
+  "logline": "The smallest Diwali rocket is always picked last, but when the street's power goes out, his tiny gold glow is the only light that matters.",
+  "comment": "Which Diwali rocket are you: big bang or tiny glow? 👇",
+  "hook": "PICKED LAST ON DIWALI 🚀",
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": [
+    "rocket",
+    "tiny",
+    "smallest",
+    "picked",
+    "diwali",
+    "boom",
+    "power",
+    "darkness",
+    "gold",
+    "street",
+    "first",
+    "last"
+  ],
+  "bottom": "obby",
+  "cast": {
+    "dev": {
+      "species": "bean",
+      "color": "#ff9f1c",
+      "name": "Dev"
+    },
+    "dad": {
+      "species": "bean",
+      "color": "#4cc9f0",
+      "name": "Dad"
+    },
+    "rocket": {
+      "emoji": "🚀"
+    },
+    "tiny": {
+      "emoji": "🚀"
+    }
+  },
+  "scenes": [
+    {
+      "id": "last",
+      "text": "The smallest rocket was always picked last.",
+      "setting": "city",
+      "light": "night",
+      "focus": "tiny",
+      "effects": [
+        "vignette"
+      ],
+      "actors": [
+        {
+          "who": "tiny",
+          "x": 540,
+          "size": 1.5,
+          "mood": "sad",
+          "action": "shake"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "smallest",
+          "emoji": "🔍"
+        },
+        {
+          "word": "last",
+          "emoji": "😢"
+        }
+      ],
+      "sfx": "vineBoom",
+      "flash": "smallest"
+    },
+    {
+      "id": "one",
+      "text": "Diwali night. Five big rockets, one tiny. Number one flew up. Boom!",
+      "setting": "city",
+      "light": "night",
+      "focus": "dev",
+      "effects": [
+        "rays"
+      ],
+      "actors": [
+        {
+          "who": "dev",
+          "x": 260,
+          "size": 1.2,
+          "mood": "happy",
+          "action": "jump",
+          "at": "Boom"
+        },
+        {
+          "who": "tiny",
+          "x": 850,
+          "size": 0.8
+        }
+      ],
+      "stickers": [
+        {
+          "word": "one",
+          "emoji": "1️⃣"
+        },
+        {
+          "word": "Boom",
+          "emoji": "💥"
+        }
+      ],
+      "crowd": {
+        "who": "rocket",
+        "count": 5,
+        "mood": "happy",
+        "until": "flew"
+      }
+    },
+    {
+      "id": "three",
+      "text": "Two went up. Three went up. The tiny rocket trembled.",
+      "setting": "city",
+      "light": "night",
+      "focus": "tiny",
+      "effects": [
+        "rays"
+      ],
+      "actors": [
+        {
+          "who": "dev",
+          "x": 230,
+          "size": 1.2,
+          "mood": "happy"
+        },
+        {
+          "who": "tiny",
+          "x": 800,
+          "size": 0.8,
+          "mood": "sad",
+          "action": "shake",
+          "at": "trembled"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "Two",
+          "emoji": "2️⃣"
+        },
+        {
+          "word": "Three",
+          "emoji": "3️⃣"
+        }
+      ],
+      "crowd": {
+        "who": "rocket",
+        "count": 3,
+        "mood": "happy",
+        "until": "Three"
+      }
+    },
+    {
+      "id": "five",
+      "text": "Four. Five. Each one louder. The box was nearly empty.",
+      "setting": "city",
+      "light": "night",
+      "focus": "dev",
+      "effects": [
+        "rays",
+        "shake"
+      ],
+      "actors": [
+        {
+          "who": "dev",
+          "x": 230,
+          "size": 1.2,
+          "mood": "happy",
+          "action": "jump"
+        },
+        {
+          "who": "tiny",
+          "x": 800,
+          "size": 0.8,
+          "mood": "sad"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "Four",
+          "emoji": "4️⃣"
+        },
+        {
+          "word": "Five",
+          "emoji": "5️⃣"
+        }
+      ],
+      "sfx": "dramaticBoomer"
+    },
+    {
+      "id": "small",
+      "text": "Only the tiny one was left. Dad said, too small. Forget it.",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "tiny",
+      "effects": [],
+      "actors": [
+        {
+          "who": "dad",
+          "x": 250,
+          "size": 1.4,
+          "mood": "smug"
+        },
+        {
+          "who": "dev",
+          "x": 520,
+          "size": 1.2,
+          "mood": "sad"
+        },
+        {
+          "who": "tiny",
+          "x": 850,
+          "size": 0.8,
+          "mood": "sad"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "tiny",
+          "emoji": "🚀"
+        },
+        {
+          "word": "small",
+          "emoji": "🤏"
+        }
+      ]
+    },
+    {
+      "id": "dark",
+      "text": "Then the whole street's power went out. Total darkness.",
+      "setting": "city",
+      "light": "night",
+      "focus": "dev",
+      "effects": [
+        "vignette"
+      ],
+      "actors": [
+        {
+          "who": "dev",
+          "x": 300,
+          "size": 1.2,
+          "mood": "shock",
+          "action": "shake"
+        },
+        {
+          "who": "tiny",
+          "x": 780,
+          "size": 0.8,
+          "mood": "shock"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "power",
+          "emoji": "⚡"
+        },
+        {
+          "word": "darkness",
+          "emoji": "🌑"
+        }
+      ],
+      "sfx": "recordScratch"
+    },
+    {
+      "id": "lit",
+      "text": "The boy lit the tiny rocket anyway. It rose, glowing gold.",
+      "setting": "city",
+      "light": "gold",
+      "focus": "tiny",
+      "effects": [
+        "rays"
+      ],
+      "actors": [
+        {
+          "who": "dev",
+          "x": 250,
+          "size": 1.2,
+          "mood": "happy"
+        },
+        {
+          "who": "tiny",
+          "x": 700,
+          "size": 0.8,
+          "mood": "happy",
+          "action": "float",
+          "at": "rose"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "lit",
+          "emoji": "🔥"
+        },
+        {
+          "word": "gold",
+          "emoji": "✨"
+        }
+      ],
+      "sfx": "animeWow"
+    },
+    {
+      "id": "win",
+      "text": "The big ones lasted five seconds. His lit the whole street. Next year, the smallest rocket is picked first.",
+      "setting": "city",
+      "light": "gold",
+      "focus": "tiny",
+      "effects": [
+        "rays",
+        "confetti"
+      ],
+      "actors": [
+        {
+          "who": "dev",
+          "x": 250,
+          "size": 1.2,
+          "mood": "happy",
+          "action": "jump"
+        },
+        {
+          "who": "tiny",
+          "x": 700,
+          "size": 1.4,
+          "mood": "happy"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "street",
+          "emoji": "🏘️"
+        },
+        {
+          "word": "first",
+          "emoji": "🥇"
+        }
+      ]
+    }
+  ]
+}
