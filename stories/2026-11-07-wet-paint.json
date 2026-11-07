@@ -1,0 +1,112 @@
+{
+  "id": "2026-11-07-wet-paint",
+  "title": "Wet Paint",
+  "youtube": {
+    "title": "Ben put a fake WET PAINT sign on the sofa 🎨😈 (Part 7)",
+    "description": "Ben used a fake wet paint sign to steal the sofa. Mia borrowed the sign. Purple karma. #shorts #story #funny #siblings",
+    "tags": ["shorts", "story", "funny", "karma", "siblings", "animation", "wet paint"]
+  },
+  "logline": "Ben puts a fake wet paint sign on the sofa to keep it for himself, but Mia borrows the sign for three of Ben's seats and makes the paint real.",
+  "series": { "name": "Ben vs Mia: the prank war", "part": 7 },
+  "comment": "Would YOU sit on it anyway? 🎨👇",
+  "hook": "WET PAINT?! 🎨😈",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["wet", "paint", "sign", "sofa", "mia", "ben", "popcorn", "bed", "chair", "bike", "purple"],
+  "bottom": "dominoes",
+  "cast": {
+    "ben": { "species": "bean", "color": "#ff9f1c", "name": "Ben" },
+    "mia": { "species": "bean", "color": "#c77dff", "name": "Mia" },
+    "sofa": { "emoji": "🛋️" },
+    "sign": { "emoji": "🪧" },
+    "bed": { "emoji": "🛏️" },
+    "chair": { "emoji": "🪑" },
+    "bike": { "emoji": "🚲" }
+  },
+  "scenes": [
+    {
+      "id": "start", "text": "Ben put a wet paint sign on the sofa.",
+      "setting": "room", "light": "day", "focus": "ben", "effects": ["vignette"], "sfx": "vineBoom", "flash": "wet",
+      "actors": [
+        { "who": "sofa", "x": 540, "size": 2.4 },
+        { "who": "sign", "x": 540, "size": 1.4, "lift": 120 },
+        { "who": "ben", "x": 220, "size": 1.5, "mood": "smug", "action": "jump" },
+        { "who": "mia", "x": 900, "size": 1, "face": "left", "mood": "shock" }
+      ],
+      "stickers": [{ "word": "wet", "emoji": "💦" }, { "word": "sofa", "emoji": "🛋️" }]
+    },
+    {
+      "id": "popcorn", "text": "Mia couldn't sit. Ben took the sofa and her popcorn.",
+      "setting": "room", "light": "day", "focus": "ben",
+      "actors": [
+        { "who": "sofa", "x": 400, "size": 2.2 },
+        { "who": "ben", "x": 400, "size": 1.3, "mood": "smug", "hold": "🍿" },
+        { "who": "mia", "x": 900, "size": 1.1, "face": "left", "mood": "sad" }
+      ],
+      "stickers": [{ "word": "popcorn", "emoji": "🍿" }, { "word": "sit", "emoji": "😢" }]
+    },
+    {
+      "id": "borrow", "text": "Mia smiled. Great sign, Ben. Can I borrow it?",
+      "setting": "room", "light": "dusk", "focus": "mia", "sfx": "recordScratch",
+      "actors": [
+        { "who": "sign", "x": 780, "size": 1.8 },
+        { "who": "mia", "x": 760, "size": 1.4, "face": "left", "mood": "smug", "hold": "🪧" },
+        { "who": "ben", "x": 240, "size": 1.2, "mood": "shock" }
+      ],
+      "stickers": [{ "word": "smiled", "emoji": "😏" }, { "word": "sign", "emoji": "🪧" }]
+    },
+    {
+      "id": "three", "text": "Sign one, his bed. Sign two, his chair. Sign three, his bike.",
+      "setting": "room", "light": "day", "focus": "mia", "effects": ["speed"],
+      "actors": [
+        { "who": "bed", "x": 180, "size": 1.6 },
+        { "who": "chair", "x": 540, "size": 1.6 },
+        { "who": "bike", "x": 880, "size": 1.6 },
+        { "who": "mia", "x": 540, "size": 1.1, "mood": "smug", "action": "jump" }
+      ],
+      "stickers": [{ "word": "bed", "emoji": "🛏️" }, { "word": "bike", "emoji": "🚲" }]
+    },
+    {
+      "id": "fake", "text": "Ben said, it's fake. He sat on his bed anyway.",
+      "setting": "room", "light": "danger", "focus": "ben", "effects": ["shake"], "sfx": "ohMyGodVine",
+      "actors": [
+        { "who": "bed", "x": 540, "size": 2.2 },
+        { "who": "ben", "x": 540, "size": 1.4, "mood": "shock", "action": "shake" },
+        { "who": "mia", "x": 930, "size": 0.9, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "fake", "emoji": "🤥" }, { "word": "anyway", "emoji": "😬" }]
+    },
+    {
+      "id": "real", "text": "It was not fake. Mia painted all three. Ben stood till bedtime.",
+      "setting": "room", "light": "danger", "focus": "ben", "sfx": "wilhelmScream",
+      "actors": [
+        { "who": "chair", "x": 220, "size": 1.5 },
+        { "who": "bike", "x": 860, "size": 1.5 },
+        { "who": "ben", "x": 540, "size": 1.5, "mood": "sad", "action": "shake" }
+      ],
+      "stickers": [{ "word": "painted", "emoji": "🎨" }, { "word": "stood", "emoji": "🧍" }]
+    },
+    {
+      "id": "purple", "text": "Purple pants. Ben stood all night. Mia took the sofa.",
+      "setting": "room", "light": "dusk", "focus": "mia", "sfx": "animeWow",
+      "actors": [
+        { "who": "sofa", "x": 700, "size": 2.2 },
+        { "who": "mia", "x": 700, "size": 1.2, "mood": "happy", "hold": "🍿" },
+        { "who": "ben", "x": 220, "size": 1.3, "mood": "sad", "hat": "🟣" }
+      ],
+      "stickers": [{ "word": "Purple", "emoji": "🟣" }, { "word": "sofa", "emoji": "🛋️" }]
+    },
+    {
+      "id": "loop", "text": "Tomorrow, Ben puts a wet paint sign on the sofa.",
+      "setting": "room", "light": "gold", "focus": "ben", "effects": ["rays"], "sfx": "yippee",
+      "actors": [
+        { "who": "sofa", "x": 540, "size": 2.4 },
+        { "who": "sign", "x": 540, "size": 1.4, "lift": 120 },
+        { "who": "ben", "x": 220, "size": 1.5, "mood": "smug", "action": "jump" },
+        { "who": "mia", "x": 900, "size": 1.1, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "Tomorrow", "emoji": "🌅" }, { "word": "sign", "emoji": "🪧" }]
+    }
+  ]
+}

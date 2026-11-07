@@ -13,6 +13,7 @@ Shorts older than 24 h. Run 2026-11-06 noon: Turbo Part 6 diwali-wind uploaded, 
 
 - **A Short either gets ~900-1,800 views or is "dead on arrival" (0-25 views).** There
   is almost nothing in between, so the biggest lever is avoiding dead Shorts.
+- **Update 2026-11-07 (8 AM run):** Turbo Part 5 diwali-sky 0 and Part 6 diwali-wind 1 view (24 h+), Turbo Parts 4-6 all dead: stop Turbo for a few days. The validator now only allows `stack|dominoes|obby` bottoms (soap was retired). 11-06 8 AM/12 PM slots are still too young; tiny-rocket (11-07 8 AM) 152 views after 4 h looks healthy. Ben vs Mia Part 6 (simon-says) 938 views, 125% watched: still reliable.
 - **Update 2026-11-07:** 3 uploads/day started 2026-11-06. Of those, 11-06 4 PM (Turbo Part 6, 1 view) is still too young to judge; 11-05's 4 PM wobbly-tooth got 7. Hypothesis: the afternoon slot still gets no reach; keep tracking. Also ElevenLabs credits ran out (Kokoro voice in use) and Turbo Parts 4-6 all got ~0 views: Turbo is cooling off.
 - **The channel gets about 3 Shorts' worth of reach a day; extra uploads die.** Before
   2026-10-31 (8 AM / 12 PM / 4 PM / 8 PM) the 8 PM one died 7/7. After moving to

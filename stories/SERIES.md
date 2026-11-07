@@ -34,6 +34,7 @@ From `2026-10-27-spider-prank` (1,266 views, 61% watched, 19 likes).
   - Part 4 — `2026-11-03-alarm-clock`: Ben hides an alarm under Mia's bed ringing 5,4,3,2,1 AM; Mia carries it into his room each night, so Ben is the exhausted one.
   - Part 5 — `2026-11-04-beach-hole`: Ben digs a 5-foot trap hole at the beach under Mia's towel (1-5 feet counter); Mia sends him running for ice cream across it and eats his cone.
   - Part 6 — `2026-11-05-simon-says`: Ben plays Simon Says and gives Mia five orders (clap, spin, bark, hop, dessert); Mia makes Mom the new Simon and Ben does five jobs (dishes, trash, socks, laundry, bed).
+  - Part 7 — `2026-11-07-wet-paint`: Ben's fake WET PAINT sign steals the sofa and Mia's popcorn; Mia borrows the sign for his bed, chair and bike and makes the paint real, so Ben stands all night in purple pants.
 
 ## Turbo the snail
 
