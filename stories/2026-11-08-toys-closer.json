@@ -1,0 +1,398 @@
+{
+  "id": "2026-11-08-toys-closer",
+  "title": "Toys Creep Closer",
+  "youtube": {
+    "title": "Every night, Jo's toys crept closer to his bed 🧸😨",
+    "description": "Five nights. Five steps closer. What did the toys want? #shorts #story #creepy #funny",
+    "tags": [
+      "shorts",
+      "story",
+      "creepy",
+      "toys",
+      "birthday",
+      "animation"
+    ]
+  },
+  "logline": "Jo's toys creep one step closer to his bed every night for five nights; on night five they are holding a birthday cake for him.",
+  "comment": "Would you have screamed on night five? 👇😂",
+  "hook": "WHY ARE THE TOYS MOVING? 🧸",
+  "narrator": "callum",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": [
+    "toys",
+    "closer",
+    "bed",
+    "birthday",
+    "night",
+    "shelf",
+    "floor",
+    "cake",
+    "candles",
+    "surprise"
+  ],
+  "bottom": "dominoes",
+  "cast": {
+    "jo": {
+      "species": "bean",
+      "color": "#4cc9f0",
+      "name": "Jo"
+    },
+    "teddy": {
+      "emoji": "🧸"
+    },
+    "robot": {
+      "emoji": "🤖"
+    },
+    "duck": {
+      "emoji": "🦆"
+    },
+    "cake": {
+      "emoji": "🎂"
+    },
+    "candles": {
+      "emoji": "🕯️"
+    }
+  },
+  "scenes": [
+    {
+      "id": "closer",
+      "text": "Every night, Jo's toys crept closer to his bed.",
+      "setting": "room",
+      "light": "danger",
+      "focus": "teddy",
+      "effects": [
+        "vignette",
+        "shake"
+      ],
+      "sfx": "vineBoom",
+      "flash": "closer",
+      "actors": [
+        {
+          "who": "jo",
+          "x": 220,
+          "size": 1.0,
+          "mood": "shock"
+        },
+        {
+          "who": "teddy",
+          "x": 880,
+          "toX": 640,
+          "size": 1.8,
+          "action": "run",
+          "at": "closer"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "toys",
+          "emoji": "🧸"
+        },
+        {
+          "word": "closer",
+          "emoji": "😨"
+        }
+      ]
+    },
+    {
+      "id": "one",
+      "text": "Birthday in five days. Night one: toys on the shelf.",
+      "setting": "room",
+      "light": "night",
+      "focus": "teddy",
+      "effects": [
+        "vignette"
+      ],
+      "actors": [
+        {
+          "who": "jo",
+          "x": 230,
+          "size": 1.1,
+          "mood": "happy"
+        },
+        {
+          "who": "teddy",
+          "x": 650,
+          "size": 1.0,
+          "lift": 380
+        },
+        {
+          "who": "robot",
+          "x": 790,
+          "size": 1.0,
+          "lift": 380
+        },
+        {
+          "who": "duck",
+          "x": 930,
+          "size": 1.0,
+          "lift": 380
+        }
+      ],
+      "stickers": [
+        {
+          "word": "birthday",
+          "emoji": "🎂"
+        }
+      ]
+    },
+    {
+      "id": "two",
+      "text": "Night two: the floor. Jo locked the door. They moved anyway.",
+      "setting": "room",
+      "light": "night",
+      "focus": "teddy",
+      "effects": [
+        "vignette"
+      ],
+      "sfx": "dramaticBoomer",
+      "actors": [
+        {
+          "who": "jo",
+          "x": 220,
+          "size": 1.1,
+          "mood": "shock"
+        },
+        {
+          "who": "teddy",
+          "x": 640,
+          "size": 1.1
+        },
+        {
+          "who": "robot",
+          "x": 780,
+          "size": 1.1
+        },
+        {
+          "who": "duck",
+          "x": 860,
+          "size": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "word": "floor",
+          "emoji": "👣"
+        },
+        {
+          "word": "locked",
+          "emoji": "🔒"
+        }
+      ]
+    },
+    {
+      "id": "three",
+      "text": "Night three: the rug. Night four: right beside his bed.",
+      "setting": "room",
+      "light": "danger",
+      "focus": "teddy",
+      "effects": [
+        "vignette",
+        "shake"
+      ],
+      "actors": [
+        {
+          "who": "jo",
+          "x": 200,
+          "size": 1.2,
+          "mood": "shock",
+          "action": "shake"
+        },
+        {
+          "who": "teddy",
+          "x": 460,
+          "size": 1.3
+        },
+        {
+          "who": "robot",
+          "x": 600,
+          "size": 1.3
+        },
+        {
+          "who": "duck",
+          "x": 740,
+          "size": 1.3
+        }
+      ],
+      "stickers": [
+        {
+          "word": "rug",
+          "emoji": "🟫"
+        },
+        {
+          "word": "beside",
+          "emoji": "😱"
+        }
+      ]
+    },
+    {
+      "id": "five",
+      "text": "Night five. Jo pretended to sleep. Tiny footsteps climbed his blanket.",
+      "setting": "room",
+      "light": "night",
+      "focus": "jo",
+      "effects": [
+        "vignette"
+      ],
+      "sfx": "loadingLag",
+      "actors": [
+        {
+          "who": "jo",
+          "x": 300,
+          "size": 1.3,
+          "mood": "sad",
+          "action": "faint",
+          "at": "sleep"
+        },
+        {
+          "who": "teddy",
+          "x": 600,
+          "size": 0.9,
+          "action": "enter"
+        },
+        {
+          "who": "robot",
+          "x": 730,
+          "size": 0.9,
+          "action": "enter"
+        },
+        {
+          "who": "duck",
+          "x": 860,
+          "size": 0.9,
+          "action": "enter"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "footsteps",
+          "emoji": "👣"
+        }
+      ]
+    },
+    {
+      "id": "peek",
+      "text": "He peeked. Teddy held a cake. The robot lit five candles.",
+      "setting": "room",
+      "light": "gold",
+      "focus": "cake",
+      "effects": [
+        "rays"
+      ],
+      "sfx": "animeWow",
+      "actors": [
+        {
+          "who": "jo",
+          "x": 200,
+          "size": 1.2,
+          "mood": "shock"
+        },
+        {
+          "who": "teddy",
+          "x": 540,
+          "size": 1.2
+        },
+        {
+          "who": "cake",
+          "x": 740,
+          "size": 1.5,
+          "action": "float",
+          "at": "cake"
+        },
+        {
+          "who": "robot",
+          "x": 900,
+          "size": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "word": "peeked",
+          "emoji": "👀"
+        }
+      ]
+    },
+    {
+      "id": "surprise",
+      "text": "Surprise! Happy birthday, Jo! They crept closer all week to sing.",
+      "setting": "room",
+      "light": "gold",
+      "focus": "jo",
+      "effects": [
+        "confetti",
+        "rays"
+      ],
+      "sfx": "yippee",
+      "actors": [
+        {
+          "who": "jo",
+          "x": 220,
+          "size": 1.3,
+          "mood": "happy",
+          "action": "jump",
+          "at": "surprise"
+        },
+        {
+          "who": "teddy",
+          "x": 560,
+          "size": 1.2,
+          "action": "jump"
+        },
+        {
+          "who": "robot",
+          "x": 720,
+          "size": 1.2,
+          "action": "jump"
+        },
+        {
+          "who": "duck",
+          "x": 860,
+          "size": 1.2,
+          "action": "jump"
+        }
+      ],
+      "burst": {
+        "at": "birthday",
+        "emoji": "🎉"
+      },
+      "stickers": [
+        {
+          "word": "surprise",
+          "emoji": "🎉"
+        },
+        {
+          "word": "sing",
+          "emoji": "🎶"
+        }
+      ]
+    },
+    {
+      "id": "loop",
+      "text": "Best birthday ever. Follow, and check your shelf. Toys creep closer every night.",
+      "setting": "room",
+      "light": "night",
+      "focus": "teddy",
+      "effects": [
+        "vignette"
+      ],
+      "actors": [
+        {
+          "who": "teddy",
+          "x": 540,
+          "size": 1.6,
+          "action": "enter"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "follow",
+          "emoji": "👉"
+        },
+        {
+          "word": "shelf",
+          "emoji": "👀"
+        }
+      ]
+    }
+  ]
+}

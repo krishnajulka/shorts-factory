@@ -1,6 +1,6 @@
 # Channel stats
 
-Updated 2026-11-08 02:45 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 39 · total channel views: 32948 · videos: 53.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
+Updated 2026-11-08 06:45 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 39 · total channel views: 35199 · videos: 54.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
 
 Sorted by views. "avg watched" is the average share of the Short people watched (YouTube Analytics; lags 1-2 days, "—" = not ready yet).
 
@@ -32,13 +32,13 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 958 | 4 | 1 | 60% | 18s | 1 | 2026-11-05-simon-says | jessica | obby | 2026-11-05 06:53 | [Ben played Simon Says with his sister 🗣️😈 (Part 6)](https://youtube.com/shorts/WDcg9ZzixkQ) |
 | 956 | 2 | 1 | 81% | 21s | 1 | 2026-11-04-beach-hole | jessica | soap | 2026-11-04 06:53 | [Ben dug a trap for his sister at the beach 🕳️😈 (Part 5)](https://youtube.com/shorts/V2z6QgjoYTc) |
 | 948 | 11 | 2 | 51% | 15s | 2 | 2026-10-31-candy-tax | jessica | obby | 2026-10-31 06:57 | [Ben taxed Mia's Halloween candy 🎃🌶️ (Part 2)](https://youtube.com/shorts/sar3PMsNJaA) |
+| 937 | 13 | 1 | — | — | — | 2026-11-07-wet-paint | jessica | dominoes | 2026-11-07 06:52 | [Ben put a fake WET PAINT sign on the sofa 🎨😈 (Part 7)](https://youtube.com/shorts/9077upeWUno) |
 | 932 | 9 | 0 | 45% | 24s | 3 | duck-doorstep | brian | spiral | 2026-10-24 17:20 | [Someone left a duck on her doorstep for 400 days 🦆](https://youtube.com/shorts/ssowpmlm8cA) |
-| 929 | 13 | 1 | — | — | — | 2026-11-07-wet-paint | jessica | dominoes | 2026-11-07 06:52 | [Ben put a fake WET PAINT sign on the sofa 🎨😈 (Part 7)](https://youtube.com/shorts/9077upeWUno) |
 | 923 | 13 | 0 | 49% | 18s | 2 | 2026-10-28-elevator-buttons | callum | spiral | 2026-10-28 10:51 | [His elevator grows ONE new button every night 🛗😨](https://youtube.com/shorts/oblZwk-IGWU) |
 | 696 | 5 | 1 | 38% | 15s | 0 | 2026-11-01-robot-letter | george | soap | 2026-11-01 10:42 | [A tiny robot had 90% battery to deliver ONE letter 🤖✉️](https://youtube.com/shorts/vhcChf9fh-s) |
 | 425 | 5 | 0 | 61% | 21s | 0 | 2026-10-28-last-pancake | liam | plinko | 2026-10-28 02:48 | [He relived the same Monday 41 times. The fix? 🥞⏰](https://youtube.com/shorts/DrDSaMhPCgU) |
 | 319 | 3 | 0 | 38% | 17s | 0 | 2026-10-25-vending-machine-knows | brian | breakout | 2026-10-25 06:49 | [The vending machine never gives what he picks 🥤😨](https://youtube.com/shorts/XHeV9VH5Tzs) |
-| 296 | 7 | 1 | — | — | — | 2026-11-07-tiny-rocket | george | obby | 2026-11-07 02:40 | [The tiny rocket was picked last on Diwali 🚀🪔](https://youtube.com/shorts/nwko6DfjkUY) |
+| 311 | 7 | 1 | — | — | — | 2026-11-07-tiny-rocket | george | obby | 2026-11-07 02:40 | [The tiny rocket was picked last on Diwali 🚀🪔](https://youtube.com/shorts/nwko6DfjkUY) |
 | 266 | 6 | 0 | 59% | 22s | 1 | 2026-10-31-forgot-acorns | jessica | stack | 2026-10-31 02:53 | [He buried 100 acorns. Then forgot where. 🐿️🌳](https://youtube.com/shorts/8a86eiZrPHo) |
 | 234 | 2 | 0 | 46% | 21s | 0 | 2026-10-25-last-moth | liam | race | 2026-10-25 02:43 | [10,000 moths raced to one light. He came last. 🦋💡](https://youtube.com/shorts/aMExlWBjoUA) |
 | 23 | 0 | 0 | 80% | 28s | 0 | 2026-10-26-grandma-chair | jessica | wheel | 2026-10-26 14:49 | [Grandma has NEVER lost hide and seek 👵🙈](https://youtube.com/shorts/KBAvLz8TtYQ) |
@@ -58,4 +58,5 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 3 | 0 | 1 | 80% | 30s | 0 | 2026-10-29-bus-stop-dog | george | dominoes | 2026-10-29 16:24 | [He waited at the bus stop for 1,000 days 🐕🚌](https://youtube.com/shorts/Img5GabZ00M) |
 | 2 | 0 | 1 | — | — | — | 2026-11-06-diwali-wind | liam | stack | 2026-11-06 16:50 | [A snail raced a rabbit: last Diwali lamp burning wins 🪔💨 (Part 6)](https://youtube.com/shorts/K2abhOojeWg) |
 | 1 | 0 | 1 | 0% | 0s | 0 | 2026-11-04-pigeon-mail | liam | dominoes | 2026-11-04 00:53 | [A snail raced a pigeon across the country 🐌🕊️ (Part 4)](https://youtube.com/shorts/Z1xut2-nRsc) |
+| 0 | 0 | 1 | — | — | — | 2026-11-08-diwali-lamps | jessica | obby | 2026-11-08 02:51 | [Ben blew out Mia's Diwali lamps 🪔😈 (Part 8)](https://youtube.com/shorts/mASfWXVvgsQ) |
 | 0 | 0 | 1 | — | — | — | 2026-11-05-diwali-sky | liam | dominoes | 2026-11-05 00:53 | [A snail raced a rabbit to light up Diwali night 🪔🐌 (Part 5)](https://youtube.com/shorts/1RBEgfmkBkU) |
