@@ -1,0 +1,115 @@
+{
+  "id": "2026-11-08-diwali-lamps",
+  "title": "Diwali Lamps",
+  "youtube": {
+    "title": "Ben blew out Mia's Diwali lamps 🪔😈 (Part 8)",
+    "description": "Ben blew out all five of Mia's Diwali lamps. Mia was ready. Happy Diwali! #shorts #story #funny #diwali #siblings",
+    "tags": ["shorts", "story", "funny", "diwali", "karma", "siblings", "animation"]
+  },
+  "logline": "Ben tries to blow out Mia's five Diwali lamps, but Mia swapped them for trick lamps that relight, so Ben only wears himself out.",
+  "series": { "name": "Ben vs Mia: the prank war", "part": 8 },
+  "comment": "Who in your family would blow out the lamps? 🪔👇",
+  "hook": "BEN BLEW OUT DIWALI?! 🪔😈",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["mia", "ben", "diwali", "lamps", "lamp", "blow", "pop", "trick", "five", "sweet", "burning"],
+  "bottom": "obby",
+  "cast": {
+    "ben": { "species": "bean", "color": "#ff9f1c", "name": "Ben" },
+    "mia": { "species": "bean", "color": "#c77dff", "name": "Mia" },
+    "l1": { "emoji": "🪔" },
+    "l2": { "emoji": "🪔" },
+    "l3": { "emoji": "🪔" },
+    "l4": { "emoji": "🪔" },
+    "l5": { "emoji": "🪔" },
+    "sweet": { "emoji": "🍬" }
+  },
+  "scenes": [
+    {
+      "id": "start", "text": "Mia lit five Diwali lamps. Ben took a deep breath.",
+      "setting": "room", "light": "dusk", "focus": "ben", "effects": ["vignette"], "sfx": "vineBoom", "flash": "lamps",
+      "actors": [
+        { "who": "l1", "x": 140, "size": 1.2 }, { "who": "l2", "x": 340, "size": 1.2 },
+        { "who": "l3", "x": 540, "size": 1.2 }, { "who": "l4", "x": 740, "size": 1.2 },
+        { "who": "l5", "x": 940, "size": 1.2 },
+        { "who": "ben", "x": 260, "size": 1.6, "mood": "smug", "action": "jump", "lift": 200 },
+        { "who": "mia", "x": 880, "size": 0.9, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "Diwali", "emoji": "🪔" }, { "word": "breath", "emoji": "💨" }]
+    },
+    {
+      "id": "one", "text": "Puff! Lamp one went out. Mia smiled. Thanks, Ben.",
+      "setting": "room", "light": "night", "focus": "ben",
+      "actors": [
+        { "who": "l1", "x": 200, "size": 1.8 },
+        { "who": "ben", "x": 540, "size": 1.5, "mood": "smug", "action": "shake" },
+        { "who": "mia", "x": 900, "size": 1, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "Puff", "emoji": "💨" }, { "word": "smiled", "emoji": "😏" }]
+    },
+    {
+      "id": "pop", "text": "Then it went pop, and lit itself again.",
+      "setting": "room", "light": "gold", "focus": "l1", "sfx": "recordScratch", "effects": ["rays"],
+      "actors": [
+        { "who": "l1", "x": 540, "size": 2.2, "action": "grow", "at": "pop" },
+        { "who": "ben", "x": 200, "size": 1.3, "mood": "shock" },
+        { "who": "mia", "x": 900, "size": 1, "face": "left", "mood": "smug" }
+      ],
+      "burst": { "at": "pop", "emoji": "✨" },
+      "stickers": [{ "word": "pop", "emoji": "💥" }, { "word": "again", "emoji": "🔥" }]
+    },
+    {
+      "id": "four", "text": "Blow two. Blow three. Blow four. Pop, pop, pop.",
+      "setting": "room", "light": "dusk", "focus": "ben", "effects": ["speed"],
+      "actors": [
+        { "who": "l2", "x": 250, "size": 1.4 }, { "who": "l3", "x": 540, "size": 1.4 },
+        { "who": "l4", "x": 830, "size": 1.4 },
+        { "who": "ben", "x": 540, "size": 1.3, "mood": "angry", "action": "shake", "lift": 250 }
+      ],
+      "stickers": [{ "word": "three", "emoji": "3️⃣" }, { "word": "four", "emoji": "4️⃣" }]
+    },
+    {
+      "id": "trick", "text": "Ben's cheeks turned purple. Mia had bought trick lamps.",
+      "setting": "room", "light": "danger", "focus": "ben", "sfx": "ohMyGodVine",
+      "actors": [
+        { "who": "ben", "x": 300, "size": 1.8, "mood": "shock", "action": "shake", "hat": "🟣" },
+        { "who": "mia", "x": 800, "size": 1.3, "face": "left", "mood": "smug", "hold": "🪔" }
+      ],
+      "stickers": [{ "word": "purple", "emoji": "🟣" }, { "word": "trick", "emoji": "🪄" }]
+    },
+    {
+      "id": "five", "text": "Blow five. Ben spun right off the floor.",
+      "setting": "room", "light": "danger", "focus": "ben", "effects": ["shake"], "sfx": "wilhelmScream",
+      "actors": [
+        { "who": "l5", "x": 800, "size": 1.8 },
+        { "who": "ben", "x": 440, "size": 1.5, "mood": "shock", "action": "spin" }
+      ],
+      "stickers": [{ "word": "five", "emoji": "5️⃣" }, { "word": "spun", "emoji": "🌀" }]
+    },
+    {
+      "id": "burning", "text": "Five blows. Five lamps. All still burning.",
+      "setting": "room", "light": "gold", "focus": "mia", "effects": ["rays"], "sfx": "animeWow",
+      "actors": [
+        { "who": "l1", "x": 140, "size": 1.2 }, { "who": "l2", "x": 340, "size": 1.2 },
+        { "who": "l3", "x": 540, "size": 1.2 }, { "who": "l4", "x": 740, "size": 1.2 },
+        { "who": "l5", "x": 940, "size": 1.2 },
+        { "who": "ben", "x": 260, "size": 1.3, "mood": "sad", "action": "faint" },
+        { "who": "mia", "x": 640, "size": 1.3, "mood": "happy", "hold": "🍬" }
+      ],
+      "stickers": [{ "word": "burning", "emoji": "🔥" }, { "word": "Five", "emoji": "🪔" }]
+    },
+    {
+      "id": "loop", "text": "Tomorrow, Mia lights five Diwali lamps.",
+      "setting": "room", "light": "dusk", "focus": "mia", "sfx": "yippee",
+      "actors": [
+        { "who": "l1", "x": 140, "size": 1.2 }, { "who": "l2", "x": 340, "size": 1.2 },
+        { "who": "l3", "x": 540, "size": 1.2 }, { "who": "l4", "x": 740, "size": 1.2 },
+        { "who": "l5", "x": 940, "size": 1.2 },
+        { "who": "ben", "x": 260, "size": 1.5, "mood": "smug", "action": "jump", "lift": 200 },
+        { "who": "mia", "x": 880, "size": 0.9, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "Tomorrow", "emoji": "🌅" }, { "word": "lights", "emoji": "🪔" }]
+    }
+  ]
+}

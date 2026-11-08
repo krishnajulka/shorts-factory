@@ -61,3 +61,4 @@ and a different bottom than the last 2.
 - 2026-11-07 — 2026-11-07-tiny-rocket — bittersweet deadline (Diwali) / wholesome win (underdog) — the smallest Diwali rocket is picked last (5-1 counter); in a street power cut his tiny gold glow lights everything (city) [obby]
 - 2026-11-07 — 2026-11-07-wet-paint — revenge / funny karma reveal — SERIES Ben vs Mia Part 7: Ben's fake wet paint sign steals the sofa; Mia borrows it for his bed, chair and bike and makes the paint real (room) [dominoes]
 - 2026-11-07 — 2026-11-07-dog-shoes — funny why-animals-do-that / wholesome twist — Rex the dog hides one of Dad's shoes each day Mon-Fri to make him late; Saturday he hides them all and Dad stays home to play (room) [stack]
+- 2026-11-08 — 2026-11-08-diwali-lamps — revenge / funny karma reveal (Diwali) — SERIES Ben vs Mia Part 8: Ben blows out Mia's five Diwali lamps; they were trick lamps that relight and he faints (room) [obby]
