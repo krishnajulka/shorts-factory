@@ -1,0 +1,110 @@
+{
+  "id": "2026-11-08-fort-rules",
+  "title": "Fort Rules",
+  "youtube": {
+    "title": "Ben built a fort with 5 rules against Mia 🏰😈 (Part 9)",
+    "description": "Ben made five fort rules to keep his sister out. Mia grabbed a marker. #shorts #story #funny #siblings",
+    "tags": ["shorts", "story", "funny", "karma", "siblings", "animation"]
+  },
+  "logline": "Ben builds a fort with five rules to keep his sister Mia out, but overnight Mia rewrites every rule to say no Bens, and he is locked out of his own fort.",
+  "series": { "name": "Ben vs Mia: the prank war", "part": 9 },
+  "comment": "What would YOUR fort rule one be? 🏰👇",
+  "hook": "BEN BANNED MIA FROM HIS FORT 🚫",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["ben", "mia", "fort", "rule", "sisters", "bens", "marker", "cookies", "five", "thanks"],
+  "bottom": "stack",
+  "cast": {
+    "ben": { "species": "bean", "color": "#ff9f1c", "name": "Ben" },
+    "mia": { "species": "bean", "color": "#c77dff", "name": "Mia" },
+    "fort": { "emoji": "🏰" },
+    "sign": { "emoji": "🪧" },
+    "sign2": { "emoji": "🪧" },
+    "marker": { "emoji": "🖍️" },
+    "cookies": { "emoji": "🍪" }
+  },
+  "scenes": [
+    {
+      "id": "start", "text": "Ben built a fort. Rule one: no sisters.",
+      "setting": "city", "light": "day", "focus": "ben", "effects": ["vignette"], "sfx": "vineBoom", "flash": "fort",
+      "actors": [
+        { "who": "fort", "x": 540, "size": 2.4 },
+        { "who": "ben", "x": 220, "size": 1.6, "mood": "smug", "action": "jump", "lift": 150 },
+        { "who": "sign", "x": 820, "size": 1.4 },
+        { "who": "mia", "x": 960, "size": 0.9, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "fort", "emoji": "🏰" }, { "word": "sisters", "emoji": "🚫" }]
+    },
+    {
+      "id": "two", "text": "Rule two: no sister snacks. Rule three: no sister toys.",
+      "setting": "city", "light": "day", "focus": "ben",
+      "actors": [
+        { "who": "fort", "x": 540, "size": 2 },
+        { "who": "ben", "x": 220, "size": 1.5, "mood": "smug", "action": "shake" },
+        { "who": "sign", "x": 780, "size": 1.3 },
+        { "who": "mia", "x": 960, "size": 0.9, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "snacks", "emoji": "🍪" }, { "word": "toys", "emoji": "🧸" }]
+    },
+    {
+      "id": "five", "text": "Rule four: no knocking. Rule five: guards at the door.",
+      "setting": "city", "light": "dusk", "focus": "ben", "effects": ["speed"],
+      "actors": [
+        { "who": "fort", "x": 540, "size": 2 },
+        { "who": "ben", "x": 260, "size": 1.5, "mood": "angry", "action": "jump" },
+        { "who": "mia", "x": 900, "size": 1, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "knocking", "emoji": "✊" }, { "word": "five", "emoji": "5️⃣" }]
+    },
+    {
+      "id": "night", "text": "That night, Mia grabbed a marker. Thanks, Ben.",
+      "setting": "city", "light": "night", "focus": "mia", "sfx": "recordScratch",
+      "actors": [
+        { "who": "fort", "x": 400, "size": 1.8 },
+        { "who": "sign", "x": 640, "size": 1.3 },
+        { "who": "mia", "x": 860, "size": 1.5, "face": "left", "mood": "smug", "hold": "🖍️", "action": "shake" }
+      ],
+      "stickers": [{ "word": "marker", "emoji": "🖍️" }, { "word": "Thanks", "emoji": "😏" }]
+    },
+    {
+      "id": "morning", "text": "Next morning, Ben read the rules out loud.",
+      "setting": "city", "light": "day", "focus": "ben",
+      "actors": [
+        { "who": "fort", "x": 640, "size": 2 },
+        { "who": "sign", "x": 300, "size": 1.8 },
+        { "who": "ben", "x": 130, "size": 1.4, "mood": "happy" }
+      ],
+      "stickers": [{ "word": "morning", "emoji": "🌅" }, { "word": "rules", "emoji": "📜" }]
+    },
+    {
+      "id": "bens", "text": "Rule one: no Bens. Rule two: no Bens. All five said no Bens.",
+      "setting": "city", "light": "danger", "focus": "ben", "effects": ["shake"], "sfx": "ohMyGodVine",
+      "actors": [
+        { "who": "sign", "x": 360, "size": 2 },
+        { "who": "ben", "x": 760, "size": 1.8, "face": "left", "mood": "shock", "action": "shake" }
+      ],
+      "stickers": [{ "word": "Bens.", "emoji": "😱" }, { "word": "five", "emoji": "5️⃣" }]
+    },
+    {
+      "id": "cookies", "text": "Mia sat inside, eating his cookies. Ben stood outside, hungry.",
+      "setting": "city", "light": "gold", "focus": "mia", "effects": ["rays"], "sfx": "animeWow",
+      "actors": [
+        { "who": "fort", "x": 540, "size": 2.2 },
+        { "who": "mia", "x": 540, "size": 1, "mood": "happy", "hold": "🍪" },
+        { "who": "ben", "x": 150, "size": 1.4, "mood": "sad", "action": "faint" }
+      ],
+      "stickers": [{ "word": "cookies", "emoji": "🍪" }, { "word": "hungry", "emoji": "😭" }]
+    },
+    {
+      "id": "loop", "text": "Tomorrow, Ben builds a fort. Rule one: no sisters.",
+      "setting": "city", "light": "day", "focus": "ben", "sfx": "yippee",
+      "actors": [
+        { "who": "fort", "x": 540, "size": 2.4 },
+        { "who": "ben", "x": 220, "size": 1.5, "mood": "smug", "action": "jump", "lift": 150 },
+        { "who": "mia", "x": 940, "size": 0.9, "face": "left", "mood": "happy", "hold": "🖍️" }
+      ],
+      "stickers": [{ "word": "Tomorrow", "emoji": "🌅" }, { "word": "sisters", "emoji": "🚫" }]
+    }
+  ]
+}

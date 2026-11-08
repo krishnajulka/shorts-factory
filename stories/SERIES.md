@@ -36,6 +36,7 @@ From `2026-10-27-spider-prank` (1,266 views, 61% watched, 19 likes).
   - Part 6 — `2026-11-05-simon-says`: Ben plays Simon Says and gives Mia five orders (clap, spin, bark, hop, dessert); Mia makes Mom the new Simon and Ben does five jobs (dishes, trash, socks, laundry, bed).
   - Part 7 — `2026-11-07-wet-paint`: Ben's fake WET PAINT sign steals the sofa and Mia's popcorn; Mia borrows the sign for his bed, chair and bike and makes the paint real, so Ben stands all night in purple pants.
   - Part 8 — `2026-11-08-diwali-lamps`: Diwali; Ben blows out Mia's five lamps (1-5 counter); Mia swapped them for trick lamps that relight, so Ben turns purple and faints.
+  - Part 9 — `2026-11-08-fort-rules`: Ben builds a fort with five rules against Mia (no sisters, snacks, toys, knocking, guards); overnight Mia rewrites each to "no Bens" and eats his cookies inside.
 
 ## Turbo the snail
 
