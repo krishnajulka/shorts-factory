@@ -66,3 +66,4 @@ and a different bottom than the last 2.
 - 2026-11-08 — 2026-11-08-fort-rules — revenge / funny karma reveal — SERIES Ben vs Mia Part 9: Ben's five fort rules ban sisters; Mia rewrites every one to "no Bens" and eats his cookies inside (city) [stack]
 - 2026-11-09 — 2026-11-09-sandcastle-tide — bittersweet deadline / wholesome rescue — Nina's five-tower sandcastle loses one tower per wave before Grandpa arrives; he blocks the last wave (beach) [obby]
 - 2026-11-09 — 2026-11-09-radio-ghost — revenge / funny karma reveal — SERIES Ben vs Mia Part 10: Ben whispers ghost messages through a hidden radio in Mia's room (nights 1-3); Mia hides a radio under his bed and he flees to her blanket (room) [dominoes]
+- 2026-11-09 — 2026-11-09-rooster-sun — funny why-animals-do-that / wholesome twist — Rudy the rooster thinks his scream pulls up the sun and screams earlier (5,4,3); learns the sun never needed him but the farm does (forest) [stack]

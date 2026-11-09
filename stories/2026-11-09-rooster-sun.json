@@ -1,0 +1,118 @@
+{
+  "id": "2026-11-09-rooster-sun",
+  "title": "Rooster And The Sun",
+  "youtube": {
+    "title": "Why roosters scream at the sun every morning 🐓☀️",
+    "description": "Rudy the rooster thinks his scream pulls up the sun. The truth is sweeter. #shorts #funny #animals",
+    "tags": ["shorts", "story", "funny", "rooster", "animals", "animation"]
+  },
+  "logline": "Rudy the rooster believes his scream pulls up the sun, so he screams earlier and earlier; he learns the sun never needed him, but the whole farm does.",
+  "comment": "What wakes YOU up every morning? 👇",
+  "hook": "WHO RAISES THE SUN? 🐓",
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["rudy", "scream", "sun", "five", "four", "three", "farm", "boots", "anyway", "late", "cheered"],
+  "bottom": "stack",
+  "cast": {
+    "rudy": { "emoji": "🐓" },
+    "sun": { "emoji": "☀️" },
+    "cow": { "emoji": "🐄" },
+    "pig": { "emoji": "🐖" },
+    "boot": { "emoji": "🥾" }
+  },
+  "scenes": [
+    {
+      "id": "five",
+      "text": "Every morning at five, Rudy screamed at the sky.",
+      "setting": "forest", "light": "dusk", "focus": "rudy",
+      "effects": ["shake"], "sfx": "vineBoom",
+      "actors": [
+        { "who": "rudy", "x": 380, "size": 1.5, "mood": "angry", "face": "right", "action": "shake", "at": "screamed" },
+        { "who": "cow", "x": 780, "size": 1.0, "mood": "sad", "face": "left" }
+      ],
+      "stickers": [{ "word": "five", "emoji": "5️⃣" }, { "word": "screamed", "emoji": "📢" }]
+    },
+    {
+      "id": "six",
+      "text": "He believed his scream pulled up the sun. It rose at six.",
+      "setting": "forest", "light": "gold", "focus": "rudy",
+      "effects": ["rays"],
+      "actors": [
+        { "who": "rudy", "x": 360, "size": 1.4, "mood": "smug", "face": "right", "action": "jump" },
+        { "who": "sun", "x": 740, "lift": 120, "size": 1.1, "action": "grow", "at": "rose" }
+      ],
+      "stickers": [{ "word": "sun", "emoji": "☀️" }, { "word": "six", "emoji": "6️⃣" }]
+    },
+    {
+      "id": "four",
+      "text": "Tuesday, he screamed at four. The sun still came at six.",
+      "setting": "forest", "light": "night", "focus": "rudy",
+      "effects": ["vignette"],
+      "actors": [
+        { "who": "rudy", "x": 380, "size": 1.5, "mood": "angry", "face": "right", "action": "shake", "at": "screamed" },
+        { "who": "sun", "x": 700, "lift": 120, "size": 1.1, "action": "float" }
+      ],
+      "stickers": [{ "word": "four", "emoji": "4️⃣" }, { "word": "still", "emoji": "😒" }]
+    },
+    {
+      "id": "three",
+      "text": "Wednesday, three o'clock! The whole farm threw boots at him.",
+      "setting": "forest", "light": "danger", "focus": "rudy",
+      "effects": ["shake", "speed"], "sfx": "bruh",
+      "actors": [
+        { "who": "rudy", "x": 300, "size": 1.5, "mood": "shock", "face": "right", "action": "shake", "at": "boots" },
+        { "who": "cow", "x": 650, "size": 1.1, "mood": "angry", "face": "left" },
+        { "who": "pig", "x": 900, "size": 1.0, "mood": "angry", "face": "left" }
+      ],
+      "drop": { "at": "boots", "emoji": "🥾", "to": "rudy" },
+      "stickers": [{ "word": "three", "emoji": "3️⃣" }, { "word": "boots", "emoji": "🥾" }]
+    },
+    {
+      "id": "quiet",
+      "text": "Thursday, Rudy stayed silent. The sun rose anyway. He cried.",
+      "setting": "forest", "light": "dusk", "focus": "rudy",
+      "effects": ["rain"], "sfx": "recordScratch",
+      "actors": [
+        { "who": "rudy", "x": 380, "size": 1.3, "mood": "sad", "face": "right" },
+        { "who": "sun", "x": 700, "lift": 120, "size": 1.1, "action": "grow", "at": "rose" }
+      ],
+      "stickers": [{ "word": "silent", "emoji": "🤫" }, { "word": "cried", "emoji": "😭" }]
+    },
+    {
+      "id": "late",
+      "text": "Friday, nobody woke up. Without Rudy, the whole farm was late.",
+      "setting": "forest", "light": "day", "focus": "cow",
+      "effects": ["vignette"],
+      "actors": [
+        { "who": "cow", "x": 360, "size": 1.3, "mood": "shock", "face": "right", "action": "faint", "at": "late" },
+        { "who": "pig", "x": 760, "size": 1.1, "mood": "shock", "face": "left" },
+        { "who": "rudy", "x": 940, "size": 0.9, "mood": "sad", "face": "left" }
+      ],
+      "stickers": [{ "word": "nobody", "emoji": "😴" }, { "word": "late", "emoji": "⏰" }]
+    },
+    {
+      "id": "beg",
+      "text": "Everyone begged. At five, Rudy screamed. The farm cheered.",
+      "setting": "forest", "light": "gold", "focus": "rudy",
+      "effects": ["confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "rudy", "x": 520, "size": 1.5, "mood": "happy", "face": "right", "action": "jump" },
+        { "who": "cow", "x": 180, "size": 1.0, "mood": "happy", "face": "right" },
+        { "who": "pig", "x": 900, "size": 1.0, "mood": "happy", "face": "left" }
+      ],
+      "stickers": [{ "word": "screamed", "emoji": "📢" }, { "word": "cheered", "emoji": "🎉" }]
+    },
+    {
+      "id": "end",
+      "text": "The sun never needed him. The farm did. Follow, and hear Rudy scream again at five.",
+      "setting": "forest", "light": "gold", "focus": "rudy",
+      "effects": ["rays"],
+      "actors": [
+        { "who": "rudy", "x": 400, "size": 1.4, "mood": "happy", "face": "right", "action": "jump" },
+        { "who": "sun", "x": 700, "lift": 120, "size": 1.1, "action": "float" }
+      ],
+      "stickers": [{ "word": "farm", "emoji": "🏡" }, { "word": "Follow", "emoji": "👉" }]
+    }
+  ]
+}
