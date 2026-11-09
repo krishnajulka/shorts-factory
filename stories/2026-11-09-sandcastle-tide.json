@@ -1,0 +1,451 @@
+{
+  "id": "2026-11-09-sandcastle-tide",
+  "title": "Five Waves",
+  "youtube": {
+    "title": "Five towers. Five waves. Grandpa was late 🏰🌊",
+    "description": "Nina built a sandcastle for Grandpa. The tide had other plans. #shorts #story #wholesome",
+    "tags": [
+      "shorts",
+      "story",
+      "bittersweet",
+      "sandcastle",
+      "grandpa",
+      "animation"
+    ]
+  },
+  "logline": "Nina builds a five-tower sandcastle for Grandpa, but each wave takes one tower before he arrives; he jumps in front of the last wave to save the final tower.",
+  "comment": "Who would YOU build a sandcastle for? 👇",
+  "hook": "CAN SHE SAVE IT? 🏰🌊",
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": [
+    "tower",
+    "waves",
+    "wave",
+    "tide",
+    "nina",
+    "sandcastle",
+    "grandpa",
+    "flag",
+    "sunset",
+    "six"
+  ],
+  "bottom": "obby",
+  "cast": {
+    "castle": {
+      "emoji": "🏰"
+    },
+    "wave": {
+      "emoji": "🌊"
+    },
+    "flag": {
+      "emoji": "🚩"
+    },
+    "sun": {
+      "emoji": "🌅"
+    },
+    "nina": {
+      "species": "bean",
+      "color": "#ff8fab",
+      "name": "Nina"
+    },
+    "grandpa": {
+      "species": "bean",
+      "color": "#adb5bd",
+      "name": "Grandpa"
+    }
+  },
+  "scenes": [
+    {
+      "id": "tide",
+      "text": "Five towers. Five waves. The tide was coming for Nina's sandcastle.",
+      "setting": "beach",
+      "light": "dusk",
+      "focus": "castle",
+      "effects": [
+        "vignette"
+      ],
+      "actors": [
+        {
+          "who": "castle",
+          "x": 480,
+          "size": 1.5
+        },
+        {
+          "who": "wave",
+          "x": 130,
+          "size": 1.1,
+          "action": "grow",
+          "at": "waves"
+        },
+        {
+          "who": "nina",
+          "x": 780,
+          "size": 1.1,
+          "face": "left",
+          "mood": "shock"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "Five",
+          "emoji": "5️⃣"
+        },
+        {
+          "word": "tide",
+          "emoji": "🌊"
+        }
+      ],
+      "sfx": "vineBoom",
+      "flash": "tide"
+    },
+    {
+      "id": "grandpa",
+      "text": "She built it for Grandpa, who arrived at sunset.",
+      "setting": "beach",
+      "light": "gold",
+      "focus": "nina",
+      "effects": [
+        "rays"
+      ],
+      "actors": [
+        {
+          "who": "nina",
+          "x": 320,
+          "size": 1.1,
+          "mood": "happy",
+          "action": "jump"
+        },
+        {
+          "who": "castle",
+          "x": 700,
+          "size": 1.6
+        },
+        {
+          "who": "sun",
+          "x": 900,
+          "size": 1.2,
+          "lift": 380
+        }
+      ],
+      "stickers": [
+        {
+          "word": "Grandpa",
+          "emoji": "👴"
+        },
+        {
+          "word": "sunset",
+          "emoji": "🌅"
+        }
+      ]
+    },
+    {
+      "id": "w1",
+      "text": "Wave one took a tower. Nina just kept patting sand.",
+      "setting": "beach",
+      "light": "dusk",
+      "focus": "nina",
+      "effects": [
+        "speed"
+      ],
+      "actors": [
+        {
+          "who": "castle",
+          "x": 360,
+          "size": 1.5
+        },
+        {
+          "who": "wave",
+          "x": 860,
+          "toX": 380,
+          "size": 1.1,
+          "action": "run",
+          "at": "one"
+        },
+        {
+          "who": "nina",
+          "x": 650,
+          "size": 1.1,
+          "face": "left",
+          "mood": "sad"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "one",
+          "emoji": "1️⃣"
+        },
+        {
+          "word": "sand",
+          "emoji": "🏖️"
+        }
+      ]
+    },
+    {
+      "id": "w2",
+      "text": "Wave two. Wave three. Her castle got smaller and smaller.",
+      "setting": "beach",
+      "light": "dusk",
+      "focus": "castle",
+      "effects": [
+        "shake"
+      ],
+      "actors": [
+        {
+          "who": "castle",
+          "x": 380,
+          "size": 1.1
+        },
+        {
+          "who": "wave",
+          "x": 900,
+          "toX": 380,
+          "size": 1.1,
+          "action": "run",
+          "at": "three"
+        },
+        {
+          "who": "nina",
+          "x": 700,
+          "size": 1.1,
+          "face": "left",
+          "mood": "sad"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "two",
+          "emoji": "2️⃣"
+        },
+        {
+          "word": "three",
+          "emoji": "3️⃣"
+        }
+      ],
+      "sfx": "dramaticBoomer"
+    },
+    {
+      "id": "w4",
+      "text": "Wave four took the fourth tower. One tower and a flag remained.",
+      "setting": "beach",
+      "light": "danger",
+      "focus": "castle",
+      "effects": [
+        "vignette"
+      ],
+      "actors": [
+        {
+          "who": "castle",
+          "x": 420,
+          "size": 0.8
+        },
+        {
+          "who": "flag",
+          "x": 470,
+          "size": 0.6,
+          "lift": 60
+        },
+        {
+          "who": "wave",
+          "x": 900,
+          "toX": 380,
+          "size": 1.1,
+          "action": "run",
+          "at": "four"
+        },
+        {
+          "who": "nina",
+          "x": 740,
+          "size": 1.1,
+          "face": "left",
+          "mood": "sad"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "four",
+          "emoji": "4️⃣"
+        },
+        {
+          "word": "flag",
+          "emoji": "🚩"
+        }
+      ]
+    },
+    {
+      "id": "last",
+      "text": "Grandpa arrived. The last wave rose. Nina closed her eyes.",
+      "setting": "beach",
+      "light": "danger",
+      "focus": "grandpa",
+      "effects": [
+        "shake"
+      ],
+      "actors": [
+        {
+          "who": "grandpa",
+          "x": 440,
+          "size": 1.3,
+          "mood": "shock",
+          "action": "enter"
+        },
+        {
+          "who": "castle",
+          "x": 680,
+          "size": 0.7
+        },
+        {
+          "who": "wave",
+          "x": 90,
+          "size": 1.1,
+          "action": "grow",
+          "at": "rose"
+        },
+        {
+          "who": "nina",
+          "x": 900,
+          "size": 1.1,
+          "face": "left",
+          "mood": "sad"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "last",
+          "emoji": "⚠️"
+        },
+        {
+          "word": "rose",
+          "emoji": "🌊"
+        }
+      ],
+      "sfx": "recordScratch"
+    },
+    {
+      "id": "block",
+      "text": "Grandpa jumped in front. The wave soaked him, but the tower stood.",
+      "setting": "beach",
+      "light": "gold",
+      "focus": "grandpa",
+      "effects": [
+        "rays"
+      ],
+      "actors": [
+        {
+          "who": "grandpa",
+          "x": 560,
+          "size": 1.6,
+          "mood": "shock",
+          "action": "shake",
+          "at": "soaked"
+        },
+        {
+          "who": "castle",
+          "x": 800,
+          "size": 0.7
+        },
+        {
+          "who": "wave",
+          "x": 200,
+          "size": 1.1,
+          "action": "grow",
+          "at": "soaked"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "jumped",
+          "emoji": "🏃"
+        },
+        {
+          "word": "soaked",
+          "emoji": "💦"
+        }
+      ],
+      "sfx": "yippee",
+      "flash": "soaked"
+    },
+    {
+      "id": "six",
+      "text": "Grandpa dripped, Nina laughed. Tomorrow, we build six, he said.",
+      "setting": "beach",
+      "light": "gold",
+      "focus": "nina",
+      "effects": [
+        "confetti"
+      ],
+      "actors": [
+        {
+          "who": "nina",
+          "x": 320,
+          "size": 1.1,
+          "mood": "happy",
+          "action": "jump"
+        },
+        {
+          "who": "grandpa",
+          "x": 720,
+          "size": 1.4,
+          "mood": "happy",
+          "face": "left"
+        },
+        {
+          "who": "castle",
+          "x": 520,
+          "size": 0.9
+        }
+      ],
+      "stickers": [
+        {
+          "word": "laughed",
+          "emoji": "😂"
+        },
+        {
+          "word": "six",
+          "emoji": "6️⃣"
+        }
+      ]
+    },
+    {
+      "id": "loop",
+      "text": "Follow, because the tide is coming back for Nina's sandcastle.",
+      "setting": "beach",
+      "light": "dusk",
+      "focus": "castle",
+      "effects": [
+        "vignette"
+      ],
+      "actors": [
+        {
+          "who": "castle",
+          "x": 480,
+          "size": 1.5,
+          "action": "enter"
+        },
+        {
+          "who": "wave",
+          "x": 130,
+          "size": 1.1
+        },
+        {
+          "who": "nina",
+          "x": 780,
+          "size": 1.1,
+          "face": "left",
+          "mood": "shock"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "Follow",
+          "emoji": "👉"
+        },
+        {
+          "word": "tide",
+          "emoji": "🌊"
+        }
+      ]
+    }
+  ]
+}
