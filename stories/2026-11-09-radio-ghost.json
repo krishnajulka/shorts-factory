@@ -1,0 +1,117 @@
+{
+  "id": "2026-11-09-radio-ghost",
+  "title": "Radio Ghost",
+  "youtube": {
+    "title": "Ben whispered 'ghost' messages to scare Mia 👻📻 (Part 10)",
+    "description": "Ben hid a radio in Mia's room to play ghost. Mia hid one in his. #shorts #story #funny #siblings",
+    "tags": ["shorts", "story", "funny", "karma", "siblings", "animation"]
+  },
+  "logline": "Ben hides a radio in his sister Mia's room and whispers ghost messages for three nights, but Mia hides her own radio under Ben's bed and whispers back, so Ben ends up hiding in her room.",
+  "series": { "name": "Ben vs Mia: the prank war", "part": 10 },
+  "comment": "Would YOU have run to Mia's room? 👻👇",
+  "hook": "A GHOST WHISPERS MIA'S NAME 👻",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["ghost", "whispered", "mia", "ben", "radio", "closet", "bed", "blanket", "night", "thanks"],
+  "bottom": "dominoes",
+  "cast": {
+    "ben": { "species": "bean", "color": "#ff9f1c", "name": "Ben" },
+    "mia": { "species": "bean", "color": "#c77dff", "name": "Mia" },
+    "ghost": { "emoji": "👻" },
+    "radio": { "emoji": "📻" },
+    "radio2": { "emoji": "📻" },
+    "bed": { "emoji": "🛏️" }
+  },
+  "scenes": [
+    {
+      "id": "start", "text": "Every night, a ghost whispered Mia's name.",
+      "setting": "room", "light": "night", "focus": "mia", "effects": ["vignette"], "sfx": "vineBoom", "flash": "ghost",
+      "actors": [
+        { "who": "bed", "x": 300, "size": 2 },
+        { "who": "mia", "x": 300, "size": 1.2, "mood": "happy" },
+        { "who": "ghost", "x": 800, "size": 2, "action": "float", "lift": 150, "face": "left" }
+      ],
+      "stickers": [{ "word": "ghost", "emoji": "👻" }, { "word": "whispered", "emoji": "🤫" }]
+    },
+    {
+      "id": "ben", "text": "It was Ben, with a radio hidden in her room.",
+      "setting": "room", "light": "night", "focus": "ben",
+      "actors": [
+        { "who": "ben", "x": 760, "size": 1.5, "mood": "smug", "hold": "📻", "action": "jump" },
+        { "who": "mia", "x": 250, "size": 1, "mood": "happy", "face": "right" },
+        { "who": "radio", "x": 480, "size": 1.3 }
+      ],
+      "stickers": [{ "word": "radio", "emoji": "📻" }, { "word": "Ben,", "emoji": "😈" }]
+    },
+    {
+      "id": "n1", "text": "Night one: I'm in your closet. Mia said thanks.",
+      "setting": "room", "light": "night", "focus": "mia", "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "radio", "x": 700, "size": 1.4 },
+        { "who": "ghost", "x": 880, "size": 1.5, "action": "float", "lift": 120, "face": "left" },
+        { "who": "mia", "x": 280, "size": 1.4, "mood": "smug", "action": "bow" }
+      ],
+      "stickers": [{ "word": "closet", "emoji": "🚪" }, { "word": "thanks", "emoji": "😏" }]
+    },
+    {
+      "id": "n2", "text": "Night two: I'm under your bed. Mia just yawned.",
+      "setting": "room", "light": "night", "focus": "mia",
+      "actors": [
+        { "who": "bed", "x": 540, "size": 2 },
+        { "who": "radio", "x": 800, "size": 1.3 },
+        { "who": "mia", "x": 300, "size": 1.4, "mood": "smug", "action": "shake" }
+      ],
+      "stickers": [{ "word": "bed", "emoji": "🛏️" }, { "word": "yawned.", "emoji": "🥱" }]
+    },
+    {
+      "id": "n3", "text": "Night three: I'm right behind you. Mia fell asleep.",
+      "setting": "room", "light": "night", "focus": "mia", "effects": ["shake"],
+      "actors": [
+        { "who": "mia", "x": 420, "size": 1.4, "mood": "happy", "action": "faint" },
+        { "who": "ghost", "x": 820, "size": 1.8, "action": "float", "lift": 130, "face": "left" },
+        { "who": "radio", "x": 160, "size": 1.1 }
+      ],
+      "stickers": [{ "word": "behind", "emoji": "👀" }, { "word": "asleep.", "emoji": "💤" }]
+    },
+    {
+      "id": "n4", "text": "Night four, Mia found the radio. She hid one under Ben's bed.",
+      "setting": "room", "light": "dusk", "focus": "mia", "sfx": "recordScratch",
+      "actors": [
+        { "who": "radio", "x": 300, "size": 1.3 },
+        { "who": "mia", "x": 760, "size": 1.5, "face": "left", "mood": "smug", "hold": "📻", "action": "shake" }
+      ],
+      "stickers": [{ "word": "found", "emoji": "🔍" }, { "word": "radio.", "emoji": "📻" }]
+    },
+    {
+      "id": "n5", "text": "Night five, Ben heard whispers: Ben, I'm under your bed.",
+      "setting": "room", "light": "danger", "focus": "ben", "effects": ["shake"], "sfx": "ohMyGodVine",
+      "actors": [
+        { "who": "bed", "x": 440, "size": 2 },
+        { "who": "ben", "x": 440, "size": 1.3, "mood": "shock", "action": "shake" },
+        { "who": "radio2", "x": 880, "size": 1.3 }
+      ],
+      "stickers": [{ "word": "whispers:", "emoji": "😱" }, { "word": "five,", "emoji": "5️⃣" }]
+    },
+    {
+      "id": "run", "text": "He ran to Mia's room and hid under her blanket. Thanks, Ben.",
+      "setting": "room", "light": "gold", "focus": "mia", "effects": ["rays"], "sfx": "animeWow",
+      "actors": [
+        { "who": "bed", "x": 540, "size": 2.2 },
+        { "who": "ben", "x": 200, "size": 1.3, "mood": "sad", "action": "run", "toX": 480 },
+        { "who": "mia", "x": 860, "size": 1.3, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "blanket.", "emoji": "🛌" }, { "word": "Thanks,", "emoji": "😏" }]
+    },
+    {
+      "id": "loop", "text": "Tomorrow, a ghost whispers Mia's name again.",
+      "setting": "room", "light": "night", "focus": "mia", "sfx": "yippee",
+      "actors": [
+        { "who": "bed", "x": 300, "size": 2 },
+        { "who": "mia", "x": 300, "size": 1.2, "mood": "happy" },
+        { "who": "ghost", "x": 800, "size": 2, "action": "float", "lift": 150, "face": "left" }
+      ],
+      "stickers": [{ "word": "Tomorrow,", "emoji": "🌅" }, { "word": "ghost", "emoji": "👻" }]
+    }
+  ]
+}

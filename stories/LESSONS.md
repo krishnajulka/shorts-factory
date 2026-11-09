@@ -11,8 +11,8 @@ evidence wins. Cite the stories a lesson comes from.
 (Full review 2026-11-06 of all 49 Shorts — 34 subscribers, ~32,700 views. Judge only
 Shorts older than 24 h. Run 2026-11-06 noon: Turbo Part 6 diwali-wind uploaded, stack bottom; judge it after 24 h.)
 
-- **Update 2026-11-09 (8 AM run):** 11-08 slots: diwali-lamps 926, toys-closer 959, fort-rules 726 (at ~16 h) — all three got reach again, so 3 a day holds (5 data points over 2 days). Ben vs Mia Parts 5-9 stay at ~700-960: reliable, not growing. Newest Kokoro-voiced Shorts still reach ~1,000. Watch-time leaders remain short/tight ones (cat-cup 84%, beach-hole 81%). Hypothesis: standalone with a counter + feeling beats; 8 AM run: sandcastle-tide (bittersweet, obby bottom).
-- **Update 2026-11-08 (4 PM run, consolidated):** 3-a-day reach check. 11-07: tiny-rocket (8 AM) 330, wet-paint (12 PM) 944, dog-shoes (4 PM) 1,010 — all three slots got reach (3 data points; hypothesis: 3 a day works). 11-08 so far: diwali-lamps (8 AM) 695 at ~8 h, toys-closer (12 PM) 375 at ~4 h: healthy pace. Turbo Parts 4-6 are dead (0-2 views): no Turbo. Ben vs Mia Parts 5-8 hold ~700-960. Kokoro voice (ElevenLabs out of credits) doesn't kill reach (dog-shoes 1,010). 4 PM run: Part 9 fort-rules (stack bottom).
+- **Update 2026-11-09 (12 PM run, consolidated):** 3-a-day check: 11-07 (330/944/1,005) and 11-08 (diwali-lamps 926, toys-closer 959, fort-rules 754) all got reach (6 data points over 2 days; 3 a day holds). 11-09 8 AM sandcastle-tide 266 at ~4 h, too early to judge. Ben vs Mia Parts 5-9 stay at ~750-960: reliable, not growing. Kokoro voice doesn't hurt reach (dog-shoes 1,005). Watch-time leaders remain short/tight ones (cat-cup 84%, beach-hole 81%). Hypothesis: standalone with a counter + feeling beats series fatigue; keep alternating. 12 PM run: Part 10 radio-ghost (dominoes bottom).
+- Turbo Parts 4-6 are dead (0-2 views): no Turbo.
 - **A Short either gets ~900-1,800 views or is "dead on arrival" (0-25 views).** There
   is almost nothing in between, so the biggest lever is avoiding dead Shorts.
 - **The channel gets about 3 Shorts' worth of reach a day; extra uploads die.** Before

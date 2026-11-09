@@ -37,6 +37,7 @@ From `2026-10-27-spider-prank` (1,266 views, 61% watched, 19 likes).
   - Part 7 — `2026-11-07-wet-paint`: Ben's fake WET PAINT sign steals the sofa and Mia's popcorn; Mia borrows the sign for his bed, chair and bike and makes the paint real, so Ben stands all night in purple pants.
   - Part 8 — `2026-11-08-diwali-lamps`: Diwali; Ben blows out Mia's five lamps (1-5 counter); Mia swapped them for trick lamps that relight, so Ben turns purple and faints.
   - Part 9 — `2026-11-08-fort-rules`: Ben builds a fort with five rules against Mia (no sisters, snacks, toys, knocking, guards); overnight Mia rewrites each to "no Bens" and eats his cookies inside.
+  - Part 10 — `2026-11-09-radio-ghost`: Ben whispers ghost messages through a hidden radio in Mia's room (closet, bed, behind you); Mia hides a radio under his bed on night five and Ben flees under her blanket.
 
 ## Turbo the snail
 

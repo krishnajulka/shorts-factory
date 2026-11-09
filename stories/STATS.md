@@ -1,6 +1,6 @@
 # Channel stats
 
-Updated 2026-11-09 02:45 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 42 · total channel views: 36694 · videos: 56.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
+Updated 2026-11-09 06:45 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 42 · total channel views: 37931 · videos: 57.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
 
 Sorted by views. "avg watched" is the average share of the Short people watched (YouTube Analytics; lags 1-2 days, "—" = not ready yet).
 
@@ -14,7 +14,7 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 1284 | 5 | 1 | 58% | 25s | 2 | 2026-10-25-ghost-sings | jessica | rings | 2026-10-25 10:48 | [Something under his bed whimpered every midnight 👻🎺](https://youtube.com/shorts/C4JYNIc7OO8) |
 | 1271 | 13 | 0 | 47% | 16s | 1 | 2026-10-27-gnome-walks | callum | territory | 2026-10-27 10:48 | [The garden gnome creeps closer every night 🧙😨](https://youtube.com/shorts/NBmGvHy1gTA) |
 | 1271 | 19 | 0 | 61% | 20s | 3 | 2026-10-27-spider-prank | jessica | breakout | 2026-10-27 02:48 | [He pranked his sister 30 days. She waited. 🕷️😂](https://youtube.com/shorts/0XgtY0D88cs) |
-| 1259 | 10 | 0 | 49% | 16s | 4 | 2026-10-26-parrot-whistle | callum | plinko | 2026-10-26 02:50 | [Every dog in town howls at HIS house at 2 AM 🐕🌙](https://youtube.com/shorts/73KGEtWYnDM) |
+| 1260 | 10 | 0 | 49% | 16s | 4 | 2026-10-26-parrot-whistle | callum | plinko | 2026-10-26 02:50 | [Every dog in town howls at HIS house at 2 AM 🐕🌙](https://youtube.com/shorts/73KGEtWYnDM) |
 | 1258 | 15 | 0 | 63% | 18s | 1 | 2026-10-26-vacuum-race | liam | race | 2026-10-26 06:49 | [His robot vacuum sneaks out every night 🤖🏁](https://youtube.com/shorts/i6Eq3vQ2cM4) |
 | 1167 | 11 | 1 | 61% | 17s | 3 | 2026-11-03-tiny-door | callum | stack | 2026-11-03 02:51 | [A tiny door grew in her wall. Day 5: it opened 🚪🐭](https://youtube.com/shorts/xtPj8yMYS5c) |
 | 1164 | 8 | 0 | 65% | 24s | 0 | 2026-10-30-five-minutes | jessica | dominoes | 2026-10-30 10:53 | [Dad said five more minutes. Kiki counted. ⏰😤](https://youtube.com/shorts/7DQdrsduFw8) |
@@ -27,25 +27,26 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 1026 | 10 | 1 | 66% | 18s | 0 | 2026-11-02-toll-booth | jessica | obby | 2026-11-02 06:52 | [Ben charged his sister a toll to walk 🪙😈 (Part 3)](https://youtube.com/shorts/jUo7wREt27g) |
 | 1025 | 4 | 1 | 69% | 22s | 0 | 2026-11-03-rabbit-tower | liam | dominoes | 2026-11-03 00:52 | [A snail raced a rabbit up 100 floors 🐌🐇 (Part 3)](https://youtube.com/shorts/xzKwdmUnI0o) |
 | 1018 | 12 | 0 | 83% | 28s | 1 | 2026-10-26-photo-stranger | brian | spiral | 2026-10-26 10:49 | [Every photo she takes has a stranger. Closer each time 📸😨](https://youtube.com/shorts/IXPt38YADJI) |
-| 1001 | 11 | 1 | — | — | — | 2026-11-07-dog-shoes | liam | stack | 2026-11-07 10:51 | [Why your dog hides your shoes 🐶👟](https://youtube.com/shorts/U9TIGfpqz7s) |
+| 1005 | 11 | 1 | — | — | — | 2026-11-07-dog-shoes | liam | stack | 2026-11-07 10:51 | [Why your dog hides your shoes 🐶👟](https://youtube.com/shorts/U9TIGfpqz7s) |
 | 975 | 5 | 0 | 33% | 20s | 0 | 2026-10-25-lighthouse-looked-away | george | wheel | 2026-10-24 18:46 | [The lighthouse that turned AWAY from the sea 🗼🌊](https://youtube.com/shorts/sRxTZhzLgsc) |
 | 960 | 4 | 1 | 60% | 18s | 1 | 2026-11-05-simon-says | jessica | obby | 2026-11-05 06:53 | [Ben played Simon Says with his sister 🗣️😈 (Part 6)](https://youtube.com/shorts/WDcg9ZzixkQ) |
 | 959 | 10 | 1 | — | — | — | 2026-11-08-toys-closer | callum | dominoes | 2026-11-08 06:52 | [Every night, Jo's toys crept closer to his bed 🧸😨](https://youtube.com/shorts/J8pZft59oas) |
-| 956 | 2 | 1 | 81% | 21s | 1 | 2026-11-04-beach-hole | jessica | soap | 2026-11-04 06:53 | [Ben dug a trap for his sister at the beach 🕳️😈 (Part 5)](https://youtube.com/shorts/V2z6QgjoYTc) |
+| 954 | 2 | 1 | 81% | 21s | 1 | 2026-11-04-beach-hole | jessica | soap | 2026-11-04 06:53 | [Ben dug a trap for his sister at the beach 🕳️😈 (Part 5)](https://youtube.com/shorts/V2z6QgjoYTc) |
 | 948 | 11 | 2 | 51% | 15s | 2 | 2026-10-31-candy-tax | jessica | obby | 2026-10-31 06:57 | [Ben taxed Mia's Halloween candy 🎃🌶️ (Part 2)](https://youtube.com/shorts/sar3PMsNJaA) |
 | 932 | 9 | 0 | 45% | 24s | 3 | duck-doorstep | brian | spiral | 2026-10-24 17:20 | [Someone left a duck on her doorstep for 400 days 🦆](https://youtube.com/shorts/ssowpmlm8cA) |
 | 931 | 13 | 1 | — | — | — | 2026-11-07-wet-paint | jessica | dominoes | 2026-11-07 06:52 | [Ben put a fake WET PAINT sign on the sofa 🎨😈 (Part 7)](https://youtube.com/shorts/9077upeWUno) |
 | 926 | 10 | 2 | — | — | — | 2026-11-08-diwali-lamps | jessica | obby | 2026-11-08 02:51 | [Ben blew out Mia's Diwali lamps 🪔😈 (Part 8)](https://youtube.com/shorts/mASfWXVvgsQ) |
 | 923 | 13 | 0 | 49% | 18s | 2 | 2026-10-28-elevator-buttons | callum | spiral | 2026-10-28 10:51 | [His elevator grows ONE new button every night 🛗😨](https://youtube.com/shorts/oblZwk-IGWU) |
-| 726 | 4 | 1 | — | — | — | 2026-11-08-fort-rules | jessica | stack | 2026-11-08 10:55 | [Ben built a fort with 5 rules against Mia 🏰😈 (Part 9)](https://youtube.com/shorts/LnR4adlaLZI) |
+| 754 | 5 | 1 | — | — | — | 2026-11-08-fort-rules | jessica | stack | 2026-11-08 10:55 | [Ben built a fort with 5 rules against Mia 🏰😈 (Part 9)](https://youtube.com/shorts/LnR4adlaLZI) |
 | 698 | 5 | 1 | 38% | 15s | 0 | 2026-11-01-robot-letter | george | soap | 2026-11-01 10:42 | [A tiny robot had 90% battery to deliver ONE letter 🤖✉️](https://youtube.com/shorts/vhcChf9fh-s) |
+| 425 | 7 | 1 | 37% | 14s | 1 | 2026-11-07-tiny-rocket | george | obby | 2026-11-07 02:40 | [The tiny rocket was picked last on Diwali 🚀🪔](https://youtube.com/shorts/nwko6DfjkUY) |
 | 425 | 5 | 0 | 61% | 21s | 0 | 2026-10-28-last-pancake | liam | plinko | 2026-10-28 02:48 | [He relived the same Monday 41 times. The fix? 🥞⏰](https://youtube.com/shorts/DrDSaMhPCgU) |
-| 411 | 7 | 1 | 37% | 14s | 1 | 2026-11-07-tiny-rocket | george | obby | 2026-11-07 02:40 | [The tiny rocket was picked last on Diwali 🚀🪔](https://youtube.com/shorts/nwko6DfjkUY) |
 | 319 | 3 | 0 | 38% | 17s | 0 | 2026-10-25-vending-machine-knows | brian | breakout | 2026-10-25 06:49 | [The vending machine never gives what he picks 🥤😨](https://youtube.com/shorts/XHeV9VH5Tzs) |
+| 266 | 3 | 1 | — | — | — | 2026-11-09-sandcastle-tide | george | obby | 2026-11-09 02:54 | [Five towers. Five waves. Grandpa was late 🏰🌊](https://youtube.com/shorts/oDZSCWKz5pU) |
 | 266 | 6 | 0 | 59% | 22s | 1 | 2026-10-31-forgot-acorns | jessica | stack | 2026-10-31 02:53 | [He buried 100 acorns. Then forgot where. 🐿️🌳](https://youtube.com/shorts/8a86eiZrPHo) |
 | 234 | 2 | 0 | 46% | 21s | 0 | 2026-10-25-last-moth | liam | race | 2026-10-25 02:43 | [10,000 moths raced to one light. He came last. 🦋💡](https://youtube.com/shorts/aMExlWBjoUA) |
+| 23 | 0 | 1 | 50% | 16s | 0 | 2026-11-03-gray-crayon | brian | soap | 2026-11-03 10:52 | [Nobody ever picked the gray crayon 🖍️⛈️](https://youtube.com/shorts/CCd6q3OmWec) |
 | 23 | 0 | 0 | 80% | 28s | 0 | 2026-10-26-grandma-chair | jessica | wheel | 2026-10-26 14:49 | [Grandma has NEVER lost hide and seek 👵🙈](https://youtube.com/shorts/KBAvLz8TtYQ) |
-| 22 | 0 | 1 | 50% | 16s | 0 | 2026-11-03-gray-crayon | brian | soap | 2026-11-03 10:52 | [Nobody ever picked the gray crayon 🖍️⛈️](https://youtube.com/shorts/CCd6q3OmWec) |
 | 20 | 0 | 0 | 71% | 28s | 0 | 2026-10-30-snow-globe-sign | jessica | soap | 2026-10-30 15:41 | [She shook her snow globe every night. Day 6: a sign 🔮🪧](https://youtube.com/shorts/EtC1uch9EEo) |
 | 19 | 0 | 0 | 33% | 12s | 0 | 2026-10-28-hamster-escape | jessica | wheel | 2026-10-28 06:49 | [He tried to escape for 99 nights. The door was OPEN 🐹🔓](https://youtube.com/shorts/KHgADMXxEg8) |
 | 13 | 0 | 1 | 49% | 15s | 0 | 2026-11-02-vase-five-minutes | jessica | soap | 2026-11-02 10:51 | [She broke Grandma's vase. Mom was 5 minutes away 🏺😬](https://youtube.com/shorts/DwPeT7HVh3M) |
