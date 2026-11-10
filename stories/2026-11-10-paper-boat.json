@@ -1,0 +1,103 @@
+{
+  "id": "2026-11-10-paper-boat",
+  "title": "Paper Boat Five Waters",
+  "youtube": {
+    "title": "A paper boat had one day to reach the sea ⛵🌊",
+    "description": "Five waters. One day. Would the little paper boat make it? #shorts #story #wholesome #bittersweet",
+    "tags": ["shorts", "story", "bittersweet", "paper boat", "sea", "animation"]
+  },
+  "logline": "Kiran folds a paper boat that wants to reach the sea in one day; the sun dries each water he floats in, so Kiran moves him puddle, fountain, pond and river until he sails into the sea.",
+  "comment": "Would you have folded another boat? ⛵👇",
+  "hook": "WILL HE REACH THE SEA? ⛵",
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["paper", "boat", "sea", "puddle", "fountain", "pond", "river", "sun", "kiran", "sunset"],
+  "bottom": "dominoes",
+  "cast": {
+    "boat": { "emoji": "⛵" },
+    "kiran": { "species": "bean", "color": "#4cc9f0", "name": "Kiran" },
+    "sun": { "emoji": "☀️" },
+    "fountain": { "emoji": "⛲" },
+    "duck": { "emoji": "🦆" },
+    "sea": { "emoji": "🌊" },
+    "river": { "emoji": "🏞️" },
+    "puddle": { "emoji": "💧" }
+  },
+  "scenes": [
+    {
+      "id": "one-day", "text": "A paper boat had one day to reach the sea.",
+      "setting": "city", "light": "gold", "focus": "boat", "effects": ["rays", "vignette"], "sfx": "vineBoom", "flash": "sea",
+      "actors": [
+        { "who": "boat", "x": 440, "size": 1.8, "action": "shake" },
+        { "who": "sun", "x": 860, "size": 1.4, "lift": 380, "action": "grow", "at": "day" }
+      ],
+      "stickers": [{ "word": "one", "emoji": "1️⃣" }, { "word": "sea", "emoji": "🌊" }]
+    },
+    {
+      "id": "puddle", "text": "Kiran folded him. Water one: a puddle. By eight, the sun drank it.",
+      "setting": "city", "light": "day", "focus": "boat", "effects": ["rays"],
+      "actors": [
+        { "who": "kiran", "x": 250, "size": 1.2, "mood": "happy", "action": "jump", "at": "folded" },
+        { "who": "puddle", "x": 620, "size": 1.0, "action": "exit", "at": "drank" },
+        { "who": "boat", "x": 780, "size": 1.0, "face": "left", "action": "shake", "at": "sun" }
+      ],
+      "stickers": [{ "word": "puddle", "emoji": "💧" }, { "word": "sun", "emoji": "🥵" }]
+    },
+    {
+      "id": "fountain", "text": "Water two: a fountain. At ten, someone switched it off.",
+      "setting": "city", "light": "day", "focus": "boat", "effects": ["shake"],
+      "actors": [
+        { "who": "fountain", "x": 300, "size": 1.8 },
+        { "who": "boat", "x": 760, "size": 1.0, "face": "left", "mood": "shock" }
+      ],
+      "stickers": [{ "word": "two", "emoji": "2️⃣" }, { "word": "off", "emoji": "🚫" }]
+    },
+    {
+      "id": "pond", "text": "Water three: a pond. Ducks pushed him into the reeds. Stuck!",
+      "setting": "forest", "light": "day", "focus": "boat", "effects": ["shake"], "sfx": "bruh",
+      "actors": [
+        { "who": "duck", "x": 200, "toX": 520, "size": 1.3, "action": "run" },
+        { "who": "boat", "x": 800, "size": 1.0, "face": "left", "mood": "sad", "action": "shake", "at": "reeds" }
+      ],
+      "stickers": [{ "word": "ducks", "emoji": "🦆" }, { "word": "stuck", "emoji": "😱" }]
+    },
+    {
+      "id": "river", "text": "Kiran waded in and freed him. Water four: the river.",
+      "setting": "forest", "light": "gold", "focus": "kiran", "effects": ["rays"],
+      "actors": [
+        { "who": "kiran", "x": 260, "size": 1.2, "mood": "happy", "action": "jump", "at": "freed" },
+        { "who": "boat", "x": 720, "size": 1.1, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "freed", "emoji": "🎉" }, { "word": "river", "emoji": "🏞️" }]
+    },
+    {
+      "id": "race", "text": "The river raced. Kiran ran behind. At sunset, the river ended.",
+      "setting": "beach", "light": "dusk", "focus": "boat", "effects": ["speed"],
+      "actors": [
+        { "who": "kiran", "x": 120, "toX": 520, "size": 1.1, "action": "run" },
+        { "who": "boat", "x": 620, "toX": 940, "size": 1.0, "face": "left", "action": "run" }
+      ],
+      "stickers": [{ "word": "raced", "emoji": "💨" }, { "word": "sunset", "emoji": "🌇" }]
+    },
+    {
+      "id": "sea", "text": "Water five: the sea! He sailed out, soggy and smiling.",
+      "setting": "beach", "light": "gold", "focus": "boat", "effects": ["rays", "confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "sea", "x": 760, "size": 1.8, "action": "grow", "at": "sea" },
+        { "who": "boat", "x": 700, "toX": 960, "size": 1.3, "face": "left", "mood": "happy" },
+        { "who": "kiran", "x": 240, "size": 1.1, "mood": "happy" }
+      ],
+      "stickers": [{ "word": "five", "emoji": "5️⃣" }, { "word": "smiling", "emoji": "😊" }]
+    },
+    {
+      "id": "loop", "text": "Kiran waved. Then he folded another. It had one day to reach the sea.",
+      "setting": "room", "light": "dusk", "focus": "boat", "effects": ["vignette"],
+      "actors": [
+        { "who": "kiran", "x": 280, "size": 1.2, "mood": "happy", "action": "bow", "at": "folded" },
+        { "who": "boat", "x": 760, "size": 1.3, "face": "left", "action": "enter" }
+      ],
+      "stickers": [{ "word": "waved", "emoji": "👋" }, { "word": "another", "emoji": "⛵" }]
+    }
+  ]
+}
