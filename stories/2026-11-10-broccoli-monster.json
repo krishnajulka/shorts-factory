@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-10-broccoli-monster",
+  "title": "Broccoli Monster",
+  "youtube": {
+    "title": "Ben pretended to be a monster under Mia's bed 👻🥦 (Part 12)",
+    "description": "Ben growled under Mia's bed every night. Mia fed the monster broccoli. #shorts #story #funny #siblings",
+    "tags": ["shorts", "story", "funny", "karma", "siblings", "animation"]
+  },
+  "logline": "Ben hides under Mia's bed in a sheet and growls like a monster every night; Mia calmly feeds the monster broccoli until Ben has eaten five plates and turns green.",
+  "series": { "name": "Ben vs Mia: the prank war", "part": 12 },
+  "comment": "Would you eat the broccoli or give up? 🥦👇",
+  "hook": "A MONSTER GROWLS UNDER HER BED 👻",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["monster", "growled", "bed", "broccoli", "hungry", "green", "night", "mom", "thanks", "ben", "mia"],
+  "bottom": "stack",
+  "cast": {
+    "ben": { "species": "bean", "color": "#ff9f1c", "name": "Ben" },
+    "mia": { "species": "bean", "color": "#c77dff", "name": "Mia" },
+    "bed": { "emoji": "🛏️" },
+    "plate": { "emoji": "🥦" },
+    "mom": { "emoji": "👩" }
+  },
+  "scenes": [
+    {
+      "id": "start", "text": "Every night, something growled under Mia's bed.",
+      "setting": "room", "light": "danger", "focus": "ben", "sfx": "vineBoom", "flash": "growled",
+      "actors": [
+        { "who": "bed", "x": 330, "size": 2.2 },
+        { "who": "mia", "x": 150, "size": 1.1, "mood": "happy" },
+        { "who": "ben", "x": 760, "size": 1.4, "mood": "angry", "face": "left", "hat": "👻", "action": "shake" }
+      ],
+      "stickers": [{ "word": "growled", "emoji": "👻" }, { "word": "bed.", "emoji": "🛏️" }]
+    },
+    {
+      "id": "ben", "text": "It was Ben, in a sheet, hoping she would scream.",
+      "setting": "room", "light": "night", "focus": "ben",
+      "actors": [
+        { "who": "bed", "x": 300, "size": 2 },
+        { "who": "ben", "x": 760, "size": 1.5, "mood": "smug", "face": "left", "hat": "👻", "action": "jump" },
+        { "who": "mia", "x": 150, "size": 1.1, "mood": "happy" }
+      ],
+      "stickers": [{ "word": "sheet,", "emoji": "👻" }, { "word": "scream.", "emoji": "😱" }]
+    },
+    {
+      "id": "n1", "text": "Night one: Mia slid a plate of broccoli under the bed.",
+      "setting": "room", "light": "night", "focus": "mia", "sfx": "yippee",
+      "actors": [
+        { "who": "bed", "x": 540, "size": 2 },
+        { "who": "mia", "x": 250, "size": 1.3, "mood": "smug", "action": "bow" },
+        { "who": "plate", "x": 520, "size": 1.2 },
+        { "who": "ben", "x": 840, "size": 1.1, "mood": "shock", "face": "left", "hat": "👻" }
+      ],
+      "stickers": [{ "word": "Night", "emoji": "1️⃣" }, { "word": "broccoli", "emoji": "🥦" }]
+    },
+    {
+      "id": "eat", "text": "Ben could not talk, or the monster would be caught. So he ate it.",
+      "setting": "room", "light": "night", "focus": "ben",
+      "actors": [
+        { "who": "bed", "x": 330, "size": 2 },
+        { "who": "ben", "x": 700, "size": 1.5, "mood": "sad", "face": "left", "hat": "👻", "hold": "🥦", "action": "shake" },
+        { "who": "mia", "x": 150, "size": 1, "mood": "smug" }
+      ],
+      "stickers": [{ "word": "caught.", "emoji": "😬" }, { "word": "ate", "emoji": "🥦" }]
+    },
+    {
+      "id": "n234", "text": "Night two, three, four: more broccoli. Ben turned a little green.",
+      "setting": "room", "light": "dusk", "focus": "ben", "sfx": "loadingLag",
+      "actors": [
+        { "who": "bed", "x": 330, "size": 2 },
+        { "who": "plate", "x": 520, "size": 1.3 },
+        { "who": "ben", "x": 760, "size": 1.5, "mood": "sad", "face": "left", "hat": "👻", "action": "shake" },
+        { "who": "mia", "x": 150, "size": 1, "mood": "smug" }
+      ],
+      "burst": { "at": "broccoli.", "emoji": "🥦" },
+      "stickers": [{ "word": "four:", "emoji": "4️⃣" }, { "word": "green.", "emoji": "🤢" }]
+    },
+    {
+      "id": "n5", "text": "Night five, Mia brought the whole pot. Mom said, monsters eat their vegetables.",
+      "setting": "room", "light": "danger", "focus": "ben", "sfx": "recordScratch",
+      "actors": [
+        { "who": "bed", "x": 700, "size": 2 },
+        { "who": "mia", "x": 380, "size": 1.2, "mood": "smug", "hold": "🍲" },
+        { "who": "mom", "x": 110, "size": 1.6, "action": "enter" },
+        { "who": "ben", "x": 900, "size": 1.1, "mood": "shock", "face": "left", "hat": "👻" }
+      ],
+      "stickers": [{ "word": "pot.", "emoji": "🍲" }, { "word": "Mom", "emoji": "👩" }]
+    },
+    {
+      "id": "green", "text": "Ben crawled out, green, and burped. Mia said, thanks, Ben.",
+      "setting": "room", "light": "gold", "focus": "mia", "effects": ["rays"], "sfx": "animeWow",
+      "actors": [
+        { "who": "mia", "x": 350, "size": 1.5, "mood": "smug", "action": "bow" },
+        { "who": "mom", "x": 120, "size": 1.4, "action": "jump" },
+        { "who": "ben", "x": 800, "size": 1.3, "mood": "sad", "color": "#7bd389", "face": "left", "action": "faint" }
+      ],
+      "stickers": [{ "word": "burped.", "emoji": "🤢" }, { "word": "thanks,", "emoji": "😏" }]
+    },
+    {
+      "id": "loop", "text": "Ben never learns. Tonight, something growls under Mia's bed.",
+      "setting": "room", "light": "danger", "focus": "ben",
+      "actors": [
+        { "who": "bed", "x": 330, "size": 2.2 },
+        { "who": "mia", "x": 150, "size": 1.1, "mood": "happy" },
+        { "who": "ben", "x": 760, "size": 1.4, "mood": "angry", "face": "left", "hat": "👻", "action": "shake" }
+      ],
+      "stickers": [{ "word": "learns.", "emoji": "🤦" }, { "word": "growls", "emoji": "👻" }]
+    }
+  ]
+}
