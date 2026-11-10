@@ -38,6 +38,7 @@ From `2026-10-27-spider-prank` (1,266 views, 61% watched, 19 likes).
   - Part 8 — `2026-11-08-diwali-lamps`: Diwali; Ben blows out Mia's five lamps (1-5 counter); Mia swapped them for trick lamps that relight, so Ben turns purple and faints.
   - Part 9 — `2026-11-08-fort-rules`: Ben builds a fort with five rules against Mia (no sisters, snacks, toys, knocking, guards); overnight Mia rewrites each to "no Bens" and eats his cookies inside.
   - Part 10 — `2026-11-09-radio-ghost`: Ben whispers ghost messages through a hidden radio in Mia's room (closet, bed, behind you); Mia hides a radio under his bed on night five and Ben flees under her blanket.
+  - Part 11 — `2026-11-10-whoopee-cushion`: Ben hides a whoopee cushion on Mia's chair five days; Mia keeps all five and puts them on Ben's chair at Grandma's dinner (five toots, one red Ben).
 
 ## Turbo the snail
 
