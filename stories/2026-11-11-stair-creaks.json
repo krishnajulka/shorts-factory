@@ -1,0 +1,114 @@
+{
+  "id": "2026-11-11-stair-creaks",
+  "title": "Stair Creaks",
+  "youtube": {
+    "title": "Every night, something creaks closer to her room 🪜😨",
+    "description": "One more creak every night. Who is coming up the stairs? #shorts #story #cat",
+    "tags": ["shorts", "story", "creepy", "cat", "kitten", "animation"]
+  },
+  "logline": "Lena hears one more creak on the stairs every night, closer to her room; on Friday the door opens and it's her tiny kitten, learning one more stair a night to cuddle her.",
+  "comment": "Would you open the door on night five? 👇",
+  "hook": "WHAT'S ON THE STAIRS? 😨",
+  "narrator": "callum",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["creak", "creaks", "closer", "monday", "tuesday", "wednesday", "thursday", "friday", "door", "kitten", "stair"],
+  "bottom": "stack",
+  "cast": {
+    "lena": { "species": "bean", "color": "#c77dff", "name": "Lena" },
+    "cat": { "emoji": "🐱" },
+    "stairs": { "emoji": "🪜" },
+    "door": { "emoji": "🚪" }
+  },
+  "scenes": [
+    {
+      "id": "a",
+      "text": "Every night, something creaked closer to Lena's room.",
+      "setting": "room", "light": "night", "focus": "lena",
+      "effects": ["vignette", "shake"], "sfx": "vineBoom",
+      "actors": [
+        { "who": "lena", "x": 420, "size": 1.5, "mood": "shock", "face": "right", "action": "shake", "at": "creaked" },
+        { "who": "door", "x": 860, "size": 1.3, "face": "left" }
+      ],
+      "stickers": [{ "word": "creaked", "emoji": "😨" }, { "word": "night", "emoji": "🌙" }]
+    },
+    {
+      "id": "mon",
+      "text": "Monday, one creak, far downstairs. Lena hid under her blanket.",
+      "setting": "room", "light": "night", "focus": "lena",
+      "effects": ["vignette"],
+      "actors": [
+        { "who": "lena", "x": 400, "size": 1.3, "mood": "sad", "face": "right" },
+        { "who": "stairs", "x": 880, "size": 1.0, "face": "left", "action": "shake", "at": "creak" }
+      ],
+      "stickers": [{ "word": "Monday", "emoji": "1️⃣" }, { "word": "blanket", "emoji": "🛏️" }]
+    },
+    {
+      "id": "tue",
+      "text": "Tuesday, two creaks. Wednesday, three. Closer and closer.",
+      "setting": "room", "light": "night", "focus": "lena",
+      "effects": ["vignette", "speed"], "sfx": "loadingLag",
+      "actors": [
+        { "who": "lena", "x": 400, "size": 1.3, "mood": "shock", "face": "right" },
+        { "who": "stairs", "x": 880, "size": 1.1, "face": "left", "action": "shake", "at": "three" }
+      ],
+      "stickers": [{ "word": "two", "emoji": "2️⃣" }, { "word": "three", "emoji": "3️⃣" }]
+    },
+    {
+      "id": "thu",
+      "text": "Thursday, four creaks. Right outside her door. Lena stopped breathing.",
+      "setting": "room", "light": "danger", "focus": "lena",
+      "effects": ["shake", "vignette"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "lena", "x": 380, "size": 1.4, "mood": "shock", "face": "right", "action": "shake", "at": "breathing" },
+        { "who": "door", "x": 840, "size": 1.4, "face": "left" }
+      ],
+      "stickers": [{ "word": "four", "emoji": "4️⃣" }, { "word": "door", "emoji": "🚪" }]
+    },
+    {
+      "id": "fri",
+      "text": "Friday, five creaks. The door slowly opened. Something small stepped in.",
+      "setting": "room", "light": "night", "focus": "lena",
+      "effects": ["vignette"], "sfx": "recordScratch",
+      "actors": [
+        { "who": "lena", "x": 330, "size": 1.4, "mood": "shock", "face": "right" },
+        { "who": "door", "x": 820, "size": 1.4, "face": "left" },
+        { "who": "cat", "x": 1150, "toX": 880, "size": 0.5, "face": "left", "action": "enter", "at": "stepped" }
+      ],
+      "stickers": [{ "word": "five", "emoji": "5️⃣" }, { "word": "small", "emoji": "👀" }]
+    },
+    {
+      "id": "kit",
+      "text": "Her kitten! Tiny paws, learning one more stair every night.",
+      "setting": "room", "light": "gold", "focus": "cat",
+      "effects": ["rays"], "sfx": "yippee",
+      "actors": [
+        { "who": "cat", "x": 700, "size": 1.3, "mood": "happy", "face": "left", "action": "jump" },
+        { "who": "lena", "x": 280, "size": 1.3, "mood": "happy", "face": "right" }
+      ],
+      "stickers": [{ "word": "kitten", "emoji": "🐱" }, { "word": "stair", "emoji": "🪜" }]
+    },
+    {
+      "id": "cuddle",
+      "text": "Lena laughed. The kitten curled up beside her. Five stairs, one best friend.",
+      "setting": "room", "light": "gold", "focus": "lena",
+      "effects": ["confetti"],
+      "actors": [
+        { "who": "lena", "x": 400, "size": 1.4, "mood": "happy", "face": "right", "action": "jump" },
+        { "who": "cat", "x": 700, "size": 1.0, "mood": "happy", "face": "left" }
+      ],
+      "stickers": [{ "word": "laughed", "emoji": "😂" }, { "word": "friend", "emoji": "💜" }]
+    },
+    {
+      "id": "end",
+      "text": "Now every night, something creaks closer. Follow for more creaky nights.",
+      "setting": "room", "light": "night", "focus": "lena",
+      "effects": ["vignette"],
+      "actors": [
+        { "who": "lena", "x": 400, "size": 1.3, "mood": "smug", "face": "right" },
+        { "who": "cat", "x": 720, "size": 0.9, "mood": "happy", "face": "left" }
+      ],
+      "stickers": [{ "word": "closer", "emoji": "😨" }, { "word": "Follow", "emoji": "👉" }]
+    }
+  ]
+}
