@@ -40,6 +40,7 @@ From `2026-10-27-spider-prank` (1,266 views, 61% watched, 19 likes).
   - Part 10 — `2026-11-09-radio-ghost`: Ben whispers ghost messages through a hidden radio in Mia's room (closet, bed, behind you); Mia hides a radio under his bed on night five and Ben flees under her blanket.
   - Part 11 — `2026-11-10-whoopee-cushion`: Ben hides a whoopee cushion on Mia's chair five days; Mia keeps all five and puts them on Ben's chair at Grandma's dinner (five toots, one red Ben).
   - Part 12 — `2026-11-10-broccoli-monster`: Ben growls under Mia's bed in a sheet; Mia feeds the "monster" broccoli for five nights, Mom brings the whole pot, Ben turns green.
+  - Part 13 — `2026-11-11-freeze-cookies`: Ben yells "freeze!" and eats the five cookies Mia guards for Grandma (minutes 1-5); Mom walks in, frozen Mia only points with her eyes, and Mom freezes Ben.
 
 ## Turbo the snail
 
