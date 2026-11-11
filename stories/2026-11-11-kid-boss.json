@@ -1,0 +1,106 @@
+{
+  "id": "2026-11-11-kid-boss",
+  "title": "Kid Boss Day",
+  "youtube": {
+    "title": "Mom said: today, kids are the boss 👑😎",
+    "description": "Anu is the boss for one day and makes five rules for Mom and Dad. The last rule is a sweet surprise. Happy Children's Day! #shorts #story #family #childrensday",
+    "tags": ["shorts", "story", "funny", "family", "childrensday", "mom", "dad", "animation"]
+  },
+  "logline": "On Children's Day Mom says kids are the boss, so Anu makes five rules for her parents (cake, no laptop, tag, a piggyback ride), and the last rule is that she tucks them in when they fall asleep.",
+  "comment": "What would your rule number one be? 👑👇",
+  "hook": "TODAY, KIDS ARE THE BOSS 👑",
+  "narrator": "george",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["boss", "rule", "cake", "laptop", "tag", "piggyback", "asleep", "blanket", "tomorrow", "kids"],
+  "bottom": "obby",
+  "cast": {
+    "anu": { "species": "bean", "color": "#ff7eb6", "name": "Anu" },
+    "mom": { "species": "bean", "color": "#9b5de5", "name": "Mom" },
+    "dad": { "species": "bean", "color": "#4d96ff", "name": "Dad" },
+    "cake": { "emoji": "🎂" },
+    "laptop": { "emoji": "💻" },
+    "box": { "emoji": "📦" },
+    "blanket": { "emoji": "🛏️" }
+  },
+  "scenes": [
+    {
+      "id": "boss", "text": "Mom said, today, kids are the boss. Anu grinned.",
+      "setting": "room", "light": "gold", "focus": "anu", "effects": ["rays"], "sfx": "vineBoom", "flash": "boss",
+      "actors": [
+        { "who": "anu", "x": 340, "size": 1.5, "mood": "smug", "hat": "crown", "action": "jump" },
+        { "who": "mom", "x": 780, "size": 1.3, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "boss", "emoji": "👑" }, { "word": "grinned", "emoji": "😁" }]
+    },
+    {
+      "id": "r1", "text": "Rule one: cake for breakfast. Mom handed over the whole cake.",
+      "setting": "room", "light": "day", "focus": "anu",
+      "actors": [
+        { "who": "anu", "x": 330, "size": 1.3, "mood": "happy", "hat": "crown", "action": "jump" },
+        { "who": "mom", "x": 780, "size": 1.2, "face": "left", "mood": "shock" },
+        { "who": "cake", "x": 560, "size": 1.4, "action": "float" }
+      ],
+      "stickers": [{ "word": "one", "emoji": "1️⃣" }, { "word": "cake", "emoji": "🎂" }]
+    },
+    {
+      "id": "r2", "text": "Rule two: Dad can't work. His laptop got locked in a box.",
+      "setting": "room", "light": "day", "focus": "dad", "sfx": "bruh",
+      "actors": [
+        { "who": "dad", "x": 720, "size": 1.3, "face": "left", "mood": "sad", "action": "shake" },
+        { "who": "box", "x": 420, "size": 1.5 },
+        { "who": "anu", "x": 190, "size": 1.1, "mood": "smug", "hat": "crown" }
+      ],
+      "stickers": [{ "word": "two", "emoji": "2️⃣" }, { "word": "laptop", "emoji": "💻" }]
+    },
+    {
+      "id": "r3", "text": "Rule three: everybody plays tag. Mom and Dad ran and ran.",
+      "setting": "city", "light": "day", "focus": "anu", "effects": ["speed"],
+      "actors": [
+        { "who": "anu", "x": 200, "toX": 700, "size": 1.2, "mood": "happy", "hat": "crown", "action": "run" },
+        { "who": "mom", "x": 780, "toX": 960, "size": 1.1, "face": "left", "mood": "shock", "action": "run" },
+        { "who": "dad", "x": 900, "toX": 1040, "size": 1.1, "face": "left", "mood": "shock", "action": "run" }
+      ],
+      "stickers": [{ "word": "three", "emoji": "3️⃣" }, { "word": "tag", "emoji": "🏃" }]
+    },
+    {
+      "id": "r4", "text": "Rule four: piggyback rides. Dad carried her everywhere.",
+      "setting": "city", "light": "dusk", "focus": "dad", "sfx": "yippee",
+      "actors": [
+        { "who": "dad", "x": 380, "toX": 760, "size": 1.3, "mood": "sad", "action": "run" },
+        { "who": "anu", "x": 380, "toX": 760, "lift": 150, "size": 0.9, "mood": "happy", "hat": "crown", "action": "jump" }
+      ],
+      "stickers": [{ "word": "four", "emoji": "4️⃣" }, { "word": "piggyback", "emoji": "🐷" }]
+    },
+    {
+      "id": "asleep", "text": "By eight o'clock, Mom and Dad were fast asleep.",
+      "setting": "room", "light": "night", "focus": "mom",
+      "actors": [
+        { "who": "mom", "x": 340, "size": 1.2, "mood": "sad", "action": "faint" },
+        { "who": "dad", "x": 740, "size": 1.2, "face": "left", "mood": "sad", "action": "faint" },
+        { "who": "anu", "x": 540, "size": 0.9, "mood": "shock", "hat": "crown" }
+      ],
+      "stickers": [{ "word": "asleep", "emoji": "😴" }, { "word": "eight", "emoji": "8️⃣" }]
+    },
+    {
+      "id": "r5", "text": "Rule five: the boss tucks everyone in. Anu fetched a blanket.",
+      "setting": "room", "light": "night", "focus": "anu", "sfx": "animeWow",
+      "actors": [
+        { "who": "mom", "x": 300, "size": 1.1, "mood": "sad" },
+        { "who": "dad", "x": 780, "size": 1.1, "face": "left", "mood": "sad" },
+        { "who": "anu", "x": 540, "size": 1.3, "mood": "happy", "hat": "crown", "hold": "🛏️", "action": "jump" }
+      ],
+      "stickers": [{ "word": "five", "emoji": "5️⃣" }, { "word": "blanket", "emoji": "🛏️" }]
+    },
+    {
+      "id": "loop", "text": "She whispered, tomorrow, kids are the boss again.",
+      "setting": "room", "light": "night", "focus": "anu", "effects": ["vignette"], "sfx": "recordScratch",
+      "actors": [
+        { "who": "mom", "x": 280, "size": 1.1, "mood": "happy" },
+        { "who": "dad", "x": 800, "size": 1.1, "face": "left", "mood": "happy" },
+        { "who": "anu", "x": 540, "size": 1.4, "mood": "smug", "hat": "crown", "action": "bow", "at": "tomorrow" }
+      ],
+      "stickers": [{ "word": "tomorrow", "emoji": "🌙" }, { "word": "boss", "emoji": "👑" }]
+    }
+  ]
+}
