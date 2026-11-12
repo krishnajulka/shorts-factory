@@ -1,0 +1,100 @@
+{
+  "id": "2026-11-12-floor-lava",
+  "title": "Floor Is Lava",
+  "youtube": {
+    "title": "Ben yelled 'the floor is LAVA' at Mia 🌋😈 (Part 15)",
+    "description": "Ben trapped Mia on the sofa with 'the floor is lava'. Mia had five pillows and a plan. #shorts #story #funny #siblings",
+    "tags": ["shorts", "story", "funny", "karma", "siblings", "animation"]
+  },
+  "logline": "Ben yells 'the floor is lava' so Mia can't leave the sofa while he takes her popcorn; Mia yells it back and takes his five stepping-stone pillows one by one until he is stuck.",
+  "series": { "name": "Ben vs Mia: the prank war", "part": 15 },
+  "comment": "How long would you stay on the last pillow? 🌋👇",
+  "hook": "THE FLOOR IS LAVA! 🌋😈",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["floor", "lava", "popcorn", "pillows", "pillow", "sofa", "stuck", "mia", "ben", "thanks"],
+  "bottom": "stack",
+  "cast": {
+    "ben": { "species": "bean", "color": "#ff9f1c", "name": "Ben" },
+    "mia": { "species": "bean", "color": "#c77dff", "name": "Mia" },
+    "pop": { "emoji": "🍿" },
+    "pil": { "emoji": "🛋️" },
+    "lava": { "emoji": "🌋" }
+  },
+  "scenes": [
+    {
+      "id": "start", "text": "Ben yelled, the floor is lava! Mia froze on the sofa.",
+      "setting": "room", "light": "danger", "focus": "ben", "sfx": "vineBoom", "flash": "lava!",
+      "actors": [
+        { "who": "ben", "x": 320, "size": 1.6, "mood": "smug", "action": "jump" },
+        { "who": "mia", "x": 880, "size": 1, "face": "left", "mood": "shock", "hold": "🍿" }
+      ],
+      "stickers": [{ "word": "lava!", "emoji": "🌋" }, { "word": "froze", "emoji": "🥶" }]
+    },
+    {
+      "id": "steal", "text": "Ben walked right over the lava and ate her popcorn.",
+      "setting": "room", "light": "danger", "focus": "ben",
+      "actors": [
+        { "who": "ben", "x": 300, "toX": 700, "size": 1.5, "mood": "smug", "hold": "🍿", "action": "run" },
+        { "who": "mia", "x": 940, "size": 1, "face": "left", "mood": "sad" }
+      ],
+      "stickers": [{ "word": "walked", "emoji": "😈" }, { "word": "popcorn.", "emoji": "🍿" }]
+    },
+    {
+      "id": "thanks", "text": "Mia smiled. Thanks, Ben. The next day, she said it back.",
+      "setting": "room", "light": "dusk", "focus": "mia", "sfx": "recordScratch",
+      "actors": [
+        { "who": "mia", "x": 330, "size": 1.6, "mood": "smug" },
+        { "who": "ben", "x": 860, "size": 1, "face": "left", "mood": "shock" }
+      ],
+      "stickers": [{ "word": "smiled.", "emoji": "😏" }, { "word": "back.", "emoji": "🔁" }]
+    },
+    {
+      "id": "five", "text": "The floor is lava! Ben had five pillows to stand on.",
+      "setting": "room", "light": "danger", "focus": "ben",
+      "actors": [
+        { "who": "pil", "x": 540, "size": 1.3 },
+        { "who": "ben", "x": 330, "size": 1.5, "mood": "shock", "lift": 120 },
+        { "who": "mia", "x": 900, "size": 1, "face": "left", "mood": "smug", "hold": "🍿" }
+      ],
+      "stickers": [{ "word": "lava!", "emoji": "🌋" }, { "word": "five", "emoji": "5️⃣" }]
+    },
+    {
+      "id": "four", "text": "Minute one: Mia took a pillow. Four left. Ben hopped.",
+      "setting": "room", "light": "danger", "focus": "ben", "effects": ["shake"],
+      "actors": [
+        { "who": "ben", "x": 450, "size": 1.5, "mood": "shock", "action": "jump", "lift": 80 },
+        { "who": "mia", "x": 860, "size": 1, "face": "left", "mood": "smug", "hold": "🛋️" }
+      ],
+      "stickers": [{ "word": "one:", "emoji": "1️⃣" }, { "word": "hopped.", "emoji": "😰" }]
+    },
+    {
+      "id": "two", "text": "Two pillows. Then one. Mia ate popcorn the whole time.",
+      "setting": "room", "light": "danger", "focus": "ben", "sfx": "loadingLag",
+      "actors": [
+        { "who": "ben", "x": 500, "size": 1.6, "mood": "sad", "lift": 60, "action": "shake" },
+        { "who": "mia", "x": 860, "size": 1.1, "face": "left", "mood": "happy", "hold": "🍿" }
+      ],
+      "stickers": [{ "word": "one.", "emoji": "1️⃣" }, { "word": "popcorn", "emoji": "🍿" }]
+    },
+    {
+      "id": "stuck", "text": "Now Ben was stuck on the last pillow until bedtime.",
+      "setting": "room", "light": "night", "focus": "ben", "sfx": "spongebobFail",
+      "actors": [
+        { "who": "ben", "x": 480, "size": 1.7, "mood": "sad", "lift": 50, "action": "shake" },
+        { "who": "mia", "x": 860, "size": 1.1, "face": "left", "mood": "happy", "hold": "🍿" }
+      ],
+      "stickers": [{ "word": "stuck", "emoji": "😭" }, { "word": "bedtime.", "emoji": "🌙" }]
+    },
+    {
+      "id": "loop", "text": "Ben never learns. Tonight, he yelled, the floor is lava!",
+      "setting": "room", "light": "danger", "focus": "ben",
+      "actors": [
+        { "who": "ben", "x": 320, "size": 1.6, "mood": "smug", "action": "jump" },
+        { "who": "mia", "x": 880, "size": 1, "face": "left", "mood": "happy", "hold": "🍿" }
+      ],
+      "stickers": [{ "word": "learns.", "emoji": "🤦" }, { "word": "lava!", "emoji": "🌋" }]
+    }
+  ]
+}

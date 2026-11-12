@@ -42,6 +42,7 @@ From `2026-10-27-spider-prank` (1,266 views, 61% watched, 19 likes).
   - Part 12 — `2026-11-10-broccoli-monster`: Ben growls under Mia's bed in a sheet; Mia feeds the "monster" broccoli for five nights, Mom brings the whole pot, Ben turns green.
   - Part 13 — `2026-11-11-freeze-cookies`: Ben yells "freeze!" and eats the five cookies Mia guards for Grandma (minutes 1-5); Mom walks in, frozen Mia only points with her eyes, and Mom freezes Ben.
   - Part 14 — `2026-11-12-salt-cupcakes`: Children's Day; Ben swaps Mia's sugar for salt; Mia bakes five cupcakes with it and gifts them to Ben while Mom watches, so Ben eats five salty bites (bite 1-5) and drinks the sink.
+  - Part 15 — `2026-11-12-floor-lava`: Ben yells "the floor is lava" so Mia freezes on the sofa and he eats her popcorn; next day Mia says it back and takes his five pillows one per minute, so Ben is stuck on the last one until bedtime.
 
 ## Turbo the snail
 
