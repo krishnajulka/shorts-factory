@@ -1,0 +1,95 @@
+{
+  "id": "2026-11-12-salt-cupcakes",
+  "title": "Salt Cupcakes",
+  "youtube": {
+    "title": "Ben swapped Mia's sugar for salt 🧁🧂 (Part 14)",
+    "description": "Ben swapped Mia's sugar for salt on Children's Day. Mia baked five cupcakes anyway. #shorts #story #funny #siblings #childrensday",
+    "tags": ["shorts", "story", "funny", "karma", "siblings", "childrensday", "animation"]
+  },
+  "logline": "Ben secretly swaps Mia's sugar for salt; Mia notices, bakes five cupcakes with it and gives them to Ben as a Children's Day gift while Mom watches, so Ben has to eat all five.",
+  "series": { "name": "Ben vs Mia: the prank war", "part": 14 },
+  "comment": "Would you finish all five cupcakes, Ben? 🧁👇",
+  "hook": "BEN SALTED HER SUGAR 🧂😈",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["sugar", "salt", "cupcakes", "children's", "bite", "salty", "mia", "ben", "mom", "sweet", "thanks"],
+  "bottom": "obby",
+  "cast": {
+    "ben": { "species": "bean", "color": "#ff9f1c", "name": "Ben" },
+    "mia": { "species": "bean", "color": "#c77dff", "name": "Mia" },
+    "salt": { "emoji": "🧂" },
+    "cup": { "emoji": "🧁" },
+    "mom": { "emoji": "👩" }
+  },
+  "scenes": [
+    {
+      "id": "start", "text": "Ben swapped Mia's sugar for salt. Today was Children's Day.",
+      "setting": "room", "light": "danger", "focus": "ben", "sfx": "vineBoom", "flash": "salt.",
+      "actors": [
+        { "who": "ben", "x": 330, "size": 1.6, "mood": "smug", "hold": "🧂", "action": "jump" },
+        { "who": "mia", "x": 880, "size": 1, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "salt.", "emoji": "🧂" }, { "word": "Children's", "emoji": "🎈" }]
+    },
+    {
+      "id": "taste", "text": "Mia tasted it. She smiled. Thanks, Ben. Then she baked five cupcakes.",
+      "setting": "room", "light": "dusk", "focus": "mia", "sfx": "recordScratch",
+      "actors": [
+        { "who": "mia", "x": 330, "size": 1.5, "mood": "smug", "hold": "🧂" },
+        { "who": "cup", "x": 800, "size": 1.8, "action": "grow", "at": "cupcakes." },
+        { "who": "ben", "x": 960, "size": 0.9, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "smiled.", "emoji": "😏" }, { "word": "cupcakes.", "emoji": "🧁" }]
+    },
+    {
+      "id": "gift", "text": "She gave them to Ben. Happy Children's Day, big brother!",
+      "setting": "room", "light": "gold", "focus": "mia", "effects": ["confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "mia", "x": 300, "size": 1.4, "mood": "happy", "hold": "🧁", "action": "bow" },
+        { "who": "ben", "x": 700, "size": 1.3, "mood": "shock", "face": "left" },
+        { "who": "mom", "x": 980, "size": 1.4, "face": "left", "action": "enter" }
+      ],
+      "stickers": [{ "word": "gave", "emoji": "🎁" }, { "word": "brother!", "emoji": "💛" }]
+    },
+    {
+      "id": "b1", "text": "Bite one: salty. Mom watched, so he kept smiling.",
+      "setting": "room", "light": "night", "focus": "ben",
+      "actors": [
+        { "who": "ben", "x": 560, "size": 1.7, "mood": "shock", "hold": "🧁", "face": "left", "action": "shake" },
+        { "who": "mom", "x": 940, "size": 1.3, "face": "left" },
+        { "who": "mia", "x": 190, "size": 1, "mood": "smug" }
+      ],
+      "stickers": [{ "word": "one:", "emoji": "1️⃣" }, { "word": "salty.", "emoji": "🧂" }]
+    },
+    {
+      "id": "b234", "text": "Bites two, three, four: salty, salty, salty. His face turned blue.",
+      "setting": "room", "light": "danger", "focus": "ben", "sfx": "loadingLag",
+      "actors": [
+        { "who": "ben", "x": 600, "size": 1.8, "color": "#4cc9f0", "mood": "sad", "hold": "🧁", "face": "left", "action": "shake" },
+        { "who": "mom", "x": 940, "size": 1.3, "face": "left" },
+        { "who": "mia", "x": 180, "size": 1, "mood": "smug" }
+      ],
+      "stickers": [{ "word": "four:", "emoji": "4️⃣" }, { "word": "blue.", "emoji": "🥶" }]
+    },
+    {
+      "id": "b5", "text": "Bite five: Ben drank the whole sink. Mia ate a real cupcake.",
+      "setting": "room", "light": "gold", "focus": "ben", "sfx": "spongebobFail",
+      "actors": [
+        { "who": "ben", "x": 720, "size": 1.2, "mood": "sad", "face": "left", "action": "shake" },
+        { "who": "mia", "x": 280, "size": 1.4, "mood": "smug", "hold": "🧁" }
+      ],
+      "burst": { "at": "sink.", "emoji": "💦" },
+      "stickers": [{ "word": "five:", "emoji": "5️⃣" }, { "word": "real", "emoji": "😋" }]
+    },
+    {
+      "id": "loop", "text": "Ben never learns. Tonight, he swapped Mia's sugar for salt.",
+      "setting": "room", "light": "danger", "focus": "ben",
+      "actors": [
+        { "who": "ben", "x": 330, "size": 1.6, "mood": "smug", "hold": "🧂", "action": "jump" },
+        { "who": "mia", "x": 880, "size": 1, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "learns.", "emoji": "🤦" }, { "word": "salt.", "emoji": "🧂" }]
+    }
+  ]
+}

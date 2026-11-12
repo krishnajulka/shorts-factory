@@ -41,6 +41,7 @@ From `2026-10-27-spider-prank` (1,266 views, 61% watched, 19 likes).
   - Part 11 — `2026-11-10-whoopee-cushion`: Ben hides a whoopee cushion on Mia's chair five days; Mia keeps all five and puts them on Ben's chair at Grandma's dinner (five toots, one red Ben).
   - Part 12 — `2026-11-10-broccoli-monster`: Ben growls under Mia's bed in a sheet; Mia feeds the "monster" broccoli for five nights, Mom brings the whole pot, Ben turns green.
   - Part 13 — `2026-11-11-freeze-cookies`: Ben yells "freeze!" and eats the five cookies Mia guards for Grandma (minutes 1-5); Mom walks in, frozen Mia only points with her eyes, and Mom freezes Ben.
+  - Part 14 — `2026-11-12-salt-cupcakes`: Children's Day; Ben swaps Mia's sugar for salt; Mia bakes five cupcakes with it and gifts them to Ben while Mom watches, so Ben eats five salty bites (bite 1-5) and drinks the sink.
 
 ## Turbo the snail
 
