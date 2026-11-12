@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-12-owl-squeak",
+  "title": "Why Owls Turn Their Heads",
+  "youtube": {
+    "title": "Why owls turn their heads all the way around 🦉🐭",
+    "description": "Something squeaked behind Olly the owl every midnight. #shorts #owl #funny #animals",
+    "tags": ["shorts", "story", "funny", "owl", "animals", "animation"]
+  },
+  "logline": "Olly the owl hears a squeak behind him and turns his head more and more to find it, but the squeaking mouse was riding on top of his head all night.",
+  "comment": "Who would you find on top of YOUR head? 🐭👇",
+  "hook": "WHAT SQUEAKED BEHIND HIM? 🦉",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["owl", "olly", "squeak", "squeaked", "nothing", "quarter", "halfway", "pip", "mouse", "head", "midnight"],
+  "bottom": "dominoes",
+  "cast": {
+    "olly": { "emoji": "🦉" },
+    "pip": { "emoji": "🐭" }
+  },
+  "scenes": [
+    {
+      "id": "start", "text": "At midnight, something squeaked behind Olly the owl.",
+      "setting": "forest", "light": "night", "focus": "olly", "sfx": "vineBoom", "flash": "squeaked",
+      "effects": ["vignette"],
+      "actors": [{ "who": "olly", "x": 540, "size": 1.8, "mood": "shock", "face": "left", "action": "shake" }],
+      "stickers": [{ "word": "midnight,", "emoji": "🌙" }, { "word": "squeaked", "emoji": "🐭" }]
+    },
+    {
+      "id": "half", "text": "Olly turned a quarter. Nothing. He turned halfway. Nothing.",
+      "setting": "forest", "light": "night", "focus": "olly",
+      "actors": [{ "who": "olly", "x": 540, "size": 1.7, "mood": "shock", "face": "left", "action": "spin", "at": "halfway." }],
+      "stickers": [{ "word": "quarter.", "emoji": "1️⃣" }, { "word": "halfway.", "emoji": "2️⃣" }]
+    },
+    {
+      "id": "full", "text": "Three quarters. Nothing. All the way around. Still nothing!",
+      "setting": "forest", "light": "danger", "focus": "olly", "sfx": "recordScratch",
+      "actors": [{ "who": "olly", "x": 540, "size": 1.8, "mood": "angry", "face": "left", "action": "shake" }],
+      "stickers": [{ "word": "quarters.", "emoji": "3️⃣" }, { "word": "nothing!", "emoji": "😡" }]
+    },
+    {
+      "id": "spin", "text": "Squeak! He spun faster and faster, until he fell off the branch.",
+      "setting": "forest", "light": "danger", "focus": "olly", "effects": ["shake", "speed"], "sfx": "spongebobFail",
+      "actors": [{ "who": "olly", "x": 540, "size": 1.7, "mood": "shock", "face": "left", "action": "spin" }],
+      "stickers": [{ "word": "Squeak!", "emoji": "🐭" }, { "word": "fell", "emoji": "😵" }]
+    },
+    {
+      "id": "reveal", "text": "Pip the mouse sat on his head. She had ridden there all night.",
+      "setting": "forest", "light": "gold", "focus": "pip", "sfx": "animeWow",
+      "actors": [
+        { "who": "olly", "x": 540, "size": 1.7, "mood": "sad", "face": "left", "action": "shake" },
+        { "who": "pip", "x": 540, "size": 0.7, "lift": 230, "mood": "smug", "action": "jump" }
+      ],
+      "stickers": [{ "word": "Pip", "emoji": "🐭" }, { "word": "night.", "emoji": "🎢" }]
+    },
+    {
+      "id": "wave", "text": "Olly looked up. Pip waved and squeaked hello.",
+      "setting": "forest", "light": "gold", "focus": "pip", "effects": ["rays"],
+      "actors": [
+        { "who": "olly", "x": 540, "size": 1.7, "mood": "shock", "face": "left" },
+        { "who": "pip", "x": 540, "size": 0.7, "lift": 230, "mood": "happy", "action": "jump" }
+      ],
+      "stickers": [{ "word": "waved", "emoji": "👋" }, { "word": "hello.", "emoji": "💛" }]
+    },
+    {
+      "id": "end", "text": "That's why owls turn their heads. Follow, or at midnight, something squeaks behind you.",
+      "setting": "forest", "light": "night", "focus": "olly", "sfx": "yippee",
+      "actors": [
+        { "who": "olly", "x": 540, "size": 1.7, "mood": "happy", "face": "left", "action": "spin", "at": "turn" },
+        { "who": "pip", "x": 540, "size": 0.7, "lift": 230, "mood": "smug" }
+      ],
+      "stickers": [{ "word": "owls", "emoji": "🦉" }, { "word": "Follow,", "emoji": "👉" }]
+    }
+  ]
+}
