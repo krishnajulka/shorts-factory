@@ -1,0 +1,120 @@
+{
+  "id": "2026-11-13-late-reflection",
+  "title": "Late Reflection",
+  "youtube": {
+    "title": "Her reflection was 1 second LATE 🪞😨",
+    "description": "One second late. Then two. Then five. Where does her reflection go? #shorts #story #mirror",
+    "tags": ["shorts", "story", "creepy", "mirror", "funny", "animation"]
+  },
+  "logline": "Isha's reflection gets one second later every day until it vanishes on Friday; it was sneaking out for pizza and comes back with a slice for her.",
+  "comment": "Where would YOUR reflection sneak off to? 🍕👇",
+  "hook": "HER REFLECTION IS LATE 🪞",
+  "narrator": "brian",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["reflection", "late", "second", "seconds", "monday", "tuesday", "wednesday", "thursday", "friday", "pizza", "mirror", "empty"],
+  "bottom": "stack",
+  "cast": {
+    "isha": { "species": "bean", "color": "#ff6b9d", "name": "Isha" },
+    "refl": { "species": "bean", "color": "#ff6b9d", "name": "" },
+    "mirror": { "emoji": "🪞" },
+    "pizza": { "emoji": "🍕" }
+  },
+  "scenes": [
+    {
+      "id": "a",
+      "text": "Isha's reflection was one second late.",
+      "setting": "room", "light": "night", "focus": "isha",
+      "effects": ["vignette", "shake"], "sfx": "vineBoom",
+      "actors": [
+        { "who": "mirror", "x": 690, "size": 2.4, "face": "left" },
+        { "who": "isha", "x": 330, "size": 1.1, "mood": "shock", "face": "right", "action": "shake", "at": "late" },
+        { "who": "refl", "x": 690, "size": 1.0, "mood": "shock", "face": "left" }
+      ],
+      "stickers": [{ "word": "reflection", "emoji": "🪞" }, { "word": "late", "emoji": "⏰" }]
+    },
+    {
+      "id": "mon",
+      "text": "Monday, she waved. A second later, her reflection waved back.",
+      "setting": "room", "light": "night", "focus": "isha",
+      "effects": ["vignette"],
+      "actors": [
+        { "who": "mirror", "x": 690, "size": 2.4, "face": "left" },
+        { "who": "isha", "x": 330, "size": 1.1, "mood": "shock", "face": "right", "action": "jump", "at": "waved" },
+        { "who": "refl", "x": 690, "size": 1.0, "mood": "happy", "face": "left", "action": "jump", "at": "back" }
+      ],
+      "stickers": [{ "word": "Monday", "emoji": "1️⃣" }, { "word": "waved", "emoji": "👋" }]
+    },
+    {
+      "id": "tue",
+      "text": "Tuesday, two seconds late. Wednesday, three. It yawned after she stopped.",
+      "setting": "room", "light": "night", "focus": "isha",
+      "effects": ["vignette", "speed"], "sfx": "loadingLag",
+      "actors": [
+        { "who": "mirror", "x": 690, "size": 2.4, "face": "left" },
+        { "who": "isha", "x": 330, "size": 1.1, "mood": "shock", "face": "right" },
+        { "who": "refl", "x": 690, "size": 1.0, "mood": "smug", "face": "left", "action": "shake", "at": "yawned" }
+      ],
+      "stickers": [{ "word": "two", "emoji": "2️⃣" }, { "word": "three", "emoji": "3️⃣" }]
+    },
+    {
+      "id": "thu",
+      "text": "Thursday, four seconds. Her reflection just smiled and watched her.",
+      "setting": "room", "light": "danger", "focus": "isha",
+      "effects": ["shake", "vignette"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "mirror", "x": 690, "size": 2.4, "face": "left" },
+        { "who": "isha", "x": 330, "size": 1.1, "mood": "shock", "face": "right", "action": "shake", "at": "four" },
+        { "who": "refl", "x": 690, "size": 1.0, "mood": "smug", "face": "left" }
+      ],
+      "stickers": [{ "word": "four", "emoji": "4️⃣" }, { "word": "smiled", "emoji": "😏" }]
+    },
+    {
+      "id": "fri",
+      "text": "Friday, she waited five seconds. The mirror was empty!",
+      "setting": "room", "light": "night", "focus": "isha",
+      "effects": ["vignette"], "sfx": "recordScratch",
+      "actors": [
+        { "who": "mirror", "x": 690, "size": 2.4, "face": "left" },
+        { "who": "isha", "x": 330, "size": 1.1, "mood": "shock", "face": "right" }
+      ],
+      "stickers": [{ "word": "five", "emoji": "5️⃣" }, { "word": "empty", "emoji": "😱" }]
+    },
+    {
+      "id": "pizza",
+      "text": "Then it strolled back in, holding a pizza slice. Cheese on its chin.",
+      "setting": "room", "light": "night", "focus": "refl",
+      "effects": ["vignette"], "sfx": "ohMyGodVine",
+      "actors": [
+        { "who": "mirror", "x": 690, "size": 2.4, "face": "left" },
+        { "who": "isha", "x": 330, "size": 1.1, "mood": "shock", "face": "right" },
+        { "who": "refl", "x": 1150, "toX": 690, "size": 1.0, "mood": "happy", "face": "left", "hold": "🍕", "action": "enter", "at": "strolled" }
+      ],
+      "stickers": [{ "word": "pizza", "emoji": "🍕" }, { "word": "chin", "emoji": "🧀" }]
+    },
+    {
+      "id": "why",
+      "text": "It had been sneaking out for pizza. The line was getting longer.",
+      "setting": "room", "light": "gold", "focus": "refl",
+      "effects": ["rays"], "sfx": "yippee",
+      "actors": [
+        { "who": "mirror", "x": 690, "size": 2.4, "face": "left" },
+        { "who": "isha", "x": 330, "size": 1.1, "mood": "shock", "face": "right" },
+        { "who": "refl", "x": 690, "size": 1.0, "mood": "happy", "face": "left", "hold": "🍕", "action": "jump" }
+      ],
+      "stickers": [{ "word": "pizza", "emoji": "🍕" }, { "word": "longer", "emoji": "⏳" }]
+    },
+    {
+      "id": "end",
+      "text": "Isha took a bite. Now every night they share a slice, and her reflection is one second late.",
+      "setting": "room", "light": "gold", "focus": "isha",
+      "effects": ["confetti"],
+      "actors": [
+        { "who": "mirror", "x": 690, "size": 2.4, "face": "left" },
+        { "who": "isha", "x": 330, "size": 1.1, "mood": "happy", "face": "right", "hold": "🍕", "action": "jump", "at": "bite" },
+        { "who": "refl", "x": 690, "size": 1.0, "mood": "happy", "face": "left", "hold": "🍕" }
+      ],
+      "stickers": [{ "word": "bite", "emoji": "😋" }, { "word": "slice", "emoji": "🍕" }]
+    }
+  ]
+}
