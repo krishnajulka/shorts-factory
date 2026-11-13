@@ -1,0 +1,367 @@
+{
+  "id": "2026-11-13-midnight-wish",
+  "title": "Midnight Wish",
+  "youtube": {
+    "title": "She tried to stay awake until midnight 🌙😴",
+    "description": "Anu wanted to stay awake until midnight for Children's Day. Everyone else fell asleep first... or did they? #shorts #story #childrensday",
+    "tags": [
+      "shorts",
+      "story",
+      "childrensday",
+      "midnight",
+      "family",
+      "animation"
+    ]
+  },
+  "logline": "Anu wants to stay awake until midnight on Children's Day while her family falls asleep hour by hour; at midnight they jump up with a cake, but Anu fell asleep one minute before.",
+  "comment": "Could YOU stay awake till midnight? 👇",
+  "hook": "CAN SHE STAY AWAKE? 😴",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": [
+    "midnight",
+    "awake",
+    "nine",
+    "ten",
+    "eleven",
+    "snored",
+    "asleep",
+    "cake",
+    "anu",
+    "clock",
+    "children's"
+  ],
+  "bottom": "obby",
+  "cast": {
+    "anu": {
+      "species": "bean",
+      "color": "#ff8fab",
+      "name": "Anu"
+    },
+    "dad": {
+      "emoji": "👨"
+    },
+    "mom": {
+      "emoji": "👩"
+    },
+    "gran": {
+      "emoji": "👵"
+    },
+    "clock": {
+      "emoji": "🕛"
+    },
+    "cake": {
+      "emoji": "🎂"
+    }
+  },
+  "scenes": [
+    {
+      "id": "a",
+      "text": "Anu had one wish: stay awake until midnight tonight.",
+      "setting": "room",
+      "light": "night",
+      "focus": "anu",
+      "effects": [
+        "vignette"
+      ],
+      "sfx": "vineBoom",
+      "actors": [
+        {
+          "who": "anu",
+          "x": 330,
+          "size": 1.3,
+          "mood": "happy",
+          "face": "right",
+          "action": "jump"
+        },
+        {
+          "who": "clock",
+          "x": 840,
+          "size": 1.5,
+          "face": "left",
+          "action": "shake",
+          "at": "midnight"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "awake",
+          "emoji": "👀"
+        },
+        {
+          "word": "midnight",
+          "emoji": "🌙"
+        }
+      ]
+    },
+    {
+      "id": "nine",
+      "text": "Nine o'clock. Dad snored on the sofa. Very loudly. A little too loudly.",
+      "setting": "room",
+      "light": "night",
+      "focus": "dad",
+      "effects": [
+        "vignette"
+      ],
+      "actors": [
+        {
+          "who": "anu",
+          "x": 300,
+          "size": 1.2,
+          "mood": "happy",
+          "face": "right"
+        },
+        {
+          "who": "dad",
+          "x": 760,
+          "size": 1.2,
+          "face": "left",
+          "action": "shake",
+          "at": "snored"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "Nine",
+          "emoji": "9️⃣"
+        },
+        {
+          "word": "snored",
+          "emoji": "💤"
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "text": "Ten o'clock. Mom fell asleep in the kitchen, still holding a spoon.",
+      "setting": "room",
+      "light": "night",
+      "focus": "mom",
+      "effects": [
+        "vignette"
+      ],
+      "actors": [
+        {
+          "who": "anu",
+          "x": 300,
+          "size": 1.2,
+          "mood": "smug",
+          "face": "right"
+        },
+        {
+          "who": "mom",
+          "x": 760,
+          "size": 1.2,
+          "face": "left",
+          "action": "faint",
+          "at": "asleep",
+          "hold": "🥄"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "Ten",
+          "emoji": "🔟"
+        },
+        {
+          "word": "spoon",
+          "emoji": "🥄"
+        }
+      ]
+    },
+    {
+      "id": "eleven",
+      "text": "Eleven o'clock. Even Grandma slept, and her glasses slid off.",
+      "setting": "room",
+      "light": "night",
+      "focus": "gran",
+      "effects": [
+        "vignette"
+      ],
+      "sfx": "loadingLag",
+      "actors": [
+        {
+          "who": "anu",
+          "x": 300,
+          "size": 1.2,
+          "mood": "smug",
+          "face": "right"
+        },
+        {
+          "who": "gran",
+          "x": 760,
+          "size": 1.2,
+          "face": "left",
+          "action": "faint",
+          "at": "slept",
+          "hat": "👓"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "Eleven",
+          "emoji": "1️⃣"
+        },
+        {
+          "word": "glasses",
+          "emoji": "👓"
+        }
+      ]
+    },
+    {
+      "id": "fight",
+      "text": "Anu pinched herself. She drank water. She stood on one leg.",
+      "setting": "room",
+      "light": "night",
+      "focus": "anu",
+      "effects": [
+        "speed",
+        "shake"
+      ],
+      "actors": [
+        {
+          "who": "anu",
+          "x": 540,
+          "size": 1.6,
+          "mood": "shock",
+          "face": "right",
+          "action": "jump",
+          "at": "pinched"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "pinched",
+          "emoji": "😖"
+        },
+        {
+          "word": "water",
+          "emoji": "💧"
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "text": "Eleven fifty-nine. Silence. Her eyes closed. Just for one second.",
+      "setting": "room",
+      "light": "dusk",
+      "focus": "anu",
+      "effects": [
+        "vignette"
+      ],
+      "sfx": "dramaticBoomer",
+      "actors": [
+        {
+          "who": "anu",
+          "x": 380,
+          "size": 1.5,
+          "mood": "sad",
+          "face": "right",
+          "action": "faint",
+          "at": "closed"
+        },
+        {
+          "who": "clock",
+          "x": 840,
+          "size": 1.4,
+          "face": "left"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "Silence",
+          "emoji": "🤫"
+        },
+        {
+          "word": "closed",
+          "emoji": "😴"
+        }
+      ]
+    },
+    {
+      "id": "twelve",
+      "text": "Twelve! Dad, Mom and Grandma jumped up with a cake. They never slept!",
+      "setting": "room",
+      "light": "gold",
+      "focus": "cake",
+      "effects": [
+        "rays",
+        "confetti"
+      ],
+      "sfx": "yippee",
+      "flash": "Twelve",
+      "actors": [
+        {
+          "who": "dad",
+          "x": 220,
+          "size": 1.2,
+          "face": "right",
+          "action": "jump",
+          "at": "jumped"
+        },
+        {
+          "who": "cake",
+          "x": 540,
+          "size": 1.5,
+          "action": "grow",
+          "at": "cake"
+        },
+        {
+          "who": "gran",
+          "x": 880,
+          "size": 1.2,
+          "face": "left",
+          "action": "jump",
+          "at": "jumped"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "Twelve",
+          "emoji": "🎉"
+        },
+        {
+          "word": "cake",
+          "emoji": "🎂"
+        }
+      ]
+    },
+    {
+      "id": "loop",
+      "text": "Anu was fast asleep. Next year, she will stay awake until midnight.",
+      "setting": "room",
+      "light": "gold",
+      "focus": "anu",
+      "effects": [
+        "rays"
+      ],
+      "actors": [
+        {
+          "who": "anu",
+          "x": 480,
+          "size": 1.2,
+          "mood": "happy",
+          "face": "right",
+          "action": "faint",
+          "at": "asleep"
+        },
+        {
+          "who": "cake",
+          "x": 860,
+          "size": 0.9
+        }
+      ],
+      "stickers": [
+        {
+          "word": "asleep",
+          "emoji": "😴"
+        },
+        {
+          "word": "midnight",
+          "emoji": "🌙"
+        }
+      ]
+    }
+  ]
+}
