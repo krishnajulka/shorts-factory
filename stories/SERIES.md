@@ -44,6 +44,7 @@ From `2026-10-27-spider-prank` (1,266 views, 61% watched, 19 likes).
   - Part 14 — `2026-11-12-salt-cupcakes`: Children's Day; Ben swaps Mia's sugar for salt; Mia bakes five cupcakes with it and gifts them to Ben while Mom watches, so Ben eats five salty bites (bite 1-5) and drinks the sink.
   - Part 15 — `2026-11-12-floor-lava`: Ben yells "the floor is lava" so Mia freezes on the sofa and he eats her popcorn; next day Mia says it back and takes his five pillows one per minute, so Ben is stuck on the last one until bedtime.
   - Part 16 — `2026-11-13-invisible-ben`: Ben puts on a sheet and says he is invisible; Mia plays along for five hours (poke, sits on him, no dinner plate, 'hungry ghost'), then hands him an empty plate: invisible food.
+  - Part 17 — `2026-11-17-teleporter-box`: Ben shoves Mia into a cardboard teleporter; she sneaks out the back and eats his birthday cake while he panics minutes 1-5 (knock, empty box, search, tells Mom 'Mia is on Mars').
 
 ## Turbo the snail
 

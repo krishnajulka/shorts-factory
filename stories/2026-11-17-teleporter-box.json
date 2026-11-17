@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-17-teleporter-box",
+  "title": "Teleporter Box",
+  "youtube": {
+    "title": "Ben built a fake TELEPORTER for Mia 📦😈 (Part 17)",
+    "description": "Ben shoved Mia into a cardboard teleporter. Five minutes later she was back, with cake. #shorts #story #funny #siblings",
+    "tags": ["shorts", "story", "funny", "karma", "siblings", "animation"]
+  },
+  "logline": "Ben shoves Mia into a cardboard teleporter to scare her; she sneaks out the back, so Ben panics for five minutes while Mia eats his birthday cake.",
+  "series": { "name": "Ben vs Mia: the prank war", "part": 17 },
+  "comment": "Would you hide in the box too? 📦👇",
+  "hook": "BEN BUILT A TELEPORTER 📦😈",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["teleporter", "box", "minute", "mia", "ben", "cake", "mars", "mom", "sister", "birthday", "silence", "thanks"],
+  "bottom": "obby",
+  "cast": {
+    "ben": { "species": "bean", "color": "#ff9f1c", "name": "Ben" },
+    "mia": { "species": "bean", "color": "#c77dff", "name": "Mia" },
+    "mom": { "emoji": "👩" },
+    "box": { "emoji": "📦" },
+    "cake": { "emoji": "🎂" }
+  },
+  "scenes": [
+    {
+      "id": "start", "text": "Ben built a teleporter box and shoved Mia inside.",
+      "setting": "room", "light": "danger", "focus": "ben", "sfx": "vineBoom", "flash": "teleporter",
+      "actors": [
+        { "who": "ben", "x": 220, "size": 1.6, "mood": "smug", "action": "jump" },
+        { "who": "box", "x": 600, "size": 2 },
+        { "who": "mia", "x": 860, "size": 1, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "teleporter", "emoji": "📦" }, { "word": "shoved", "emoji": "👉" }]
+    },
+    {
+      "id": "m1", "text": "Minute one: he knocked. Silence. His birthday cake waited on the table.",
+      "setting": "room", "light": "day", "focus": "ben",
+      "actors": [
+        { "who": "ben", "x": 260, "size": 1.5, "mood": "smug" },
+        { "who": "box", "x": 560, "size": 2 },
+        { "who": "cake", "x": 900, "size": 1.3 }
+      ],
+      "stickers": [{ "word": "one:", "emoji": "1️⃣" }, { "word": "cake", "emoji": "🎂" }]
+    },
+    {
+      "id": "m2", "text": "Minute two: he peeked. The box was empty! Ben gasped, I teleported my sister!",
+      "setting": "room", "light": "danger", "focus": "ben", "sfx": "bruh",
+      "actors": [
+        { "who": "box", "x": 640, "size": 2 },
+        { "who": "ben", "x": 260, "size": 1.7, "mood": "shock", "action": "shake" }
+      ],
+      "stickers": [{ "word": "two:", "emoji": "2️⃣" }, { "word": "empty!", "emoji": "😱" }]
+    },
+    {
+      "id": "m3", "text": "Minute three: he searched the closet, the bed, even the fridge.",
+      "setting": "room", "light": "dusk", "focus": "ben", "effects": ["speed"],
+      "actors": [
+        { "who": "ben", "x": 150, "toX": 850, "size": 1.5, "mood": "shock", "action": "run" }
+      ],
+      "stickers": [{ "word": "three:", "emoji": "3️⃣" }, { "word": "fridge.", "emoji": "🧊" }]
+    },
+    {
+      "id": "m4", "text": "Minute four: Ben cried to Mom, Mia is on Mars! Mom frowned.",
+      "setting": "room", "light": "night", "focus": "ben", "sfx": "loadingLag",
+      "actors": [
+        { "who": "ben", "x": 300, "size": 1.5, "mood": "sad", "action": "shake" },
+        { "who": "mom", "x": 800, "size": 1.5, "face": "left", "mood": "shock" }
+      ],
+      "stickers": [{ "word": "four:", "emoji": "4️⃣" }, { "word": "Mars!", "emoji": "🪐" }]
+    },
+    {
+      "id": "m5", "text": "Minute five: Mia strolled in with cake on her face. Mars was delicious. Thanks, Ben.",
+      "setting": "room", "light": "gold", "focus": "mia", "sfx": "recordScratch",
+      "actors": [
+        { "who": "mia", "x": 330, "size": 1.6, "mood": "smug", "hold": "🎂" },
+        { "who": "ben", "x": 860, "size": 1.3, "face": "left", "mood": "shock" }
+      ],
+      "stickers": [{ "word": "five:", "emoji": "5️⃣" }, { "word": "delicious.", "emoji": "😋" }]
+    },
+    {
+      "id": "loop", "text": "Ben never learns. Tomorrow, he built a teleporter box and shoved Mia inside.",
+      "setting": "room", "light": "danger", "focus": "ben",
+      "actors": [
+        { "who": "ben", "x": 220, "size": 1.6, "mood": "smug", "action": "jump" },
+        { "who": "box", "x": 600, "size": 2 },
+        { "who": "mia", "x": 860, "size": 1, "face": "left", "mood": "happy" }
+      ],
+      "stickers": [{ "word": "learns.", "emoji": "🤦" }, { "word": "shoved", "emoji": "👉" }]
+    }
+  ]
+}
