@@ -5,7 +5,9 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-npm ci --no-audit --no-fund
+# Skip the GPU (CUDA) build of the voice library: the cloud machine is CPU-only and
+# its download URL can 404, which breaks setup.
+ONNXRUNTIME_NODE_INSTALL_CUDA=skip npm ci --no-audit --no-fund
 
 # Chrome headless needs these shared libraries; emoji need a color emoji font.
 LIBS="libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libpango-1.0-0 libcairo2 fonts-noto-color-emoji"
