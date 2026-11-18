@@ -1,6 +1,6 @@
 # Channel stats
 
-Updated 2026-11-17 16:02 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 49 · total channel views: 49003 · videos: 71.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
+Updated 2026-11-18 06:37 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 51 · total channel views: 49001 · videos: 72.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
 
 Sorted by views. "avg watched" is the average share of the Short people watched (YouTube Analytics; lags 1-2 days, "—" = not ready yet).
 
@@ -26,21 +26,22 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 1028 | 10 | 1 | 66% | 18s | 0 | 2026-11-02-toll-booth | jessica | obby | 2026-11-02 06:52 | [Ben charged his sister a toll to walk 🪙😈 (Part 3)](https://youtube.com/shorts/jUo7wREt27g) |
 | 1027 | 11 | 1 | 63% | 21s | 3 | 2026-11-04-puppy-chores | george | stack | 2026-11-04 02:51 | [He did 5 days of chores to earn a puppy 🐶🧹](https://youtube.com/shorts/92dmzQBv6Ok) |
 | 1025 | 4 | 1 | 69% | 22s | 0 | 2026-11-03-rabbit-tower | liam | dominoes | 2026-11-03 00:52 | [A snail raced a rabbit up 100 floors 🐌🐇 (Part 3)](https://youtube.com/shorts/xzKwdmUnI0o) |
-| 1019 | 11 | 1 | 60% | 22s | 1 | 2026-11-13-late-reflection | brian | stack | 2026-11-13 10:55 | [Her reflection was 1 second LATE 🪞😨](https://youtube.com/shorts/5rjjfuVAqA8) |
+| 1020 | 12 | 1 | 59% | 22s | 1 | 2026-11-13-late-reflection | brian | stack | 2026-11-13 10:55 | [Her reflection was 1 second LATE 🪞😨](https://youtube.com/shorts/5rjjfuVAqA8) |
 | 1018 | 12 | 0 | 83% | 28s | 1 | 2026-10-26-photo-stranger | brian | spiral | 2026-10-26 10:49 | [Every photo she takes has a stranger. Closer each time 📸😨](https://youtube.com/shorts/IXPt38YADJI) |
 | 1005 | 10 | 1 | 60% | 17s | 3 | 2026-11-07-dog-shoes | liam | stack | 2026-11-07 10:51 | [Why your dog hides your shoes 🐶👟](https://youtube.com/shorts/U9TIGfpqz7s) |
 | 982 | 5 | 1 | 39% | 15s | 0 | 2026-11-09-sandcastle-tide | george | obby | 2026-11-09 02:54 | [Five towers. Five waves. Grandpa was late 🏰🌊](https://youtube.com/shorts/oDZSCWKz5pU) |
 | 975 | 5 | 0 | 33% | 20s | 0 | 2026-10-25-lighthouse-looked-away | george | wheel | 2026-10-24 18:46 | [The lighthouse that turned AWAY from the sea 🗼🌊](https://youtube.com/shorts/sRxTZhzLgsc) |
-| 965 | 9 | 1 | 62% | 18s | 1 | 2026-11-12-floor-lava | jessica | stack | 2026-11-12 10:50 | [Ben yelled 'the floor is LAVA' at Mia 🌋😈 (Part 15)](https://youtube.com/shorts/sl2b1lT6Guo) |
+| 967 | 9 | 1 | 62% | 18s | 1 | 2026-11-12-floor-lava | jessica | stack | 2026-11-12 10:50 | [Ben yelled 'the floor is LAVA' at Mia 🌋😈 (Part 15)](https://youtube.com/shorts/sl2b1lT6Guo) |
 | 965 | 4 | 1 | 65% | 20s | 1 | 2026-11-05-simon-says | jessica | obby | 2026-11-05 06:53 | [Ben played Simon Says with his sister 🗣️😈 (Part 6)](https://youtube.com/shorts/WDcg9ZzixkQ) |
 | 960 | 10 | 1 | 45% | 14s | 2 | 2026-11-08-toys-closer | callum | dominoes | 2026-11-08 06:52 | [Every night, Jo's toys crept closer to his bed 🧸😨](https://youtube.com/shorts/J8pZft59oas) |
 | 954 | 2 | 1 | 81% | 21s | 1 | 2026-11-04-beach-hole | jessica | soap | 2026-11-04 06:53 | [Ben dug a trap for his sister at the beach 🕳️😈 (Part 5)](https://youtube.com/shorts/V2z6QgjoYTc) |
 | 952 | 10 | 2 | 66% | 17s | 2 | 2026-11-08-diwali-lamps | jessica | obby | 2026-11-08 02:51 | [Ben blew out Mia's Diwali lamps 🪔😈 (Part 8)](https://youtube.com/shorts/mASfWXVvgsQ) |
 | 948 | 11 | 2 | 51% | 15s | 2 | 2026-10-31-candy-tax | jessica | obby | 2026-10-31 06:57 | [Ben taxed Mia's Halloween candy 🎃🌶️ (Part 2)](https://youtube.com/shorts/sar3PMsNJaA) |
-| 938 | 5 | 1 | 74% | 24s | 1 | 2026-11-13-invisible-ben | jessica | dominoes | 2026-11-13 06:51 | [Ben said he was INVISIBLE. Mia believed him 👻😈 (Part 16)](https://youtube.com/shorts/0gxyVwhNVY8) |
+| 939 | 5 | 1 | 74% | 24s | 1 | 2026-11-13-invisible-ben | jessica | dominoes | 2026-11-13 06:51 | [Ben said he was INVISIBLE. Mia believed him 👻😈 (Part 16)](https://youtube.com/shorts/0gxyVwhNVY8) |
 | 933 | 14 | 1 | 64% | 19s | 1 | 2026-11-07-wet-paint | jessica | dominoes | 2026-11-07 06:52 | [Ben put a fake WET PAINT sign on the sofa 🎨😈 (Part 7)](https://youtube.com/shorts/9077upeWUno) |
 | 933 | 9 | 0 | 45% | 24s | 3 | duck-doorstep | brian | spiral | 2026-10-24 17:20 | [Someone left a duck on her doorstep for 400 days 🦆](https://youtube.com/shorts/ssowpmlm8cA) |
 | 923 | 13 | 0 | 49% | 18s | 2 | 2026-10-28-elevator-buttons | callum | spiral | 2026-10-28 10:51 | [His elevator grows ONE new button every night 🛗😨](https://youtube.com/shorts/oblZwk-IGWU) |
+| 918 | 9 | 1 | — | — | — | 2026-11-17-teleporter-box | jessica | obby | 2026-11-17 16:08 | [Ben built a fake TELEPORTER for Mia 📦😈 (Part 17)](https://youtube.com/shorts/NXevdpa6AgQ) |
 | 918 | 3 | 1 | 52% | 16s | 0 | 2026-11-09-radio-ghost | jessica | dominoes | 2026-11-09 06:51 | [Ben whispered 'ghost' messages to scare Mia 👻📻 (Part 10)](https://youtube.com/shorts/HX9I560YYto) |
 | 913 | 6 | 1 | 68% | 21s | 1 | 2026-11-08-fort-rules | jessica | stack | 2026-11-08 10:55 | [Ben built a fort with 5 rules against Mia 🏰😈 (Part 9)](https://youtube.com/shorts/LnR4adlaLZI) |
 | 909 | 8 | 1 | 53% | 15s | 0 | 2026-11-12-salt-cupcakes | jessica | obby | 2026-11-12 02:53 | [Ben swapped Mia's sugar for salt 🧁🧂 (Part 14)](https://youtube.com/shorts/mF16U7atl9g) |
@@ -55,7 +56,7 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 424 | 7 | 1 | 36% | 13s | 2 | 2026-11-07-tiny-rocket | george | obby | 2026-11-07 02:40 | [The tiny rocket was picked last on Diwali 🚀🪔](https://youtube.com/shorts/nwko6DfjkUY) |
 | 320 | 4 | 0 | 38% | 17s | 0 | 2026-10-25-vending-machine-knows | brian | breakout | 2026-10-25 06:49 | [The vending machine never gives what he picks 🥤😨](https://youtube.com/shorts/XHeV9VH5Tzs) |
 | 267 | 6 | 0 | 59% | 22s | 1 | 2026-10-31-forgot-acorns | jessica | stack | 2026-10-31 02:53 | [He buried 100 acorns. Then forgot where. 🐿️🌳](https://youtube.com/shorts/8a86eiZrPHo) |
-| 234 | 2 | 0 | 46% | 21s | 0 | 2026-10-25-last-moth | liam | race | 2026-10-25 02:43 | [10,000 moths raced to one light. He came last. 🦋💡](https://youtube.com/shorts/aMExlWBjoUA) |
+| 235 | 2 | 0 | 46% | 21s | 0 | 2026-10-25-last-moth | liam | race | 2026-10-25 02:43 | [10,000 moths raced to one light. He came last. 🦋💡](https://youtube.com/shorts/aMExlWBjoUA) |
 | 51 | 1 | 1 | 52% | 19s | 0 | 2026-11-10-paper-boat | george | dominoes | 2026-11-10 06:53 | [A paper boat had one day to reach the sea ⛵🌊](https://youtube.com/shorts/_zoGbI-c6qk) |
 | 25 | 0 | 1 | 52% | 16s | 0 | 2026-11-03-gray-crayon | brian | soap | 2026-11-03 10:52 | [Nobody ever picked the gray crayon 🖍️⛈️](https://youtube.com/shorts/CCd6q3OmWec) |
 | 23 | 0 | 0 | 80% | 28s | 0 | 2026-10-26-grandma-chair | jessica | wheel | 2026-10-26 14:49 | [Grandma has NEVER lost hide and seek 👵🙈](https://youtube.com/shorts/KBAvLz8TtYQ) |

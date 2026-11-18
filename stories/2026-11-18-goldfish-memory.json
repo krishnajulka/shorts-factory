@@ -1,0 +1,103 @@
+{
+  "id": "2026-11-18-goldfish-memory",
+  "title": "Goldfish Memory",
+  "youtube": {
+    "title": "Why goldfish seem to forget everything 🐠🍕",
+    "description": "They say goldfish forget in three seconds. Gus has a secret. #shorts #goldfish #funny #animals",
+    "tags": ["shorts", "story", "funny", "goldfish", "animals", "animation"]
+  },
+  "logline": "Everyone says goldfish forget everything in three seconds, so Gus swims lap after lap and Maya welcomes him as a new fish with a snack every time, but he remembers everything and just loves the welcome.",
+  "comment": "Would you fall for it for a free snack? 🐠👇",
+  "hook": "DO GOLDFISH REALLY FORGET? 🐠",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["goldfish", "forget", "gus", "lap", "welcome", "snack", "maya", "remember", "banner", "fish"],
+  "bottom": "dominoes",
+  "cast": {
+    "gus": { "emoji": "🐠" },
+    "maya": { "species": "bean", "color": "#c77dff", "name": "Maya" },
+    "snack": { "emoji": "🍪" },
+    "banner": { "emoji": "🎉" },
+    "sign": { "emoji": "🪧" }
+  },
+  "scenes": [
+    {
+      "id": "myth", "text": "They say goldfish forget everything in three seconds.",
+      "setting": "room", "light": "day", "focus": "gus", "sfx": "vineBoom",
+      "actors": [
+        { "who": "gus", "x": 700, "size": 1.8, "mood": "smug", "face": "left", "action": "jump" },
+        { "who": "maya", "x": 240, "size": 1.2, "mood": "happy" }
+      ],
+      "stickers": [{ "word": "goldfish", "emoji": "🐠" }, { "word": "three", "emoji": "3️⃣" }]
+    },
+    {
+      "id": "lap1", "text": "Gus swims one lap. Maya cheers: new fish! Free snack!",
+      "setting": "room", "light": "gold", "focus": "gus", "effects": ["confetti"],
+      "drop": { "at": "snack!", "emoji": "🍪", "to": "gus" },
+      "actors": [
+        { "who": "gus", "x": 800, "toX": 300, "size": 1.6, "mood": "happy", "face": "left" },
+        { "who": "maya", "x": 200, "size": 1.2, "mood": "happy", "action": "jump" }
+      ],
+      "stickers": [{ "word": "one", "emoji": "1️⃣" }, { "word": "snack!", "emoji": "🍪" }]
+    },
+    {
+      "id": "lap2", "text": "Lap two. New fish again! Another snack. Gus smiles.",
+      "setting": "room", "light": "gold", "focus": "gus", "sfx": "yippee",
+      "drop": { "at": "snack.", "emoji": "🍪", "to": "gus" },
+      "actors": [
+        { "who": "gus", "x": 800, "toX": 300, "size": 1.6, "mood": "smug", "face": "left" },
+        { "who": "maya", "x": 200, "size": 1.2, "mood": "happy", "action": "jump" }
+      ],
+      "stickers": [{ "word": "two.", "emoji": "2️⃣" }, { "word": "smiles.", "emoji": "😏" }]
+    },
+    {
+      "id": "lap34", "text": "Lap three. Lap four. Maya hangs a welcome banner.",
+      "setting": "room", "light": "gold", "focus": "gus", "effects": ["confetti", "speed"],
+      "burst": { "at": "banner.", "emoji": "🎉" },
+      "actors": [
+        { "who": "gus", "x": 850, "toX": 250, "size": 1.6, "mood": "happy", "face": "left" },
+        { "who": "maya", "x": 180, "size": 1.2, "mood": "happy", "action": "jump" }
+      ],
+      "stickers": [{ "word": "three.", "emoji": "3️⃣" }, { "word": "four.", "emoji": "4️⃣" }]
+    },
+    {
+      "id": "lap5", "text": "Lap five. Gus is stuffed. Maya narrows her eyes.",
+      "setting": "room", "light": "danger", "focus": "maya", "sfx": "recordScratch", "effects": ["vignette"],
+      "actors": [
+        { "who": "gus", "x": 760, "size": 1.7, "mood": "smug", "face": "left", "hold": "🍪" },
+        { "who": "maya", "x": 250, "size": 1.5, "mood": "angry" }
+      ],
+      "stickers": [{ "word": "five.", "emoji": "5️⃣" }, { "word": "eyes.", "emoji": "👀" }]
+    },
+    {
+      "id": "sign", "text": "She taped up a sign: Gus, I know you remember me.",
+      "setting": "room", "light": "dusk", "focus": "gus",
+      "actors": [
+        { "who": "sign", "x": 780, "size": 1.5, "action": "shake" },
+        { "who": "gus", "x": 780, "size": 1.0, "lift": 0, "mood": "shock", "face": "left" },
+        { "who": "maya", "x": 250, "size": 1.3, "mood": "smug" }
+      ],
+      "stickers": [{ "word": "sign:", "emoji": "🪧" }, { "word": "remember", "emoji": "🧠" }]
+    },
+    {
+      "id": "caught", "text": "Gus blushed. He remembered everything. He just loved the welcome.",
+      "setting": "room", "light": "gold", "focus": "gus", "sfx": "animeWow", "effects": ["rays"],
+      "actors": [
+        { "who": "gus", "x": 700, "size": 1.8, "mood": "sad", "face": "left", "action": "shake" },
+        { "who": "maya", "x": 250, "size": 1.2, "mood": "happy", "action": "jump" }
+      ],
+      "stickers": [{ "word": "blushed.", "emoji": "😳" }, { "word": "welcome.", "emoji": "🎉" }]
+    },
+    {
+      "id": "end", "text": "Maya laughed, and welcomed him anyway. Follow, or Gus forgets you too.",
+      "setting": "room", "light": "gold", "focus": "gus", "effects": ["confetti"], "sfx": "yippee",
+      "drop": { "at": "welcomed", "emoji": "🍪", "to": "gus" },
+      "actors": [
+        { "who": "gus", "x": 700, "size": 1.8, "mood": "happy", "face": "left", "action": "jump" },
+        { "who": "maya", "x": 250, "size": 1.2, "mood": "happy" }
+      ],
+      "stickers": [{ "word": "laughed,", "emoji": "😂" }, { "word": "Follow,", "emoji": "🔔" }]
+    }
+  ]
+}
