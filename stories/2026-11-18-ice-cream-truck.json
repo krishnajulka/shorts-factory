@@ -1,0 +1,102 @@
+{
+  "id": "2026-11-18-ice-cream-truck",
+  "title": "Ice Cream Truck",
+  "youtube": {
+    "title": "Ben said the ice cream truck was SOLD OUT 🍦😈 (Part 18)",
+    "description": "Ben told Mia the truck music means sold out, then ate five cones alone. Mom had a plan. #shorts #story #funny #siblings",
+    "tags": ["shorts", "story", "funny", "karma", "siblings", "animation"]
+  },
+  "logline": "Ben tells Mia the ice cream truck music means sold out and sneaks out for a cone every day; on Friday Mom and Mia are waiting, so Ben pays for Mia's five cones too.",
+  "series": { "name": "Ben vs Mia: the prank war", "part": 18 },
+  "comment": "How many cones would you eat in a week? 🍦👇",
+  "hook": "THE TRUCK IS SOLD OUT? 🍦😈",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 1,
+  "keywords": ["ice", "cream", "truck", "music", "cone", "mia", "ben", "mom", "sold", "out", "thanks", "monday", "friday"],
+  "bottom": "stack",
+  "cast": {
+    "ben": { "species": "bean", "color": "#ff9f1c", "name": "Ben" },
+    "mia": { "species": "bean", "color": "#c77dff", "name": "Mia" },
+    "mom": { "emoji": "👩" },
+    "truck": { "emoji": "🚚" },
+    "cone": { "emoji": "🍦" }
+  },
+  "scenes": [
+    {
+      "id": "start", "text": "Ben said the ice cream truck music means sold out.",
+      "setting": "city", "light": "danger", "focus": "ben", "sfx": "vineBoom", "flash": "music",
+      "actors": [
+        { "who": "ben", "x": 220, "size": 1.6, "mood": "smug", "action": "jump" },
+        { "who": "mia", "x": 600, "size": 1, "face": "left", "mood": "happy" },
+        { "who": "truck", "x": 930, "size": 1.8 }
+      ],
+      "stickers": [{ "word": "music", "emoji": "🎵" }, { "word": "sold", "emoji": "🚫" }]
+    },
+    {
+      "id": "d1", "text": "Monday: music played. Mia stayed home. Ben sneaked out. Cone one.",
+      "setting": "city", "light": "day", "focus": "ben", "effects": ["speed"],
+      "actors": [
+        { "who": "ben", "x": 120, "toX": 650, "size": 1.5, "mood": "happy", "action": "run" },
+        { "who": "truck", "x": 930, "size": 1.8 }
+      ],
+      "stickers": [{ "word": "Monday:", "emoji": "📅" }, { "word": "one.", "emoji": "1️⃣" }]
+    },
+    {
+      "id": "d2", "text": "Tuesday: Mia waved from the window. Ben ate cone two.",
+      "setting": "city", "light": "day", "focus": "ben",
+      "actors": [
+        { "who": "ben", "x": 300, "size": 1.6, "mood": "smug", "hold": "🍦" },
+        { "who": "mia", "x": 860, "size": 1, "face": "left", "mood": "happy", "action": "jump" }
+      ],
+      "stickers": [{ "word": "Tuesday:", "emoji": "📅" }, { "word": "two.", "emoji": "2️⃣" }]
+    },
+    {
+      "id": "d3", "text": "Wednesday: cone three. Mia just smiled. Thanks, Ben.",
+      "setting": "city", "light": "dusk", "focus": "mia", "sfx": "yippee",
+      "actors": [
+        { "who": "ben", "x": 260, "size": 1.5, "mood": "smug", "hold": "🍦" },
+        { "who": "mia", "x": 820, "size": 1.4, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "Wednesday:", "emoji": "📅" }, { "word": "three.", "emoji": "3️⃣" }]
+    },
+    {
+      "id": "d4", "text": "Thursday: cone four. Mia whispered to Mom. Mom nodded.",
+      "setting": "room", "light": "night", "focus": "mia",
+      "actors": [
+        { "who": "mia", "x": 280, "size": 1.5, "mood": "smug" },
+        { "who": "mom", "x": 780, "size": 1.5, "face": "left", "mood": "shock" }
+      ],
+      "stickers": [{ "word": "Thursday:", "emoji": "📅" }, { "word": "four.", "emoji": "4️⃣" }]
+    },
+    {
+      "id": "d5", "text": "Friday: cone five! But Mom and Mia waited at the truck.",
+      "setting": "city", "light": "danger", "focus": "ben", "sfx": "recordScratch",
+      "actors": [
+        { "who": "ben", "x": 230, "size": 1.6, "mood": "shock", "hold": "🍦", "action": "shake" },
+        { "who": "mom", "x": 560, "size": 1.0, "face": "left", "mood": "angry" },
+        { "who": "mia", "x": 880, "size": 0.9, "face": "left", "mood": "smug" }
+      ],
+      "stickers": [{ "word": "Friday:", "emoji": "📅" }, { "word": "five!", "emoji": "5️⃣" }]
+    },
+    {
+      "id": "pay", "text": "Five cones for Ben means five for Mia. Ben paid. Thanks, Ben.",
+      "setting": "city", "light": "gold", "focus": "mia", "sfx": "yippee",
+      "actors": [
+        { "who": "mia", "x": 330, "size": 1.6, "mood": "smug", "hold": "🍦" },
+        { "who": "ben", "x": 860, "size": 1.3, "face": "left", "mood": "sad" }
+      ],
+      "stickers": [{ "word": "paid.", "emoji": "💸" }, { "word": "five", "emoji": "🍦" }]
+    },
+    {
+      "id": "loop", "text": "Ben never learns. Next week, he said the ice cream truck music means sold out.",
+      "setting": "city", "light": "danger", "focus": "ben",
+      "actors": [
+        { "who": "ben", "x": 220, "size": 1.6, "mood": "smug", "action": "jump" },
+        { "who": "mia", "x": 600, "size": 1, "face": "left", "mood": "happy" },
+        { "who": "truck", "x": 930, "size": 1.8 }
+      ],
+      "stickers": [{ "word": "learns.", "emoji": "🤦" }, { "word": "music", "emoji": "🎵" }]
+    }
+  ]
+}

@@ -45,6 +45,7 @@ From `2026-10-27-spider-prank` (1,266 views, 61% watched, 19 likes).
   - Part 15 — `2026-11-12-floor-lava`: Ben yells "the floor is lava" so Mia freezes on the sofa and he eats her popcorn; next day Mia says it back and takes his five pillows one per minute, so Ben is stuck on the last one until bedtime.
   - Part 16 — `2026-11-13-invisible-ben`: Ben puts on a sheet and says he is invisible; Mia plays along for five hours (poke, sits on him, no dinner plate, 'hungry ghost'), then hands him an empty plate: invisible food.
   - Part 17 — `2026-11-17-teleporter-box`: Ben shoves Mia into a cardboard teleporter; she sneaks out the back and eats his birthday cake while he panics minutes 1-5 (knock, empty box, search, tells Mom 'Mia is on Mars').
+  - Part 18 — `2026-11-18-ice-cream-truck`: Ben says the truck's music means sold out and sneaks out for cones 1-5 (Mon-Fri); Mia tells Mom, who waits at the truck Friday, so Ben pays for Mia's five cones.
 
 ## Turbo the snail
 

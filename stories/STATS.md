@@ -1,6 +1,6 @@
 # Channel stats
 
-Updated 2026-11-18 06:37 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 51 · total channel views: 49001 · videos: 72.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
+Updated 2026-11-18 06:45 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 51 · total channel views: 49004 · videos: 73.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
 
 Sorted by views. "avg watched" is the average share of the Short people watched (YouTube Analytics; lags 1-2 days, "—" = not ready yet).
 
@@ -77,4 +77,5 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 3 | 0 | 1 | 80% | 30s | 0 | 2026-10-29-bus-stop-dog | george | dominoes | 2026-10-29 16:24 | [He waited at the bus stop for 1,000 days 🐕🚌](https://youtube.com/shorts/Img5GabZ00M) |
 | 2 | 0 | 1 | 93% | 29s | 0 | 2026-11-06-diwali-wind | liam | stack | 2026-11-06 16:50 | [A snail raced a rabbit: last Diwali lamp burning wins 🪔💨 (Part 6)](https://youtube.com/shorts/K2abhOojeWg) |
 | 2 | 0 | 1 | 0% | 0s | 0 | 2026-11-04-pigeon-mail | liam | dominoes | 2026-11-04 00:53 | [A snail raced a pigeon across the country 🐌🕊️ (Part 4)](https://youtube.com/shorts/Z1xut2-nRsc) |
+| 0 | 0 | 1 | — | — | — | 2026-11-18-goldfish-memory | liam | dominoes | 2026-11-18 06:43 | [Why goldfish seem to forget everything 🐠🍕](https://youtube.com/shorts/tYUVeiBAUQ4) |
 | 0 | 0 | 1 | — | — | — | 2026-11-05-diwali-sky | liam | dominoes | 2026-11-05 00:53 | [A snail raced a rabbit to light up Diwali night 🪔🐌 (Part 5)](https://youtube.com/shorts/1RBEgfmkBkU) |
