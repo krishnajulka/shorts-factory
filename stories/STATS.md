@@ -1,6 +1,6 @@
 # Channel stats
 
-Updated 2026-11-19 06:54 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 54 · total channel views: 49004 · videos: 75.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
+Updated 2026-11-19 10:49 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 54 · total channel views: 52784 · videos: 76.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
 
 Sorted by views. "avg watched" is the average share of the Short people watched (YouTube Analytics; lags 1-2 days, "—" = not ready yet).
 
@@ -29,8 +29,9 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 1021 | 12 | 1 | 59% | 22s | 1 | 2026-11-13-late-reflection | brian | stack | 2026-11-13 10:55 | [Her reflection was 1 second LATE 🪞😨](https://youtube.com/shorts/5rjjfuVAqA8) |
 | 1018 | 12 | 0 | 83% | 28s | 1 | 2026-10-26-photo-stranger | brian | spiral | 2026-10-26 10:49 | [Every photo she takes has a stranger. Closer each time 📸😨](https://youtube.com/shorts/IXPt38YADJI) |
 | 1005 | 10 | 1 | 60% | 17s | 3 | 2026-11-07-dog-shoes | liam | stack | 2026-11-07 10:51 | [Why your dog hides your shoes 🐶👟](https://youtube.com/shorts/U9TIGfpqz7s) |
+| 990 | 8 | 1 | — | — | — | 2026-11-18-goldfish-memory | liam | dominoes | 2026-11-18 06:43 | [Why goldfish seem to forget everything 🐠🍕](https://youtube.com/shorts/tYUVeiBAUQ4) |
+| 984 | 3 | 1 | — | — | — | 2026-11-19-hidden-controller | jessica | dominoes | 2026-11-19 02:51 | [Ben hid Mia's game controller every day 🎮😈 (Part 19)](https://youtube.com/shorts/oxFyOKi5f-I) |
 | 982 | 5 | 1 | 39% | 15s | 0 | 2026-11-09-sandcastle-tide | george | obby | 2026-11-09 02:54 | [Five towers. Five waves. Grandpa was late 🏰🌊](https://youtube.com/shorts/oDZSCWKz5pU) |
-| 979 | 8 | 1 | — | — | — | 2026-11-18-goldfish-memory | liam | dominoes | 2026-11-18 06:43 | [Why goldfish seem to forget everything 🐠🍕](https://youtube.com/shorts/tYUVeiBAUQ4) |
 | 977 | 8 | 1 | — | — | — | 2026-11-18-creeping-plant | callum | obby | 2026-11-18 10:49 | [Every night, his plant crept closer to his bed 🪴😨](https://youtube.com/shorts/ldyE2aNLwZQ) |
 | 975 | 5 | 0 | 33% | 20s | 0 | 2026-10-25-lighthouse-looked-away | george | wheel | 2026-10-24 18:46 | [The lighthouse that turned AWAY from the sea 🗼🌊](https://youtube.com/shorts/sRxTZhzLgsc) |
 | 970 | 9 | 1 | 62% | 18s | 1 | 2026-11-12-floor-lava | jessica | stack | 2026-11-12 10:50 | [Ben yelled 'the floor is LAVA' at Mia 🌋😈 (Part 15)](https://youtube.com/shorts/sl2b1lT6Guo) |
@@ -53,9 +54,9 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 895 | 9 | 1 | 64% | 18s | 1 | 2026-11-11-freeze-cookies | jessica | dominoes | 2026-11-11 06:50 | [Ben froze Mia and ate Grandma's cookies 🍪😈 (Part 13)](https://youtube.com/shorts/CeyoPrNWGD8) |
 | 888 | 8 | 1 | 55% | 14s | 1 | 2026-11-12-owl-squeak | liam | dominoes | 2026-11-12 06:52 | [Why owls turn their heads all the way around 🦉🐭](https://youtube.com/shorts/NpzcDNCJVCM) |
 | 848 | 3 | 1 | 43% | 14s | 0 | 2026-11-10-whoopee-cushion | jessica | obby | 2026-11-10 02:52 | [Ben hid a toot cushion on Mia's chair 5 days 💨🪑 (Part 11)](https://youtube.com/shorts/7U5I1Vcb1wM) |
-| 721 | 3 | 1 | — | — | — | 2026-11-19-hidden-controller | jessica | dominoes | 2026-11-19 02:51 | [Ben hid Mia's game controller every day 🎮😈 (Part 19)](https://youtube.com/shorts/oxFyOKi5f-I) |
 | 700 | 5 | 1 | 38% | 15s | 0 | 2026-11-01-robot-letter | george | soap | 2026-11-01 10:42 | [A tiny robot had 90% battery to deliver ONE letter 🤖✉️](https://youtube.com/shorts/vhcChf9fh-s) |
 | 573 | 1 | 1 | 50% | 18s | 0 | 2026-11-09-rooster-sun | george | stack | 2026-11-09 10:53 | [Why roosters scream at the sun every morning 🐓☀️](https://youtube.com/shorts/-QoM6Fu03uM) |
+| 517 | 8 | 1 | — | — | — | 2026-11-19-crow-gifts | liam | stack | 2026-11-19 07:08 | [Why crows bring you gifts 🐦🥜](https://youtube.com/shorts/JzXCaLTv51o) |
 | 425 | 5 | 0 | 61% | 21s | 0 | 2026-10-28-last-pancake | liam | plinko | 2026-10-28 02:48 | [He relived the same Monday 41 times. The fix? 🥞⏰](https://youtube.com/shorts/DrDSaMhPCgU) |
 | 424 | 7 | 1 | 36% | 13s | 2 | 2026-11-07-tiny-rocket | george | obby | 2026-11-07 02:40 | [The tiny rocket was picked last on Diwali 🚀🪔](https://youtube.com/shorts/nwko6DfjkUY) |
 | 320 | 4 | 0 | 38% | 17s | 0 | 2026-10-25-vending-machine-knows | brian | breakout | 2026-10-25 06:49 | [The vending machine never gives what he picks 🥤😨](https://youtube.com/shorts/XHeV9VH5Tzs) |
