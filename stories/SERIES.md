@@ -46,6 +46,7 @@ From `2026-10-27-spider-prank` (1,266 views, 61% watched, 19 likes).
   - Part 16 — `2026-11-13-invisible-ben`: Ben puts on a sheet and says he is invisible; Mia plays along for five hours (poke, sits on him, no dinner plate, 'hungry ghost'), then hands him an empty plate: invisible food.
   - Part 17 — `2026-11-17-teleporter-box`: Ben shoves Mia into a cardboard teleporter; she sneaks out the back and eats his birthday cake while he panics minutes 1-5 (knock, empty box, search, tells Mom 'Mia is on Mars').
   - Part 18 — `2026-11-18-ice-cream-truck`: Ben says the truck's music means sold out and sneaks out for cones 1-5 (Mon-Fri); Mia tells Mom, who waits at the truck Friday, so Ben pays for Mia's five cones.
+  - Part 19 — `2026-11-19-hidden-controller`: Ben hides Mia's game controller in the fridge, fish tank, flowerpot and mailbox (Mon-Thu); Mia finds each, then Saturday sends Ben on a map through all four stops looking for his own controller, which she holds.
 
 ## Turbo the snail
 
