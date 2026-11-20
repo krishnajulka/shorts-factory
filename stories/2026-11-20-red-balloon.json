@@ -1,0 +1,117 @@
+{
+  "id": "2026-11-20-red-balloon",
+  "title": "Red Balloon",
+  "youtube": {
+    "title": "Every day, a red balloon floated closer to her 🎈😨",
+    "description": "Monday: the park. Friday: her window. What does the balloon want? #shorts #story #funny",
+    "tags": ["shorts", "story", "creepy", "funny", "balloon", "animation"]
+  },
+  "logline": "A red balloon floats one place closer to Nia every day from Monday to Friday, until it taps her window; it is her late birthday balloon from Grandma, and a cake is coming next.",
+  "comment": "Would you open the window on Friday? 👇",
+  "hook": "WHY IS IT CLOSER? 🎈",
+  "narrator": "brian",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["balloon", "closer", "monday", "tuesday", "wednesday", "thursday", "friday", "window", "grandma", "cake", "birthday", "wind"],
+  "bottom": "dominoes",
+  "cast": {
+    "nia": { "species": "bean", "color": "#ff6b9d", "name": "Nia" },
+    "balloon": { "emoji": "🎈" },
+    "tag": { "emoji": "🏷️" },
+    "cake": { "emoji": "🎂" },
+    "window": { "emoji": "🪟" }
+  },
+  "scenes": [
+    {
+      "id": "a",
+      "text": "Every day, a red balloon floated closer to Nia.",
+      "setting": "city", "light": "dusk", "focus": "nia",
+      "effects": ["vignette", "shake"], "sfx": "vineBoom",
+      "actors": [
+        { "who": "nia", "x": 340, "size": 1.5, "mood": "shock", "face": "right", "action": "shake", "at": "closer" },
+        { "who": "balloon", "x": 700, "size": 1.3, "lift": 200, "face": "left", "action": "float" }
+      ],
+      "stickers": [{ "word": "balloon", "emoji": "🎈" }, { "word": "closer", "emoji": "😨" }]
+    },
+    {
+      "id": "mon",
+      "text": "Monday, it hovered over the park. Nia waved. It did not wave back.",
+      "setting": "city", "light": "dusk", "focus": "nia",
+      "effects": ["vignette"],
+      "actors": [
+        { "who": "nia", "x": 300, "size": 1.3, "mood": "happy", "face": "right", "action": "jump", "at": "waved" },
+        { "who": "balloon", "x": 900, "size": 1.0, "lift": 320, "face": "left", "action": "float" }
+      ],
+      "stickers": [{ "word": "Monday", "emoji": "1️⃣" }, { "word": "park", "emoji": "🌳" }]
+    },
+    {
+      "id": "tue",
+      "text": "Tuesday, the school roof. Wednesday, the neighbor's fence.",
+      "setting": "city", "light": "dusk", "focus": "balloon",
+      "effects": ["vignette", "speed"], "sfx": "loadingLag",
+      "actors": [
+        { "who": "nia", "x": 260, "size": 1.3, "mood": "shock", "face": "right" },
+        { "who": "balloon", "x": 1000, "toX": 700, "size": 1.2, "lift": 260, "face": "left", "action": "float" }
+      ],
+      "stickers": [{ "word": "Tuesday", "emoji": "2️⃣" }, { "word": "Wednesday", "emoji": "3️⃣" }]
+    },
+    {
+      "id": "thu",
+      "text": "Thursday, it hung above her yard. Nia shut every curtain.",
+      "setting": "room", "light": "danger", "focus": "nia",
+      "effects": ["shake", "vignette"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "nia", "x": 260, "size": 1.3, "mood": "shock", "face": "right", "action": "shake", "at": "shut" },
+        { "who": "balloon", "x": 720, "size": 1.3, "lift": 240, "face": "left", "action": "float" }
+      ],
+      "stickers": [{ "word": "Thursday", "emoji": "4️⃣" }, { "word": "curtain", "emoji": "😰" }]
+    },
+    {
+      "id": "fri",
+      "text": "Friday, it tapped her window. Tap. Tap. Tap.",
+      "setting": "room", "light": "danger", "focus": "nia",
+      "effects": ["vignette", "shake"], "sfx": "recordScratch",
+      "actors": [
+        { "who": "nia", "x": 300, "size": 1.5, "mood": "shock", "face": "right" },
+        { "who": "balloon", "x": 760, "size": 1.4, "lift": 220, "face": "left", "action": "shake", "at": "Tap" },
+        { "who": "window", "x": 900, "size": 1.6, "face": "left" }
+      ],
+      "stickers": [{ "word": "Friday", "emoji": "5️⃣" }, { "word": "tapped", "emoji": "😱" }]
+    },
+    {
+      "id": "open",
+      "text": "Nia opened the window. A little tag hung from its string.",
+      "setting": "room", "light": "night", "focus": "tag",
+      "effects": ["vignette"],
+      "actors": [
+        { "who": "nia", "x": 280, "size": 1.3, "mood": "shock", "face": "right" },
+        { "who": "balloon", "x": 760, "size": 1.2, "lift": 260, "face": "left", "action": "float" },
+        { "who": "tag", "x": 760, "size": 1.0, "lift": 40, "face": "left", "action": "shake", "at": "tag" }
+      ],
+      "stickers": [{ "word": "opened", "emoji": "🪟" }, { "word": "tag", "emoji": "🏷️" }]
+    },
+    {
+      "id": "tagread",
+      "text": "Happy birthday, Nia! Love, Grandma. Sorry, the wind is slow.",
+      "setting": "room", "light": "gold", "focus": "nia",
+      "effects": ["rays", "confetti"], "sfx": "yippee",
+      "actors": [
+        { "who": "nia", "x": 340, "size": 1.5, "mood": "happy", "face": "right", "action": "jump" },
+        { "who": "balloon", "x": 780, "size": 1.3, "lift": 260, "mood": "happy", "face": "left", "action": "float" }
+      ],
+      "stickers": [{ "word": "birthday", "emoji": "🎂" }, { "word": "Grandma", "emoji": "👵" }]
+    },
+    {
+      "id": "end",
+      "text": "Saturday, a second balloon floated closer. Carrying a cake.",
+      "setting": "city", "light": "dusk", "focus": "nia",
+      "effects": ["vignette"], "sfx": "vineBoom",
+      "actors": [
+        { "who": "nia", "x": 200, "size": 1.2, "mood": "shock", "face": "right" },
+        { "who": "balloon", "x": 560, "size": 1.1, "lift": 200, "face": "left", "action": "float" },
+        { "who": "cake", "x": 560, "size": 1.0, "lift": 90, "face": "left", "action": "float" }
+      ],
+      "stickers": [{ "word": "Saturday", "emoji": "6️⃣" }, { "word": "cake", "emoji": "🎂" }]
+    }
+  ]
+}
