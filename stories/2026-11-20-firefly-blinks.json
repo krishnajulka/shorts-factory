@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-20-firefly-blinks",
+  "title": "Five Blinks Left",
+  "youtube": {
+    "title": "A firefly had 5 blinks of light left ✨🐢",
+    "description": "Flick had five blinks left. A lost baby turtle needed every one. #shorts #story #wholesome #bittersweet",
+    "tags": ["shorts", "story", "bittersweet", "firefly", "turtle", "animation"]
+  },
+  "logline": "A firefly with only five blinks of light left uses each one to guide a lost baby turtle to the sea; when his light goes out, the whole sea glows to thank him.",
+  "comment": "Would you spend your last blink on the turtle? 👇",
+  "hook": "FIVE BLINKS LEFT ✨",
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 1,
+  "keywords": ["firefly", "blinks", "turtle", "sea", "light", "crab", "rock", "waves", "glow", "follow"],
+  "bottom": "obby",
+  "cast": {
+    "flick": { "emoji": "🪲", "name": "Flick" },
+    "turtle": { "emoji": "🐢" },
+    "crab": { "emoji": "🦀" },
+    "rock": { "emoji": "🪨" },
+    "waves": { "emoji": "🌊" },
+    "glow": { "emoji": "✨" }
+  },
+  "scenes": [
+    {
+      "id": "five", "text": "A firefly had five blinks left. His name was Flick.",
+      "setting": "beach", "light": "night", "focus": "flick", "effects": ["vignette"], "sfx": "vineBoom", "flash": "five",
+      "actors": [{ "who": "flick", "x": 540, "size": 1.9, "lift": 200, "action": "float" }],
+      "stickers": [{ "word": "five", "emoji": "5️⃣" }, { "word": "blinks", "emoji": "✨" }]
+    },
+    {
+      "id": "lost", "text": "Then he heard crying. A baby turtle, lost, far from the sea.",
+      "setting": "beach", "light": "night", "focus": "turtle", "effects": ["vignette"],
+      "actors": [
+        { "who": "turtle", "x": 700, "size": 1.3, "mood": "sad", "action": "shake", "at": "crying" },
+        { "who": "flick", "x": 260, "size": 1.0, "lift": 220, "action": "float" }
+      ],
+      "stickers": [{ "word": "crying", "emoji": "😢" }, { "word": "sea", "emoji": "🌊" }]
+    },
+    {
+      "id": "b1", "text": "Blink one. The light showed a path across the dark sand.",
+      "setting": "beach", "light": "night", "focus": "turtle", "effects": ["rays"],
+      "actors": [
+        { "who": "flick", "x": 360, "toX": 560, "size": 1.0, "lift": 240, "action": "float" },
+        { "who": "turtle", "x": 200, "toX": 520, "size": 1.2, "action": "run", "face": "left" }
+      ],
+      "flash": "one",
+      "stickers": [{ "word": "one", "emoji": "1️⃣" }, { "word": "path", "emoji": "👣" }]
+    },
+    {
+      "id": "b2", "text": "Blink two. A crab blocked the way. They walked around him.",
+      "setting": "beach", "light": "night", "focus": "turtle", "effects": ["rays"],
+      "actors": [
+        { "who": "crab", "x": 600, "size": 1.3, "mood": "angry", "action": "shake" },
+        { "who": "turtle", "x": 200, "toX": 420, "size": 1.1, "face": "left", "action": "run" },
+        { "who": "flick", "x": 300, "size": 0.9, "lift": 260, "action": "float" }
+      ],
+      "flash": "two",
+      "stickers": [{ "word": "two", "emoji": "2️⃣" }, { "word": "crab", "emoji": "🦀" }]
+    },
+    {
+      "id": "b3", "text": "Blink three. A huge rock. They climbed right over it.",
+      "setting": "beach", "light": "night", "focus": "turtle", "effects": ["rays"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "rock", "x": 560, "size": 2.0 },
+        { "who": "turtle", "x": 300, "size": 1.1, "face": "left", "lift": 150, "action": "jump" },
+        { "who": "flick", "x": 760, "size": 0.9, "lift": 360, "action": "float" }
+      ],
+      "flash": "three",
+      "stickers": [{ "word": "three", "emoji": "3️⃣" }, { "word": "rock", "emoji": "🪨" }]
+    },
+    {
+      "id": "b4", "text": "Blink four. Waves! The sea was close. But Flick's light was fading.",
+      "setting": "beach", "light": "dusk", "focus": "turtle", "effects": ["rays", "vignette"],
+      "actors": [
+        { "who": "waves", "x": 800, "size": 1.8 },
+        { "who": "turtle", "x": 250, "toX": 560, "size": 1.1, "face": "left", "action": "run" },
+        { "who": "flick", "x": 400, "size": 0.7, "lift": 280, "mood": "sad", "action": "float" }
+      ],
+      "flash": "four",
+      "stickers": [{ "word": "four", "emoji": "4️⃣" }, { "word": "fading", "emoji": "🪫" }]
+    },
+    {
+      "id": "b5", "text": "Blink five. The turtle swam away, safe. Flick's light went out.",
+      "setting": "beach", "light": "night", "focus": "flick", "effects": ["vignette"], "sfx": "dramaticBoomer",
+      "actors": [
+        { "who": "turtle", "x": 780, "toX": 1000, "size": 1.0, "face": "left", "action": "run" },
+        { "who": "flick", "x": 300, "size": 0.8, "lift": 120, "mood": "happy", "action": "exit", "at": "out" }
+      ],
+      "flash": "five",
+      "stickers": [{ "word": "safe", "emoji": "💛" }, { "word": "out", "emoji": "🌑" }]
+    },
+    {
+      "id": "glow", "text": "Then the whole sea began to glow, to say thank you.",
+      "setting": "beach", "light": "gold", "focus": "glow", "effects": ["rays", "confetti"], "sfx": "yippee",
+      "burst": { "at": "glow", "emoji": "✨" },
+      "actors": [
+        { "who": "flick", "x": 300, "size": 1.2, "lift": 120, "mood": "happy", "action": "float" },
+        { "who": "waves", "x": 760, "size": 1.8 }
+      ],
+      "stickers": [{ "word": "glow", "emoji": "✨" }, { "word": "thank", "emoji": "🙏" }]
+    },
+    {
+      "id": "loop", "text": "Follow, because somewhere, a firefly has five blinks left.",
+      "setting": "beach", "light": "night", "focus": "flick", "effects": ["vignette"],
+      "actors": [{ "who": "flick", "x": 540, "size": 1.7, "lift": 200, "action": "enter" }],
+      "stickers": [{ "word": "follow", "emoji": "👉" }, { "word": "five", "emoji": "5️⃣" }]
+    }
+  ]
+}
