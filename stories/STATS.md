@@ -1,6 +1,6 @@
 # Channel stats
 
-Updated 2026-11-20 02:44 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 54 · total channel views: 52784 · videos: 78.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
+Updated 2026-11-20 06:46 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 54 · total channel views: 52784 · videos: 79.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
 
 Sorted by views. "avg watched" is the average share of the Short people watched (YouTube Analytics; lags 1-2 days, "—" = not ready yet).
 
@@ -21,11 +21,11 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 1126 | 7 | 0 | 40% | 19s | 1 | 2026-10-30-scarecrow-nest | jessica | stack | 2026-10-30 06:59 | [The scarecrow had ONE job: scare crows 🐦🌾](https://youtube.com/shorts/N3qaQVc2pw8) |
 | 1086 | 7 | 1 | 64% | 18s | 3 | 2026-11-03-alarm-clock | jessica | obby | 2026-11-03 06:51 | [Ben hid an alarm under his sister's bed ⏰😈 (Part 4)](https://youtube.com/shorts/C_H54ZFi5U4) |
 | 1068 | 14 | 0 | 78% | 25s | 3 | 2026-10-29-snail-race | liam | race | 2026-10-29 02:49 | [A snail challenged a cheetah to a race. He won. 🐌🏁](https://youtube.com/shorts/bF4ibGemgHw) |
-| 1044 | 9 | 1 | 76% | 24s | 1 | 2026-11-17-teleporter-box | jessica | obby | 2026-11-17 16:08 | [Ben built a fake TELEPORTER for Mia 📦😈 (Part 17)](https://youtube.com/shorts/NXevdpa6AgQ) |
+| 1038 | 9 | 1 | 76% | 24s | 1 | 2026-11-17-teleporter-box | jessica | obby | 2026-11-17 16:08 | [Ben built a fake TELEPORTER for Mia 📦😈 (Part 17)](https://youtube.com/shorts/NXevdpa6AgQ) |
 | 1036 | 9 | 1 | 42% | 15s | 1 | 2026-11-05-nine-lives | george | stack | 2026-11-05 02:53 | [A cat had 9 lives. A red dot wanted all of them 🐱🔴](https://youtube.com/shorts/PkzwUHKpmjY) |
+| 1035 | 3 | 1 | — | — | — | 2026-11-19-hidden-controller | jessica | dominoes | 2026-11-19 02:51 | [Ben hid Mia's game controller every day 🎮😈 (Part 19)](https://youtube.com/shorts/oxFyOKi5f-I) |
 | 1033 | 11 | 2 | 57% | 19s | 1 | 2026-11-02-moon-mouse | george | stack | 2026-11-02 02:55 | [Every night, the moon gets smaller. Here's why 🌙🐭](https://youtube.com/shorts/iqEKdZh334o) |
 | 1028 | 10 | 1 | 66% | 18s | 0 | 2026-11-02-toll-booth | jessica | obby | 2026-11-02 06:52 | [Ben charged his sister a toll to walk 🪙😈 (Part 3)](https://youtube.com/shorts/jUo7wREt27g) |
-| 1027 | 3 | 1 | — | — | — | 2026-11-19-hidden-controller | jessica | dominoes | 2026-11-19 02:51 | [Ben hid Mia's game controller every day 🎮😈 (Part 19)](https://youtube.com/shorts/oxFyOKi5f-I) |
 | 1027 | 11 | 1 | 63% | 21s | 3 | 2026-11-04-puppy-chores | george | stack | 2026-11-04 02:51 | [He did 5 days of chores to earn a puppy 🐶🧹](https://youtube.com/shorts/92dmzQBv6Ok) |
 | 1025 | 4 | 1 | 69% | 22s | 0 | 2026-11-03-rabbit-tower | liam | dominoes | 2026-11-03 00:52 | [A snail raced a rabbit up 100 floors 🐌🐇 (Part 3)](https://youtube.com/shorts/xzKwdmUnI0o) |
 | 1021 | 12 | 1 | 60% | 22s | 2 | 2026-11-13-late-reflection | brian | stack | 2026-11-13 10:55 | [Her reflection was 1 second LATE 🪞😨](https://youtube.com/shorts/5rjjfuVAqA8) |
@@ -34,10 +34,10 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 997 | 8 | 1 | 181% | 52s | 0 | 2026-11-18-goldfish-memory | liam | dominoes | 2026-11-18 06:43 | [Why goldfish seem to forget everything 🐠🍕](https://youtube.com/shorts/tYUVeiBAUQ4) |
 | 982 | 8 | 1 | — | — | — | 2026-11-18-creeping-plant | callum | obby | 2026-11-18 10:49 | [Every night, his plant crept closer to his bed 🪴😨](https://youtube.com/shorts/ldyE2aNLwZQ) |
 | 982 | 5 | 1 | 39% | 15s | 0 | 2026-11-09-sandcastle-tide | george | obby | 2026-11-09 02:54 | [Five towers. Five waves. Grandpa was late 🏰🌊](https://youtube.com/shorts/oDZSCWKz5pU) |
+| 978 | 11 | 1 | — | — | — | 2026-11-19-crow-gifts | liam | stack | 2026-11-19 07:08 | [Why crows bring you gifts 🐦🥜](https://youtube.com/shorts/JzXCaLTv51o) |
 | 975 | 5 | 0 | 33% | 20s | 0 | 2026-10-25-lighthouse-looked-away | george | wheel | 2026-10-24 18:46 | [The lighthouse that turned AWAY from the sea 🗼🌊](https://youtube.com/shorts/sRxTZhzLgsc) |
 | 970 | 9 | 1 | 62% | 18s | 1 | 2026-11-12-floor-lava | jessica | stack | 2026-11-12 10:50 | [Ben yelled 'the floor is LAVA' at Mia 🌋😈 (Part 15)](https://youtube.com/shorts/sl2b1lT6Guo) |
 | 967 | 4 | 1 | 65% | 20s | 1 | 2026-11-05-simon-says | jessica | obby | 2026-11-05 06:53 | [Ben played Simon Says with his sister 🗣️😈 (Part 6)](https://youtube.com/shorts/WDcg9ZzixkQ) |
-| 960 | 11 | 1 | — | — | — | 2026-11-19-crow-gifts | liam | stack | 2026-11-19 07:08 | [Why crows bring you gifts 🐦🥜](https://youtube.com/shorts/JzXCaLTv51o) |
 | 960 | 10 | 1 | 45% | 14s | 2 | 2026-11-08-toys-closer | callum | dominoes | 2026-11-08 06:52 | [Every night, Jo's toys crept closer to his bed 🧸😨](https://youtube.com/shorts/J8pZft59oas) |
 | 954 | 2 | 1 | 81% | 21s | 1 | 2026-11-04-beach-hole | jessica | soap | 2026-11-04 06:53 | [Ben dug a trap for his sister at the beach 🕳️😈 (Part 5)](https://youtube.com/shorts/V2z6QgjoYTc) |
 | 952 | 10 | 2 | 66% | 17s | 2 | 2026-11-08-diwali-lamps | jessica | obby | 2026-11-08 02:51 | [Ben blew out Mia's Diwali lamps 🪔😈 (Part 8)](https://youtube.com/shorts/mASfWXVvgsQ) |
@@ -45,7 +45,7 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 940 | 5 | 1 | 74% | 24s | 1 | 2026-11-13-invisible-ben | jessica | dominoes | 2026-11-13 06:51 | [Ben said he was INVISIBLE. Mia believed him 👻😈 (Part 16)](https://youtube.com/shorts/0gxyVwhNVY8) |
 | 933 | 14 | 1 | 64% | 19s | 1 | 2026-11-07-wet-paint | jessica | dominoes | 2026-11-07 06:52 | [Ben put a fake WET PAINT sign on the sofa 🎨😈 (Part 7)](https://youtube.com/shorts/9077upeWUno) |
 | 933 | 9 | 0 | 45% | 24s | 3 | duck-doorstep | brian | spiral | 2026-10-24 17:20 | [Someone left a duck on her doorstep for 400 days 🦆](https://youtube.com/shorts/ssowpmlm8cA) |
-| 927 | 6 | 1 | 42% | 14s | 0 | 2026-11-18-ice-cream-truck | jessica | stack | 2026-11-18 06:52 | [Ben said the ice cream truck was SOLD OUT 🍦😈 (Part 18)](https://youtube.com/shorts/Z_dp6zw-eQU) |
+| 932 | 6 | 1 | 42% | 14s | 0 | 2026-11-18-ice-cream-truck | jessica | stack | 2026-11-18 06:52 | [Ben said the ice cream truck was SOLD OUT 🍦😈 (Part 18)](https://youtube.com/shorts/Z_dp6zw-eQU) |
 | 923 | 13 | 0 | 49% | 18s | 2 | 2026-10-28-elevator-buttons | callum | spiral | 2026-10-28 10:51 | [His elevator grows ONE new button every night 🛗😨](https://youtube.com/shorts/oblZwk-IGWU) |
 | 918 | 3 | 1 | 52% | 16s | 0 | 2026-11-09-radio-ghost | jessica | dominoes | 2026-11-09 06:51 | [Ben whispered 'ghost' messages to scare Mia 👻📻 (Part 10)](https://youtube.com/shorts/HX9I560YYto) |
 | 913 | 6 | 1 | 68% | 21s | 1 | 2026-11-08-fort-rules | jessica | stack | 2026-11-08 10:55 | [Ben built a fort with 5 rules against Mia 🏰😈 (Part 9)](https://youtube.com/shorts/LnR4adlaLZI) |
@@ -62,6 +62,7 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 320 | 4 | 0 | 38% | 17s | 0 | 2026-10-25-vending-machine-knows | brian | breakout | 2026-10-25 06:49 | [The vending machine never gives what he picks 🥤😨](https://youtube.com/shorts/XHeV9VH5Tzs) |
 | 267 | 6 | 0 | 59% | 22s | 1 | 2026-10-31-forgot-acorns | jessica | stack | 2026-10-31 02:53 | [He buried 100 acorns. Then forgot where. 🐿️🌳](https://youtube.com/shorts/8a86eiZrPHo) |
 | 235 | 2 | 0 | 46% | 21s | 0 | 2026-10-25-last-moth | liam | race | 2026-10-25 02:43 | [10,000 moths raced to one light. He came last. 🦋💡](https://youtube.com/shorts/aMExlWBjoUA) |
+| 204 | 0 | 1 | — | — | — | 2026-11-20-red-balloon | brian | dominoes | 2026-11-20 02:51 | [Every day, a red balloon floated closer to her 🎈😨](https://youtube.com/shorts/yW6QTGw185k) |
 | 51 | 1 | 1 | 52% | 19s | 0 | 2026-11-10-paper-boat | george | dominoes | 2026-11-10 06:53 | [A paper boat had one day to reach the sea ⛵🌊](https://youtube.com/shorts/_zoGbI-c6qk) |
 | 25 | 0 | 1 | 52% | 16s | 0 | 2026-11-03-gray-crayon | brian | soap | 2026-11-03 10:52 | [Nobody ever picked the gray crayon 🖍️⛈️](https://youtube.com/shorts/CCd6q3OmWec) |
 | 23 | 0 | 0 | 80% | 28s | 0 | 2026-10-26-grandma-chair | jessica | wheel | 2026-10-26 14:49 | [Grandma has NEVER lost hide and seek 👵🙈](https://youtube.com/shorts/KBAvLz8TtYQ) |

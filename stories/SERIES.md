@@ -48,6 +48,7 @@ From `2026-10-27-spider-prank` (1,266 views, 61% watched, 19 likes).
   - Part 18 — `2026-11-18-ice-cream-truck`: Ben says the truck's music means sold out and sneaks out for cones 1-5 (Mon-Fri); Mia tells Mom, who waits at the truck Friday, so Ben pays for Mia's five cones.
   - Part 19 — `2026-11-19-hidden-controller`: Ben hides Mia's game controller in the fridge, fish tank, flowerpot and mailbox (Mon-Thu); Mia finds each, then Saturday sends Ben on a map through all four stops looking for his own controller, which she holds.
   - Part 20 — `2026-11-19-coin-flip`: Ben flips a coin (heads I win, tails you lose) and wins Mia's chores Mon-Thu (dishes, trash, socks, bed); Thursday she borrows the coin, Friday it has two tails and Ben does five chores.
+  - Part 21 — `2026-11-20-fast-clock`: Ben sets Mia's clock one hour faster Mon-Thu so she goes to bed early and he watches TV; Friday she sets his clock five hours fast, so at two in the morning he waits at the locked school gate with an owl.
 
 ## Turbo the snail
 
