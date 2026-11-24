@@ -1,0 +1,524 @@
+{
+  "id": "2026-11-24-bridge-break",
+  "title": "Bridge Break",
+  "youtube": {
+    "title": "74 soldiers broke a bridge without firing a shot 🌉💥",
+    "description": "In 1831, 74 soldiers marched across a bridge in England... and it collapsed. Here's why soldiers still break step on bridges today. #shorts #history #science #story",
+    "tags": [
+      "shorts",
+      "history",
+      "science",
+      "true story",
+      "animation",
+      "facts"
+    ]
+  },
+  "logline": "In 1831, 74 soldiers march in step across a bridge; it starts to bounce, they stomp harder for fun, and it collapses — because marching in sync pushes a bridge like a swing, which is why soldiers still break step on bridges.",
+  "comment": "Would you have stomped too? Be honest 😂",
+  "hook": "74 SOLDIERS BROKE A BRIDGE 🌉",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 0,
+  "music": "tense",
+  "bottom": "parkour",
+  "keywords": [
+    "bridge",
+    "soldiers",
+    "swing",
+    "crack",
+    "river"
+  ],
+  "cast": {
+    "soldier": {
+      "species": "bean",
+      "color": "#2e7d32",
+      "name": "Soldier"
+    },
+    "kid": {
+      "species": "bean",
+      "color": "#ff9f1c",
+      "name": "Kid"
+    },
+    "friend": {
+      "species": "bean",
+      "color": "#4dabf7",
+      "name": "Friend"
+    }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Seventy-four soldiers destroyed a bridge without firing a shot.",
+      "setting": "bridge",
+      "light": "day",
+      "focus": "soldier",
+      "actors": [
+        {
+          "who": "soldier",
+          "x": 250,
+          "toX": 360,
+          "mood": "smug",
+          "hat": "🪖"
+        },
+        {
+          "who": "soldier",
+          "x": 420,
+          "toX": 530,
+          "mood": "smug",
+          "hat": "🪖"
+        },
+        {
+          "who": "soldier",
+          "x": 590,
+          "toX": 700,
+          "mood": "smug",
+          "hat": "🪖"
+        },
+        {
+          "who": "soldier",
+          "x": 760,
+          "toX": 870,
+          "mood": "smug",
+          "hat": "🪖"
+        }
+      ]
+    },
+    {
+      "id": "march",
+      "text": "England, 1831. They marched home four side by side, every boot hitting the bridge at the exact same moment.",
+      "setting": "bridge",
+      "light": "dusk",
+      "focus": "soldier",
+      "actors": [
+        {
+          "who": "soldier",
+          "x": 250,
+          "toX": 360,
+          "mood": "happy",
+          "hat": "🪖"
+        },
+        {
+          "who": "soldier",
+          "x": 420,
+          "toX": 530,
+          "mood": "happy",
+          "hat": "🪖"
+        },
+        {
+          "who": "soldier",
+          "x": 590,
+          "toX": 700,
+          "mood": "happy",
+          "hat": "🪖"
+        },
+        {
+          "who": "soldier",
+          "x": 760,
+          "toX": 870,
+          "mood": "happy",
+          "hat": "🪖"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "boot",
+          "emoji": "🥾"
+        }
+      ]
+    },
+    {
+      "id": "bounce",
+      "text": "Left. Left. Left. Halfway across, the bridge started to bounce, and the soldiers thought it was hilarious.",
+      "setting": "bridge",
+      "light": "dusk",
+      "focus": "soldier",
+      "effects": [
+        "bounce"
+      ],
+      "actors": [
+        {
+          "who": "soldier",
+          "x": 250,
+          "toX": 360,
+          "mood": "happy",
+          "hat": "🪖",
+          "changes": [
+            {
+              "at": "hilarious",
+              "mood": "smug"
+            }
+          ]
+        },
+        {
+          "who": "soldier",
+          "x": 420,
+          "toX": 530,
+          "mood": "happy",
+          "hat": "🪖",
+          "changes": [
+            {
+              "at": "hilarious",
+              "mood": "smug"
+            }
+          ]
+        },
+        {
+          "who": "soldier",
+          "x": 590,
+          "toX": 700,
+          "mood": "happy",
+          "hat": "🪖",
+          "changes": [
+            {
+              "at": "hilarious",
+              "mood": "smug"
+            }
+          ]
+        },
+        {
+          "who": "soldier",
+          "x": 760,
+          "toX": 870,
+          "mood": "happy",
+          "hat": "🪖",
+          "changes": [
+            {
+              "at": "hilarious",
+              "mood": "smug"
+            }
+          ]
+        }
+      ],
+      "stickers": [
+        {
+          "word": "hilarious",
+          "emoji": "😂"
+        }
+      ]
+    },
+    {
+      "id": "stomp",
+      "text": "So they whistled a marching song and stomped in time with it, just to make it bounce more.",
+      "setting": "bridge",
+      "light": "dusk",
+      "focus": "soldier",
+      "effects": [
+        "bounce"
+      ],
+      "actors": [
+        {
+          "who": "soldier",
+          "x": 250,
+          "toX": 360,
+          "mood": "smug",
+          "hat": "🪖",
+          "action": "jump",
+          "at": "stomped"
+        },
+        {
+          "who": "soldier",
+          "x": 420,
+          "toX": 530,
+          "mood": "smug",
+          "hat": "🪖",
+          "action": "jump",
+          "at": "stomped"
+        },
+        {
+          "who": "soldier",
+          "x": 590,
+          "toX": 700,
+          "mood": "smug",
+          "hat": "🪖",
+          "action": "jump",
+          "at": "stomped"
+        },
+        {
+          "who": "soldier",
+          "x": 760,
+          "toX": 870,
+          "mood": "smug",
+          "hat": "🪖",
+          "action": "jump",
+          "at": "stomped"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "whistled",
+          "emoji": "🎵"
+        }
+      ]
+    },
+    {
+      "id": "crack",
+      "text": "It worked. Higher with every step. Then came a crack, like gunshots,",
+      "setting": "bridge",
+      "light": "danger",
+      "focus": "soldier",
+      "effects": [
+        "bounce",
+        "shake"
+      ],
+      "flash": "crack",
+      "actors": [
+        {
+          "who": "soldier",
+          "x": 250,
+          "toX": 360,
+          "mood": "happy",
+          "hat": "🪖",
+          "changes": [
+            {
+              "at": "crack",
+              "mood": "shock"
+            }
+          ]
+        },
+        {
+          "who": "soldier",
+          "x": 420,
+          "toX": 530,
+          "mood": "happy",
+          "hat": "🪖",
+          "changes": [
+            {
+              "at": "crack",
+              "mood": "shock"
+            }
+          ]
+        },
+        {
+          "who": "soldier",
+          "x": 590,
+          "toX": 700,
+          "mood": "happy",
+          "hat": "🪖",
+          "changes": [
+            {
+              "at": "crack",
+              "mood": "shock"
+            }
+          ]
+        },
+        {
+          "who": "soldier",
+          "x": 760,
+          "toX": 870,
+          "mood": "happy",
+          "hat": "🪖",
+          "changes": [
+            {
+              "at": "crack",
+              "mood": "shock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drop",
+      "text": "and the whole corner of the bridge dropped into the river. Forty soldiers went in, boots first.",
+      "setting": "collapse",
+      "light": "danger",
+      "focus": "soldier",
+      "actors": [
+        {
+          "who": "soldier",
+          "x": 200,
+          "mood": "shock",
+          "hat": "🪖",
+          "action": "fall",
+          "at": "dropped"
+        },
+        {
+          "who": "soldier",
+          "x": 360,
+          "mood": "shock",
+          "hat": "🪖",
+          "action": "fall",
+          "at": "dropped",
+          "face": "left"
+        },
+        {
+          "who": "soldier",
+          "x": 700,
+          "mood": "shock",
+          "hat": "🪖",
+          "action": "shake"
+        },
+        {
+          "who": "soldier",
+          "x": 860,
+          "mood": "shock",
+          "hat": "🪖",
+          "face": "left"
+        }
+      ],
+      "burst": {
+        "at": "river",
+        "emoji": "💦"
+      }
+    },
+    {
+      "id": "swing",
+      "text": "You see, ever pushed a swing? You don't push hard. You push at the same moment, every time.",
+      "setting": "forest",
+      "light": "day",
+      "focus": "kid",
+      "actors": [
+        {
+          "who": "kid",
+          "x": 600,
+          "action": "swing",
+          "mood": "happy"
+        },
+        {
+          "who": "friend",
+          "x": 230,
+          "mood": "happy"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "moment",
+          "emoji": "⏱️"
+        }
+      ]
+    },
+    {
+      "id": "boots",
+      "text": "Seventy-four boots were pushing that bridge like a swing.",
+      "setting": "bridge",
+      "light": "danger",
+      "focus": "soldier",
+      "effects": [
+        "bounce"
+      ],
+      "actors": [
+        {
+          "who": "soldier",
+          "x": 250,
+          "toX": 360,
+          "mood": "smug",
+          "hat": "🪖",
+          "action": "jump",
+          "at": "pushing"
+        },
+        {
+          "who": "soldier",
+          "x": 420,
+          "toX": 530,
+          "mood": "smug",
+          "hat": "🪖",
+          "action": "jump",
+          "at": "pushing"
+        },
+        {
+          "who": "soldier",
+          "x": 590,
+          "toX": 700,
+          "mood": "smug",
+          "hat": "🪖",
+          "action": "jump",
+          "at": "pushing"
+        },
+        {
+          "who": "soldier",
+          "x": 760,
+          "toX": 870,
+          "mood": "smug",
+          "hat": "🪖",
+          "action": "jump",
+          "at": "pushing"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "swing",
+          "emoji": "🔁"
+        }
+      ]
+    },
+    {
+      "id": "rule",
+      "text": "Nobody died, but the army made a rule that's still used today: on a bridge, soldiers break step.",
+      "setting": "bridge",
+      "light": "gold",
+      "focus": "soldier",
+      "actors": [
+        {
+          "who": "soldier",
+          "x": 250,
+          "toX": 360,
+          "mood": "happy",
+          "hat": "🪖"
+        },
+        {
+          "who": "soldier",
+          "x": 420,
+          "toX": 530,
+          "mood": "happy",
+          "hat": "🪖"
+        },
+        {
+          "who": "soldier",
+          "x": 590,
+          "toX": 700,
+          "mood": "happy",
+          "hat": "🪖"
+        },
+        {
+          "who": "soldier",
+          "x": 760,
+          "toX": 870,
+          "mood": "happy",
+          "hat": "🪖"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "rule",
+          "emoji": "📜"
+        }
+      ]
+    },
+    {
+      "id": "loop",
+      "text": "Because seventy-four soldiers once destroyed a bridge without firing a shot.",
+      "setting": "bridge",
+      "light": "day",
+      "focus": "soldier",
+      "actors": [
+        {
+          "who": "soldier",
+          "x": 250,
+          "toX": 360,
+          "mood": "smug",
+          "hat": "🪖"
+        },
+        {
+          "who": "soldier",
+          "x": 420,
+          "toX": 530,
+          "mood": "smug",
+          "hat": "🪖"
+        },
+        {
+          "who": "soldier",
+          "x": 590,
+          "toX": 700,
+          "mood": "smug",
+          "hat": "🪖"
+        },
+        {
+          "who": "soldier",
+          "x": 760,
+          "toX": 870,
+          "mood": "smug",
+          "hat": "🪖"
+        }
+      ]
+    }
+  ]
+}

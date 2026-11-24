@@ -3,7 +3,7 @@
 
 export type Mood = "happy" | "sad" | "angry" | "shock" | "smug";
 export type Species = "pigeon" | "cat" | "frog" | "bean";
-export type Setting = "city" | "forest" | "space" | "room" | "beach";
+export type Setting = "city" | "forest" | "space" | "room" | "beach" | "bridge" | "collapse";
 export type Light = "day" | "dusk" | "night" | "danger" | "gold";
 export type Action =
   | "idle"
@@ -16,8 +16,10 @@ export type Action =
   | "enter"
   | "exit"
   | "float"
-  | "faint";
-export type Effect = "rays" | "rain" | "speed" | "vignette" | "confetti" | "shake" | "snow";
+  | "faint"
+  | "fall" // drops off the ground (into water/a hole) on the cue word
+  | "swing"; // swings back and forth on ropes like a playground swing
+export type Effect = "rays" | "rain" | "speed" | "vignette" | "confetti" | "shake" | "snow" | "bounce";
 export type Sfx =
   | "vineBoom"
   | "recordScratch"
@@ -59,6 +61,7 @@ export type SceneSpec = {
   setting: Setting;
   light: Light;
   focus?: string; // cast key the camera's close-ups frame
+  speaker?: string; // cast key whose mouth moves with the narration (first-person stories); quoted words always move the focus actor's mouth
   actors: ActorSpec[];
   crowd?: { who: string; count: number; mood?: Mood; until?: string };
   effects?: Effect[];
@@ -82,8 +85,9 @@ export type StorySpec = {
   rate: number; // Windows fallback speed
   keywords: string[];
   // Bottom-half loop; omitted = picked from the story id.
-  bottom?: "soap" | "stack" | "dominoes" | "obby" | "rings" | "plinko" | "race" | "breakout" | "spiral" | "territory" | "wheel" | "corner";
+  bottom?: "parkour" | "growball" | "sandcut" | "jarfill" | "soap" | "stack" | "dominoes" | "obby" | "rings" | "plinko" | "race" | "breakout" | "spiral" | "territory" | "wheel" | "corner";
   racers?: string[]; // emoji for bottom "race" (2-5) or "wheel" (3-8)
+  music?: "playful" | "mystery" | "tense" | "none"; // background music bed; omitted = picked from the story id
   cast: Record<string, Character>;
   scenes: SceneSpec[];
 };

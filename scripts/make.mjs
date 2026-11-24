@@ -3,7 +3,7 @@
 // 1. validates the story  2. voiceover + caption alignment  3. renders the MP4,
 // preview stills and upload text into out/shorts/<id>/.
 import { execFileSync, spawnSync } from "node:child_process";
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { NARRATORS, elevenLabsKey } from "./voiceover-elevenlabs.mjs";
@@ -20,13 +20,13 @@ const run = (cmd, args) => execFileSync(cmd, args, { cwd: root, stdio: "inherit"
 const clean = (w) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
 
 const SPECIES = ["pigeon", "cat", "frog", "bean"];
-const SETTINGS = ["city", "forest", "space", "room", "beach"];
+const SETTINGS = ["city", "forest", "space", "room", "beach", "bridge", "collapse"];
 const LIGHTS = ["day", "dusk", "night", "danger", "gold"];
 const MOODS = ["happy", "sad", "angry", "shock", "smug"];
-const ACTIONS = ["idle", "run", "jump", "bow", "shake", "spin", "grow", "enter", "exit", "float", "faint"];
-const EFFECTS = ["rays", "rain", "speed", "vignette", "confetti", "shake", "snow"];
+const ACTIONS = ["idle", "run", "jump", "bow", "shake", "spin", "grow", "enter", "exit", "float", "faint", "fall", "swing"];
+const EFFECTS = ["rays", "rain", "speed", "vignette", "confetti", "shake", "snow", "bounce"];
 // New stories use the clean pastel loops (older neon ones still render for old stories).
-const BOTTOMS = ["stack", "dominoes", "obby"]; // "soap" paused 2026-11-06: 4 of its 6 Shorts got no reach (see LESSONS.md)
+const BOTTOMS = ["parkour", "growball", "sandcut", "jarfill"]; // parkour = default (gameplay look of viral split-screens); stack/dominoes/obby retired 2026-11-24 (overused)
 const SFX = ["vineBoom", "recordScratch", "animeWow", "yippee", "bruh", "omgHellNah", "dramaticBoomer", "illuminatiConfirmed", "wilhelmScream", "spongebobFail", "loadingLag", "ohMyGodVine"];
 
 // Returns a list of human-readable problems; empty means the story is valid.
@@ -38,6 +38,7 @@ const validate = (story) => {
   need(Array.isArray(story.keywords), "keywords must be an array");
   need(!story.narrator || NARRATORS[story.narrator], `narrator must be ${Object.keys(NARRATORS).join("|")}`);
   need(!story.bottom || BOTTOMS.includes(story.bottom), `bottom must be ${BOTTOMS.join("|")}`);
+  need(!story.music || ["playful", "mystery", "tense", "none"].includes(story.music), "music must be playful|mystery|tense|none");
   need(!story.racers || (Array.isArray(story.racers) && story.racers.length >= 2 && story.racers.length <= 8), "racers must be 2-8 emoji (race uses up to 5, wheel 3-8)");
   for (const [key, c] of Object.entries(story.cast ?? {})) {
     need(c.emoji || SPECIES.includes(c.species), `cast.${key}: needs "emoji" or species in ${SPECIES.join("|")}`);
@@ -54,7 +55,7 @@ const validate = (story) => {
   const firstLine = (story.scenes?.[0]?.text ?? "").split(/[.!?]/)[0].split(/\s+/).filter(Boolean).length;
   need(firstLine <= 10, `the first sentence of scene 1 must be 10 words or fewer (has ${firstLine}) — the hook has to land in under 2 seconds`);
   const totalWords = (story.scenes ?? []).reduce((n, s) => n + (s.text ?? "").split(/\s+/).filter(Boolean).length, 0);
-  need(totalWords <= 100, `narration is ${totalWords} words; keep it at 100 or fewer (about 25-35 seconds)`);
+  need(totalWords >= 120 && totalWords <= 165, `narration is ${totalWords} words; keep it 120-165 (about 45-60 seconds)`);
   const ids = new Set();
   for (const s of story.scenes ?? []) {
     const where = `scene "${s.id}"`;
@@ -79,6 +80,7 @@ const validate = (story) => {
       }
     }
     if (s.focus) castKey(s.focus, "focus");
+    if (s.speaker) castKey(s.speaker, "speaker");
     if (s.crowd) {
       castKey(s.crowd.who, "crowd.who");
       word(s.crowd.until, "crowd.until");
@@ -165,6 +167,17 @@ const yt = spec.youtube;
 writeFileSync(join(outDir, "upload.txt"), `${yt.title}\n\n${yt.description}\n\n${yt.tags.map((t) => `#${t.replace(/\s+/g, "")}`).join(" ")}\n`);
 
 if (!stillsOnly) {
-  run("npx", ["remotion", "render", "StoryShort", relative(root, join(outDir, `${spec.id}.mp4`)), propsArg, "--log=error"]);
+  const mp4 = relative(root, join(outDir, `${spec.id}.mp4`));
+  const raw = relative(root, join(outDir, `${spec.id}.raw.mp4`));
+  run("npx", ["remotion", "render", "StoryShort", raw, propsArg, "--log=error"]);
+  // Loudness to YouTube's reference (-14 LUFS) so the Short is never quieter
+  // than the ones around it in the feed. Video is copied untouched.
+  try {
+    run("npx", ["remotion", "ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", "192k", mp4]);
+    rmSync(join(root, raw));
+  } catch {
+    console.warn("⚠ Loudness step failed; keeping the unnormalized render");
+    renameSync(join(root, raw), join(root, mp4));
+  }
 }
 console.log(`✓ Done: ${relative(root, outDir)}`);

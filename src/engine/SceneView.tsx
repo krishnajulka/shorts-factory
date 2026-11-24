@@ -1,7 +1,7 @@
 import React from "react";
 import { Easing, interpolate, random, useCurrentFrame, useVideoConfig } from "remotion";
 import { CharacterView, Item, characterHeight } from "./characters";
-import { Backdrop, GROUND_Y, LIGHTS, STAGE_H, STAGE_W } from "./settings";
+import { Backdrop, GROUND_Y, LIGHTS, RIVER_Y, STAGE_H, STAGE_W, deckSag } from "./settings";
 import { ActorSpec, Character, Mood, RenderScene, TimedWord } from "./types";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
@@ -29,7 +29,41 @@ type ActorState = {
   hold: string | null;
   hat: string | null;
   step?: number;
+  squash: number;
 };
+
+// Mouth openness 0..1 at time t: syllable-ish flaps across the word being said.
+const talkAt = (words: TimedWord[], t: number, active?: (i: number) => boolean) => {
+  for (let i = words.length - 1; i >= 0; i--) {
+    if (words[i].start > t) continue;
+    if (active && !active(i)) return 0;
+    const dur = Math.min((words[i + 1]?.start ?? words[i].start + 0.4) - words[i].start, 0.45);
+    const since = t - words[i].start;
+    if (since > dur) return 0;
+    const syllables = Math.max(1, (cleanWord(words[i].word).match(/[aeiouy]+/g) ?? []).length);
+    return Math.abs(Math.sin((Math.PI * since * syllables) / dur));
+  }
+  return 0;
+};
+
+// Which words are inside quotation marks (dialogue).
+const quotedWords = (words: TimedWord[]) => {
+  let inside = false;
+  return words.map((w) => {
+    const opens = /^["“]/.test(w.word);
+    const closes = /["”][.,!?]*$/.test(w.word) && !(opens && w.word.length === 1);
+    const was = inside || opens;
+    if (opens) inside = true;
+    if (closes) inside = false;
+    return was;
+  });
+};
+
+// Springy jiggle that decays: used after landings and mood changes.
+const jiggle = (since: number, amount: number) => (since < 0 || since > 0.6 ? 0 : amount * Math.exp(-since * 7) * Math.cos(since * 28));
+
+const SWING_L = 380;
+const SWING_PIVOT_Y = FEET_Y - 520;
 
 const actorState = (spec: ActorSpec, character: Character, t: number, end: number, words: TimedWord[]): ActorState => {
   const c = cue(words, spec.at);
@@ -53,6 +87,11 @@ const actorState = (spec: ActorSpec, character: Character, t: number, end: numbe
   let s = spec.size ?? 1;
   let rot = Math.sin(t * 4 + spec.x) * 2;
   let step: number | undefined = moving ? t * 3.5 : undefined;
+  let squash = 0;
+  for (const ch of spec.changes ?? []) {
+    const at = cue(words, ch.at);
+    if (ch.mood && at !== null) squash += jiggle(t - at, 0.45);
+  }
   const dir = spec.face === "left" ? -1 : 1;
 
   switch (spec.action) {
@@ -62,6 +101,8 @@ const actorState = (spec: ActorSpec, character: Character, t: number, end: numbe
       break;
     case "jump":
       y -= c === null ? Math.abs(Math.sin(t * 5)) * 120 : interpolate(since, [0, 0.22, 0.5], [0, 170, 0], clamp);
+      // Crouch before take-off, stretch in the air, squash on landing.
+      if (c !== null) squash += since < 0 && since > -0.12 ? -0.5 : since >= 0 && since < 0.22 ? 0.55 * (1 - since / 0.22) : jiggle(since - 0.5, -0.7);
       break;
     case "bow":
       rot = interpolate(since, [0, 0.3], [0, 35], { ...clamp, easing: pop });
@@ -75,6 +116,7 @@ const actorState = (spec: ActorSpec, character: Character, t: number, end: numbe
       break;
     case "grow":
       s *= interpolate(since, [0, 0.3], [1, 1.6], { ...clamp, easing: pop });
+      squash += jiggle(since - 0.3, 0.35);
       break;
     case "enter": {
       const from = dir > 0 ? -300 : STAGE_W + 300;
@@ -90,8 +132,25 @@ const actorState = (spec: ActorSpec, character: Character, t: number, end: numbe
     case "float":
       y -= 60 + Math.sin(t * 3) * 30;
       break;
+    case "fall":
+      // Off the edge on the cue word: tip, then drop into whatever is below.
+      if (since > 0) {
+        y += interpolate(since, [0, 0.55], [0, 115], { ...clamp, easing: Easing.in(Easing.quad) });
+        rot = interpolate(since, [0, 0.55], [0, dir * 22], clamp);
+        mood = "shock";
+        squash += jiggle(since - 0.55, -0.5);
+      }
+      break;
+    case "swing": {
+      const angle = Math.sin(t * 2.6 + spec.x) * 0.65;
+      x = spec.x + Math.sin(angle) * SWING_L;
+      y = SWING_PIVOT_Y + Math.cos(angle) * SWING_L;
+      rot = (-angle * 180) / Math.PI;
+      break;
+    }
     case "faint":
       rot = interpolate(since, [0, 0.3], [0, -90], { ...clamp, easing: Easing.in(Easing.quad) });
+      squash += jiggle(since - 0.3, -0.5);
       if (since > 0) mood = "shock";
       break;
     default:
@@ -99,7 +158,7 @@ const actorState = (spec: ActorSpec, character: Character, t: number, end: numbe
   }
   if (spec.action === "spin" && since < 0) rot = 0;
 
-  return { spec, character, x, y, s, rot, flip: spec.face === "left", mood, hold, hat, step };
+  return { spec, character, x, y, s, rot, flip: spec.face === "left", mood, hold, hat, step, squash };
 };
 
 const Rays: React.FC<{ color: string; spin: number; opacity: number }> = ({ color, spin, opacity }) => (
@@ -154,7 +213,22 @@ export const SceneView: React.FC<{ scene: RenderScene; cast: Record<string, Char
   const effects = new Set(scene.effects ?? []);
   const palette = LIGHTS[scene.light];
 
-  const actors = scene.actors.filter((a) => cast[a.who]).map((a) => actorState(a, cast[a.who], t, endSeconds, words));
+  const onBridge = scene.setting === "bridge" || scene.setting === "collapse";
+  // Bouncing deck: grows stronger through the scene.
+  const bob = effects.has("bounce") ? Math.sin(t * 9) * interpolate(t, [0, Math.max(endSeconds, 0.5)], [8, 48], clamp) : 0;
+  const breakT = scene.setting === "collapse" ? interpolate(t, [0, 0.6], [0, 1], { ...clamp, easing: Easing.in(Easing.quad) }) : 0;
+  const actors = scene.actors
+    .filter((a) => cast[a.who])
+    .map((a) => {
+      const st = actorState(a, cast[a.who], t, endSeconds, words);
+      if (onBridge && a.action !== "swing") st.y += deckSag(st.x, bob);
+      return st;
+    });
+  // Who is talking: the scene's speaker for the whole narration, or the focus
+  // actor (else the first) while quoted dialogue is being said.
+  const quoted = quotedWords(words);
+  const talker = scene.speaker ?? scene.focus ?? scene.actors[0]?.who;
+  const talk = (who: string) => (who === scene.speaker ? talkAt(words, t) : who === talker ? talkAt(words, t, (i) => quoted[i]) : 0);
 
   // A dropped item ends up held by its target once it lands.
   const dropAt = scene.drop ? cue(words, scene.drop.at) : null;
@@ -169,7 +243,7 @@ export const SceneView: React.FC<{ scene: RenderScene; cast: Record<string, Char
     <g>
       {/* Slightly soft background (depth of field) so characters pop. */}
       <g filter="url(#toon-dof)">
-        <Backdrop setting={scene.setting} light={scene.light} scroll={effects.has("speed") ? frame * 28 : 0} id={scene.id} />
+        <Backdrop setting={scene.setting} light={scene.light} scroll={effects.has("speed") ? frame * 28 : 0} id={scene.id} bob={bob} breakT={breakT} t={t} />
       </g>
       {effects.has("rays") ? <Rays color={palette.glow} spin={t * 25} opacity={0.35} /> : null}
       {effects.has("rain") || effects.has("snow") || effects.has("confetti") ? null : (
@@ -210,10 +284,43 @@ export const SceneView: React.FC<{ scene: RenderScene; cast: Record<string, Char
           ))
         : null}
 
+      {actors
+        .filter((a) => a.spec.action === "swing")
+        .map((a, i) => (
+          <g key={`rope${i}`} stroke="#5b4636" strokeWidth={6}>
+            <line x1={a.spec.x - 60} y1={SWING_PIVOT_Y - SWING_L * 0.15} x2={a.x - 45} y2={a.y - 120} />
+            <line x1={a.spec.x + 60} y1={SWING_PIVOT_Y - SWING_L * 0.15} x2={a.x + 45} y2={a.y - 120} />
+            <rect x={a.x - 70} y={a.y - 10} width={140} height={16} rx={6} fill="#8b5a2b" stroke="none" />
+          </g>
+        ))}
       {actors.map((a, i) => (
-        <CharacterView key={i} character={a.character} x={a.x} y={a.y} s={a.s} flip={a.flip} mood={a.mood} hold={a.hold} hat={a.hat} rot={a.rot} step={a.step} groundY={FEET_Y - (a.spec.lift ?? 0)} />
+        <CharacterView
+          key={i}
+          character={a.character}
+          x={a.x}
+          y={a.y}
+          s={a.s}
+          flip={a.flip}
+          mood={a.mood}
+          hold={a.hold}
+          hat={a.hat}
+          rot={a.rot}
+          step={a.step}
+          squash={a.squash}
+          talk={talk(a.spec.who)}
+          groundY={FEET_Y - (a.spec.lift ?? 0)}
+        />
       ))}
 
+      {scene.setting === "collapse" ? (
+        // River surface in front, so fallen characters are up to their chests in water.
+        <g>
+          <rect y={RIVER_Y} width={STAGE_W} height={STAGE_H - RIVER_Y} fill="#2f86c7" opacity={0.92} />
+          {new Array(8).fill(0).map((_, i) => (
+            <path key={i} d={`M${((i * 150 + t * 60) % 1230) - 150},${RIVER_Y + 6} q37,-16 75,0 t75,0`} stroke="#bfe6ff" strokeWidth={6} fill="none" />
+          ))}
+        </g>
+      ) : null}
       {scene.drop && dropTarget && dropAt !== null && t < dropAt ? (
         <g
           transform={`translate(${dropTarget.x} ${interpolate(t, [Math.max(0, dropAt - 1.2), dropAt], [-120, dropTarget.y - characterHeight(dropTarget.character) * dropTarget.s * 0.7], {

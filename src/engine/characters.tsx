@@ -1,12 +1,13 @@
 import React from "react";
-import { useCurrentFrame } from "remotion";
+import { random, useCurrentFrame } from "remotion";
 import { Character, Mood, Species } from "./types";
 
 // Every character is drawn facing right with feet at (0,0), ~220px tall at
 // scale 1. Each species reports where hats and held items attach.
 type Anchor = { x: number; y: number };
 type Drawn = { body: React.ReactNode; hatAt: Anchor; holdAt: Anchor; height: number };
-type DrawArgs = { mood: Mood; color?: string; legSwing: number; blink?: boolean };
+// talk: mouth openness 0..1 while speaking; look: pupils -1 (back) .. 1 (front).
+type DrawArgs = { mood: Mood; color?: string; legSwing: number; blink?: boolean; talk?: number; look?: number };
 
 // SVG filter ids, defined once per stage by <ToonDefs/>: a dark cartoon
 // outline around any shape (drawn characters and emoji alike) plus a soft shadow.
@@ -38,7 +39,7 @@ export const ToonDefs: React.FC = () => (
   </defs>
 );
 
-const Eye: React.FC<{ x: number; y: number; r: number; mood: Mood; ring?: string; blink?: boolean }> = ({ x, y, r, mood, ring, blink }) =>
+const Eye: React.FC<{ x: number; y: number; r: number; mood: Mood; ring?: string; blink?: boolean; look?: number }> = ({ x, y, r, mood, ring, blink, look = 0.4 }) =>
   blink ? (
     // Closed eye: lid in the body colour with a lash line.
     <g>
@@ -48,8 +49,8 @@ const Eye: React.FC<{ x: number; y: number; r: number; mood: Mood; ring?: string
   ) : (
     <g>
       <circle cx={x} cy={y} r={r} fill="#fff" stroke={ring ?? "#222"} strokeWidth={ring ? 5 : 3} />
-      <circle cx={x + r * 0.2} cy={y + (mood === "smug" ? r * 0.25 : 0)} r={mood === "shock" ? r * 0.28 : r * 0.52} fill="#111" />
-      <circle cx={x + r * 0.35} cy={y - r * 0.2} r={r * 0.16} fill="#fff" />
+      <circle cx={x + r * 0.45 * look} cy={y + (mood === "smug" ? r * 0.25 : 0)} r={mood === "shock" ? r * 0.28 : r * 0.52} fill="#111" />
+      <circle cx={x + r * 0.45 * look + r * 0.15} cy={y - r * 0.2} r={r * 0.16} fill="#fff" />
       {mood === "smug" ? <rect x={x - r - 2} y={y - r - 2} width={r * 2 + 4} height={r * 0.9} fill="currentColor" /> : null}
     </g>
   );
@@ -60,7 +61,16 @@ const Brow: React.FC<{ x: number; y: number; w: number; mood: Mood }> = ({ x, y,
   return null;
 };
 
-const Mouth: React.FC<{ x: number; y: number; w: number; mood: Mood }> = ({ x, y, w, mood }) => {
+const Mouth: React.FC<{ x: number; y: number; w: number; mood: Mood; talk?: number }> = ({ x, y, w, mood, talk = 0 }) => {
+  if (talk > 0.08) {
+    const open = w * (0.1 + talk * 0.32);
+    return (
+      <g>
+        <ellipse cx={x} cy={y + open * 0.4} rx={w * (mood === "shock" ? 0.25 : 0.38)} ry={open} fill="#3a0d12" stroke="#111" strokeWidth={4} />
+        <ellipse cx={x} cy={y + open * 0.95} rx={w * 0.2} ry={open * 0.38} fill="#ff6f86" />
+      </g>
+    );
+  }
   if (mood === "shock") return <ellipse cx={x} cy={y + 4} rx={w * 0.22} ry={w * 0.3} fill="#3a0d12" />;
   const curve = mood === "happy" || mood === "smug" ? 14 : mood === "sad" ? -12 : 0;
   return <path d={`M${x - w / 2},${y} Q${x},${y + curve} ${x + w / 2},${y}`} stroke="#111" strokeWidth={6} fill="none" strokeLinecap="round" />;
@@ -74,7 +84,7 @@ const Legs: React.FC<{ xs: number[]; top: number; swing: number; color: string }
   </g>
 );
 
-const pigeon = ({ mood, color = "#8d93a6", legSwing, blink }: DrawArgs): Drawn => ({
+const pigeon = ({ mood, color = "#8d93a6", legSwing, blink, talk, look }: DrawArgs): Drawn => ({
   height: 220,
   hatAt: { x: 62, y: -208 },
   holdAt: { x: 140, y: -160 },
@@ -90,15 +100,16 @@ const pigeon = ({ mood, color = "#8d93a6", legSwing, blink }: DrawArgs): Drawn =
       <ellipse cx={48} cy={-128} rx={40} ry={42} fill="#5f8f7a" />
       <ellipse cx={42} cy={-112} rx={30} ry={22} fill="#8a64a8" opacity={0.8} />
       <circle cx={62} cy={-168} r={44} fill={color} />
-      <Eye x={78} y={-176} r={19} mood={mood} ring="#e8862a" blink={blink} />
+      <Eye x={78} y={-176} r={19} mood={mood} ring="#e8862a" blink={blink} look={look} />
       <Brow x={78} y={-200} w={40} mood={mood} />
-      <polygon points="100,-166 140,-156 100,-148" fill="#2d2d33" />
+      <polygon points="100,-166 140,-156 100,-148" fill="#2d2d33" transform={talk ? `rotate(${-talk * 14} 100 -160)` : undefined} />
+      {talk ? <polygon points="100,-160 136,-150 100,-146" fill="#2d2d33" transform={`rotate(${talk * 16} 100 -150)`} /> : null}
       <ellipse cx={100} cy={-166} rx={9} ry={5} fill="#e9e6df" />
     </g>
   ),
 });
 
-const cat = ({ mood, color = "#f2a65a", legSwing, blink }: DrawArgs): Drawn => ({
+const cat = ({ mood, color = "#f2a65a", legSwing, blink, talk, look }: DrawArgs): Drawn => ({
   height: 240,
   hatAt: { x: 40, y: -228 },
   holdAt: { x: 112, y: -128 },
@@ -112,12 +123,12 @@ const cat = ({ mood, color = "#f2a65a", legSwing, blink }: DrawArgs): Drawn => (
       <polygon points="70,-215 100,-262 108,-198" fill={color} />
       <polygon points="12,-212 18,-244 40,-216" fill="#ffb3c1" />
       <circle cx={55} cy={-160} r={60} fill={color} />
-      <Eye x={42} y={-172} r={14} mood={mood} blink={blink} />
-      <Eye x={84} y={-172} r={14} mood={mood} blink={blink} />
+      <Eye x={42} y={-172} r={14} mood={mood} blink={blink} look={look} />
+      <Eye x={84} y={-172} r={14} mood={mood} blink={blink} look={look} />
       <Brow x={42} y={-194} w={26} mood={mood} />
       <Brow x={84} y={-194} w={26} mood={mood} />
       <polygon points="58,-150 70,-150 64,-142" fill="#ff7096" />
-      <Mouth x={64} y={-132} w={30} mood={mood} />
+      <Mouth x={64} y={-132} w={30} mood={mood} talk={talk} />
       <g stroke="#333" strokeWidth={3}>
         <line x1={92} y1={-145} x2={135} y2={-152} />
         <line x1={92} y1={-138} x2={135} y2={-134} />
@@ -127,7 +138,7 @@ const cat = ({ mood, color = "#f2a65a", legSwing, blink }: DrawArgs): Drawn => (
   ),
 });
 
-const frog = ({ mood, color = "#5cc95f", legSwing, blink }: DrawArgs): Drawn => ({
+const frog = ({ mood, color = "#5cc95f", legSwing, blink, talk, look }: DrawArgs): Drawn => ({
   height: 200,
   hatAt: { x: 0, y: -205 },
   holdAt: { x: 105, y: -95 },
@@ -139,16 +150,16 @@ const frog = ({ mood, color = "#5cc95f", legSwing, blink }: DrawArgs): Drawn => 
       <ellipse cx={0} cy={-55} rx={70} ry={42} fill="#d9f2c4" />
       <circle cx={-48} cy={-150} r={36} fill={color} />
       <circle cx={48} cy={-150} r={36} fill={color} />
-      <Eye x={-48} y={-152} r={24} mood={mood} blink={blink} />
-      <Eye x={48} y={-152} r={24} mood={mood} blink={blink} />
+      <Eye x={-48} y={-152} r={24} mood={mood} blink={blink} look={look} />
+      <Eye x={48} y={-152} r={24} mood={mood} blink={blink} look={look} />
       <Brow x={-48} y={-186} w={36} mood={mood} />
       <Brow x={48} y={-186} w={36} mood={mood} />
-      <Mouth x={0} y={-98} w={110} mood={mood} />
+      <Mouth x={0} y={-98} w={110} mood={mood} talk={talk} />
     </g>
   ),
 });
 
-const bean = ({ mood, color = "#ff5d73", legSwing, blink }: DrawArgs): Drawn => ({
+const bean = ({ mood, color = "#ff5d73", legSwing, blink, talk, look }: DrawArgs): Drawn => ({
   height: 250,
   hatAt: { x: 0, y: -250 },
   holdAt: { x: 92, y: -110 },
@@ -158,11 +169,11 @@ const bean = ({ mood, color = "#ff5d73", legSwing, blink }: DrawArgs): Drawn => 
       <rect x={-75} y={-250} width={150} height={220} rx={75} fill={color} />
       <ellipse cx={-30} cy={-200} rx={18} ry={40} fill="#fff" opacity={0.25} />
       <line x1={70} y1={-120} x2={95} y2={-100} stroke={color} strokeWidth={22} strokeLinecap="round" />
-      <Eye x={-25} y={-175} r={20} mood={mood} blink={blink} />
-      <Eye x={30} y={-175} r={20} mood={mood} blink={blink} />
+      <Eye x={-25} y={-175} r={20} mood={mood} blink={blink} look={look} />
+      <Eye x={30} y={-175} r={20} mood={mood} blink={blink} look={look} />
       <Brow x={-25} y={-205} w={30} mood={mood} />
       <Brow x={30} y={-205} w={30} mood={mood} />
-      <Mouth x={2} y={-128} w={50} mood={mood} />
+      <Mouth x={2} y={-128} w={50} mood={mood} talk={talk} />
     </g>
   ),
 });
@@ -219,22 +230,59 @@ type Props = {
   step?: number; // leg cycle; undefined = standing
   groundY?: number; // where the floor is, for the contact shadow (omit = no shadow)
   plain?: boolean; // skip outline/blink/breathing (cheap, for big crowds)
+  talk?: number; // 0..1 mouth openness while this character is speaking
+  squash?: number; // -1 (squashed flat) .. 1 (stretched tall), pivoting at the feet
 };
 
 const BLINK_EVERY = 104; // frames (~3.5 s)
 const BLINK_FRAMES = 5;
 
-export const CharacterView: React.FC<Props> = ({ character, x, y, s = 1, flip = false, mood = "happy", hold, hat, rot = 0, step, groundY, plain }) => {
+// Little reaction marks above the head, like in cartoons.
+const Emote: React.FC<{ mood: Mood; at: Anchor; frame: number }> = ({ mood, at, frame }) => {
+  if (mood === "shock") {
+    const drip = (frame % 24) / 24;
+    return (
+      <path
+        d="M0,-26 C10,-8 16,2 16,10 A16,16 0 1 1 -16,10 C-16,2 -10,-8 0,-26 Z"
+        fill="#7fd3ff"
+        stroke="#15121c"
+        strokeWidth={4}
+        transform={`translate(${at.x + 70} ${at.y + 40 + drip * 22}) scale(${1 - drip * 0.2})`}
+        opacity={1 - drip * 0.6}
+      />
+    );
+  }
+  if (mood === "angry") {
+    const pulse = 1 + Math.abs(Math.sin(frame / 4)) * 0.25;
+    return (
+      <g transform={`translate(${at.x + 62} ${at.y + 34}) scale(${pulse})`} stroke="#e8213a" strokeWidth={9} strokeLinecap="round" fill="none">
+        <path d="M-22,-6 Q-6,-6 -6,-22" />
+        <path d="M22,-6 Q6,-6 6,-22" />
+        <path d="M-22,6 Q-6,6 -6,22" />
+        <path d="M22,6 Q6,6 6,22" />
+      </g>
+    );
+  }
+  return null;
+};
+
+export const CharacterView: React.FC<Props> = ({ character, x, y, s = 1, flip = false, mood = "happy", hold, hat, rot = 0, step, groundY, plain, talk = 0, squash = 0 }) => {
   const frame = useCurrentFrame();
   // Each character gets its own blink/breath phase so a group never moves in sync.
   const phase = Math.abs(Math.round(x * 7.3)) % BLINK_EVERY;
   const blink = !plain && (frame + phase) % BLINK_EVERY < BLINK_FRAMES;
   const breath = plain ? 0 : Math.sin((frame + phase) / 14);
   const legSwing = step === undefined ? 0 : Math.sin(step * Math.PI * 2) * 14;
-  const drawn = "emoji" in character ? emojiChar(character.emoji) : SPECIES[character.species]({ mood, color: character.color, legSwing, blink });
+  // Eyes dart to a new spot every ~1.5-2.5 s; while talking they face front.
+  const glanceLen = 45 + Math.floor(random(`gl${phase}`) * 30);
+  const glance = Math.floor((frame + phase) / glanceLen);
+  const look = plain ? 0.4 : talk > 0.08 ? 0.7 : -0.6 + random(`look${phase}-${glance}`) * 1.6;
+  const drawn = "emoji" in character ? emojiChar(character.emoji) : SPECIES[character.species]({ mood, color: character.color, legSwing, blink, talk, look });
   const airborne = groundY === undefined ? 0 : Math.max(0, groundY - y);
-  const sx = s * (1 - breath * 0.012);
-  const sy = s * (1 + breath * 0.022);
+  // Squash and stretch keep the volume roughly constant; emoji bob as they talk.
+  const sq = Math.max(-1, Math.min(1, squash));
+  const sx = s * (1 - breath * 0.012) * (1 - sq * 0.22);
+  const sy = s * (1 + breath * 0.022) * (1 + sq * 0.28) * (1 + ("emoji" in character ? talk * 0.06 : 0));
   return (
     <>
       {groundY !== undefined ? (
@@ -253,6 +301,7 @@ export const CharacterView: React.FC<Props> = ({ character, x, y, s = 1, flip = 
             <Item item={hold} size={hold === "fry" ? 86 : 80} />
           </g>
         ) : null}
+        {!plain ? <Emote mood={mood} at={drawn.hatAt} frame={frame} /> : null}
         {hat ? (
           <g transform={`translate(${drawn.hatAt.x} ${drawn.hatAt.y + 4})`}>
             {hat === "crown" ? <Crown /> : <g transform="translate(0 -30)"><Item item={hat} size={90} /></g>}

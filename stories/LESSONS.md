@@ -6,6 +6,8 @@ each run, update this file: add new evidence-backed lessons, sharpen or remove o
 the numbers contradict, and merge duplicates. Keep it under 25 bullets; newest
 evidence wins. Cite the stories a lesson comes from.
 
+**2026-11-24 FORMAT CHANGE (owner decision):** every Short now uses the 45-60 s viral recipe in STORY_GUIDE.md (impossible hook, mocker, 3 escalations, "You see,", payoff, loop), the alive engine, and the 3D parkour bottom. Ben vs Mia and Turbo are retired. Lessons below about the old 25 s counter template, series and old bottoms describe the OLD format: keep the general ones (hooks, clarity, soft premises flop, late uploads flop) and judge the new format only on Shorts from 2026-11-24 on. First new-format Short: 2026-11-24-bridge-break.
+
 ## From the numbers
 
 (Full review 2026-11-06 of 49 Shorts; refreshed 2026-11-12 with 66 Shorts — 45 subscribers, ~43,700 views. Judge only Shorts older than 24 h.)

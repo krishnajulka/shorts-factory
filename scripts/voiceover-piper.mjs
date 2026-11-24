@@ -8,7 +8,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { timeWords } from "./voice-timing.mjs";
+import { timeWordsExact } from "./whisper-timing.mjs";
 
 const RELEASE = "https://github.com/rhasspy/piper/releases/download/2023.11.14-2";
 const VOICE = "en_US-ryan-high";
@@ -49,15 +49,16 @@ const main = async () => {
   const outDir = join(root, "public/voice", story.id);
   mkdirSync(outDir, { recursive: true });
 
-  const scenes = story.scenes.map((scene) => {
+  const scenes = [];
+  for (const scene of story.scenes) {
     const file = `voice/${story.id}/${scene.id}.wav`;
     execFileSync(exe, ["--model", model, "--output_file", join(root, "public", file), "--length_scale", "0.92", "--sentence_silence", "0.25"], {
       input: scene.text,
       cwd: dirname(exe),
       stdio: ["pipe", "ignore", "pipe"],
     });
-    return { id: scene.id, text: scene.text, file, ...timeWords(scene.text, join(root, "public", file)) };
-  });
+    scenes.push({ id: scene.id, text: scene.text, file, ...(await timeWordsExact(scene.text, join(root, "public", file))) });
+  }
 
   writeFileSync(join(root, "src/generated", `${story.id}.json`), JSON.stringify({ id: story.id, title: story.title, scenes }, null, 2));
   console.log(`Piper voice "${VOICE}": ${scenes.length} scenes (free fallback)`);

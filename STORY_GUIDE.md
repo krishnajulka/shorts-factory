@@ -2,228 +2,140 @@
 
 Each Short is one JSON file in `stories/<id>.json`. `node scripts/make.mjs stories/<id>.json`
 turns it into `out/shorts/<id>/<id>.mp4` (plus preview stills and `upload.txt`).
-**Model stories:** `stories/2026-10-26-photo-stranger.json`, `stories/2026-10-27-snowman-spring.json` and `stories/2026-10-27-spider-prank.json` are our proven winners (see "The winning formula"); `stories/2026-10-25-lunch-thief.json` shows the newest rules. Read them first and notice how they
-uses every technique below. The other stories in `stories/` show more engine features
-but are weaker stories.
+**Model story:** `stories/2026-11-24-bridge-break.json`, the first Short in the new
+format. Read it before writing.
 
-## The first 2 seconds decide everything
+## Why the format changed (2026-11-24)
 
-YouTube Studio shows most viewers swipe away before the story starts ("Stayed to watch"
-was 39% on the first Shorts). The validator enforces the first three rules:
+For 80 Shorts the channel stalled at about 1,000 views each: YouTube's first test
+audience. Our old template was a counter (Monday, Tuesday...), a calm payoff and "Ben
+never learns", in 25-second kid stories, and it never made people rewatch, share or
+argue. The channels breaking out in our exact style (bean-body cartoon characters,
+narration, captions) post 45-75 second stories with one recipe. Ricks Clips got 167M
+views on 15 Shorts with it; GreenBroRants got a 6.35M median with first-person
+"rule world" stories. Use this recipe for every Short.
 
-1. **`hook` text on screen from frame 0** — 3-6 words, ALL CAPS energy, one emoji, a
-   question or a warning: "WHO IS KNOCKING? 🚪", "DON'T OPEN THE CLOSET 😨",
-   "WHERE DO YOUR SOCKS GO? 🧦". It must create tension, not summarize.
-2. **First sentence ≤ 10 words, starting inside the conflict.** No setup, no "Once
-   upon a time", no names first. "Every night at three thirty three, someone knocks."
-3. **Short: ≤ 100 words of narration total** (about 25-35 s), 6-9 scenes. Our best holders are the short ones (snail-race 77% watched at ~25 s; grandma-chair 114%, i.e. rewatched).
-4. **First scene is visually loud:** hero big and moving, a drop/burst/crowd, danger
-   light or a dramatic effect. Never a calm establishing shot.
-5. **Re-hook every ~10 seconds** with a turn: "Then the dog wouldn't go near it.",
-   "And heard breathing." Each scene must raise a new question or answer one and
-   raise a bigger one.
-6. **Don't answer the main question until the last 2 scenes.**
+## The recipe (every Short)
 
-## The winning formula (from this channel's best Shorts)
+1. **Impossible hook, reason hidden (first sentence, 10 words or fewer).** Something that
+   sounds like it can't be true: "Seventy-four soldiers destroyed a bridge without
+   firing a shot." "In my town, your shadow does what you secretly want." No setup, no
+   date first, no names first.
+2. **Setup in one breath.** Who, where, one exact number, and what's at stake.
+3. **The mocker.** Someone laughs at the hero or the situation, ideally in a short
+   line in quotes: "An army, against giant chickens?" The hero stays calm.
+4. **Escalate three times.** It gets weirder or bigger in visible steps, and the
+   mocker gets cockier. Every scene is the next step; never two scenes with the
+   same beat.
+5. **"You see," (exactly once).** One plain line that explains the trick through
+   something the viewer has done themselves: pushing a swing, blowing on soup,
+   catching a phone as it slides off a table.
+6. **Payoff, shown not explained.** The biggest reveal is the last line. No moral, no
+   "and that's why", no call to follow after it.
+7. **Loop.** The last line flows back into the first one so a replay feels seamless
+   (the bridge Short ends with its own first sentence).
 
-Our top Shorts by views and by % watched — `2026-10-26-photo-stranger` (86% watched),
-`2026-10-27-snowman-spring` (most views), `2026-10-27-spider-prank` (61% watched,
-high likes) — all share one shape. **Read those three files before writing.**
+### Story types (rotate; never the same type twice in a row)
 
-1. **A counter or a deadline the viewer can track.** Days of the week, "day thirty",
-   "one day left", "photo six". The viewer always knows where we are and feels the
-   next step coming.
-2. **One simple rule that escalates in visible steps.** "One step closer each night."
-   "Shoe → backpack → cereal → pillow." Each scene is the next step, so the story is
-   impossible to get lost in, and each step raises the stakes.
-3. **A turn just before the end** where the pattern breaks ("Mia just yawned",
-   "her phone took a photo by itself").
-4. **A payoff that uses the counter itself** — the punchline *is* the number: "Thirty
-   days, thirty spiders." "A flower grew exactly where he stood." "Follow to see photo
-   six." Endings like this get likes, comments and replays.
-5. **Emotion lands harder than cleverness.** Funny (prank karma), creepy (closer each
-   time) or bittersweet (snowman) — pick one feeling and commit.
+- **True story with a twist** (fact-check every claim on Wikipedia or another reliable
+  source and keep the numbers right): weird history, science explained, real
+  inventions or rules with surprising reasons.
+- **Rule world, first person:** "In my town, every lie makes your shadow lighter..." One
+  strange rule, a problem it causes, and a twist that uses the rule. Set `"speaker"`
+  on the narrator's character so their mouth moves.
+- **Creepy-then-wholesome / creepy reveal:** escalating dread that flips at the end.
 
-**Comments: every story has a `comment` question** that's posted under the Short right
-after upload. Comments and replies push a Short to more people. A good one:
-- asks something viewers *want* to answer about **this** story: a choice ("Would you
-  open photo six? 👇"), a guess ("What was in the 30th box? 🤔"), or a confession
-  ("Who's the Mia in your family? 😂");
-- is short, one emoji, and never spoils the ending for people reading comments first;
-- is never "like and subscribe", never begs for engagement, never asks for personal info.
+**Retired, do not write:** Ben vs Mia, Turbo the snail (see `stories/SERIES.md`), the
+Monday/Tuesday counter template, "Thanks, Ben" endings, "X never learns" endings,
+toddler-level stakes (chores, cake, Grandma's cookies), "small animal steals food".
 
-**Endings: aim for a reaction.** A punchline people want to share, a creepy last image,
-a lump in the throat, or a question viewers will answer in the comments ("Would you
-open photo six?"). Never end on an explanation.
+**Audience:** teens and young adults. Real stakes (danger, money, losing something,
+embarrassment, history), told the way a kid tells a friend: plain words, fast, a bit
+of attitude. Still family-friendly: no gore, no real people mocked, no brands or
+copyrighted characters.
 
-## Clarity — viewers must never think "wait, what's going on?"
+## Length and shape (the validator enforces these)
 
-Viewers said earlier Shorts felt confusing. A confused viewer swipes. Rules:
+- **120-165 words total = 45-60 seconds.** Never shorter, never longer.
+- 8-12 scenes, each `text` 8-20 words (validator allows 5-22).
+- First sentence of scene 1 ≤ 10 words.
+- Every scene has something moving: an action, a drop, a burst, a bouncing or
+  collapsing set, a swing, a crowd, or `speed`. Static scenes are where people leave.
+- 1-2 stickers per scene on punchy words; 5-10 story `keywords` (lowercase words from
+  the narration, coloured green in captions).
 
-1. **Write the `logline` first** (required): one or two sentences that a 10-year-old
-   understands — *who* wants *what*, *what goes wrong*, and the *twist*. If you can't
-   write it simply, the story is too complicated: pick another premise.
-2. **One hero, one goal, one problem.** At most two named characters. No side plots.
-3. **Every scene follows from the one before** with an obvious "so" / "but" / "then".
-   No jumps in time or place without saying so ("The next morning…").
-4. **The visuals must literally show what the narration says.** If the line is about a
-   jar, there is a jar on screen. If you can't show it with the available characters,
-   settings and emoji, rewrite the line.
-5. **The twist must be explainable in one short sentence and must be set up earlier.**
-   Bad: "he was sleepwalking and stocking the machine because his brain noticed a gas
-   leak." Good: "the knocking was the lonely kid next door."
-6. **Plain words.** No invented terms, no lore. Say exactly what happens.
-7. **Before rendering, read only the captions out loud with no visuals.** If the story
-   doesn't make sense that way, fix the words.
+## Clarity: viewers must never think "wait, what's going on?"
 
-## Story craft — what makes people watch to the end
+1. **Write the `logline` first** (required): one or two sentences a 12-year-old
+   understands. If you can't write it simply, pick another premise.
+2. **One hero, one goal, one problem.** At most two named characters.
+3. **The visuals must literally show what the narration says.** If the line is about a
+   bridge, there is a bridge on screen. If you can't show it with the available
+   characters, settings and emoji, rewrite the line.
+4. **The twist is explainable in one short sentence and is set up earlier.**
+5. **Before rendering, read only the captions out loud with no visuals.** If it doesn't
+   make sense that way, fix the words.
 
-A Short lives or dies on whether the viewer *needs to know what happens next*. Random
-events in a row are not a story. Use all of these:
+## Pitch, score, then write
 
-1. **Curiosity-gap hook.** Scene 1 is a strange, specific situation that raises a
-   question the viewer can't answer: "For 400 days, someone left one rubber duck on
-   Rosa's doorstep. Always at six fourteen." (Who? Why? Why that time?) Avoid hooks that
-   give away the ending ("...and became king").
-2. **Specific details.** Exact numbers, times, objects: "six fourteen", "400 days",
-   "her grandpa's old bathtub". Specific = believable = interesting. Vague = boring.
-3. **Escalate, then rehook at the midpoint.** Around scene 4-5 something makes it
-   weirder or raises the stakes: "Then the camera turned off." Never let two scenes in a
-   row feel like the same beat.
-4. **Plant and pay off.** Mention a detail early that turns out to matter later (the
-   time 6:14 → the countdown machine; the 400 days → he died 401 days ago).
-5. **A real twist.** The ending should reframe what came before, not just be "and then
-   it got bigger". Good twists: the threat was actually love; the hero was the cause all
-   along; the victim was the villain; it was happening to the viewer too.
-6. **One genuine feeling.** Funny, sad, wholesome, creepy — pick one and land it. A
-   story that makes you *feel* something gets shared.
-7. **Loop ending (required).** Make the final line flow back into the first line so a replay feels
-   seamless ("...someone else gets the first duck." → "For 400 days, someone left one
-   rubber duck..."). Replays boost the algorithm.
-8. **Earned call-to-action.** Fold "follow" into the last line in a way that fits the
-   story. Don't repeat the "Follow, or X takes yours next" joke every day.
+Brainstorm **5 one-sentence premises** across the story types. Score each 1-5 on
+**Hook** (would a bored 16-year-old stop scrolling?), **Twist** (does the ending
+reframe it?), **Shareability** (would you send it to a friend?) and **Freshness**
+(nothing like LOG.md). Write the highest total. For a true story, verify the facts
+before writing.
 
-**Banned (overused):** "accidentally became king", stealing/eating food as the main plot,
-"and that's how...", endings where the hero just wins with no twist.
+## Comments
 
-### Pitch, score, then write
+Every story has a `comment` question, posted under the Short right after upload.
+It asks something viewers *want* to answer about this story: a choice ("Would you
+have stomped too? Be honest 😂"), a guess, or a hot take. Keep it short with one
+emoji, no spoilers, never "like and subscribe".
 
-Before writing JSON, brainstorm **5 one-line premises** from different categories. Score
-each 1–5 on: **Hook** (would you stop scrolling?), **Twist** (does the ending reframe
-it?), **Specificity**, **Freshness** (nothing like LOG.md). Write the highest total.
-After drafting, reread scene by scene and ask "would a bored 15-year-old swipe here?" —
-rewrite the weakest scene before rendering.
+## Narrator and sound
 
-### Writing for the narrator
-
-- **Short sentences, concrete nouns.** Read it out loud. The narrator is a realistic
-  ElevenLabs voice, so rhythm matters: short punchy fragments ("No note. No
-  footprints.") land hard; a longer sentence before a reveal builds tension. No
-  dialogue in quotes; write numbers and times as words ("six fourteen", not "6:14").
-- **Pick the narrator to fit the mood** with `"narrator"`:
-  `brian` deep classic storyteller (default, mystery/drama) · `george` warm British
-  (wholesome, legends, fake history) · `jessica` expressive female (playful, comedy) ·
-  `liam` energetic young male (chaotic, sports, heists) · `callum` intense and raspy
-  (spooky, villain origins). Vary it day to day.
-- **Credits:** ElevenLabs bills per character of narration (~800 per story). The
-  model is set in `shorts.config.json` (`eleven_multilingual_v2` best quality,
-  `eleven_flash_v2_5` about half the credits) — don't change it from a story run. Only
-  changed scenes are re-voiced on reruns. If the quota runs out the pipeline falls back
-  to Piper, a free offline voice (then the Windows voice on a PC), and prints a warning —
-  mention it in your report. The Short is still made and uploaded.
-- **Original only.** No real people, brands, celebrities, copyrighted characters,
-  or trending meme characters.
-- Keep it **family-friendly**: cartoon slapstick at most, no gore.
-
-## Premise variety — don't fall into a formula
-
-Gerald (pigeon + food) and Frank (frog + food) already exist. **Do not write another
-"small animal eats/steals food" story.** Rotate through very different kinds:
-
-- **Absurd what-if:** a man's shadow quits; gravity turns off for one minute; the moon
-  files a noise complaint.
-- **Object with a secret life:** the office vending machine judges people; a lost sock's
-  journey; a traffic cone that wants to be a wizard hat.
-- **Mini mystery:** who keeps leaving one banana on the roof every morning?
-- **Heist / scheme:** a cat plans the perfect laser-pointer heist; kids trade one
-  paperclip up to a house.
-- **Villain origin / revenge:** the alarm clock that finally snaps.
-- **Underdog sports/competition:** the slowest snail enters a rocket race.
-- **Spooky-but-funny:** the ghost who is scared of people.
-- **Fake history / legend:** how the first pizza was invented by accident in space.
-- **Time loop / glitch:** a guy relives the same Monday until he gets it right.
-- **Wholesome twist:** the robot built to destroy the city just wants a friend.
-
-Each day pick a category that isn't in the last 3 entries of `stories/LOG.md`, and
-log the category with the story.
-
-## Content pillars (what to make, from the 2026-11-06 data review)
-
-Our Shorts either get ~1,000+ views or almost none, and the winners cluster in four
-pillars. **Every Short must belong to one of them.** Rotate so no pillar repeats twice in
-a row, but lean on pillar 1:
-
-1. **Ben vs Mia prank war** (series, the main one): every episode got reach and they
-   bring the most subscribers. Make it every other Short.
-2. **Funny "why animals do that" / clever animal**: cat-cup (84% watched), snail-race,
-   vacuum-race, parrot-whistle (+4 subscribers). A real everyday animal habit with a
-   funny made-up reason, or a small animal beating a big one by being clever.
-3. **Creepy escalation**: one rule that gets closer each night (photo-stranger 83%,
-   gnome-walks, elevator-buttons, tiny-door). Spooky, never gory, cliffhanger or funny
-   reveal.
-4. **Bittersweet with a deadline**: snowman-spring (our #1 by views). Someone has N
-   days/hours left; the ending lands a feeling.
-
-Avoid: abstract lore premises (a town on a turtle, a vending machine that knows), long
-narration, and anything that needs explaining. Aim for 70-95 words.
-
-## Series (every other Short)
-
-Recurring characters turn viewers into subscribers. **If the previous story in LOG.md
-was not a series episode, this one must be.** Read `stories/SERIES.md` for the
-series, their character bible and the rules (same cast and narrator, stands alone,
-title ends with "(Part N)", set the `series` field, add the episode to SERIES.md).
+- `narrator`: `brian` deep storyteller · `george` warm British · `jessica` expressive
+  female · `liam` energetic young male · `callum` intense. Pick by mood; vary it.
+  ElevenLabs may be out of credits; the pipeline falls back to the free Kokoro voice
+  automatically (mention it in the report).
+- Word timing comes from Whisper automatically, so captions, mouths and sound effects
+  land on the right word.
+- `music`: `playful` | `mystery` | `tense` | `none` (omit = picked from the id). It
+  ducks under the narrator automatically, and a tension riser plays into the last
+  scene by itself.
+- Our own sound effects fire automatically from the story: jump = boing, fall =
+  slide whistle, drop/flash/collapse = thud, burst/sticker = pop, grow = sparkle. The
+  old meme `sfx` field still works; use it on at most 2 scenes.
+- Dialogue in "quotes" makes the focus character's mouth move while it's said.
+- Write numbers as words ("seventy-four", not "74").
 
 ## Seasonal calendar
 
-Holidays bring a surge of people looking for that feeling. **In the 3 days before a
-holiday and on the day itself, one Short per day is themed to it** (still following
-every other rule — the holiday is the setting, not the whole idea). Upcoming:
+In the 3 days before a holiday and on the day itself, one Short per day may be themed
+to it (the holiday is the setting, not the whole idea). Upcoming:
 
-- Oct 31 — Halloween (spooky-but-funny, costumes, trick-or-treat)
-- Nov 8 (2026; check the date) — Diwali (lights, sweets, family, firecrackers)
-- Nov 14 — Children's Day in India (kids outsmarting grown-ups)
-- Nov 26 — US Thanksgiving; Nov 27 — Black Friday (family dinner chaos, deals)
-- Dec 24-25 — Christmas (gifts, snow, Santa logistics)
-- Dec 31 / Jan 1 — New Year (countdowns, resolutions)
+- Nov 26 — US Thanksgiving; Nov 27 — Black Friday
+- Dec 24-25 — Christmas
+- Dec 31 / Jan 1 — New Year
 Add the next ones (look them up) when this list runs short.
-
-## Shape
-
-- 6–9 scenes, each `text` 6–14 words (validator allows 5–22). Total ≈ 25–35 s, ≤ 100 words.
-- Every scene should have something moving: an action, a drop, a burst, a crowd,
-  or the `speed` effect. Static scenes are where people swipe away.
-- 2 stickers per scene on punchy words. 8–12 story `keywords` (lowercase words
-  that appear in the narration — they get colored green in captions).
 
 ## Fields
 
 ```jsonc
 {
-  "id": "kebab-case-unique-id",
+  "id": "2026-11-24-kebab-case-slug",
   "title": "Internal title",
-  "youtube": { "title": "≤60 chars with 1-2 emoji", "description": "1-2 lines + #shorts", "tags": ["shorts", "..."] },
-  "logline": "Maya hears knocking inside her closet every night; it turns out to be the lonely new kid next door.",  // write this FIRST (40-280 chars)
-  "comment": "Would you knock back at 3:33? 👇",  // posted under the Short right after upload (see Comments)
-  "hook": "WHO IS KNOCKING? 🚪",          // on-screen text for the first 3 seconds (8-40 chars)
-  "narrator": "brian",                  // brian | george | jessica | liam | callum (ElevenLabs)
-  "voice": "Microsoft David Desktop",   // Windows fallback voice (or "Microsoft Zira Desktop")
-  "rate": 1,                            // Windows fallback speed; keep 1
+  "youtube": { "title": "≤60 chars, the hook as a sentence, 1-2 emoji", "description": "1-2 lines + #shorts", "tags": ["shorts", "..."] },
+  "logline": "...",            // write FIRST (40-280 chars)
+  "comment": "...?",           // posted under the Short (15-150 chars, has a ?)
+  "hook": "74 SOLDIERS BROKE A BRIDGE 🌉", // on-screen text, first 3 s (8-40 chars)
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop", "rate": 0,   // Windows fallback only
+  "music": "tense",
+  "bottom": "parkour",
   "keywords": ["..."],
-  "bottom": "soap" | "stack" | "dominoes",   // clean split-screen loop, see below
-  "cast": {                             // key -> character, reused across scenes
-    "hero": { "species": "pigeon" | "cat" | "frog" | "bean", "color": "#hex (optional)" },
-    "rocket": { "emoji": "🚀" }         // ANY emoji can be a character or prop
+  "cast": {
+    "hero": { "species": "pigeon" | "cat" | "frog" | "bean", "color": "#hex", "name": "..." },
+    "thing": { "emoji": "🐦" }   // any emoji can be a character or prop
   },
   "scenes": [ /* see below */ ]
 }
@@ -235,58 +147,49 @@ Scene:
 |---|---|
 | `id` | unique, short |
 | `text` | narration for this scene |
-| `setting` | `city` `forest` `space` `room` `beach` |
+| `setting` | `city` `forest` `space` `room` `beach` `bridge` (suspension bridge over a river) `collapse` (that bridge breaking: left half drops into the river; river drawn in front of characters) |
 | `light` | `day` `dusk` `night` `danger` (red, tense) `gold` (triumph) |
-| `focus` | cast key the close-up shots frame (usually the hero) |
-| `actors` | list, see below (may be empty if `crowd` is used) |
-| `crowd` | `{ "who", "count" (≤63), "mood", "until": word }` grid that pops in until `until` is spoken |
-| `effects` | any of `rays` `rain` `snow` `confetti` `speed` (scrolling chase) `vignette` `shake` |
-| `drop` | `{ "at": word, "emoji": "fry"\|emoji, "to": cast key }` falls from the sky and lands in that actor's hands on the word |
+| `focus` | cast key the close-up shots frame |
+| `speaker` | cast key whose mouth moves with the whole narration (first-person stories) |
+| `actors` | list, see below |
+| `crowd` | `{ "who", "count" (≤63), "mood", "until": word }` |
+| `effects` | any of `rays` `rain` `snow` `confetti` `speed` `vignette` `shake` `bounce` (bridge deck bounces harder and harder; characters ride it) |
+| `drop` | `{ "at": word, "emoji", "to": cast key }` falls into that actor's hands |
 | `burst` | `{ "at": word, "emoji" }` explodes into 40 copies |
-| `flash` | word → white flash |
+| `flash` | word → white flash + thud |
 | `stickers` | `[{ "word", "emoji" }]` big emoji pop on that word |
-| `sfx` | one of `vineBoom` `recordScratch` `animeWow` `yippee` `bruh` `omgHellNah` `dramaticBoomer` `illuminatiConfirmed` `wilhelmScream` `spongebobFail` `loadingLag` `ohMyGodVine` — use on ~4 scenes, always `vineBoom` on the hook |
+| `sfx` | optional meme sound (see Narrator and sound) |
 
 Actor:
 
 | field | meaning |
 |---|---|
-| `who` | cast key |
-| `x` | 0–1080 horizontal position (540 = center). Off-screen (<0 or >1080) works with `toX` |
-| `toX` | walks to this x by the time of `at` (or scene end) |
-| `size` | 1 normal; hero 0.7 (tiny/sad) to 1.9 (hook hero shot) |
-| `lift` | px above ground (stand on a car: ~300 with a size 2.2 emoji car) |
-| `face` | `right` (default) or `left` |
-| `mood` | `happy` `sad` `angry` `shock` `smug` |
-| `hold` | `"fry"` or an emoji held in mouth/hand |
-| `hat` | `"crown"` or an emoji worn on the head |
-| `action` | `idle` `run` `jump` `bow` `shake` `spin` `grow` `enter` `exit` `float` `faint` |
-| `at` | word that triggers the action (without `at`: jump repeats, enter happens at start) |
-| `changes` | `[{ "at": word, "mood"?, "hold"? (null = drop it), "hat"? }]` |
+| `who` | cast key (the same key can appear several times, e.g. a squad) |
+| `x` / `toX` | 0-1080 position; walks to `toX` by `at` or scene end |
+| `size`, `lift`, `face`, `hold`, `hat` | size 0.7-1.9; px above ground; `left`/`right`; held / worn emoji |
+| `mood` | `happy` `sad` `angry` `shock` (sweat drop) `smug` |
+| `action` | `idle` `run` `jump` (crouch, stretch, squash) `bow` `shake` `spin` `grow` `enter` `exit` `float` `faint` `fall` (drops off the ground on `at`, e.g. into the river) `swing` (playground swing with ropes) |
+| `at` | word that triggers the action |
+| `changes` | `[{ "at": word, "mood"?, "hold"?, "hat"? }]`, mood changes make the character jiggle |
+
+Characters blink, breathe, glance around, and talk on their own; you don't set that.
 
 ## Bottom half (split screen)
 
-The bottom half is a clean, satisfying loop that keeps eyes on screen without
-competing with the story: light pastel backgrounds, soft shadows, almost no text.
-New stories must use one of these (the validator enforces it):
-
-- `soap` — a blade slices colorful layered soap bars; slices tip over and fall
-- `stack` — pastel 3D blocks slide in and stack into a rising tower, with "PERFECT!" pops
-- `dominoes` — hundreds of pastel dominoes fall in a winding wave, with a live counter
-- `obby` — a blocky avatar runs and jumps across floating platforms over lava (a Roblox-style obstacle course), with a STAGE counter, checkpoint flags and the odd fall and respawn
-
-**Never reuse the previous story's bottom.** Rotate through all four in order of least
-recently used in `stories/LOG.md`. (Older stories used neon loops — rings, plinko, race,
-breakout, spiral, territory, wheel, corner — which still render but are retired.)
+The default is `parkour`: a first-person 3D sprint across pixel-block platforms over
+lava, jumping gaps, passing checkpoint rings and speeding up, with a jump counter. It's
+the gameplay look viral split-screen Shorts use, rendered by us (no game footage, so
+no reused-content risk). Use `parkour` unless the story's top half is already very
+busy; the calmer alternatives are `growball` (ball grows on every bounce inside a
+circle), `sandcut` (knife slicing rainbow kinetic sand) and `jarfill` (rainbow balls
+filling a jar). **Retired:** soap, stack, dominoes, obby and the old neon loops.
 
 **Every word used in `at`, `until`, `flash`, `stickers`, `drop`, `burst`, `changes` must
 appear in that scene's `text`** (case and punctuation ignored). The validator in
-`make.mjs` lists every problem — fix them all and rerun.
+`make.mjs` lists every problem; fix them all and rerun.
 
 ## Review before publishing
 
-After a run, look at the PNGs in `out/shorts/<id>/stills/`. Check: hero visible and
-not cut off, captions readable, nothing obviously broken. Fix the JSON and rerun.
-
-Add the story to `stories/LOG.md` (date, id, one-line premise) so future stories
-don't repeat the hero, setting combo, or premise.
+Look at every PNG in `out/shorts/<id>/stills/`: hero visible and not cut off, the
+visuals match the line, captions readable, nothing broken. Fix the JSON and rerun.
+Add the story to `stories/LOG.md` so future stories don't repeat the premise.
