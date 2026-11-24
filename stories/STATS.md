@@ -1,6 +1,10 @@
 # Channel stats
 
+<<<<<<< HEAD
 Updated 2026-11-24 06:39 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 58 · total channel views: 57860 · videos: 82.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
+=======
+Updated 2026-11-24 06:45 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 58 · total channel views: 57860 · videos: 82.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
+>>>>>>> 663120b (Add story 2026-11-24-lie-lighter)
 
 Sorted by views. "avg watched" is the average share of the Short people watched (YouTube Analytics; lags 1-2 days, "—" = not ready yet).
 
@@ -76,6 +80,10 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 10 | 1 | 0 | 55% | 26s | 0 | 2026-10-25-closet-knock | callum | territory | 2026-10-24 18:56 | [Someone knocks from INSIDE her closet every night 🚪😨](https://youtube.com/shorts/UVujCNxhmZ8) |
 | 9 | 1 | 0 | 43% | 14s | 0 | 2026-10-29-haunted-garage | jessica | plinko | 2026-10-29 15:01 | [His FAKE haunted house got a REAL ghost 👻🪙](https://youtube.com/shorts/tojyVNjxJ90) |
 | 9 | 1 | 0 | 77% | 29s | 0 | 2026-10-27-clock-snaps | jessica | corner | 2026-10-27 14:56 | [His alarm clock finally SNAPPED ⏰😡](https://youtube.com/shorts/iMeNWR4Y6Fg) |
+<<<<<<< HEAD
+=======
+| 8 | 0 | 1 | — | — | — | 2026-11-24-bridge-break | liam | parkour | 2026-11-24 06:17 | [74 soldiers broke a bridge without firing a shot 🌉💥](https://youtube.com/shorts/vWaUkooL_gI) |
+>>>>>>> 663120b (Add story 2026-11-24-lie-lighter)
 | 8 | 1 | 1 | 72% | 21s | 0 | 2026-11-05-wobbly-tooth | jessica | dominoes | 2026-11-05 10:51 | [His tooth would NOT fall out. 5 tries later... 🦷😂](https://youtube.com/shorts/g7Z_8xGi554) |
 | 7 | 1 | 1 | 20% | 6s | 0 | 2026-11-19-coin-flip | jessica | obby | 2026-11-19 10:54 | [Ben's coin: heads he wins, tails she loses 🪙😈 (Part 20)](https://youtube.com/shorts/8pjki9s8qw0) |
 | 7 | 1 | 0 | 59% | 24s | 0 | 2026-10-30-tooth-fairy-traps | liam | soap | 2026-10-30 02:52 | [He set 4 traps for the Tooth Fairy 🦷🧚](https://youtube.com/shorts/1PSSdn2WXxA) |
@@ -87,4 +95,7 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 3 | 1 | 1 | 0% | 0s | 0 | 2026-11-04-pigeon-mail | liam | dominoes | 2026-11-04 00:53 | [A snail raced a pigeon across the country 🐌🕊️ (Part 4)](https://youtube.com/shorts/Z1xut2-nRsc) |
 | 2 | 1 | 1 | 93% | 29s | 0 | 2026-11-06-diwali-wind | liam | stack | 2026-11-06 16:50 | [A snail raced a rabbit: last Diwali lamp burning wins 🪔💨 (Part 6)](https://youtube.com/shorts/K2abhOojeWg) |
 | 1 | 1 | 1 | — | — | — | 2026-11-05-diwali-sky | liam | dominoes | 2026-11-05 00:53 | [A snail raced a rabbit to light up Diwali night 🪔🐌 (Part 5)](https://youtube.com/shorts/1RBEgfmkBkU) |
+<<<<<<< HEAD
 | 0 | 0 | 1 | — | — | — | 2026-11-24-bridge-break | liam | parkour | 2026-11-24 06:17 | [74 soldiers broke a bridge without firing a shot 🌉💥](https://youtube.com/shorts/vWaUkooL_gI) |
+=======
+>>>>>>> 663120b (Add story 2026-11-24-lie-lighter)

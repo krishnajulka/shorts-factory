@@ -8,6 +8,8 @@ evidence wins. Cite the stories a lesson comes from.
 
 **2026-11-24 FORMAT CHANGE (owner decision):** every Short now uses the 45-60 s viral recipe in STORY_GUIDE.md (impossible hook, mocker, 3 escalations, "You see,", payoff, loop), the alive engine, and the 3D parkour bottom. Ben vs Mia and Turbo are retired. Lessons below about the old 25 s counter template, series and old bottoms describe the OLD format: keep the general ones (hooks, clarity, soft premises flop, late uploads flop) and judge the new format only on Shorts from 2026-11-24 on. First new-format Short: 2026-11-24-bridge-break.
 
+**2026-11-24 run (82 Shorts, 58 subs, ~57,900 views):** the only new-format Short, bridge-break, has 8 views after ~hours; it is under 24 h old so it is NOT judged yet. Next run: compare bridge-break and lie-lighter against the old ~1,000-view ceiling. Hypothesis (zero data): rule-world first-person stories (lie-lighter) are the second new-format test, so keep type rotation and compare types once 3+ new-format Shorts are >24 h old.
+
 ## From the numbers
 
 (Full review 2026-11-06 of 49 Shorts; refreshed 2026-11-12 with 66 Shorts — 45 subscribers, ~43,700 views. Judge only Shorts older than 24 h.)

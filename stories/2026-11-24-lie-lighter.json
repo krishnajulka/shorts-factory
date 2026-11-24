@@ -1,0 +1,159 @@
+{
+  "id": "2026-11-24-lie-lighter",
+  "title": "Lie Lighter",
+  "youtube": {
+    "title": "In my town, every lie makes you lighter 🎈🤥",
+    "description": "In Pebble Falls, every lie lifts you off the ground. The mayor swore he never lied... #shorts #story #storytime #fyp",
+    "tags": ["shorts", "story", "storytime", "rule world", "animation", "funny"]
+  },
+  "logline": "In a town where every lie makes you float, the mayor says he never lies and then promises everything, so he floats away over the town until he finally tells one true thing and drops.",
+  "comment": "What's the biggest lie that would send YOU to the moon? 🎈",
+  "hook": "EVERY LIE MAKES YOU LIGHTER 🎈",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 0,
+  "music": "playful",
+  "bottom": "parkour",
+  "keywords": ["lie", "lighter", "float", "rocks", "mayor", "promised", "balloon"],
+  "cast": {
+    "me": { "species": "bean", "color": "#4dabf7", "name": "Me" },
+    "mayor": { "species": "bean", "color": "#e63946", "name": "Mayor Gruber" },
+    "crowd": { "species": "bean", "color": "#ffd166", "name": "Crowd" }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "In my town, every lie makes you lighter.",
+      "setting": "city",
+      "light": "day",
+      "focus": "me",
+      "speaker": "me",
+      "actors": [
+        { "who": "me", "x": 380, "mood": "smug", "face": "right" },
+        { "who": "crowd", "x": 760, "mood": "happy", "face": "left", "action": "float", "at": "lighter" }
+      ],
+      "stickers": [{ "word": "lighter", "emoji": "🎈" }]
+    },
+    {
+      "id": "rule",
+      "text": "Small lie, you float an inch. Big lie, you drift away. So everyone in Pebble Falls carries rocks in their pockets.",
+      "setting": "city",
+      "light": "day",
+      "focus": "me",
+      "speaker": "me",
+      "actors": [
+        { "who": "me", "x": 300, "mood": "happy", "face": "right", "hold": "🪨" },
+        { "who": "crowd", "x": 560, "toX": 700, "mood": "happy", "face": "left", "hold": "🪨", "action": "jump", "at": "inch" },
+        { "who": "crowd", "x": 860, "mood": "happy", "face": "left", "hold": "🪨" }
+      ],
+      "stickers": [{ "word": "rocks", "emoji": "🪨" }]
+    },
+    {
+      "id": "mocker",
+      "text": "Then Mayor Gruber ran again. \"Lighter? Please,\" he laughed. \"I have never lied once.\" He carried no rocks.",
+      "setting": "city",
+      "light": "day",
+      "focus": "mayor",
+      "speaker": "me",
+      "actors": [
+        { "who": "mayor", "x": 700, "mood": "smug", "face": "left", "hat": "🎩", "size": 1.3 },
+        { "who": "me", "x": 260, "mood": "shock", "face": "right" }
+      ],
+      "stickers": [{ "word": "never", "emoji": "😏" }]
+    },
+    {
+      "id": "esc1",
+      "text": "\"Free pizza for everyone!\" he promised, and his shoes left the ground. \"Just a breeze,\" he said.",
+      "setting": "city",
+      "light": "day",
+      "focus": "mayor",
+      "speaker": "me",
+      "actors": [
+        { "who": "mayor", "x": 650, "mood": "smug", "face": "left", "hat": "🎩", "size": 1.0, "lift": 30, "action": "float", "at": "ground" },
+        { "who": "crowd", "x": 240, "mood": "shock", "face": "right" }
+      ],
+      "stickers": [{ "word": "pizza", "emoji": "🍕" }]
+    },
+    {
+      "id": "esc2",
+      "text": "\"No more taxes, ever!\" Up he went to the rooftops, still waving, still smiling.",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "mayor",
+      "speaker": "me",
+      "effects": ["rays"],
+      "actors": [
+        { "who": "mayor", "x": 650, "mood": "smug", "face": "left", "hat": "🎩", "size": 1.0, "lift": 120, "action": "float", "at": "Up" },
+        { "who": "crowd", "x": 260, "mood": "shock", "face": "right" },
+        { "who": "crowd", "x": 420, "mood": "shock", "face": "right" }
+      ],
+      "stickers": [{ "word": "taxes", "emoji": "💸" }]
+    },
+    {
+      "id": "esc3",
+      "text": "\"I will fix every road personally!\" Past the clock tower, past the birds, higher than church.",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "mayor",
+      "speaker": "me",
+      "effects": ["speed"],
+      "actors": [
+        { "who": "mayor", "x": 600, "mood": "shock", "face": "left", "hat": "🎩", "size": 0.9, "lift": 220, "action": "float", "at": "Past" },
+        { "who": "crowd", "x": 240, "mood": "shock", "face": "right" }
+      ],
+      "stickers": [{ "word": "birds", "emoji": "🐦" }]
+    },
+    {
+      "id": "yousee",
+      "text": "You see, ever let go of a balloon? It doesn't stop. It just keeps getting smaller.",
+      "setting": "forest",
+      "light": "day",
+      "focus": "me",
+      "speaker": "me",
+      "actors": [
+        { "who": "me", "x": 400, "mood": "sad", "face": "right", "hold": "🎈" }
+      ],
+      "stickers": [{ "word": "smaller", "emoji": "🔍" }]
+    },
+    {
+      "id": "stuck",
+      "text": "We tied him to the flagpole with kite string. Three days he hung there, promising snacks to clouds.",
+      "setting": "city",
+      "light": "night",
+      "focus": "mayor",
+      "speaker": "me",
+      "actors": [
+        { "who": "mayor", "x": 640, "mood": "sad", "face": "left", "hat": "🎩", "size": 0.9, "lift": 200, "action": "float", "at": "hung" },
+        { "who": "crowd", "x": 260, "mood": "happy", "face": "right", "hold": "🪁" }
+      ],
+      "stickers": [{ "word": "snacks", "emoji": "🍿" }]
+    },
+    {
+      "id": "truth",
+      "text": "At dawn he whispered, \"I'm scared.\" The truth hit, and he dropped like a stone, straight into a hay cart.",
+      "setting": "city",
+      "light": "gold",
+      "focus": "mayor",
+      "speaker": "me",
+      "flash": "dropped",
+      "actors": [
+        { "who": "mayor", "x": 650, "mood": "shock", "face": "left", "hat": "🎩", "size": 1.0, "lift": 220, "action": "fall", "at": "dropped" },
+        { "who": "crowd", "x": 280, "mood": "happy", "face": "right" }
+      ],
+      "burst": { "at": "hay", "emoji": "🌾" }
+    },
+    {
+      "id": "loop",
+      "text": "He carries rocks now, just like everyone else. In my town, every lie makes you lighter.",
+      "setting": "city",
+      "light": "day",
+      "focus": "me",
+      "speaker": "me",
+      "actors": [
+        { "who": "mayor", "x": 700, "mood": "sad", "face": "left", "hat": "🎩", "hold": "🪨" },
+        { "who": "me", "x": 360, "mood": "smug", "face": "right" }
+      ],
+      "stickers": [{ "word": "rocks", "emoji": "🪨" }]
+    }
+  ]
+}
