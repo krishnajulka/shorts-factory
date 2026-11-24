@@ -7,6 +7,7 @@ import { JarFill, jarFillSounds } from "./JarFill";
 import { SandCut, sandCutSounds } from "./SandCut";
 import { Obby, obbySounds } from "./Obby";
 import { Parkour, parkourSounds } from "./Parkour";
+import { ParkourClip, parkourClipSounds } from "./ParkourClip";
 import { Plinko, plinkoSounds } from "./Plinko";
 import { Race, defaultRacers, raceSounds } from "./Race";
 import { RingEscape } from "./RingEscape";
@@ -26,7 +27,7 @@ import { Wheel, wheelLineup, wheelSounds } from "./Wheel";
 // split-screen Shorts use (our own render, no game footage). The calm loops stay
 // available by name.
 export const CLEAN_BOTTOMS = ["parkour"] as const;
-export const BOTTOM_KINDS = [...CLEAN_BOTTOMS, "growball", "sandcut", "jarfill", "soap", "stack", "dominoes", "obby", "rings", "plinko", "race", "breakout", "spiral", "territory", "wheel", "corner"] as const;
+export const BOTTOM_KINDS = [...CLEAN_BOTTOMS, "parkour3d", "growball", "sandcut", "jarfill", "soap", "stack", "dominoes", "obby", "rings", "plinko", "race", "breakout", "spiral", "territory", "wheel", "corner"] as const;
 export type BottomKind = (typeof BOTTOM_KINDS)[number];
 
 export type BottomSound = { frame: number; rate: number };
@@ -56,6 +57,8 @@ export const Bottom: React.FC<{ kind: BottomKind; seed: number; racers?: string[
     case "obby":
       return <Obby seed={seed} />;
     case "parkour":
+      return <ParkourClip seed={seed} />;
+    case "parkour3d":
       return <Parkour seed={seed} />;
     case "growball":
       return <GrowBall seed={seed} />;
@@ -93,6 +96,8 @@ export const bottomSounds = (kind: BottomKind, frames: number, seed: number, rac
     case "obby":
       return obbySounds(frames, seed);
     case "parkour":
+      return parkourClipSounds(frames, seed);
+    case "parkour3d":
       return parkourSounds(frames, seed);
     case "growball":
       return growBallSounds(frames, seed);

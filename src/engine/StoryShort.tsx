@@ -150,9 +150,9 @@ const BottomSounds: React.FC<{ kind: BottomKind; seed: number; racers?: string[]
   const { durationInFrames } = useVideoConfig();
   const sounds = useMemo(() => bottomSounds(kind, durationInFrames, seed, racers), [kind, durationInFrames, seed, racers]);
   const src = sfx(
-    kind === "race" ? "whip" : kind === "soap" ? "whoosh" : kind === "parkour" ? "thud" : kind === "growball" ? "pop" : kind === "sandcut" ? "thud" : kind === "jarfill" ? "tick" : ["plinko", "wheel", "territory", "stack", "dominoes", "obby"].includes(kind) ? "mouseClick" : "ding",
+    kind === "race" ? "whip" : kind === "soap" ? "whoosh" : kind === "parkour" || kind === "parkour3d" ? "thud" : kind === "growball" ? "pop" : kind === "sandcut" ? "thud" : kind === "jarfill" ? "tick" : ["plinko", "wheel", "territory", "stack", "dominoes", "obby"].includes(kind) ? "mouseClick" : "ding",
   );
-  const volume = kind === "parkour" ? 0.16 : kind === "plinko" ? 0.25 : kind === "growball" ? 0.22 : kind === "sandcut" ? 0.14 : 0.18;
+  const volume = kind === "parkour" || kind === "parkour3d" ? 0.16 : kind === "plinko" ? 0.25 : kind === "growball" ? 0.22 : kind === "sandcut" ? 0.14 : 0.18;
   return (
     <>
       {sounds.map((s, i) => (

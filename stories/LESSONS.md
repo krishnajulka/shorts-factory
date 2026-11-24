@@ -10,6 +10,8 @@ evidence wins. Cite the stories a lesson comes from.
 
 **2026-11-24 afternoon run (84 Shorts, 59 subs, ~57,900 views):** all three new-format Shorts are still under 24 h old, so none is judged yet. Early reads (hypotheses, not lessons): promise-rocks (rule world, brian, growball) 705 views after ~3 h, lie-lighter (rule world, parkour) 325 after ~3 h, bridge-break (true story, parkour) 80 after ~4 h. Rule-world first person is ahead of the true story so far. Next run: compare all three at 24 h+ against the old ~1,000-view ceiling. Today's test: molasses-wave (true story, george, parkour).
 
+**2026-11-24 OWNER REFERENCE (write this type at least every other Short):** the owner sent a 9.5M-view, 53 s Short as "do stories like this": an overpowered hero wants something trendy, has no money, tries five everyday jobs, is absurdly too good at each (exact big numbers), gets a quoted complaint and is fired for being too good, tally "fired from eleven jobs, zero dollars", the simplest task finally pays, then a blunder ending ("then he realized he didn't have a console") and an in-character like ask. Full skeleton in STORY_GUIDE.md under "Overpowered quest montage". Copy the structure, never the character or story.
+
 ## From the numbers
 
 (Full review 2026-11-06 of 49 Shorts; refreshed 2026-11-12 with 66 Shorts — 45 subscribers, ~43,700 views. Judge only Shorts older than 24 h.)

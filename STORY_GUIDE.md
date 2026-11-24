@@ -31,12 +31,45 @@ views on 15 Shorts with it; GreenBroRants got a 6.35M median with first-person
    something the viewer has done themselves: pushing a swing, blowing on soup,
    catching a phone as it slides off a table.
 6. **Payoff, shown not explained.** The biggest reveal is the last line. No moral, no
-   "and that's why", no call to follow after it.
+   "and that's why", no call to follow after it (except the in-character like ask
+   in the quest montage type below).
 7. **Loop.** The last line flows back into the first one so a replay feels seamless
    (the bridge Short ends with its own first sentence).
 
 ### Story types (rotate; never the same type twice in a row)
 
+- **Overpowered quest montage (the owner's favourite: write this one at least every
+  other Short).** Modelled on a 9.5M-view Short (53 s, ~150 words). Its exact skeleton:
+  1. **Want + obstacle in the first sentence.** "Bolt wanted the new game everyone's
+     waiting for, but he had zero dollars." Something every teen wants right now; a
+     reason he can't have it. Nothing else before it.
+  2. **Attempts, 4-5, each 2-3 sentences, ~6 seconds:** a real everyday job or
+     try → he's absurdly too good at it, with a big exact number ("four hundred
+     pizzas in four minutes") → a one-line quoted complaint from someone
+     ("It arrived before I ordered it!") → he gets fired or it fails for a ridiculous
+     reason that is the logical result of being too good. The irony (too good =
+     punished) is the joke; never explain it.
+  3. **Escalate the absurdity** with each attempt: bigger numbers, weirder
+     reactions; the 4th-5th attempt is the craziest (the robber hands over his own
+     gun, wallet and a signed confession).
+  4. **Tally line:** "By evening, he'd been fired from eleven jobs and earned zero
+     dollars." Use a bigger number than we showed, so it implies more failures.
+  5. **The reversal:** the simplest possible task (washing one car, carrying
+     groceries for Grandma) is the one that finally takes him ages and pays him. The
+     contrast is the payoff.
+  6. **The blunder ending (last line, gut punch):** he gets what he wanted and
+     instantly realizes the obvious thing he forgot ("Then he realized he didn't
+     have a console."). It resets the goal, so it doubles as a sequel hook.
+  7. **Optional story-tied like ask after the blunder**, max 8 words, in character:
+     "Leave a like so Bolt can buy one." This is the only CTA ever allowed; never
+     "subscribe", never generic.
+  Rules that make it work: one character, one goal, cause → effect in every
+  sentence, plain words, quoted lines under 8 words, no mocker or "You see," needed,
+  no setup scenes. Hero is our own original character (never an anime/game
+  character). The wanted thing is described generically ("the new game everyone's
+  waiting for", "the newest phone") and never shown with a real logo. Each attempt
+  is its own scene with a clear visual (a 🍕 drop for pizza, a 🏠 build for
+  construction, a 🦹 crowd for the bank); the hero is `focus` in every scene.
 - **True story with a twist** (fact-check every claim on Wikipedia or another reliable
   source and keep the numbers right): weird history, science explained, real
   inventions or rules with surprising reasons.
