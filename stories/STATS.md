@@ -1,6 +1,6 @@
 # Channel stats
 
-Updated 2026-11-24 10:44 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 59 · total channel views: 57860 · videos: 84.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
+Updated 2026-11-24 16:00 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 60 · total channel views: 59126 · videos: 85.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
 
 Sorted by views. "avg watched" is the average share of the Short people watched (YouTube Analytics; lags 1-2 days, "—" = not ready yet).
 
@@ -25,6 +25,7 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 1039 | 9 | 1 | 75% | 24s | 1 | 2026-11-17-teleporter-box | jessica | obby | 2026-11-17 16:08 | [Ben built a fake TELEPORTER for Mia 📦😈 (Part 17)](https://youtube.com/shorts/NXevdpa6AgQ) |
 | 1037 | 10 | 1 | 42% | 15s | 1 | 2026-11-05-nine-lives | george | stack | 2026-11-05 02:53 | [A cat had 9 lives. A red dot wanted all of them 🐱🔴](https://youtube.com/shorts/PkzwUHKpmjY) |
 | 1034 | 12 | 2 | 57% | 19s | 1 | 2026-11-02-moon-mouse | george | stack | 2026-11-02 02:55 | [Every night, the moon gets smaller. Here's why 🌙🐭](https://youtube.com/shorts/iqEKdZh334o) |
+| 1033 | 10 | 1 | — | — | — | 2026-11-24-promise-rocks | brian | growball | 2026-11-24 07:00 | [In my town, broken promises turn into rocks 🪨😬](https://youtube.com/shorts/hvqIg04ztMM) |
 | 1029 | 11 | 1 | 66% | 18s | 0 | 2026-11-02-toll-booth | jessica | obby | 2026-11-02 06:52 | [Ben charged his sister a toll to walk 🪙😈 (Part 3)](https://youtube.com/shorts/jUo7wREt27g) |
 | 1028 | 12 | 1 | 63% | 21s | 3 | 2026-11-04-puppy-chores | george | stack | 2026-11-04 02:51 | [He did 5 days of chores to earn a puppy 🐶🧹](https://youtube.com/shorts/92dmzQBv6Ok) |
 | 1026 | 5 | 1 | 69% | 22s | 0 | 2026-11-03-rabbit-tower | liam | dominoes | 2026-11-03 00:52 | [A snail raced a rabbit up 100 floors 🐌🐇 (Part 3)](https://youtube.com/shorts/xzKwdmUnI0o) |
@@ -58,16 +59,15 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 889 | 9 | 1 | 55% | 14s | 1 | 2026-11-12-owl-squeak | liam | dominoes | 2026-11-12 06:52 | [Why owls turn their heads all the way around 🦉🐭](https://youtube.com/shorts/NpzcDNCJVCM) |
 | 883 | 8 | 1 | 67% | 22s | 1 | 2026-11-20-fast-clock | jessica | stack | 2026-11-20 06:52 | [Ben set Mia's clock one hour FAST every day ⏰😈 (Part 21)](https://youtube.com/shorts/x9MsIsF7E6Y) |
 | 849 | 4 | 1 | 43% | 14s | 0 | 2026-11-10-whoopee-cushion | jessica | obby | 2026-11-10 02:52 | [Ben hid a toot cushion on Mia's chair 5 days 💨🪑 (Part 11)](https://youtube.com/shorts/7U5I1Vcb1wM) |
-| 705 | 11 | 1 | — | — | — | 2026-11-24-promise-rocks | brian | growball | 2026-11-24 07:00 | [In my town, broken promises turn into rocks 🪨😬](https://youtube.com/shorts/hvqIg04ztMM) |
+| 725 | 13 | 1 | — | — | — | 2026-11-24-lie-lighter | jessica | parkour | 2026-11-24 07:17 | [In my town, every lie makes you lighter 🎈🤥](https://youtube.com/shorts/LqKRsh8yW2Y) |
 | 701 | 6 | 1 | 38% | 15s | 0 | 2026-11-01-robot-letter | george | soap | 2026-11-01 10:42 | [A tiny robot had 90% battery to deliver ONE letter 🤖✉️](https://youtube.com/shorts/vhcChf9fh-s) |
 | 578 | 2 | 1 | 51% | 18s | 0 | 2026-11-09-rooster-sun | george | stack | 2026-11-09 10:53 | [Why roosters scream at the sun every morning 🐓☀️](https://youtube.com/shorts/-QoM6Fu03uM) |
 | 426 | 6 | 0 | 61% | 21s | 0 | 2026-10-28-last-pancake | liam | plinko | 2026-10-28 02:48 | [He relived the same Monday 41 times. The fix? 🥞⏰](https://youtube.com/shorts/DrDSaMhPCgU) |
 | 425 | 8 | 1 | 36% | 13s | 2 | 2026-11-07-tiny-rocket | george | obby | 2026-11-07 02:40 | [The tiny rocket was picked last on Diwali 🚀🪔](https://youtube.com/shorts/nwko6DfjkUY) |
-| 325 | 9 | 1 | — | — | — | 2026-11-24-lie-lighter | jessica | parkour | 2026-11-24 07:17 | [In my town, every lie makes you lighter 🎈🤥](https://youtube.com/shorts/LqKRsh8yW2Y) |
 | 320 | 5 | 0 | 38% | 17s | 0 | 2026-10-25-vending-machine-knows | brian | breakout | 2026-10-25 06:49 | [The vending machine never gives what he picks 🥤😨](https://youtube.com/shorts/XHeV9VH5Tzs) |
 | 268 | 7 | 0 | 59% | 22s | 1 | 2026-10-31-forgot-acorns | jessica | stack | 2026-10-31 02:53 | [He buried 100 acorns. Then forgot where. 🐿️🌳](https://youtube.com/shorts/8a86eiZrPHo) |
 | 235 | 3 | 0 | 46% | 21s | 0 | 2026-10-25-last-moth | liam | race | 2026-10-25 02:43 | [10,000 moths raced to one light. He came last. 🦋💡](https://youtube.com/shorts/aMExlWBjoUA) |
-| 80 | 2 | 1 | — | — | — | 2026-11-24-bridge-break | liam | parkour | 2026-11-24 06:17 | [74 soldiers broke a bridge without firing a shot 🌉💥](https://youtube.com/shorts/vWaUkooL_gI) |
+| 113 | 2 | 1 | — | — | — | 2026-11-24-bridge-break | liam | parkour | 2026-11-24 06:17 | [74 soldiers broke a bridge without firing a shot 🌉💥](https://youtube.com/shorts/vWaUkooL_gI) |
 | 51 | 2 | 1 | 52% | 19s | 0 | 2026-11-10-paper-boat | george | dominoes | 2026-11-10 06:53 | [A paper boat had one day to reach the sea ⛵🌊](https://youtube.com/shorts/_zoGbI-c6qk) |
 | 26 | 1 | 1 | 52% | 16s | 0 | 2026-11-03-gray-crayon | brian | soap | 2026-11-03 10:52 | [Nobody ever picked the gray crayon 🖍️⛈️](https://youtube.com/shorts/CCd6q3OmWec) |
 | 24 | 1 | 0 | 80% | 28s | 0 | 2026-10-26-grandma-chair | jessica | wheel | 2026-10-26 14:49 | [Grandma has NEVER lost hide and seek 👵🙈](https://youtube.com/shorts/KBAvLz8TtYQ) |
@@ -88,5 +88,7 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 5 | 1 | 0 | 96% | 38s | 0 | 2026-10-28-three-blinks | george | rings | 2026-10-28 14:50 | [A light blinks 3 times outside her window every night 💡🚌](https://youtube.com/shorts/plO5VhSocv0) |
 | 4 | 1 | 1 | 80% | 30s | 0 | 2026-10-29-bus-stop-dog | george | dominoes | 2026-10-29 16:24 | [He waited at the bus stop for 1,000 days 🐕🚌](https://youtube.com/shorts/Img5GabZ00M) |
 | 3 | 1 | 1 | 0% | 0s | 0 | 2026-11-04-pigeon-mail | liam | dominoes | 2026-11-04 00:53 | [A snail raced a pigeon across the country 🐌🕊️ (Part 4)](https://youtube.com/shorts/Z1xut2-nRsc) |
+| 2 | 0 | 1 | — | — | — | 2026-11-24-molasses-wave | george | parkour | 2026-11-24 11:16 | [A wave of molasses flooded a Boston street 🍯🌊](https://youtube.com/shorts/Ee1M49PeJK8) |
 | 2 | 1 | 1 | 93% | 29s | 0 | 2026-11-06-diwali-wind | liam | stack | 2026-11-06 16:50 | [A snail raced a rabbit: last Diwali lamp burning wins 🪔💨 (Part 6)](https://youtube.com/shorts/K2abhOojeWg) |
 | 1 | 1 | 1 | — | — | — | 2026-11-05-diwali-sky | liam | dominoes | 2026-11-05 00:53 | [A snail raced a rabbit to light up Diwali night 🪔🐌 (Part 5)](https://youtube.com/shorts/1RBEgfmkBkU) |
+| 0 | 0 | 1 | — | — | — | 2026-11-24-too-strong | liam | parkour | 2026-11-24 15:58 | [He was too strong to keep a job 💪😂](https://youtube.com/shorts/0G_BO7wARQg) |
