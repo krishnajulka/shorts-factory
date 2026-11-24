@@ -1,0 +1,386 @@
+{
+  "id": "2026-11-24-molasses-wave",
+  "title": "Molasses Wave",
+  "youtube": {
+    "title": "A wave of molasses flooded a Boston street 🍯🌊",
+    "description": "In 1919, a giant tank in Boston burst and sent a wave of molasses down the street. Here's why it was so deadly. #shorts #history #science #story",
+    "tags": [
+      "shorts",
+      "history",
+      "science",
+      "true story",
+      "animation",
+      "facts"
+    ]
+  },
+  "logline": "In 1919 a leaky, groaning molasses tank in Boston burst and sent a wave down the street; cold thick molasses is like honey from the fridge, which trapped people and made rescue hard.",
+  "comment": "Would you have believed the tank was safe? Be honest 😬",
+  "hook": "A WAVE OF MOLASSES 🍯🌊",
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 0,
+  "music": "tense",
+  "bottom": "parkour",
+  "keywords": [
+    "molasses",
+    "tank",
+    "groaning",
+    "wave",
+    "honey",
+    "glue",
+    "brown"
+  ],
+  "cast": {
+    "kid": {
+      "species": "bean",
+      "color": "#ff9f1c",
+      "name": "Kid"
+    },
+    "friend": {
+      "species": "bean",
+      "color": "#4dabf7",
+      "name": "Friend"
+    },
+    "boss": {
+      "species": "bean",
+      "color": "#7b2d26",
+      "name": "Boss"
+    },
+    "worker": {
+      "species": "bean",
+      "color": "#2e7d32",
+      "name": "Worker"
+    },
+    "tank": {
+      "emoji": "🛢️"
+    }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "A wave of molasses once flooded a Boston street.",
+      "setting": "city",
+      "light": "day",
+      "focus": "kid",
+      "actors": [
+        {
+          "who": "kid",
+          "x": 300,
+          "toX": 420,
+          "mood": "happy"
+        },
+        {
+          "who": "tank",
+          "x": 760,
+          "size": 1.9
+        }
+      ],
+      "stickers": [
+        {
+          "word": "molasses",
+          "emoji": "🍯"
+        }
+      ],
+      "effects": [
+        "bounce"
+      ]
+    },
+    {
+      "id": "tank",
+      "text": "Boston, 1919. A tank fifty feet tall held over two million gallons of molasses.",
+      "setting": "city",
+      "light": "day",
+      "focus": "tank",
+      "actors": [
+        {
+          "who": "tank",
+          "x": 540,
+          "size": 1.9
+        },
+        {
+          "who": "kid",
+          "x": 200,
+          "mood": "happy",
+          "action": "idle"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "fifty",
+          "emoji": "📏"
+        }
+      ],
+      "effects": [
+        "bounce"
+      ]
+    },
+    {
+      "id": "leaks",
+      "text": "It leaked, so the company painted it brown. Kids filled buckets from the cracks.",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "kid",
+      "actors": [
+        {
+          "who": "kid",
+          "x": 300,
+          "toX": 420,
+          "mood": "happy",
+          "hold": "🪣"
+        },
+        {
+          "who": "kid",
+          "x": 520,
+          "toX": 600,
+          "mood": "happy",
+          "hold": "🪣"
+        },
+        {
+          "who": "tank",
+          "x": 880,
+          "size": 1.6
+        }
+      ],
+      "stickers": [
+        {
+          "word": "brown",
+          "emoji": "🟤"
+        }
+      ],
+      "effects": [
+        "bounce"
+      ]
+    },
+    {
+      "id": "mock",
+      "text": "Workers heard it groaning. The company laughed: \"It's only molasses.\"",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "boss",
+      "actors": [
+        {
+          "who": "boss",
+          "x": 330,
+          "mood": "smug",
+          "hat": "🎩",
+          "changes": [
+            {
+              "at": "laughed",
+              "mood": "happy"
+            }
+          ]
+        },
+        {
+          "who": "worker",
+          "x": 700,
+          "mood": "shock",
+          "face": "left"
+        },
+        {
+          "who": "tank",
+          "x": 960,
+          "size": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "word": "groaning",
+          "emoji": "😬"
+        }
+      ],
+      "effects": [
+        "shake"
+      ]
+    },
+    {
+      "id": "warm",
+      "text": "Then a warm day came after freezing days, and the tank groaned louder and louder.",
+      "setting": "city",
+      "light": "danger",
+      "focus": "worker",
+      "actors": [
+        {
+          "who": "worker",
+          "x": 300,
+          "mood": "shock",
+          "action": "shake",
+          "at": "louder"
+        },
+        {
+          "who": "tank",
+          "x": 760,
+          "size": 1.9
+        }
+      ],
+      "stickers": [
+        {
+          "word": "warm",
+          "emoji": "☀️"
+        }
+      ],
+      "effects": [
+        "shake",
+        "vignette"
+      ]
+    },
+    {
+      "id": "burst",
+      "text": "At twelve thirty it burst. A wall of molasses raced down the street at thirty-five miles an hour.",
+      "setting": "city",
+      "light": "danger",
+      "focus": "kid",
+      "actors": [
+        {
+          "who": "kid",
+          "x": 800,
+          "mood": "shock",
+          "action": "run",
+          "face": "left",
+          "at": "raced"
+        },
+        {
+          "who": "boss",
+          "x": 620,
+          "mood": "shock",
+          "action": "run",
+          "face": "left",
+          "at": "raced"
+        }
+      ],
+      "crowd": {
+        "who": "worker",
+        "count": 6,
+        "mood": "shock",
+        "until": "burst"
+      },
+      "flash": "burst",
+      "burst": {
+        "at": "molasses",
+        "emoji": "🍯"
+      },
+      "effects": [
+        "speed",
+        "shake"
+      ],
+      "stickers": [
+        {
+          "word": "thirty-five",
+          "emoji": "💨"
+        }
+      ]
+    },
+    {
+      "id": "see",
+      "text": "You see, ever poured honey straight from the fridge? Warm, it runs. Cold, it crawls and sticks.",
+      "setting": "room",
+      "light": "day",
+      "focus": "kid",
+      "actors": [
+        {
+          "who": "kid",
+          "x": 420,
+          "mood": "happy",
+          "hold": "🍯"
+        },
+        {
+          "who": "friend",
+          "x": 760,
+          "mood": "happy",
+          "face": "left"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "fridge",
+          "emoji": "🧊"
+        }
+      ]
+    },
+    {
+      "id": "stuck",
+      "text": "That January wave cooled fast and thickened like glue, so rescuers could barely move.",
+      "setting": "city",
+      "light": "danger",
+      "focus": "worker",
+      "actors": [
+        {
+          "who": "worker",
+          "x": 300,
+          "mood": "sad",
+          "action": "shake",
+          "at": "glue"
+        },
+        {
+          "who": "boss",
+          "x": 560,
+          "mood": "shock",
+          "face": "left"
+        },
+        {
+          "who": "kid",
+          "x": 820,
+          "mood": "shock",
+          "face": "left"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "glue",
+          "emoji": "🍯"
+        }
+      ],
+      "effects": [
+        "vignette"
+      ]
+    },
+    {
+      "id": "after",
+      "text": "Twenty-one people died, and the harbor stayed brown until summer. Boston smelled of molasses for decades.",
+      "setting": "beach",
+      "light": "dusk",
+      "focus": "worker",
+      "actors": [
+        {
+          "who": "worker",
+          "x": 540,
+          "mood": "sad"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "brown",
+          "emoji": "🟤"
+        }
+      ],
+      "effects": [
+        "rain"
+      ]
+    },
+    {
+      "id": "loop",
+      "text": "Which is how a wave of molasses once flooded a Boston street.",
+      "setting": "city",
+      "light": "day",
+      "focus": "kid",
+      "actors": [
+        {
+          "who": "kid",
+          "x": 300,
+          "toX": 420,
+          "mood": "happy"
+        },
+        {
+          "who": "tank",
+          "x": 760,
+          "size": 1.9
+        }
+      ],
+      "stickers": [
+        {
+          "word": "flooded",
+          "emoji": "🌊"
+        }
+      ]
+    }
+  ]
+}
