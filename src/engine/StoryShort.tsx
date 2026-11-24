@@ -6,6 +6,7 @@ import { Bottom, BottomKind, CLEAN_BOTTOMS, bottomSounds } from "../satisfying";
 import { Captions, chunkStarts } from "./Captions";
 import { ToonDefs } from "./characters";
 import { SceneView, focusPoint } from "./SceneView";
+import { MusicBed, RISER_SECONDS, SceneEffects, musicMood } from "./Soundtrack";
 import { STAGE_H, STAGE_W } from "./settings";
 import { Stickers, stickerTimes } from "./Stickers";
 import { Character, RenderScene, RenderStory } from "./types";
@@ -14,6 +15,9 @@ import { Character, RenderScene, RenderStory } from "./types";
 // internet (the cloud machine's proxy blocks downloads made by the renderer).
 const fontFamily = "Montserrat";
 loadFont({ family: fontFamily, url: staticFile("fonts/montserrat-latin.woff2"), weight: "100 900" });
+// Chunky cartoon font for captions and the hook (Luckiest Guy, Apache 2.0).
+const captionFont = "Luckiest Guy";
+loadFont({ family: captionFont, url: staticFile("fonts/LuckiestGuy-Regular.ttf"), weight: "400" });
 const sfx = (name: string) => staticFile(`sfx/${name}.wav`);
 
 export const FPS = 30;
@@ -122,8 +126,8 @@ const HookCard: React.FC<{ text: string }> = ({ text }) => {
         left: 50,
         right: 50,
         textAlign: "center",
-        fontFamily,
-        fontWeight: 900,
+        fontFamily: captionFont,
+        fontWeight: 400,
         fontSize: 92,
         lineHeight: 1.05,
         color: "#fff",
@@ -145,8 +149,10 @@ const HookCard: React.FC<{ text: string }> = ({ text }) => {
 const BottomSounds: React.FC<{ kind: BottomKind; seed: number; racers?: string[] }> = ({ kind, seed, racers }) => {
   const { durationInFrames } = useVideoConfig();
   const sounds = useMemo(() => bottomSounds(kind, durationInFrames, seed, racers), [kind, durationInFrames, seed, racers]);
-  const src = sfx(kind === "race" ? "whip" : kind === "soap" ? "whoosh" : ["plinko", "wheel", "territory", "stack", "dominoes", "obby"].includes(kind) ? "mouseClick" : "ding");
-  const volume = kind === "plinko" ? 0.25 : 0.18;
+  const src = sfx(
+    kind === "race" ? "whip" : kind === "soap" ? "whoosh" : kind === "parkour" ? "thud" : kind === "growball" ? "pop" : kind === "sandcut" ? "thud" : kind === "jarfill" ? "tick" : ["plinko", "wheel", "territory", "stack", "dominoes", "obby"].includes(kind) ? "mouseClick" : "ding",
+  );
+  const volume = kind === "parkour" ? 0.16 : kind === "plinko" ? 0.25 : kind === "growball" ? 0.22 : kind === "sandcut" ? 0.14 : 0.18;
   return (
     <>
       {sounds.map((s, i) => (
@@ -162,6 +168,7 @@ export const StoryShort: React.FC<{ story: RenderStory }> = ({ story }) => {
   const items = layout(story);
   const seed = seedOf(story.id);
   const bottom = story.bottom ?? CLEAN_BOTTOMS[seed % CLEAN_BOTTOMS.length];
+  const mood = musicMood(story, seed);
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
       <AbsoluteFill style={{ top: 0, height: STAGE_H, overflow: "hidden" }}>
@@ -176,17 +183,24 @@ export const StoryShort: React.FC<{ story: RenderStory }> = ({ story }) => {
         <Bottom kind={bottom} seed={seed} racers={story.racers} />
       </AbsoluteFill>
       <BottomSounds kind={bottom} seed={seed} racers={story.racers} />
+      {mood ? <MusicBed mood={mood} items={items} /> : null}
+      {items.length > 2 ? (
+        <Sequence from={Math.max(0, items[items.length - 1].from - Math.round(RISER_SECONDS * FPS))} durationInFrames={Math.round(RISER_SECONDS * FPS)} name="riser">
+          <Audio src={sfx("riser")} volume={0.25} />
+        </Sequence>
+      ) : null}
       {items.map(({ scene, from, frames, index }) => (
         <Sequence key={`a-${scene.id}`} from={from} durationInFrames={frames} name={`voice ${scene.id}`}>
           <Audio src={staticFile(scene.file)} />
           {index > 0 ? <Audio src={sfx("whoosh")} volume={0.3} /> : null}
           {scene.sfx ? <Audio src={sfx(scene.sfx)} volume={0.35} /> : null}
+          <SceneEffects scene={scene} fps={FPS} />
           {stickerTimes(scene.stickers, scene.words).map((s) => (
             <Sequence key={s.word} from={Math.round(s.at * FPS)} durationInFrames={FPS} layout="none">
-              <Audio src={sfx("uiSwitch")} volume={0.4} />
+              <Audio src={sfx("pop")} volume={0.45} />
             </Sequence>
           ))}
-          <Captions words={scene.words} fontFamily={fontFamily} keywords={story.keywords} />
+          <Captions words={scene.words} fontFamily={captionFont} keywords={story.keywords} />
         </Sequence>
       ))}
       {story.hook ? <HookCard text={story.hook} /> : null}

@@ -2,7 +2,7 @@ import React from "react";
 import { Easing, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { TimedWord } from "./types";
 
-const CHUNK = 3;
+const CHUNK = 2; // viral story Shorts flash 1-2 words at a time
 const PAUSE = 0.6;
 
 // Index of the first word of each caption chunk. Phrases break at spoken
@@ -55,8 +55,9 @@ export const Captions: React.FC<{ words: TimedWord[]; fontFamily: string; keywor
         justifyContent: "center",
         gap: "0 40px",
         fontFamily,
-        fontWeight: 900,
-        fontSize: 100,
+        fontWeight: 400,
+        fontSize: 112,
+        letterSpacing: 2,
         lineHeight: 1.05,
         textTransform: "uppercase",
         textAlign: "center",
@@ -70,7 +71,9 @@ export const Captions: React.FC<{ words: TimedWord[]; fontFamily: string; keywor
             key={chunkStart + i}
             style={{
               color: isKey ? "#4dff7a" : isActive ? "#ffe14d" : "#fff",
-              fontSize: isKey ? 124 : undefined,
+              fontSize: isKey ? 136 : undefined,
+              display: "inline-block",
+              rotate: isActive ? `${interpolate(since, [0, 0.15], [(active % 2 ? 1 : -1) * 6, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}deg` : "0deg",
               WebkitTextStroke: "14px #000",
               paintOrder: "stroke fill",
               textShadow: "0 10px 0 rgba(0,0,0,0.6)",

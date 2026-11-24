@@ -8,7 +8,8 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { KokoroTTS } from "kokoro-js";
-import { timeWords, writeWav16 } from "./voice-timing.mjs";
+import { writeWav16 } from "./voice-timing.mjs";
+import { timeWordsExact } from "./whisper-timing.mjs";
 
 // Story narrators (named after their ElevenLabs voices) → closest Kokoro voice.
 const VOICES = {
@@ -33,7 +34,7 @@ const main = async () => {
     const file = `voice/${story.id}/${scene.id}.wav`;
     const audio = await tts.generate(scene.text, { voice, speed: SPEED });
     writeWav16(join(root, "public", file), audio.audio, audio.sampling_rate);
-    scenes.push({ id: scene.id, text: scene.text, file, ...timeWords(scene.text, join(root, "public", file)) });
+    scenes.push({ id: scene.id, text: scene.text, file, ...(await timeWordsExact(scene.text, join(root, "public", file))) });
   }
 
   writeFileSync(join(root, "src/generated", `${story.id}.json`), JSON.stringify({ id: story.id, title: story.title, scenes }, null, 2));

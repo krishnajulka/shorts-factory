@@ -1,13 +1,13 @@
 # Series
 
 Recurring characters give viewers a reason to subscribe ("I want the next one") and
-let YouTube recommend each new part to people who watched the last. **Every other
-Short is a series episode**: if the previous story in `LOG.md` was not a series
-episode, the next one must be. **Ben vs Mia is the main series** (every episode got
-reach and they bring the most subscribers); use Turbo at most once every 3 days while
-it rests (Parts 4-5 got no reach). Add a new
-series only when a standalone Short clearly outperforms (top 3 in STATS.md by views
-and % watched) — then turn its characters into a series here.
+let YouTube recommend each new part to people who watched the last.
+
+**2026-11-24: Ben vs Mia and Turbo are RETIRED (owner's decision).** After 21 Ben vs
+Mia parts the series is predictable and flat at ~1k views. Do not write new episodes
+of either. There is no "every other Short is a series" rule while no series is
+active. Add a new series only when a standalone Short clearly outperforms (top 3 in
+STATS.md by views and % watched) — then turn its characters into a series here.
 
 Rules for every episode:
 - Same characters, same names, same colors and same narrator as the bible below.

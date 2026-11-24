@@ -156,7 +156,77 @@ const Beach: React.FC<{ p: Palette; scroll: number }> = ({ p, scroll }) => (
   </>
 );
 
-export const Backdrop: React.FC<{ setting: Setting; light: Light; scroll?: number; id: string }> = ({ setting, light, scroll = 0, id }) => {
+// Suspension bridge over a river. bob: how far the deck's middle is pushed down
+// right now (bouncing); breakT: 0 = intact .. 1 = the left half has collapsed.
+const TOWER_L = 150;
+const TOWER_R = 930;
+export const RIVER_Y = GROUND_Y + 70;
+export const deckSag = (x: number, bob: number) => (x > TOWER_L && x < TOWER_R ? bob * Math.sin((Math.PI * (x - TOWER_L)) / (TOWER_R - TOWER_L)) : 0);
+
+const Bridge: React.FC<{ p: Palette; bob: number; breakT: number; t: number }> = ({ p, bob, breakT, t }) => {
+  const tilt = breakT * 24; // the left half swings down into the river
+  const deckPts = (from: number, to: number) => {
+    const pts: string[] = [];
+    for (let x = from; x <= to; x += 30) pts.push(`${x},${GROUND_Y + deckSag(x, bob)}`);
+    return pts;
+  };
+  const chain = (x0: number, x1: number, sag: number) =>
+    `M${x0},${GROUND_Y - 400} Q${(x0 + x1) / 2},${GROUND_Y - 400 + sag} ${x1},${GROUND_Y - 400}`;
+  const mid = (TOWER_L + TOWER_R) / 2;
+  return (
+    <>
+      {[0, 1, 2].map((i) => (
+        <ellipse key={i} cx={150 + i * 400} cy={GROUND_Y - 40} rx={330} ry={150} fill={p.dark} opacity={0.35} />
+      ))}
+      <rect y={GROUND_Y + 20} width={STAGE_W} height={STAGE_H - GROUND_Y - 20} fill="#2f86c7" />
+      {new Array(9).fill(0).map((_, i) => (
+        <path key={i} d={`M${((i * 140 + t * 40) % 1220) - 140},${GROUND_Y + 70 + (i % 3) * 22} q35,-14 70,0 t70,0`} stroke="#9fd8ff" strokeWidth={5} fill="none" opacity={0.7} />
+      ))}
+      <polygon points={`0,${GROUND_Y - 10} 100,${GROUND_Y - 10} 70,${STAGE_H} 0,${STAGE_H}`} fill="#7a6a4f" />
+      <polygon points={`${STAGE_W},${GROUND_Y - 10} ${STAGE_W - 100},${GROUND_Y - 10} ${STAGE_W - 70},${STAGE_H} ${STAGE_W},${STAGE_H}`} fill="#7a6a4f" />
+      {/* towers */}
+      {[TOWER_L, TOWER_R].map((x, i) => (
+        <g key={x} transform={i === 0 && breakT > 0 ? `rotate(${-breakT * 28} ${x} ${GROUND_Y + 120})` : undefined}>
+          <rect x={x - 34} y={GROUND_Y - 430} width={68} height={560} fill="#b8a68a" stroke="#6e604a" strokeWidth={6} />
+          <rect x={x - 18} y={GROUND_Y - 380} width={36} height={120} rx={18} fill="#6e604a" opacity={0.5} />
+          <rect x={x - 44} y={GROUND_Y - 445} width={88} height={22} fill="#9c8b70" />
+        </g>
+      ))}
+      {/* main chains + hangers */}
+      <g stroke="#3d3a40" strokeWidth={9} fill="none" opacity={breakT > 0.5 ? 0.5 : 1}>
+        <path d={chain(TOWER_L, TOWER_R, 360 + bob * 0.6 + breakT * 200)} />
+        <path d={`M0,${GROUND_Y - 40} Q70,${GROUND_Y - 300} ${TOWER_L},${GROUND_Y - 400}`} />
+        <path d={`M${STAGE_W},${GROUND_Y - 40} Q${STAGE_W - 70},${GROUND_Y - 300} ${TOWER_R},${GROUND_Y - 400}`} />
+      </g>
+      {new Array(12).fill(0).map((_, i) => {
+        const x = TOWER_L + 60 * (i + 1);
+        const u = (x - TOWER_L) / (TOWER_R - TOWER_L);
+        const chainY = GROUND_Y - 400 + 2 * u * (1 - u) * (360 + bob * 0.6); // point on the quadratic chain curve
+        if (breakT > 0 && x < mid) return null;
+        return <line key={i} x1={x} y1={chainY} x2={x} y2={GROUND_Y + deckSag(x, bob)} stroke="#3d3a40" strokeWidth={4} />;
+      })}
+      {/* deck: right half stays, left half drops when broken */}
+      <polyline points={deckPts(60, STAGE_W - 60).filter((pt) => breakT === 0 || Number(pt.split(",")[0]) >= mid).join(" ")} stroke="#7b4f2c" strokeWidth={34} fill="none" strokeLinejoin="round" />
+      <polyline points={deckPts(60, STAGE_W - 60).filter((pt) => breakT === 0 || Number(pt.split(",")[0]) >= mid).join(" ")} stroke="#a5703f" strokeWidth={10} fill="none" transform="translate(0 -12)" />
+      {breakT > 0 ? (
+        <g transform={`rotate(${-tilt} ${mid} ${GROUND_Y})`}>
+          <line x1={60} y1={GROUND_Y} x2={mid} y2={GROUND_Y} stroke="#7b4f2c" strokeWidth={34} />
+          <line x1={60} y1={GROUND_Y - 12} x2={mid} y2={GROUND_Y - 12} stroke="#a5703f" strokeWidth={10} />
+        </g>
+      ) : null}
+    </>
+  );
+};
+
+export const Backdrop: React.FC<{ setting: Setting; light: Light; scroll?: number; id: string; bob?: number; breakT?: number; t?: number }> = ({
+  setting,
+  light,
+  scroll = 0,
+  id,
+  bob = 0,
+  breakT = 0,
+  t = 0,
+}) => {
   const p = LIGHTS[light];
   return (
     <g>
@@ -166,6 +236,7 @@ export const Backdrop: React.FC<{ setting: Setting; light: Light; scroll?: numbe
       {setting === "space" ? <Space scroll={scroll} /> : null}
       {setting === "room" ? <Room p={p} /> : null}
       {setting === "beach" ? <Beach p={p} scroll={scroll} /> : null}
+      {setting === "bridge" || setting === "collapse" ? <Bridge p={p} bob={bob} breakT={setting === "collapse" ? breakT : 0} t={t} /> : null}
       {p.tint && setting !== "space" ? <rect width={STAGE_W} height={STAGE_H} fill={p.tint} /> : null}
     </g>
   );
