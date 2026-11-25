@@ -109,7 +109,17 @@ narrator-hero's own signature.
   waiting for", "the newest phone") and never shown with a real logo. Each attempt
   is its own scene with a clear visual (a 🍕 drop for pizza, a 🏠 build for
   construction, a 🦹 crowd for the bank); the hero is `focus` in every scene.
-- **True story with a twist** (fact-check every claim on Wikipedia or another reliable
+- **Second-person dilemma** (1.2M views, 69x the creator's median, Nov 2026): put the
+  viewer in an impossible spot in the first line ("You and your best friend are hanging
+  from one rope over a canyon."), then escalate what each choice leads to, with the hero
+  bean as "you", and end on a twist nobody picked. The `hook` card states the whole
+  situation. The comment question asks what they'd choose.
+- **Versus: which turns out better?** ("Strict Dad vs Soft Mom: Which Kid Turns Out
+  Better?", 2.5M views, 49 s): two characters raised or doing the same thing two opposite
+  ways, side by side, 3-4 rounds of escalating consequences, and a reversal at the end
+  (the "obvious" winner loses). Easy to show: two beans, same setting, `face` each other.
+- **True story with a twist** (weakest performer in the new format so far: use rarely;
+  fact-check every claim on Wikipedia or another reliable
   source and keep the numbers right): weird history, science explained, real
   inventions or rules with surprising reasons.
 - **Rule world, first person:** "In my town, every lie makes your shadow lighter..." One
