@@ -23,7 +23,7 @@ const sfx = (name: string) => staticFile(`sfx/${name}.wav`);
 export const FPS = 30;
 // Cut each scene this long after its last word starts, dropping TTS dead air.
 const TAIL = 0.7;
-const END_PAD = 15;
+const END_PAD = 4; // no frozen tail: the loop restarts almost instantly
 
 export const layout = (story: RenderStory) => {
   let from = 0;
@@ -65,21 +65,35 @@ const StoryStage: React.FC<{ scene: RenderScene; cast: Record<string, Character>
 
   const starts = chunkStarts(words);
   const chunk = Math.max(0, starts.filter((s) => (words[s]?.start ?? Infinity) <= t).length - 1);
-  const shot = SHOTS[(index + chunk) % SHOTS.length];
-  const shotStart = words[starts[chunk]]?.start ?? 0;
+  const chunkStart = words[starts[chunk]]?.start ?? 0;
+  // Never hold one framing longer than MAX_HOLD seconds: a long caption chunk
+  // or a pause still gets a fresh cut (static shots are where viewers swipe).
+  const extra = Math.floor(Math.max(0, t - chunkStart) / MAX_HOLD);
+  const shot = SHOTS[(index + chunk + extra) % SHOTS.length];
+  const shotStart = chunkStart + extra * MAX_HOLD;
 
   const lastWord = [...words].reverse().find((w) => w.start <= t);
   const punch = lastWord ? interpolate(t - lastWord.start, [0, 0.12], [1.05, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) : 1;
   const whip = interpolate(frame, [0, 6], [1.3, 1], { extrapolateRight: "clamp" });
-  const drift = 1 + Math.max(0, t - shotStart) * 0.04;
-  const z = shot.z * punch * whip * drift * (shot.rot ? 1.06 : 1);
+  const drift = 1 + Math.max(0, t - shotStart) * 0.07;
+  // Cold open: the very first frame is a tight close-up on the hero's face
+  // that snaps out to the scene in under half a second, with an impact hit
+  // and a short shake: movement before the viewer can decide to swipe.
+  const open = index === 0 ? interpolate(frame, [0, OPEN_FRAMES], [1, 0], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) }) : 0;
+  const z = shot.z * punch * (index === 0 ? 1 : whip) * drift * (shot.rot ? 1.06 : 1) * (1 + open * 0.9);
+  const f = shot.f + (1 - shot.f) * open;
 
   const [fx, fy] = focusPoint(scene, cast);
   const halfW = STAGE_W / (2 * z);
   const halfH = STAGE_H / (2 * z);
-  const cx = Math.min(Math.max(STAGE_W / 2 + (fx - STAGE_W / 2) * shot.f, halfW), STAGE_W - halfW);
-  const cy = Math.min(Math.max(STAGE_H / 2 + (fy - STAGE_H / 2) * shot.f, halfH), STAGE_H - halfH);
-  const shake = scene.effects?.includes("shake") || scene.effects?.includes("speed") ? Math.sin(frame * 2.1) * 6 : 0;
+  const cx = Math.min(Math.max(STAGE_W / 2 + (fx - STAGE_W / 2) * f, halfW), STAGE_W - halfW);
+  // During the cold open, frame the face low so the hook card never covers it.
+  const cy = Math.min(Math.max(STAGE_H / 2 + (fy - 150 * open - STAGE_H / 2) * f, halfH), STAGE_H - halfH);
+  const shake =
+    (scene.effects?.includes("shake") || scene.effects?.includes("speed") ? Math.sin(frame * 2.1) * 6 : 0) +
+    (index === 0 ? Math.sin(frame * 3.3) * 14 * Math.max(0, 1 - frame / OPEN_FRAMES) : 0) +
+    // A gentle handheld sway so even a calm shot is never perfectly still.
+    Math.sin(t * 1.7 + index) * 3;
 
   // Scene cuts whip-pan in from the right with horizontal motion blur. Never on
   // the very first scene: frame 0 is what viewers judge before swiping.
@@ -108,21 +122,32 @@ const StoryStage: React.FC<{ scene: RenderScene; cast: Record<string, Character>
   );
 };
 
+// The hook card stays until the first sentence has been said (1.6-2.6 s).
+const hookSeconds = (scene?: RenderScene) => {
+  const words = scene?.words ?? [];
+  const end = words.findIndex((w) => /[.!?]["”]?$/.test(w.word));
+  const at = end >= 0 ? (words[end + 1]?.start ?? words[end].start + 0.4) : 2.2;
+  return Math.min(2.6, Math.max(1.6, at));
+};
+
 const WHIP_FRAMES = 7;
+const OPEN_FRAMES = 13; // cold-open snap-out (~0.43 s)
+const MAX_HOLD = 1.3; // longest a framing may stay before a fresh cut (s)
 
-const HOOK_SECONDS = 2.8;
-
-// Big suspense line on screen from frame 0, readable before the narrator speaks.
-const HookCard: React.FC<{ text: string }> = ({ text }) => {
+// Big suspense line on screen from frame 0. It slams in, stays only while the
+// first sentence is said (so it never competes with the captions for long) and
+// sits below Instagram's top bar.
+const HookCard: React.FC<{ text: string; seconds: number }> = ({ text, seconds }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
-  if (t > HOOK_SECONDS) return null;
+  if (t > seconds) return null;
+  const slam = interpolate(frame, [0, 5], [1.1, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.back(2)) });
   return (
     <div
       style={{
         position: "absolute",
-        top: 130,
+        top: 170,
         left: 50,
         right: 50,
         textAlign: "center",
@@ -135,9 +160,9 @@ const HookCard: React.FC<{ text: string }> = ({ text }) => {
         WebkitTextStroke: "16px #000",
         paintOrder: "stroke fill",
         textShadow: "0 10px 0 rgba(0,0,0,0.6)",
-        // Fully visible on frame 0, then a slow pulse; fades out at the end.
-        scale: 1 + Math.sin(t * 6) * 0.03,
-        opacity: interpolate(t, [HOOK_SECONDS - 0.3, HOOK_SECONDS], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
+        scale: slam * (1 + Math.sin(t * 6) * 0.03),
+        rotate: `${interpolate(frame, [0, 5], [-3, -1], { extrapolateRight: "clamp" })}deg`,
+        opacity: interpolate(t, [seconds - 0.25, seconds], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
       }}
     >
       <span style={{ background: "#ff2d55", padding: "4px 22px", borderRadius: 18, WebkitTextStroke: "10px #000" }}>{text}</span>
@@ -193,6 +218,9 @@ export const StoryShort: React.FC<{ story: RenderStory }> = ({ story }) => {
         <Sequence key={`a-${scene.id}`} from={from} durationInFrames={frames} name={`voice ${scene.id}`}>
           <Audio src={staticFile(scene.file)} />
           {index > 0 ? <Audio src={sfx("whoosh")} volume={0.3} /> : null}
+          {/* Frame-0 impact: a hit plus a swish under the cold-open snap. */}
+          {index === 0 ? <Audio src={sfx("thud")} volume={0.55} /> : null}
+          {index === 0 ? <Audio src={sfx("swish")} volume={0.4} /> : null}
           {scene.sfx ? <Audio src={sfx(scene.sfx)} volume={0.35} /> : null}
           <SceneEffects scene={scene} fps={FPS} />
           {stickerTimes(scene.stickers, scene.words).map((s) => (
@@ -203,7 +231,7 @@ export const StoryShort: React.FC<{ story: RenderStory }> = ({ story }) => {
           <Captions words={scene.words} fontFamily={captionFont} keywords={story.keywords} />
         </Sequence>
       ))}
-      {story.hook ? <HookCard text={story.hook} /> : null}
+      {story.hook && story.hookCard !== false ? <HookCard text={story.hook} seconds={hookSeconds(items[0]?.scene)} /> : null}
     </AbsoluteFill>
   );
 };

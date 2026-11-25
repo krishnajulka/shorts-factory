@@ -81,6 +81,7 @@ export type StorySpec = {
   comment?: string; // required for new stories: question posted as a comment after upload
   series?: { name: string; part: number }; // set for series episodes (see stories/SERIES.md)
   hook?: string; // required for new stories (validator); on-screen text for the first ~3s, e.g. "WHO IS KNOCKING? 🚪"
+  hookCard?: boolean; // false = no hook banner (A/B test of the opening); default shows it
   narrator?: "brian" | "george" | "jessica" | "liam" | "callum"; // ElevenLabs voice
   voice: string; // Windows fallback voice
   rate: number; // Windows fallback speed

@@ -36,6 +36,25 @@ views on 15 Shorts with it; GreenBroRants got a 6.35M median with first-person
 7. **Loop.** The last line flows back into the first one so a replay feels seamless
    (the bridge Short ends with its own first sentence).
 
+### Kill the swipe: the first 3 seconds (the owner's #1 priority)
+
+Instagram's skip rate (viewers gone in ~3 s) is decided before the story starts. The
+engine handles the camera (cold-open close-up, impact sound, fresh framing every 1.3
+s); the story file must give it something to work with:
+- **Scene 1's `focus` is the hero of the first sentence**, and that character visibly
+  reacts on the first words: a `mood` change or an `action` with `at` on word 1-3
+  (shock, jump, grow, shake). Never open on characters just standing.
+- **Scene 1 is one sentence plus at most one short follow-up (≤ 16 words).** The
+  premise lands in under 2.5 s; cut to scene 2 (new framing or setting) right after.
+- **The first sentence is the whole absurd situation**, said plainly: "You found a
+  genie, but your worst enemy gets double." Not a teaser, no names first, no setup.
+- **`hook` = the same situation in ≤ 6 words** plus one emoji ("ENEMY GETS DOUBLE 🧞").
+  Short enough to read in one glance; the banner disappears when sentence 1 ends.
+- `"hookCard": false` hides the banner entirely (A/B test; see LESSONS.md "Next
+  experiment").
+- No scene longer than ~20 words (about 6 s); split a long beat into two scenes with
+  different framing or a new prop.
+
 ### The 7 no-skip rules (every Short, every type)
 
 From the owner's two reference Shorts (a 9.5M-view "overpowered job montage" and a
@@ -140,7 +159,7 @@ copyrighted characters.
 
 - **140-185 words total = 45-60 seconds** (pauses are squeezed out automatically). Never shorter, never longer.
 - 8-12 scenes, each `text` 8-20 words (validator allows 5-22).
-- First sentence of scene 1 ≤ 10 words.
+- First sentence of scene 1 ≤ 12 words; scene 1 ≤ 16 words in total.
 - Every scene has something moving: an action, a drop, a burst, a bouncing or
   collapsing set, a swing, a crowd, or `speed`. Static scenes are where people leave.
 - 1-2 stickers per scene on punchy words; 5-10 story `keywords` (lowercase words from
@@ -233,6 +252,7 @@ Scene:
 | `light` | `day` `dusk` `night` `danger` (red, tense) `gold` (triumph) |
 | `focus` | cast key the close-up shots frame |
 | `speaker` | cast key whose mouth moves with the whole narration (first-person stories) |
+| `hookCard` (story level) | `false` hides the hook banner (A/B test); omit to show it |
 | `catchphrase` | `"after"` on the first scene, `"before"` on the last scene: the focus character says "Yap! Yap! YAP!" (see The channel catchphrase) |
 | `actors` | list, see below |
 | `crowd` | `{ "who", "count" (≤63), "mood", "until": word }` |

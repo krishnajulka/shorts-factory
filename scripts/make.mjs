@@ -54,7 +54,10 @@ const validate = (story) => {
   // Retention: an on-screen hook from frame 0, a short first line, a short Short.
   need(typeof story.hook === "string" && story.hook.length >= 8 && story.hook.length <= 40, "hook (on-screen text for the first 3s) is required, 8-40 characters");
   const firstLine = (story.scenes?.[0]?.text ?? "").split(/[.!?]/)[0].split(/\s+/).filter(Boolean).length;
-  need(firstLine <= 10, `the first sentence of scene 1 must be 10 words or fewer (has ${firstLine}) — the hook has to land in under 2 seconds`);
+  need(firstLine <= 12, `the first sentence of scene 1 must be 12 words or fewer (has ${firstLine}) — the hook has to land in under 2.5 seconds`);
+  const firstScene = (story.scenes?.[0]?.text ?? "").split(/\s+/).filter(Boolean).length;
+  need(firstScene <= 16, `scene 1 must be 16 words or fewer (has ${firstScene}) — cut to scene 2 within ~3 s so the opening never sits still`);
+  need(story.hookCard === undefined || typeof story.hookCard === "boolean", "hookCard must be true or false");
   const totalWords = (story.scenes ?? []).reduce((n, s) => n + (s.text ?? "").split(/\s+/).filter(Boolean).length, 0);
   need(totalWords >= 140 && totalWords <= 185, `narration is ${totalWords} words; keep it 140-185 (about 45-60 seconds once pauses are squeezed)`);
   const phraseScenes = (story.scenes ?? []).filter((s) => s.catchphrase !== undefined);
