@@ -6,6 +6,11 @@ each run, update this file: add new evidence-backed lessons, sharpen or remove o
 the numbers contradict, and merge duplicates. Keep it under 25 bullets; newest
 evidence wins. Cite the stories a lesson comes from.
 
+## Next experiment
+
+1. **Second-person dilemma** (genie-double, 2026-11-25 4 PM slot): first test of this type. Compare its views, % watched and likes to rule worlds (~900-1,060 at 24 h) once it has 24 h+ of data; record win or loss here.
+2. Next Short: quest montage is due by the owner's rule (the last one before genie-double was too-fast). Try the "wanted thing" as a trending-topic quest with a quoted complaint in every attempt.
+
 **2026-11-24 FORMAT CHANGE (owner decision):** every Short now uses the 45-60 s viral recipe in STORY_GUIDE.md (impossible hook, mocker, 3 escalations, "You see,", payoff, loop), the alive engine, and the 3D parkour bottom. Ben vs Mia and Turbo are retired. Lessons below about the old 25 s counter template, series and old bottoms describe the OLD format: keep the general ones (hooks, clarity, soft premises flop, late uploads flop) and judge the new format only on Shorts from 2026-11-24 on. First new-format Short: 2026-11-24-bridge-break.
 
 **2026-11-25 noon run (87 Shorts, 60 subs, ~59,900 views):** first 24 h+ reads of the new format (1 Short each = hypotheses): promise-rocks (rule world, growball) 1,061 views, lie-lighter (rule world, parkour) 888 (14 likes, best like rate), both at the old ~1,000 ceiling, not above it; bridge-break (true story) 204 and molasses-wave (true story) 2: true stories are the weakest new type. too-strong (quest montage, 4 PM slot) 0 views at ~20 h = probably the dead 4 PM slot, not the type: untested fairly. thanks-table (rule world, Thanksgiving) 656 at ~4 h and 3 comments, on pace for ~1,000. No new-format Short has broken the ceiling yet. Today's test: too-fast (quest montage, 12 PM slot) to give the owner's favourite type a fair slot.
@@ -23,6 +28,8 @@ evidence wins. Cite the stories a lesson comes from.
 - Our own numbers: first-person "in my town" rule worlds lead the new format (promise-rocks 1,068, thanks-table 951 in <1 day, lie-lighter 917). True-history stories trail (bridge-break 211, molasses-wave 2 views). Hypothesis: viewers want character comedy, not history lessons; deprioritize true stories.
 
 ## From the numbers
+
+**2026-11-25 4 PM run:** too-fast (quest montage, 12 PM slot) 630 views / 15 likes at ~4 h (best like rate of the new format, hypothesis: quest montage likes well). too-strong is flagged BROKEN UPLOAD on YouTube (0 views, a bad first upload; the tightened copy went to Instagram: 456 views, 36% watched, skip rate 19%, 3 likes, no shares/saves = one data point). Instagram is far smaller than YouTube so far.
 
 (Full review 2026-11-06 of 49 Shorts; refreshed 2026-11-12 with 66 Shorts — 45 subscribers, ~43,700 views. Judge only Shorts older than 24 h.)
 
