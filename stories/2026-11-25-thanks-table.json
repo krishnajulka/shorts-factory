@@ -1,0 +1,161 @@
+{
+  "id": "2026-11-25-thanks-table",
+  "title": "Thanks Table",
+  "youtube": {
+    "title": "In my town, Thanksgiving dinner never ends early 🦃😬",
+    "description": "In my town, nobody leaves the table until everyone says one true thing they're thankful for. Uncle Dale said nothing... #shorts #story #thanksgiving #fyp",
+    "tags": ["shorts", "story", "storytime", "thanksgiving", "rule world", "animation", "funny"]
+  },
+  "logline": "In my town nobody can leave Thanksgiving dinner until everyone says one true thing they're thankful for. Grumpy Uncle Dale refuses, so the whole table rolls away with him until he finally says it.",
+  "comment": "Be honest: what are you thankful for this year? 🦃",
+  "hook": "THANKSGIVING NEVER ENDS EARLY 🦃",
+  "narrator": "jessica",
+  "voice": "Microsoft Zira Desktop",
+  "rate": 0,
+  "music": "playful",
+  "bottom": "parkour",
+  "keywords": ["thanksgiving", "table", "thankful", "dale", "chair", "roots", "nothing", "house"],
+  "cast": {
+    "me": { "species": "bean", "color": "#4dabf7", "name": "Me" },
+    "dale": { "species": "bean", "color": "#e76f51", "name": "Uncle Dale" },
+    "family": { "species": "bean", "color": "#ffd166", "name": "Family" }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "In my town, Thanksgiving dinner never ends early.",
+      "setting": "room",
+      "light": "gold",
+      "focus": "me",
+      "speaker": "me",
+      "actors": [
+        { "who": "me", "x": 380, "mood": "smug", "face": "right" },
+        { "who": "family", "x": 760, "mood": "happy", "face": "left", "hold": "🦃" }
+      ],
+      "stickers": [{ "word": "Thanksgiving", "emoji": "🦃" }]
+    },
+    {
+      "id": "rule",
+      "text": "The rule: nobody leaves the table until everyone names one true thing they are thankful for. Twelve of us sat, including Dale.",
+      "setting": "room",
+      "light": "gold",
+      "focus": "me",
+      "speaker": "me",
+      "actors": [
+        { "who": "me", "x": 260, "mood": "happy", "face": "right" },
+        { "who": "family", "x": 560, "mood": "happy", "face": "left", "hold": "🍽️" },
+        { "who": "dale", "x": 820, "mood": "angry", "face": "left", "size": 1.3 }
+      ],
+      "stickers": [{ "word": "rule", "emoji": "📜" }]
+    },
+    {
+      "id": "mocker",
+      "text": "Everyone shared, except Dale. He laughed. \"Thankful? For soggy beans?\" He folded his arms. \"Nothing.\"",
+      "setting": "room",
+      "light": "gold",
+      "focus": "dale",
+      "speaker": "me",
+      "actors": [
+        { "who": "dale", "x": 700, "mood": "smug", "face": "left", "size": 1.4 },
+        { "who": "me", "x": 260, "mood": "shock", "face": "right" }
+      ],
+      "stickers": [{ "word": "Nothing", "emoji": "😒" }]
+    },
+    {
+      "id": "esc1",
+      "text": "Roots shot out of his chair and dug into the floor. Dale just shrugged. \"Comfy.\"",
+      "setting": "room",
+      "light": "dusk",
+      "focus": "dale",
+      "speaker": "me",
+      "effects": ["shake"],
+      "actors": [
+        { "who": "dale", "x": 660, "mood": "smug", "face": "left", "size": 1.3, "hold": "🌱", "action": "shake", "at": "Roots" },
+        { "who": "family", "x": 260, "mood": "shock", "face": "right" }
+      ],
+      "stickers": [{ "word": "Roots", "emoji": "🌳" }]
+    },
+    {
+      "id": "esc2",
+      "text": "By midnight, the whole table slid out the front door, with Dale still holding his fork.",
+      "setting": "city",
+      "light": "night",
+      "focus": "dale",
+      "speaker": "me",
+      "effects": ["speed"],
+      "actors": [
+        { "who": "dale", "x": 300, "toX": 700, "mood": "smug", "face": "right", "size": 1.2, "hold": "🍴", "action": "run", "at": "slid" },
+        { "who": "family", "x": 140, "toX": 540, "mood": "shock", "face": "right", "action": "run", "at": "slid" }
+      ],
+      "stickers": [{ "word": "fork", "emoji": "🍴" }]
+    },
+    {
+      "id": "esc3",
+      "text": "Past the mall, past the bus stop, past Dale's own house. Every light off. Nobody home.",
+      "setting": "city",
+      "light": "night",
+      "focus": "dale",
+      "speaker": "me",
+      "effects": ["speed", "vignette"],
+      "actors": [
+        { "who": "dale", "x": 360, "toX": 760, "mood": "sad", "face": "right", "size": 1.2, "action": "run", "at": "Past" },
+        { "who": "family", "x": 160, "toX": 560, "mood": "shock", "face": "right", "action": "run", "at": "Past" }
+      ],
+      "stickers": [{ "word": "house", "emoji": "🏠" }]
+    },
+    {
+      "id": "yousee",
+      "text": "You see, ever tried holding in a sneeze? The longer you wait, the louder it comes out.",
+      "setting": "forest",
+      "light": "day",
+      "focus": "me",
+      "speaker": "me",
+      "actors": [
+        { "who": "me", "x": 400, "mood": "shock", "face": "right", "action": "shake", "at": "sneeze" }
+      ],
+      "stickers": [{ "word": "sneeze", "emoji": "🤧" }]
+    },
+    {
+      "id": "truth",
+      "text": "Dale looked back at all eleven of us, still riding along, still waiting. \"I'm thankful you didn't leave,\" he whispered.",
+      "setting": "city",
+      "light": "gold",
+      "focus": "dale",
+      "speaker": "me",
+      "effects": ["rays"],
+      "actors": [
+        { "who": "dale", "x": 620, "mood": "sad", "face": "left", "size": 1.3 },
+        { "who": "family", "x": 260, "mood": "happy", "face": "right" },
+        { "who": "family", "x": 400, "mood": "happy", "face": "right" }
+      ],
+      "stickers": [{ "word": "thankful", "emoji": "🥹" }]
+    },
+    {
+      "id": "free",
+      "text": "The roots popped loose. The whole table cheered and rolled back home, and Dale carved the turkey himself.",
+      "setting": "room",
+      "light": "gold",
+      "focus": "dale",
+      "speaker": "me",
+      "flash": "popped",
+      "actors": [
+        { "who": "dale", "x": 640, "mood": "happy", "face": "left", "size": 1.3, "hold": "🦃", "action": "jump", "at": "popped" },
+        { "who": "family", "x": 260, "mood": "happy", "face": "right", "action": "jump", "at": "cheered" }
+      ],
+      "burst": { "at": "cheered", "emoji": "🎉" }
+    },
+    {
+      "id": "loop",
+      "text": "He eats seconds now. In my town, Thanksgiving dinner never ends early.",
+      "setting": "room",
+      "light": "gold",
+      "focus": "me",
+      "speaker": "me",
+      "actors": [
+        { "who": "dale", "x": 700, "mood": "happy", "face": "left", "hold": "🍗" },
+        { "who": "me", "x": 340, "mood": "smug", "face": "right" }
+      ],
+      "stickers": [{ "word": "seconds", "emoji": "🍗" }]
+    }
+  ]
+}
