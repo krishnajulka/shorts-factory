@@ -1,0 +1,138 @@
+{
+  "id": "2026-11-25-too-fast",
+  "title": "Too Fast",
+  "youtube": {
+    "title": "He was too fast to keep a job ⚡😂",
+    "description": "Zip just wanted the newest phone. Every job went a little too fast. #shorts #funny #animation #story",
+    "tags": ["shorts", "funny", "animation", "story", "cartoon", "comedy"]
+  },
+  "logline": "Super-fast Zip wants the newest phone but has no money; he is too fast at every job and gets fired, finally earns money by waiting in line for Grandma, buys the phone and finds the battery is empty.",
+  "comment": "Which job would YOU have fired Zip from first? 😂",
+  "hook": "TOO FAST TO KEEP A JOB ⚡",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 0,
+  "music": "playful",
+  "bottom": "parkour",
+  "keywords": ["fired", "phone", "pizzas", "burgers", "mail", "dollars", "charging"],
+  "cast": {
+    "zip": { "species": "bean", "color": "#00c2a8", "name": "Zip" },
+    "boss": { "species": "bean", "color": "#ff9f1c", "name": "Boss" },
+    "lady": { "species": "bean", "color": "#c77dff", "name": "Lady" },
+    "man": { "species": "bean", "color": "#4dabf7", "name": "Man" },
+    "grandma": { "species": "bean", "color": "#f78fb3", "name": "Grandma" },
+    "pizza": { "emoji": "🍕" }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Zip wanted the newest phone, but he had zero dollars.",
+      "setting": "city", "light": "day", "focus": "zip",
+      "actors": [ { "who": "zip", "x": 540, "size": 1.3, "mood": "sad", "changes": [{ "at": "zero", "mood": "shock" }] } ],
+      "stickers": [{ "word": "phone", "emoji": "📱" }, { "word": "zero", "emoji": "💸" }]
+    },
+    {
+      "id": "pizza",
+      "text": "First, pizza delivery. Four hundred pizzas in four minutes.",
+      "setting": "city", "light": "day", "focus": "zip",
+      "effects": ["speed"],
+      "actors": [ { "who": "zip", "x": 200, "toX": 880, "action": "run", "mood": "happy", "hold": "🍕" } ],
+      "crowd": { "who": "pizza", "count": 20, "mood": "happy" },
+      "stickers": [{ "word": "pizzas", "emoji": "🍕" }, { "word": "minutes", "emoji": "⚡" }]
+    },
+    {
+      "id": "pizza-fired",
+      "text": "A customer yelled, \"It arrived before I ordered it!\" Zip was fired.",
+      "setting": "city", "light": "day", "focus": "boss",
+      "actors": [
+        { "who": "boss", "x": 380, "mood": "angry", "face": "right", "hold": "🍕" },
+        { "who": "zip", "x": 760, "face": "left", "mood": "happy", "changes": [{ "at": "fired", "mood": "sad" }] }
+      ],
+      "stickers": [{ "word": "ordered", "emoji": "❓" }, { "word": "fired", "emoji": "🔥" }]
+    },
+    {
+      "id": "burgers",
+      "text": "Next, burger cook. Three hundred burgers in one minute.",
+      "setting": "room", "light": "day", "focus": "zip",
+      "effects": ["shake"],
+      "actors": [ { "who": "zip", "x": 400, "mood": "smug", "hold": "🍔", "action": "spin", "at": "burgers" } ],
+      "burst": { "at": "hundred", "emoji": "🍔" },
+      "stickers": [{ "word": "burgers", "emoji": "🍔" }]
+    },
+    {
+      "id": "burgers-fired",
+      "text": "The manager cried, \"We have no food left!\" Fired again.",
+      "setting": "room", "light": "day", "focus": "boss",
+      "actors": [
+        { "who": "boss", "x": 380, "mood": "shock", "action": "shake", "at": "cried" },
+        { "who": "zip", "x": 780, "face": "left", "mood": "happy", "changes": [{ "at": "again", "mood": "sad" }] }
+      ],
+      "stickers": [{ "word": "food", "emoji": "😱" }, { "word": "fired", "emoji": "🔥" }]
+    },
+    {
+      "id": "mail",
+      "text": "Then he became a mailman. He delivered the whole city's mail in ten seconds.",
+      "setting": "city", "light": "day", "focus": "zip",
+      "effects": ["speed"],
+      "actors": [ { "who": "zip", "x": 150, "toX": 900, "action": "run", "mood": "smug", "hold": "✉️" } ],
+      "stickers": [{ "word": "mail", "emoji": "✉️" }, { "word": "seconds", "emoji": "⏱️" }]
+    },
+    {
+      "id": "mail-fired",
+      "text": "A lady shouted, \"I haven't even written that letter yet!\" Fired.",
+      "setting": "city", "light": "day", "focus": "lady",
+      "actors": [
+        { "who": "lady", "x": 380, "mood": "angry", "face": "right", "hold": "✉️" },
+        { "who": "zip", "x": 760, "face": "left", "mood": "happy", "changes": [{ "at": "fired", "mood": "sad" }] }
+      ],
+      "stickers": [{ "word": "letter", "emoji": "✉️" }, { "word": "fired", "emoji": "🔥" }]
+    },
+    {
+      "id": "bank",
+      "text": "Then bank security. A man walked in to cash a check. Zip had him in jail before the door closed.",
+      "setting": "city", "light": "dusk", "focus": "zip",
+      "effects": ["speed"],
+      "actors": [
+        { "who": "man", "x": 330, "mood": "shock", "action": "exit", "at": "jail" },
+        { "who": "zip", "x": 760, "face": "left", "mood": "smug", "hat": "🪖" }
+      ],
+      "flash": "jail",
+      "stickers": [{ "word": "jail", "emoji": "🚔" }]
+    },
+    {
+      "id": "tally",
+      "text": "By sunset, Zip was fired from fourteen jobs and had earned zero dollars.",
+      "setting": "city", "light": "dusk", "focus": "zip",
+      "effects": ["rain"],
+      "actors": [ { "who": "zip", "x": 540, "mood": "sad", "action": "faint", "at": "dollars" } ],
+      "stickers": [{ "word": "fourteen", "emoji": "1️⃣" }, { "word": "zero", "emoji": "💸" }]
+    },
+    {
+      "id": "line",
+      "text": "Then Grandma asked him to wait in line for her. It took five hours.",
+      "setting": "room", "light": "dusk", "focus": "zip",
+      "actors": [
+        { "who": "grandma", "x": 260, "mood": "happy" },
+        { "who": "zip", "x": 620, "mood": "shock", "action": "shake", "at": "hours" }
+      ],
+      "stickers": [{ "word": "wait", "emoji": "⏳" }, { "word": "hours", "emoji": "⏰" }]
+    },
+    {
+      "id": "paid",
+      "text": "She paid him two hundred dollars. He bought the phone and tore open the box.",
+      "setting": "city", "light": "gold", "focus": "zip",
+      "effects": ["confetti"],
+      "actors": [ { "who": "zip", "x": 300, "toX": 640, "action": "run", "mood": "happy" } ],
+      "drop": { "at": "phone", "emoji": "📱", "to": "zip" },
+      "stickers": [{ "word": "dollars", "emoji": "💵" }]
+    },
+    {
+      "id": "empty",
+      "text": "Then he saw the screen. Battery zero. Charging takes three hours. Leave a like so Zip can wait.",
+      "setting": "room", "light": "day", "focus": "zip",
+      "flash": "zero",
+      "actors": [ { "who": "zip", "x": 540, "mood": "happy", "hold": "📱", "changes": [{ "at": "zero", "mood": "shock" }] } ],
+      "stickers": [{ "word": "Battery", "emoji": "🪫" }, { "word": "like", "emoji": "👍" }]
+    }
+  ]
+}
