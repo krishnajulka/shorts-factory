@@ -1,0 +1,22 @@
+{
+  "text": "Yap! Yap! YAP!",
+  "voice": "liam",
+  "pitch": 1.25,
+  "file": "sfx/catchphrase.wav",
+  "emoji": "🗣️",
+  "duration": 0.963,
+  "words": [
+    {
+      "word": "Yap!",
+      "start": 0
+    },
+    {
+      "word": "Yap!",
+      "start": 0.39
+    },
+    {
+      "word": "YAP!",
+      "start": 0.765
+    }
+  ]
+}

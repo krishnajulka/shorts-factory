@@ -62,6 +62,7 @@ export type SceneSpec = {
   light: Light;
   focus?: string; // cast key the camera's close-ups frame
   speaker?: string; // cast key whose mouth moves with the narration (first-person stories); quoted words always move the focus actor's mouth
+  catchphrase?: true | "before" | "after"; // the channel catchphrase (public/sfx/catchphrase.json) said by the focus actor before/after this scene's narration
   actors: ActorSpec[];
   crowd?: { who: string; count: number; mood?: Mood; until?: string };
   effects?: Effect[];

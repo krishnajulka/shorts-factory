@@ -36,6 +36,45 @@ views on 15 Shorts with it; GreenBroRants got a 6.35M median with first-person
 7. **Loop.** The last line flows back into the first one so a replay feels seamless
    (the bridge Short ends with its own first sentence).
 
+### The 7 no-skip rules (every Short, every type)
+
+From the owner's two reference Shorts (a 9.5M-view "overpowered job montage" and a
+144k-like "too locked in to love" rule-world story). A viewer swipes the moment a
+sentence only explains. So:
+
+1. **One extreme trait drives everything.** The hero is too strong, too locked in, too
+   honest... The trait wins him everything in the middle and ruins the ending.
+2. **A punchline every ~3 seconds.** Every sentence is a joke, a reveal, a number or a
+   turn. Lists of proof work: "couples at school, couples at the gym, even the mayor
+   is on his fourth marriage." If a line only sets up, merge it into the next one.
+3. **Rhythm.** Use lists of three and "while they..., I..." pairs; vary sentence length
+   (short punch after a long line).
+4. **Jump past the boring part.** "Six months later," "By sunset," "Next," — never
+   narrate travel, waiting or how something was done.
+5. **Callbacks.** Bring back something from the first 15 seconds at the end (a
+   character, an object, the trait itself) so finishing feels rewarding.
+6. **Blunder ending, ideally double.** First fail, then an even bigger one caused by
+   the same trait ("he couldn't hear her through his noise-cancelling headphones...
+   then he replied 'Are you available for a quick call next week?'").
+7. **Catchphrase bookends + loop.** The channel catchphrase right after the hook line
+   and again just before the last line, and the last line repeats/flows into the first.
+
+Dead air is removed automatically (every pause in the voice is squeezed to a split
+second), so a Short now runs about 3.2-3.4 words per second: write 140-185 words
+(the validator enforces it; about 160 is the sweet spot).
+
+### The channel catchphrase: "Yap! Yap! YAP!"
+
+A squeaky cartoon voice, recorded once (`public/sfx/catchphrase.wav`), identical in
+every Short: it's the channel's sound signature, like a creator's catchphrase people
+type in the comments. Use it on exactly two scenes:
+- the first scene, `"catchphrase": "after"` (said right after the hook line);
+- the last scene, `"catchphrase": "before"` (said right before the final line).
+The scene's `focus` character says it: their mouth moves, the captions flash YAP in
+the keyword colour and a 🗣️ pops. Don't write "yap" in the narration yourself; the
+engine adds it. It works in any story type; for a first-person story it's the
+narrator-hero's own signature.
+
 ### Story types (rotate; never the same type twice in a row)
 
 - **Overpowered quest montage (the owner's favourite: write this one at least every
@@ -89,7 +128,7 @@ copyrighted characters.
 
 ## Length and shape (the validator enforces these)
 
-- **120-165 words total = 45-60 seconds.** Never shorter, never longer.
+- **140-185 words total = 45-60 seconds** (pauses are squeezed out automatically). Never shorter, never longer.
 - 8-12 scenes, each `text` 8-20 words (validator allows 5-22).
 - First sentence of scene 1 ≤ 10 words.
 - Every scene has something moving: an action, a drop, a burst, a bouncing or
@@ -184,6 +223,7 @@ Scene:
 | `light` | `day` `dusk` `night` `danger` (red, tense) `gold` (triumph) |
 | `focus` | cast key the close-up shots frame |
 | `speaker` | cast key whose mouth moves with the whole narration (first-person stories) |
+| `catchphrase` | `"after"` on the first scene, `"before"` on the last scene: the focus character says "Yap! Yap! YAP!" (see The channel catchphrase) |
 | `actors` | list, see below |
 | `crowd` | `{ "who", "count" (≤63), "mood", "until": word }` |
 | `effects` | any of `rays` `rain` `snow` `confetti` `speed` `vignette` `shake` `bounce` (bridge deck bounces harder and harder; characters ride it) |

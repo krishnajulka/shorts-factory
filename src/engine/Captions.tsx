@@ -87,7 +87,7 @@ export const Captions: React.FC<{ words: TimedWord[]; fontFamily: string; keywor
               opacity: chunkStart + i <= active ? 1 : 0,
             }}
           >
-            {w.word.replace(/[.,!?]/g, "")}
+            {w.word.replace(/[.,!?"“”]/g, "")}
           </span>
         );
       })}

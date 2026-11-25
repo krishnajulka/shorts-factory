@@ -7,6 +7,7 @@ import { mkdirSync, readFileSync, renameSync, rmSync, writeFileSync } from "node
 import { dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { NARRATORS, elevenLabsKey } from "./voiceover-elevenlabs.mjs";
+import { catchphrase, tightenScene } from "./tighten.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const storyArg = process.argv[2];
@@ -55,7 +56,10 @@ const validate = (story) => {
   const firstLine = (story.scenes?.[0]?.text ?? "").split(/[.!?]/)[0].split(/\s+/).filter(Boolean).length;
   need(firstLine <= 10, `the first sentence of scene 1 must be 10 words or fewer (has ${firstLine}) — the hook has to land in under 2 seconds`);
   const totalWords = (story.scenes ?? []).reduce((n, s) => n + (s.text ?? "").split(/\s+/).filter(Boolean).length, 0);
-  need(totalWords >= 120 && totalWords <= 165, `narration is ${totalWords} words; keep it 120-165 (about 45-60 seconds)`);
+  need(totalWords >= 140 && totalWords <= 185, `narration is ${totalWords} words; keep it 140-185 (about 45-60 seconds once pauses are squeezed)`);
+  const phraseScenes = (story.scenes ?? []).filter((s) => s.catchphrase !== undefined);
+  for (const s of phraseScenes) need([true, "before", "after"].includes(s.catchphrase), `scene "${s.id}": catchphrase must be true, "before" or "after"`);
+  need(phraseScenes.length <= 2, `catchphrase is on ${phraseScenes.length} scenes; use it at most twice (the first scene and the last)`);
   const ids = new Set();
   for (const s of story.scenes ?? []) {
     const where = `scene "${s.id}"`;
@@ -143,10 +147,27 @@ if (process.argv.includes("--windows-voice")) {
 }
 const timing = JSON.parse(readFileSync(join(root, "src/generated", `${spec.id}.json`), "utf8"));
 const byId = Object.fromEntries(timing.scenes.map((s) => [s.id, s]));
+// Squeeze the voice's dead air out of every scene and add the catchphrase.
+const phrase = catchphrase(root);
+const usesPhrase = phrase && spec.scenes.some((s) => s.catchphrase !== undefined);
 const story = {
   ...spec,
-  scenes: spec.scenes.map((s) => ({ ...s, file: byId[s.id].file, duration: byId[s.id].duration, words: byId[s.id].words })),
+  keywords: usesPhrase ? [...new Set([...spec.keywords, ...phrase.words.map((w) => clean(w.word))])] : spec.keywords,
+  scenes: spec.scenes.map((s) => {
+    const voiced = { ...s, file: byId[s.id].file, duration: byId[s.id].duration, words: byId[s.id].words };
+    try {
+      const tight = tightenScene(root, voiced, phrase);
+      if (phrase && s.catchphrase !== undefined) tight.stickers = [...(s.stickers ?? []), { word: phrase.words[0].word, emoji: phrase.emoji }];
+      return tight;
+    } catch (err) {
+      console.warn(`⚠ Couldn't tighten scene "${s.id}" (${err.message}); keeping its pauses`);
+      return voiced;
+    }
+  }),
 };
+const voiceSeconds = story.scenes.reduce((n, s) => n + s.duration, 0);
+console.log(`✓ Tightened voice: ${voiceSeconds.toFixed(1)} s of narration${usesPhrase ? " (with catchphrase)" : ""}`);
+if (voiceSeconds < 44 || voiceSeconds > 61) console.warn(`⚠ Narration is ${voiceSeconds.toFixed(1)} s; aim for 45-60 s (add or cut a beat)`);
 const props = JSON.stringify({ story }, null, 2);
 const propsPath = join(root, "src/generated", `${spec.id}.props.json`);
 writeFileSync(propsPath, props);
