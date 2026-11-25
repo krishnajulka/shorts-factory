@@ -162,18 +162,57 @@ const upload = async (storyArg) => {
     body: JSON.stringify(metadata),
   });
   if (!init.ok) throw new Error(`Upload session failed (${init.status}): ${(await init.text()).slice(0, 500)}`);
-  const res = await fetch(init.headers.get("location"), {
-    method: "PUT",
-    headers: { "Content-Type": "video/mp4", "Content-Length": String(size) },
-    body: createReadStream(video),
-    duplex: "half",
-  });
-  const json = await res.json();
-  if (!res.ok) throw new Error(`Upload failed (${res.status}): ${JSON.stringify(json).slice(0, 500)}`);
+  // Send the bytes in 8 MB chunks. If the connection drops (it did once: a
+  // 61 MB single PUT died half-way and left a 0-second video stuck
+  // "processing" forever), ask the session how much arrived and resume.
+  const session = init.headers.get("location");
+  const bytes = readFileSync(video);
+  const CHUNK = 8 * 1024 * 1024;
+  let offset = 0;
+  let json = null;
+  let failures = 0;
+  while (json === null) {
+    const end = Math.min(offset + CHUNK, size) - 1;
+    try {
+      const res = await fetch(session, {
+        method: "PUT",
+        headers: { "Content-Type": "video/mp4", "Content-Range": `bytes ${offset}-${end}/${size}` },
+        body: bytes.subarray(offset, end + 1),
+      });
+      if (res.status === 200 || res.status === 201) json = await res.json();
+      else if (res.status === 308) offset = rangeEnd(res);
+      else if (res.status >= 500) throw new Error(`server ${res.status}`);
+      else throw Object.assign(new Error(`Upload failed (${res.status}): ${(await res.text()).slice(0, 400)}`), { fatal: true });
+      failures = 0;
+    } catch (err) {
+      if (err.fatal || ++failures > 6) throw err;
+      console.warn(`⚠ Upload interrupted at ${Math.round(offset / 1e6)} MB (${err.message}); resuming…`);
+      await new Promise((r) => setTimeout(r, 2000 * failures));
+      const probe = await fetch(session, { method: "PUT", headers: { "Content-Range": `bytes */${size}` } }).catch(() => null);
+      if (probe?.status === 200 || probe?.status === 201) json = await probe.json();
+      else if (probe?.status === 308) offset = rangeEnd(probe);
+    }
+  }
 
   writeFileSync(record, JSON.stringify({ videoId: json.id, privacy: cfg.privacy, uploadedAt: new Date().toISOString() }, null, 2));
   console.log(`✓ Uploaded (${cfg.privacy}): https://youtube.com/shorts/${json.id}`);
+  // Make sure YouTube actually received and processed the whole video.
+  let state = null;
+  for (let i = 0; i < 24; i++) {
+    await new Promise((r) => setTimeout(r, 10000));
+    const v = (await getJson(`https://www.googleapis.com/youtube/v3/videos?part=status,contentDetails&id=${json.id}`, token)).items?.[0];
+    state = { upload: v?.status?.uploadStatus, duration: v?.contentDetails?.duration };
+    if (state.upload === "processed" || state.upload === "failed" || state.upload === "rejected") break;
+  }
+  if (state?.upload === "processed") console.log(`✓ YouTube processed it (${state.duration})`);
+  else console.warn(`⚠ YouTube hasn't finished processing it after 4 minutes (status ${state?.upload}, length ${state?.duration}). Check the video before trusting this upload.`);
   if (story.comment) await postComment(token, json.id, story.comment);
+};
+
+// The resumable session's 308 "Range: bytes=0-N" header → next byte to send.
+const rangeEnd = (res) => {
+  const m = /bytes=0-(\d+)/.exec(res.headers.get("range") ?? "");
+  return m ? Number(m[1]) + 1 : 0;
 };
 
 // Posts a question under an already-uploaded Short, found by its YouTube title.
@@ -221,7 +260,7 @@ const stats = async () => {
   }
   const videos = [];
   for (let i = 0; i < ids.length; i += 50) {
-    const batch = await getJson(`https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&id=${ids.slice(i, i + 50).join(",")}`, token);
+    const batch = await getJson(`https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics,status&id=${ids.slice(i, i + 50).join(",")}`, token);
     videos.push(...batch.items);
   }
 
@@ -245,7 +284,8 @@ const stats = async () => {
       const a = byVideo[v.id] ?? {};
       return {
         published: v.snippet.publishedAt.slice(0, 16).replace("T", " "),
-        title: v.snippet.title,
+        // A Short YouTube never finished processing gets no views: flag it loudly.
+        title: v.status?.uploadStatus && v.status.uploadStatus !== "processed" ? `⚠ BROKEN UPLOAD (${v.status.uploadStatus}) ${v.snippet.title}` : v.snippet.title,
         story: s?.id ?? "?",
         views: Number(v.statistics.viewCount ?? 0),
         likes: Number(v.statistics.likeCount ?? 0),
@@ -269,14 +309,64 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
   console.log(`✓ Wrote stories/STATS.md (${rows.length} videos)`);
 };
 
+// What's working right now in our niche: the past week's most-watched
+// animated/story Shorts (English), ranked by views per hour, written to
+// stories/TRENDS.md so each run can study their titles, hooks and length.
+// Costs ~420 of the 10,000 free daily API units.
+const TREND_QUERIES = ["animated story", "cartoon story", "animation storytime", "funny animated short story"];
+const trends = async () => {
+  const token = await accessToken();
+  const since = new Date(Date.now() - 7 * 86400e3).toISOString();
+  const ids = new Set();
+  for (const q of TREND_QUERIES) {
+    const r = await getJson(
+      `https://www.googleapis.com/youtube/v3/search?part=id&type=video&videoDuration=short&order=viewCount&maxResults=25&relevanceLanguage=en&publishedAfter=${since}&q=${encodeURIComponent(q)}`,
+      token,
+    );
+    for (const it of r.items ?? []) ids.add(it.id.videoId);
+  }
+  const list = [...ids];
+  const videos = [];
+  for (let i = 0; i < list.length; i += 50) {
+    const b = await getJson(`https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics,contentDetails&id=${list.slice(i, i + 50).join(",")}`, token);
+    videos.push(...b.items);
+  }
+  const secs = (d) => {
+    const m = /PT(?:(\d+)M)?(?:(\d+)S)?/.exec(d ?? "") ?? [];
+    return Number(m[1] ?? 0) * 60 + Number(m[2] ?? 0);
+  };
+  const rows = videos
+    .map((v) => {
+      const hours = Math.max(1, (Date.now() - Date.parse(v.snippet.publishedAt)) / 3600e3);
+      const views = Number(v.statistics.viewCount ?? 0);
+      const likes = Number(v.statistics.likeCount ?? 0);
+      return { v, views, likes, vph: views / hours, sec: secs(v.contentDetails.duration) };
+    })
+    .filter((r) => r.sec > 0 && r.sec <= 180 && r.views >= 10000)
+    .sort((a, b) => b.vph - a.vph)
+    .slice(0, 30);
+  const lines = rows.map(
+    ({ v, views, likes, vph, sec }) =>
+      `| ${Math.round(vph)} | ${views} | ${views ? ((likes / views) * 100).toFixed(1) : "—"}% | ${sec}s | ${v.snippet.channelTitle.replace(/\|/g, "/")} | [${v.snippet.title.replace(/\|/g, "/").replace(/\n/g, " ")}](https://youtube.com/shorts/${v.id}) |`,
+  );
+  const lengths = rows.map((r) => r.sec).sort((a, b) => a - b);
+  const median = lengths.length ? lengths[Math.floor(lengths.length / 2)] : 0;
+  writeFileSync(
+    join(root, "stories/TRENDS.md"),
+    `# Trending story Shorts (past 7 days)\n\nUpdated ${new Date().toISOString().slice(0, 16).replace("T", " ")} UTC by \`node scripts/youtube.mjs trends\` (YouTube search: ${TREND_QUERIES.join(", ")}). Ranked by views per hour; at least 10k views, 3 minutes or shorter. Median length of these: **${median}s**. Study the titles (they are the hook), lengths and like rates; copy structures, never stories or characters.\n\n| views/hour | views | likes | length | channel | title |\n|---|---|---|---|---|---|\n${lines.join("\n")}\n`,
+  );
+  console.log(`✓ Wrote stories/TRENDS.md (${rows.length} trending Shorts, median ${median}s)`);
+};
+
 const [command, arg] = process.argv.slice(2);
 try {
-  if (command === "auth") await auth();
+  if (command === "trends") await trends();
+  else if (command === "auth") await auth();
   else if (command === "upload" && arg) await upload(arg);
   else if (command === "stats") await stats();
   else if (command === "comment" && arg) await comment(arg, process.argv[4]);
   else {
-    console.error("Usage: node scripts/youtube.mjs auth | upload stories/<id>.json | stats | comment stories/<id>.json [\"question\"]");
+    console.error("Usage: node scripts/youtube.mjs auth | upload stories/<id>.json | stats | trends | comment stories/<id>.json [\"question\"]");
     process.exit(1);
   }
 } catch (err) {
