@@ -1,0 +1,155 @@
+{
+  "id": "2026-11-26-pilot-faints",
+  "title": "Pilot Faints",
+  "youtube": {
+    "title": "The pilot fainted, and you're the only gamer onboard ✈️😱",
+    "description": "The pilot fainted mid-flight and you're the only passenger who plays flight sims. Can you land it? #shorts #story #funny #fyp",
+    "tags": ["shorts", "story", "storytime", "plane", "pilot", "gamer", "animation", "funny"]
+  },
+  "logline": "The pilot faints mid-flight and you, a flight sim gamer, must land the plane. You land it perfectly, but on a highway, and then forget to turn the engines off.",
+  "comment": "Could YOU land a plane? Be honest ✈️",
+  "hook": "PILOT FAINTS. YOU FLY. ✈️",
+  "hookCard": false,
+  "narrator": "jessica",
+  "voice": "Microsoft David Desktop",
+  "rate": 0,
+  "music": "tense",
+  "bottom": "parkour",
+  "keywords": ["pilot", "plane", "flight", "storm", "geese", "highway", "runway", "drive-thru"],
+  "cast": {
+    "you": { "species": "bean", "color": "#4dabf7", "name": "You" },
+    "kid": { "species": "bean", "color": "#e76f51", "name": "Kid" },
+    "pilot": { "species": "bean", "color": "#2a9d8f", "name": "Pilot" },
+    "plane": { "emoji": "✈️" },
+    "geese": { "emoji": "🪿" }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "The pilot fainted, and you're the only passenger who plays flight sims. Everyone looks at you.",
+      "setting": "city",
+      "light": "danger",
+      "focus": "you",
+      "catchphrase": "after",
+      "actors": [
+        { "who": "you", "x": 300, "mood": "shock", "face": "right", "action": "jump", "at": "pilot" },
+        { "who": "pilot", "x": 700, "mood": "sad", "face": "left", "action": "faint", "at": "fainted" }
+      ],
+      "stickers": [{ "word": "fainted", "emoji": "😵" }]
+    },
+    {
+      "id": "mock",
+      "text": "The kid behind you laughs. \"Games aren't real, genius.\" You sit down and press forty-two buttons.",
+      "setting": "room",
+      "light": "day",
+      "focus": "kid",
+      "actors": [
+        { "who": "you", "x": 260, "mood": "smug", "face": "right", "action": "bow", "at": "sit" },
+        { "who": "kid", "x": 740, "mood": "smug", "face": "left", "size": 1.2 }
+      ],
+      "stickers": [{ "word": "buttons", "emoji": "🔘" }]
+    },
+    {
+      "id": "esc1",
+      "text": "Button one: the plane drops. Button two: disco lights. Button three: oxygen masks, and a grandma claps.",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "you",
+      "effects": ["shake"],
+      "actors": [
+        { "who": "you", "x": 300, "mood": "shock", "face": "right", "action": "shake", "at": "drops" },
+        { "who": "plane", "x": 720, "size": 1.5, "action": "fall", "at": "drops" }
+      ],
+      "burst": { "at": "disco", "emoji": "🪩" }
+    },
+    {
+      "id": "esc2",
+      "text": "Then three hundred geese charge the windshield. You dodge every single one. The kid behind you screams.",
+      "setting": "forest",
+      "light": "day",
+      "focus": "kid",
+      "effects": ["speed"],
+      "actors": [
+        { "who": "you", "x": 260, "mood": "smug", "face": "right", "action": "jump", "at": "dodge" },
+        { "who": "kid", "x": 760, "mood": "shock", "face": "left", "action": "shake", "at": "screams" }
+      ],
+      "crowd": { "who": "geese", "count": 30, "mood": "angry", "until": "windshield" },
+      "stickers": [{ "word": "geese", "emoji": "🪿" }]
+    },
+    {
+      "id": "esc3",
+      "text": "Next, a giant storm. Lightning, hail, turbulence. \"Turn back!\" the kid cries. \"This is a plane, not a bus.\"",
+      "setting": "city",
+      "light": "danger",
+      "focus": "kid",
+      "effects": ["rain", "shake"],
+      "actors": [
+        { "who": "you", "x": 260, "mood": "smug", "face": "right" },
+        { "who": "kid", "x": 760, "mood": "shock", "face": "left", "action": "shake", "at": "cries" }
+      ],
+      "flash": "Lightning",
+      "stickers": [{ "word": "storm", "emoji": "⛈️" }]
+    },
+    {
+      "id": "yousee",
+      "text": "You see, flying is just steering a shopping cart. Point where you want to go, and don't hit people.",
+      "setting": "room",
+      "light": "day",
+      "focus": "you",
+      "actors": [
+        { "who": "you", "x": 400, "mood": "smug", "face": "right", "hold": "🛒", "action": "shake", "at": "steering" }
+      ],
+      "stickers": [{ "word": "cart", "emoji": "🛒" }]
+    },
+    {
+      "id": "land",
+      "text": "Six hours later, you spot the runway and land perfectly. Two hundred passengers cheer, even the kid.",
+      "setting": "beach",
+      "light": "gold",
+      "focus": "you",
+      "effects": ["rays", "confetti"],
+      "actors": [
+        { "who": "you", "x": 320, "mood": "happy", "face": "right", "action": "jump", "at": "cheer" },
+        { "who": "kid", "x": 740, "mood": "happy", "face": "left" }
+      ],
+      "stickers": [{ "word": "cheer", "emoji": "🎉" }]
+    },
+    {
+      "id": "wake",
+      "text": "The pilot wakes up. \"Who's flying?\" You grin. \"Me.\" He looks outside. \"Why are we on a highway?\"",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "pilot",
+      "actors": [
+        { "who": "you", "x": 260, "mood": "smug", "face": "right" },
+        { "who": "pilot", "x": 740, "mood": "shock", "face": "left", "action": "shake", "at": "highway", "size": 1.2 }
+      ],
+      "stickers": [{ "word": "highway", "emoji": "🛣️" }]
+    },
+    {
+      "id": "drive",
+      "text": "Then you forgot to turn the engines off, and the plane rolled straight into a burger drive-thru.",
+      "setting": "city",
+      "light": "gold",
+      "focus": "you",
+      "effects": ["speed"],
+      "actors": [
+        { "who": "you", "x": 260, "mood": "shock", "face": "right", "action": "shake", "at": "forgot" },
+        { "who": "plane", "x": 520, "toX": 900, "size": 1.5, "action": "enter", "at": "rolled" }
+      ],
+      "burst": { "at": "burger", "emoji": "🍔" }
+    },
+    {
+      "id": "loop",
+      "text": "At least the kid got fries. The pilot fainted, and you're the only passenger who plays flight sims.",
+      "setting": "city",
+      "light": "danger",
+      "focus": "you",
+      "catchphrase": "before",
+      "actors": [
+        { "who": "you", "x": 300, "mood": "smug", "face": "right" },
+        { "who": "pilot", "x": 700, "mood": "sad", "face": "left", "action": "faint", "at": "fainted" }
+      ]
+    }
+  ]
+}

@@ -8,9 +8,9 @@ evidence wins. Cite the stories a lesson comes from.
 
 ## Next experiment
 
-1. **Second-person dilemma: first read** (genie-double, 2026-11-25): YouTube 1,033 views / 16 likes / 4 comments at ~16 h (best comments of the new format); Instagram 1,526 views, 52% watched, skip rate 28%, 2 shares. At least level with rule worlds (~900-1,060); one data point, not yet a win or a loss. Do one more dilemma later before deciding.
-2. **Quest montage with a NEW trait** (too-honest, 2026-11-26): previous quests were too strong / too fast (physical). Test a social trait (too honest: quoted truths get him fired, blunder = honesty refunds the sneakers) plus Black Friday theming. Compare with too-fast (YouTube 932 at ~20 h, 15 likes) and genie-double.
-3. **Hook banner A/B (owner priority: cut the Instagram skip rate).** Alternate Shorts between the hook banner on (default) and `"hookCard": false`. too-honest uses the banner (default). Log which each Short used in LOG.md's {experiment}. After 3+ Reels of each with 24 h+ of data, compare Instagram skip rate and keep the winner.
+1. **Second-person dilemma, 2nd test + hook banner OFF** (pilot-faints, 2026-11-26 12 PM): "The pilot fainted, and you're the only gamer onboard", `"hookCard": false`. Test 1 (genie-double) is now 24 h+: YouTube 1,036 views / 16 likes / 4 comments, Instagram 1,526 views, 52% watched, skip 28%: level with rule worlds (~900-1,090), best comments and watch time, NOT a breakout. Judge pilot-faints on Instagram skip rate vs the banner-on Reels (too-honest 20.8%, genie 28%, too-strong 25.9%): if it is not clearly worse, drop the banner for good.
+2. **Quest montage with a social trait** (too-honest, 2026-11-26 4 AM UTC): Instagram 1,529 views, skip 20.8% (best so far, the rebuilt opening works) but only 42% watched; YouTube 736 at ~4 h. Wait for 24 h before calling it.
+3. **Hook banner A/B (owner priority: cut the Instagram skip rate).** Alternate banner on / `"hookCard": false`; log which in LOG.md's {experiment}. Banner-off so far: pilot-faints only. After 3+ Reels of each with 24 h+, keep the winner.
 
 **SKIP RATE IS THE #1 METRIC (owner, 2026-11-25).** Instagram's skip rate = share of viewers who swipe away in the first ~3 s (genie-double 28%, too-strong 26%). It is decided by frame 0 and the first sentence. Every lesson about hooks should cite skip rate when it exists. Baseline before the 2026-11-25 opening rebuild: 26-28%.
 
