@@ -192,10 +192,10 @@ writeFileSync(join(outDir, "upload.txt"), `${yt.title}\n\n${yt.description}\n\n$
 
 // Renders one composition, then normalizes loudness to YouTube's reference
 // (-14 LUFS) so it is never quieter than the videos around it in the feed.
-const renderVideo = (composition, name) => {
+const renderVideo = (composition, name, extra = []) => {
   const mp4 = relative(root, join(outDir, `${name}.mp4`));
   const raw = relative(root, join(outDir, `${name}.raw.mp4`));
-  run("npx", ["remotion", "render", composition, raw, propsArg, "--log=error"]);
+  run("npx", ["remotion", "render", composition, raw, propsArg, "--log=error", ...extra]);
   try {
     run("npx", ["remotion", "ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", "192k", mp4]);
     rmSync(join(root, raw));
@@ -209,6 +209,8 @@ if (!stillsOnly) {
   // YouTube: the story on top, gameplay below.
   renderVideo("StoryShort", spec.id);
   // Instagram: the story alone, full screen (owner's choice, 2026-11-26).
-  renderVideo("StoryFull", `${spec.id}.ig`);
+  // Draws the scene three times per frame (sky and ground bleed), so it ran out
+  // of memory at full concurrency on a 16 GB PC: render it with 2 tabs.
+  renderVideo("StoryFull", `${spec.id}.ig`, ["--concurrency=2"]);
 }
 console.log(`✓ Done: ${relative(root, outDir)}`);
