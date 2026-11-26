@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-26-too-honest",
+  "title": "Too Honest",
+  "youtube": {
+    "title": "He was too honest to keep a job 🤥😂",
+    "description": "Hank just wanted the Black Friday sneakers. Every job went a little too honestly. #shorts #funny #animation #story",
+    "tags": ["shorts", "funny", "animation", "story", "cartoon", "comedy", "blackfriday"]
+  },
+  "logline": "Too-honest Hank wants the Black Friday sneakers but has no money; his honesty gets him fired from every job, until returning a wallet pays him, and at the store his honesty costs him the sneakers.",
+  "comment": "Which job would YOU have fired Hank from first? 😂",
+  "hook": "TOO HONEST TO KEEP A JOB 🤥",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 0,
+  "music": "playful",
+  "bottom": "parkour",
+  "keywords": ["sneakers", "honest", "fired", "lemonade", "santa", "wallet", "dollars", "ugly"],
+  "cast": {
+    "hank": { "species": "bean", "color": "#2ec4b6", "name": "Hank" },
+    "boss": { "species": "bean", "color": "#ff9f1c", "name": "Boss" },
+    "bride": { "species": "bean", "color": "#f78fb3", "name": "Bride" },
+    "kid": { "species": "bean", "color": "#4dabf7", "name": "Kid" },
+    "clerk": { "species": "bean", "color": "#c77dff", "name": "Clerk" }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Hank wanted the Black Friday sneakers, but he had zero dollars.",
+      "setting": "city", "light": "day", "focus": "hank", "catchphrase": "after",
+      "actors": [ { "who": "hank", "x": 540, "size": 1.3, "mood": "sad", "action": "shake", "at": "Hank", "changes": [{ "at": "zero", "mood": "shock" }] } ],
+      "stickers": [{ "word": "sneakers", "emoji": "👟" }, { "word": "zero", "emoji": "💸" }]
+    },
+    {
+      "id": "lemonade",
+      "text": "First, a lemonade stand. Hank told every customer, \"It's sour, and a fly drowned in it.\"",
+      "setting": "city", "light": "day", "focus": "hank",
+      "actors": [ { "who": "hank", "x": 540, "mood": "smug", "hold": "🍋", "action": "bow", "at": "sour" } ],
+      "burst": { "at": "fly", "emoji": "🪰" },
+      "stickers": [{ "word": "lemonade", "emoji": "🍋" }, { "word": "fly", "emoji": "🪰" }]
+    },
+    {
+      "id": "lemonade-fired",
+      "text": "Customers: zero. His boss shouted, \"Just say it's delicious!\" Hank said, \"It's not.\" Fired.",
+      "setting": "city", "light": "day", "focus": "boss",
+      "actors": [
+        { "who": "boss", "x": 380, "mood": "angry", "face": "right", "action": "shake", "at": "shouted" },
+        { "who": "hank", "x": 760, "face": "left", "mood": "happy", "changes": [{ "at": "Fired", "mood": "sad" }] }
+      ],
+      "stickers": [{ "word": "delicious", "emoji": "😋" }, { "word": "Fired", "emoji": "🔥" }]
+    },
+    {
+      "id": "cars",
+      "text": "Next, used-car salesman. Hank told a buyer, \"The brakes are made of hope.\" Zero cars sold.",
+      "setting": "city", "light": "day", "focus": "hank",
+      "effects": ["shake"],
+      "actors": [
+        { "who": "kid", "x": 300, "mood": "shock", "action": "exit", "at": "hope" },
+        { "who": "hank", "x": 760, "face": "left", "mood": "smug", "hold": "🚗" }
+      ],
+      "stickers": [{ "word": "brakes", "emoji": "🛑" }, { "word": "cars", "emoji": "🚗" }]
+    },
+    {
+      "id": "cars-fired",
+      "text": "The owner cried, \"You can't say that!\" Hank said, \"Yes I can.\" Fired again.",
+      "setting": "room", "light": "day", "focus": "boss",
+      "actors": [
+        { "who": "boss", "x": 380, "mood": "shock", "face": "right", "action": "faint", "at": "cried" },
+        { "who": "hank", "x": 760, "face": "left", "mood": "happy", "changes": [{ "at": "again", "mood": "sad" }] }
+      ],
+      "stickers": [{ "word": "can't", "emoji": "🚫" }, { "word": "Fired", "emoji": "🔥" }]
+    },
+    {
+      "id": "santa",
+      "text": "Then mall Santa. A kid asked, \"Are you real?\" Hank said, \"Nope.\" A hundred kids cried. Fired.",
+      "setting": "room", "light": "dusk", "focus": "hank",
+      "actors": [
+        { "who": "hank", "x": 700, "face": "left", "mood": "smug", "hat": "🎅", "changes": [{ "at": "Fired", "mood": "sad" }] },
+        { "who": "kid", "x": 300, "face": "right", "mood": "sad", "action": "shake", "at": "cried" }
+      ],
+      "crowd": { "who": "kid", "count": 20, "mood": "sad", "until": "cried" },
+      "stickers": [{ "word": "Santa", "emoji": "🎅" }, { "word": "cried", "emoji": "😭" }]
+    },
+    {
+      "id": "wedding",
+      "text": "Then wedding photographer. The bride asked, \"Do I look beautiful?\" Hank said, \"The cake does.\" Fired.",
+      "setting": "city", "light": "gold", "focus": "bride",
+      "actors": [
+        { "who": "bride", "x": 360, "face": "right", "mood": "angry", "action": "shake", "at": "cake" },
+        { "who": "hank", "x": 770, "face": "left", "mood": "happy", "hold": "📷", "changes": [{ "at": "Fired", "mood": "sad" }] }
+      ],
+      "flash": "cake",
+      "stickers": [{ "word": "beautiful", "emoji": "👰" }, { "word": "cake", "emoji": "🎂" }]
+    },
+    {
+      "id": "tally",
+      "text": "By sunset, Hank was fired from twelve jobs and had earned zero dollars.",
+      "setting": "city", "light": "dusk", "focus": "hank",
+      "effects": ["rain"],
+      "actors": [ { "who": "hank", "x": 540, "mood": "sad", "action": "faint", "at": "dollars" } ],
+      "stickers": [{ "word": "twelve", "emoji": "1️⃣" }, { "word": "zero", "emoji": "💸" }]
+    },
+    {
+      "id": "wallet",
+      "text": "Then he found a wallet with five hundred dollars and returned every cent. The owner paid him a hundred.",
+      "setting": "city", "light": "gold", "focus": "hank",
+      "effects": ["confetti"],
+      "actors": [ { "who": "hank", "x": 300, "toX": 700, "action": "run", "mood": "happy" } ],
+      "drop": { "at": "wallet", "emoji": "👛", "to": "hank" },
+      "stickers": [{ "word": "five", "emoji": "💵" }, { "word": "hundred", "emoji": "💯" }]
+    },
+    {
+      "id": "store",
+      "text": "He sprinted to the store and bought the sneakers. The cashier smiled. \"Do you like them?\"",
+      "setting": "room", "light": "day", "focus": "clerk",
+      "actors": [
+        { "who": "clerk", "x": 340, "face": "right", "mood": "happy" },
+        { "who": "hank", "x": 760, "face": "left", "mood": "happy", "hold": "👟" }
+      ],
+      "stickers": [{ "word": "sneakers", "emoji": "👟" }, { "word": "like", "emoji": "❓" }]
+    },
+    {
+      "id": "ugly",
+      "text": "Hank said, \"Honestly? They're ugly.\" She refunded him. Now Hank wanted the Black Friday sneakers, but he had zero dollars.",
+      "setting": "room", "light": "danger", "focus": "hank", "catchphrase": "before",
+      "flash": "ugly",
+      "actors": [
+        { "who": "clerk", "x": 340, "face": "right", "mood": "angry", "hold": "💵" },
+        { "who": "hank", "x": 760, "face": "left", "mood": "shock", "changes": [{ "at": "zero", "mood": "sad" }] }
+      ],
+      "stickers": [{ "word": "ugly", "emoji": "🤢" }, { "word": "refunded", "emoji": "💸" }]
+    }
+  ]
+}

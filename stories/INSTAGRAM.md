@@ -6,3 +6,4 @@ checks this list so a story is never posted twice.
 
 - 2026-11-25 — 2026-11-24-too-strong — https://www.instagram.com/reel/DgKK4vfuJ92/ (tightened version with catchphrase)
 - 2026-11-25 — 2026-11-25-genie-double — https://www.instagram.com/reel/DgKXkMhitMU/
+- 2026-11-26 — 2026-11-26-too-honest — https://www.instagram.com/reel/DgMFnIdB2Xt/

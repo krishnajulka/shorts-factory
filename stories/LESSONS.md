@@ -3,14 +3,14 @@
 What we've learned about what gets views, likes and full watches on this channel.
 **Read this before pitching. Apply every lesson.** After checking `stories/STATS.md`
 each run, update this file: add new evidence-backed lessons, sharpen or remove ones
-the numbers contradict, and merge duplicates. Keep it under 25 bullets; newest
+the numbers contradict, and merge duplicates. Keep it under 30 bullets; newest
 evidence wins. Cite the stories a lesson comes from.
 
 ## Next experiment
 
-1. **Second-person dilemma** (genie-double, 2026-11-25 4 PM slot): first test of this type. Compare its views, % watched and likes to rule worlds (~900-1,060 at 24 h) once it has 24 h+ of data; record win or loss here.
-2. Next Short: quest montage is due by the owner's rule (the last one before genie-double was too-fast). Try the "wanted thing" as a trending-topic quest with a quoted complaint in every attempt.
-3. **Hook banner A/B (owner priority: cut the Instagram skip rate).** Alternate Shorts between the hook banner on (default) and `"hookCard": false` (no banner; the cold-open close-up and captions carry the first 2 s). Log which one each Short used in LOG.md's {experiment}. After 3+ Reels of each with 24 h+ of data, compare Instagram **skip rate** (stories/IG_STATS.md) and keep the winner.
+1. **Second-person dilemma: first read** (genie-double, 2026-11-25): YouTube 1,033 views / 16 likes / 4 comments at ~16 h (best comments of the new format); Instagram 1,526 views, 52% watched, skip rate 28%, 2 shares. At least level with rule worlds (~900-1,060); one data point, not yet a win or a loss. Do one more dilemma later before deciding.
+2. **Quest montage with a NEW trait** (too-honest, 2026-11-26): previous quests were too strong / too fast (physical). Test a social trait (too honest: quoted truths get him fired, blunder = honesty refunds the sneakers) plus Black Friday theming. Compare with too-fast (YouTube 932 at ~20 h, 15 likes) and genie-double.
+3. **Hook banner A/B (owner priority: cut the Instagram skip rate).** Alternate Shorts between the hook banner on (default) and `"hookCard": false`. too-honest uses the banner (default). Log which each Short used in LOG.md's {experiment}. After 3+ Reels of each with 24 h+ of data, compare Instagram skip rate and keep the winner.
 
 **SKIP RATE IS THE #1 METRIC (owner, 2026-11-25).** Instagram's skip rate = share of viewers who swipe away in the first ~3 s (genie-double 28%, too-strong 26%). It is decided by frame 0 and the first sentence. Every lesson about hooks should cite skip rate when it exists. Baseline before the 2026-11-25 opening rebuild: 26-28%.
 
@@ -33,6 +33,9 @@ evidence wins. Cite the stories a lesson comes from.
 - Our own numbers: first-person "in my town" rule worlds lead the new format (promise-rocks 1,068, thanks-table 951 in <1 day, lie-lighter 917). True-history stories trail (bridge-break 211, molasses-wave 2 views). Hypothesis: viewers want character comedy, not history lessons; deprioritize true stories.
 
 ## From the numbers
+
+**2026-11-26 8 AM run (88 Shorts, 66 subs, ~61,800 views):** new-format Shorts all sit at 900-1,090 views (promise-rocks 1,090, genie-double 1,033, thanks-table 975, too-fast 932, lie-lighter 927, bridge-break 923): the ~1,000 ceiling is unchanged after 3 days, whatever the type. Likes: genie-double 16, too-fast 15, lie-lighter 15 (quest montage and dilemma like best, ~1.6%). Comments: genie-double 4, thanks-table 3 (questions that ask for a choice get comments). Instagram: genie-double 1,526 views (52% watched, skip 28%) beat too-strong 1,225 (41%, skip 26%): the Instagram account gets as many views as YouTube with 1 follower, so Reels are worth the cross-post. Trends this week: "In this town..." French/English rule worlds (Et Si ? 793k, BizarRéel 650k), versus (Strict Dad vs Soft Mom 2.7M, 49 s) and family-secret stories (Ringo Tsuga 918k, 38 s) confirm our types; median of the top 30 is 59 s, in line with our 45-60 s rule. Hypothesis: a new trait (social, not physical) for the quest montage is the cheapest way to test whether the type itself or only the first trait carries it.
+
 
 **2026-11-25 4 PM run:** too-fast (quest montage, 12 PM slot) 630 views / 15 likes at ~4 h (best like rate of the new format, hypothesis: quest montage likes well). too-strong is flagged BROKEN UPLOAD on YouTube (0 views, a bad first upload; the tightened copy went to Instagram: 456 views, 36% watched, skip rate 19%, 3 likes, no shares/saves = one data point). Instagram is far smaller than YouTube so far.
 
