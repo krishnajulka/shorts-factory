@@ -190,12 +190,12 @@ for (const f of stills) {
 const yt = spec.youtube;
 writeFileSync(join(outDir, "upload.txt"), `${yt.title}\n\n${yt.description}\n\n${yt.tags.map((t) => `#${t.replace(/\s+/g, "")}`).join(" ")}\n`);
 
-if (!stillsOnly) {
-  const mp4 = relative(root, join(outDir, `${spec.id}.mp4`));
-  const raw = relative(root, join(outDir, `${spec.id}.raw.mp4`));
-  run("npx", ["remotion", "render", "StoryShort", raw, propsArg, "--log=error"]);
-  // Loudness to YouTube's reference (-14 LUFS) so the Short is never quieter
-  // than the ones around it in the feed. Video is copied untouched.
+// Renders one composition, then normalizes loudness to YouTube's reference
+// (-14 LUFS) so it is never quieter than the videos around it in the feed.
+const renderVideo = (composition, name) => {
+  const mp4 = relative(root, join(outDir, `${name}.mp4`));
+  const raw = relative(root, join(outDir, `${name}.raw.mp4`));
+  run("npx", ["remotion", "render", composition, raw, propsArg, "--log=error"]);
   try {
     run("npx", ["remotion", "ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", "192k", mp4]);
     rmSync(join(root, raw));
@@ -203,5 +203,12 @@ if (!stillsOnly) {
     console.warn("⚠ Loudness step failed; keeping the unnormalized render");
     renameSync(join(root, raw), join(root, mp4));
   }
+};
+
+if (!stillsOnly) {
+  // YouTube: the story on top, gameplay below.
+  renderVideo("StoryShort", spec.id);
+  // Instagram: the story alone, full screen (owner's choice, 2026-11-26).
+  renderVideo("StoryFull", `${spec.id}.ig`);
 }
 console.log(`✓ Done: ${relative(root, outDir)}`);

@@ -15,7 +15,7 @@ export const stickerTimes = (stickers: Sticker[] | undefined, words: TimedWord[]
 const HOLD = 1.1;
 
 // Emoji that slam onto the story half when their word is spoken.
-export const Stickers: React.FC<{ stickers?: Sticker[]; words: TimedWord[]; seed: string }> = ({ stickers, words, seed }) => {
+export const Stickers: React.FC<{ stickers?: Sticker[]; words: TimedWord[]; seed: string; offset?: number }> = ({ stickers, words, seed, offset = 0 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -30,7 +30,7 @@ export const Stickers: React.FC<{ stickers?: Sticker[]; words: TimedWord[]; seed
             key={i}
             style={{
               position: "absolute",
-              top: 150 + random(`st-${seed}-${i}`) * 220,
+              top: offset + 150 + random(`st-${seed}-${i}`) * 220,
               left: right ? undefined : 70,
               right: right ? 70 : undefined,
               fontSize: 230,

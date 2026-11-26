@@ -25,7 +25,7 @@ export const chunkStarts = (words: TimedWord[]) => {
 
 // Big pop-in captions, a few words at a time, active word highlighted.
 // Story keywords get their own color and size.
-export const Captions: React.FC<{ words: TimedWord[]; fontFamily: string; keywords: string[] }> = ({ words, fontFamily, keywords }) => {
+export const Captions: React.FC<{ words: TimedWord[]; fontFamily: string; keywords: string[]; top?: number }> = ({ words, fontFamily, keywords, top = 960 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -48,7 +48,7 @@ export const Captions: React.FC<{ words: TimedWord[]; fontFamily: string; keywor
         position: "absolute",
         left: 60,
         right: 60,
-        top: 960,
+        top,
         translate: "0 -50%",
         display: "flex",
         flexWrap: "wrap",

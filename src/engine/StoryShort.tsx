@@ -52,11 +52,23 @@ const SHOTS = [
   { z: 1.8, f: 1, rot: 3 },
 ];
 
-const StoryStage: React.FC<{ scene: RenderScene; cast: Record<string, Character>; index: number; seconds: number }> = ({
+// Story-only Instagram layout: the story fills the whole 1080x1920 frame.
+// The world is drawn 1080x960, so the camera shows a taller window
+// (720x1280 world px at z=1) and the sky/wall above and the ground below are
+// bled outward by stretching the world's top and bottom strips.
+const FULL_W = 1080;
+const FULL_H = 1920;
+const FULL_BASE = 1.5; // screen px per world px at z=1
+const BLEED_TOP = 700;
+const BLEED_BOTTOM = 320;
+const STRIP = 24; // world rows stretched into each bleed
+
+const StoryStage: React.FC<{ scene: RenderScene; cast: Record<string, Character>; index: number; seconds: number; full?: boolean }> = ({
   scene,
   cast,
   index,
   seconds,
+  full,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -84,11 +96,18 @@ const StoryStage: React.FC<{ scene: RenderScene; cast: Record<string, Character>
   const f = shot.f + (1 - shot.f) * open;
 
   const [fx, fy] = focusPoint(scene, cast);
-  const halfW = STAGE_W / (2 * z);
-  const halfH = STAGE_H / (2 * z);
+  const OW = full ? FULL_W : STAGE_W;
+  const OH = full ? FULL_H : STAGE_H;
+  const scale = z * (full ? FULL_BASE : 1);
+  const halfW = OW / (2 * scale);
+  const halfH = OH / (2 * scale);
+  const minY = full ? -BLEED_TOP : 0;
+  const maxY = STAGE_H + (full ? BLEED_BOTTOM : 0);
   const cx = Math.min(Math.max(STAGE_W / 2 + (fx - STAGE_W / 2) * f, halfW), STAGE_W - halfW);
   // During the cold open, frame the face low so the hook card never covers it.
-  const cy = Math.min(Math.max(STAGE_H / 2 + (fy - 150 * open - STAGE_H / 2) * f, halfH), STAGE_H - halfH);
+  // Full layout: the screen is twice as tall, so lift the focus less.
+  const lift = (full ? 60 : 150) * open;
+  const cy = Math.min(Math.max(STAGE_H / 2 + (fy - lift - STAGE_H / 2) * f, minY + halfH), maxY - halfH);
   const shake =
     (scene.effects?.includes("shake") || scene.effects?.includes("speed") ? Math.sin(frame * 2.1) * 6 : 0) +
     (index === 0 ? Math.sin(frame * 3.3) * 14 * Math.max(0, 1 - frame / OPEN_FRAMES) : 0) +
@@ -101,7 +120,7 @@ const StoryStage: React.FC<{ scene: RenderScene; cast: Record<string, Character>
   const blurId = `whip-${scene.id}`;
 
   return (
-    <svg width={STAGE_W} height={STAGE_H} viewBox={`0 0 ${STAGE_W} ${STAGE_H}`} style={{ display: "block", overflow: "hidden" }}>
+    <svg width={OW} height={OH} viewBox={`0 0 ${OW} ${OH}`} style={{ display: "block", overflow: "hidden" }}>
       <ToonDefs />
       <defs>
         <filter id={blurId} x="-10%" y="0" width="120%" height="100%">
@@ -113,11 +132,21 @@ const StoryStage: React.FC<{ scene: RenderScene; cast: Record<string, Character>
         </radialGradient>
       </defs>
       <g transform={`translate(${cut * 380} 0)`} filter={cut > 0.01 ? `url(#${blurId})` : undefined}>
-        <g transform={`translate(${STAGE_W / 2 + shake} ${STAGE_H / 2}) rotate(${shot.rot}) scale(${z}) translate(${-cx} ${-cy})`}>
+        <g transform={`translate(${OW / 2 + shake} ${OH / 2}) rotate(${shot.rot}) scale(${scale}) translate(${-cx} ${-cy})`}>
+          {full ? (
+            <>
+              <svg x={-60} y={-BLEED_TOP} width={STAGE_W + 120} height={BLEED_TOP + 6} viewBox={`0 6 ${STAGE_W} ${STRIP}`} preserveAspectRatio="none">
+                <SceneView scene={scene} cast={cast} endSeconds={seconds} />
+              </svg>
+              <svg x={-60} y={STAGE_H - 6} width={STAGE_W + 120} height={BLEED_BOTTOM + 6} viewBox={`0 ${STAGE_H - STRIP - 6} ${STAGE_W} ${STRIP}`} preserveAspectRatio="none">
+                <SceneView scene={scene} cast={cast} endSeconds={seconds} />
+              </svg>
+            </>
+          ) : null}
           <SceneView scene={scene} cast={cast} endSeconds={seconds} />
         </g>
       </g>
-      <rect width={STAGE_W} height={STAGE_H} fill="url(#cine-vignette)" />
+      <rect width={OW} height={OH} fill="url(#cine-vignette)" />
     </svg>
   );
 };
@@ -189,25 +218,29 @@ const BottomSounds: React.FC<{ kind: BottomKind; seed: number; racers?: string[]
   );
 };
 
-export const StoryShort: React.FC<{ story: RenderStory }> = ({ story }) => {
+export const StoryShort: React.FC<{ story: RenderStory; full?: boolean }> = ({ story, full }) => {
   const items = layout(story);
   const seed = seedOf(story.id);
   const bottom = story.bottom ?? CLEAN_BOTTOMS[seed % CLEAN_BOTTOMS.length];
   const mood = musicMood(story, seed);
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
-      <AbsoluteFill style={{ top: 0, height: STAGE_H, overflow: "hidden" }}>
+      <AbsoluteFill style={{ top: 0, height: full ? FULL_H : STAGE_H, overflow: "hidden" }}>
         {items.map(({ scene, from, frames, index }) => (
           <Sequence key={scene.id} from={from} durationInFrames={frames} name={scene.id}>
-            <StoryStage scene={scene} cast={story.cast} index={index} seconds={frames / FPS} />
+            <StoryStage scene={scene} cast={story.cast} index={index} seconds={frames / FPS} full={full} />
             <Stickers stickers={scene.stickers} words={scene.words} seed={scene.id} />
           </Sequence>
         ))}
       </AbsoluteFill>
-      <AbsoluteFill style={{ top: STAGE_H, height: STAGE_H }}>
-        <Bottom kind={bottom} seed={seed} racers={story.racers} />
-      </AbsoluteFill>
-      <BottomSounds kind={bottom} seed={seed} racers={story.racers} />
+      {full ? null : (
+        <>
+          <AbsoluteFill style={{ top: STAGE_H, height: STAGE_H }}>
+            <Bottom kind={bottom} seed={seed} racers={story.racers} />
+          </AbsoluteFill>
+          <BottomSounds kind={bottom} seed={seed} racers={story.racers} />
+        </>
+      )}
       {mood ? <MusicBed mood={mood} items={items} /> : null}
       {items.length > 2 ? (
         <Sequence from={Math.max(0, items[items.length - 1].from - Math.round(RISER_SECONDS * FPS))} durationInFrames={Math.round(RISER_SECONDS * FPS)} name="riser">
@@ -228,7 +261,7 @@ export const StoryShort: React.FC<{ story: RenderStory }> = ({ story }) => {
               <Audio src={sfx("pop")} volume={0.45} />
             </Sequence>
           ))}
-          <Captions words={scene.words} fontFamily={captionFont} keywords={story.keywords} />
+          <Captions words={scene.words} fontFamily={captionFont} keywords={story.keywords} top={full ? 640 : 960} />
         </Sequence>
       ))}
       {story.hook && story.hookCard !== false ? <HookCard text={story.hook} seconds={hookSeconds(items[0]?.scene)} /> : null}

@@ -21,6 +21,17 @@ export const RemotionRoot: React.FC = () => {
         defaultProps={{ story: preview.story as RenderStory }}
         calculateMetadata={calculateMetadata}
       />
+      {/* Instagram version: the story alone, full screen (no split-screen bottom). */}
+      <Composition
+        id="StoryFull"
+        component={StoryShort}
+        durationInFrames={300}
+        fps={FPS}
+        width={1080}
+        height={1920}
+        defaultProps={{ story: preview.story as RenderStory, full: true }}
+        calculateMetadata={calculateMetadata}
+      />
       {/* Live 3D parkour run, pre-rendered on a PC into public/clips/ by
           scripts/render-parkour-clips.mjs (too slow to render on the GPU-less cloud). */}
       <Composition id="Avatar" component={Avatar} durationInFrames={1} fps={FPS} width={1080} height={1080} />
