@@ -9,3 +9,4 @@ checks this list so a story is never posted twice.
 - 2026-11-26 — 2026-11-26-too-honest — https://www.instagram.com/reel/DgMFnIdB2Xt/
 - 2026-11-26 — 2026-11-26-pilot-faints — https://www.instagram.com/reel/DgMh5OFh5sM/ (split screen; replaced, owner deleting it)
 - 2026-11-26 — 2026-11-26-pilot-faints — https://www.instagram.com/reel/DgMnKVpsj_S/ (full screen, reposted by hand)
+- 2026-11-26 — 2026-11-26-too-loud — https://www.instagram.com/reel/DgM-UCchtxA/ (full screen)

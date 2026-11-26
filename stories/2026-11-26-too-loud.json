@@ -1,0 +1,121 @@
+{
+  "id": "2026-11-26-too-loud",
+  "title": "Too Loud",
+  "youtube": {
+    "title": "He was too loud to keep a job 📢😂",
+    "description": "Boom just wanted the new gaming headset. Every job went a little too loudly. #shorts #funny #animation #story",
+    "tags": ["shorts", "funny", "animation", "story", "cartoon", "comedy", "gaming"]
+  },
+  "logline": "Boom's voice is so loud he gets fired from every job, until whispering a baby to sleep finally pays; he buys the gaming headset he wanted and destroys it with his first hello.",
+  "comment": "Which job would YOU have fired Boom from first? 😂",
+  "hook": "TOO LOUD TO KEEP A JOB 📢",
+  "narrator": "brian",
+  "voice": "Microsoft David Desktop",
+  "rate": 0,
+  "music": "playful",
+  "bottom": "parkour",
+  "keywords": ["headset", "loud", "fired", "library", "movie", "burglars", "baby", "whispered", "dollars"],
+  "cast": {
+    "boom": { "species": "bean", "color": "#ff6b6b", "name": "Boom" },
+    "boss": { "species": "bean", "color": "#ff9f1c", "name": "Boss" },
+    "mom": { "species": "bean", "color": "#f78fb3", "name": "Mom" },
+    "clerk": { "species": "bean", "color": "#c77dff", "name": "Clerk" }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Boom wanted the new gaming headset, but he had zero dollars.",
+      "setting": "city", "light": "day", "focus": "boom", "catchphrase": "after",
+      "actors": [ { "who": "boom", "x": 540, "size": 1.3, "mood": "sad", "action": "shake", "at": "Boom", "changes": [{ "at": "zero", "mood": "shock" }] } ],
+      "stickers": [{ "word": "headset", "emoji": "🎧" }, { "word": "zero", "emoji": "💸" }]
+    },
+    {
+      "id": "library",
+      "text": "First, librarian. Boom whispered, \"Shh,\" and four hundred books flew off the shelves.",
+      "setting": "room", "light": "day", "focus": "boom",
+      "effects": ["shake"],
+      "actors": [ { "who": "boom", "x": 540, "mood": "smug", "hold": "📚", "action": "bow", "at": "whispered" } ],
+      "burst": { "at": "books", "emoji": "📚" },
+      "stickers": [{ "word": "Shh", "emoji": "🤫" }, { "word": "books", "emoji": "📚" }]
+    },
+    {
+      "id": "library-fired",
+      "text": "The boss begged, \"Use your inside voice!\" Boom shouted, \"THIS IS MY INSIDE VOICE!\" Fired.",
+      "setting": "room", "light": "day", "focus": "boss",
+      "effects": ["shake"],
+      "actors": [
+        { "who": "boss", "x": 380, "mood": "shock", "face": "right", "action": "fall", "at": "shouted" },
+        { "who": "boom", "x": 760, "face": "left", "mood": "happy", "changes": [{ "at": "Fired", "mood": "sad" }] }
+      ],
+      "stickers": [{ "word": "VOICE", "emoji": "📢" }, { "word": "Fired", "emoji": "🔥" }]
+    },
+    {
+      "id": "movie",
+      "text": "Next, movie usher. He said, \"Enjoy the show,\" and the popcorn shot through the ceiling.",
+      "setting": "room", "light": "dusk", "focus": "boom",
+      "actors": [ { "who": "boom", "x": 540, "mood": "smug", "hold": "🍿", "action": "jump", "at": "popcorn" } ],
+      "burst": { "at": "popcorn", "emoji": "🍿" },
+      "stickers": [{ "word": "popcorn", "emoji": "🍿" }, { "word": "ceiling", "emoji": "💥" }]
+    },
+    {
+      "id": "movie-fired",
+      "text": "The manager cried, \"The scary movie lost its quiet part!\" Boom said, \"WHAT?\" Fired again.",
+      "setting": "room", "light": "dusk", "focus": "boss",
+      "actors": [
+        { "who": "boss", "x": 380, "mood": "angry", "face": "right", "action": "shake", "at": "cried" },
+        { "who": "boom", "x": 760, "face": "left", "mood": "happy", "changes": [{ "at": "again", "mood": "sad" }] }
+      ],
+      "stickers": [{ "word": "quiet", "emoji": "🤫" }, { "word": "WHAT", "emoji": "❓" }]
+    },
+    {
+      "id": "guard",
+      "text": "Then night guard. Boom sneezed. Three burglars surrendered, and forty neighbors called the police on him.",
+      "setting": "city", "light": "night", "focus": "boom",
+      "effects": ["shake"],
+      "actors": [ { "who": "boom", "x": 540, "mood": "shock", "action": "shake", "at": "sneezed" } ],
+      "crowd": { "who": "boss", "count": 20, "mood": "angry", "until": "neighbors" },
+      "stickers": [{ "word": "sneezed", "emoji": "🤧" }, { "word": "police", "emoji": "🚓" }]
+    },
+    {
+      "id": "tally",
+      "text": "By midnight, Boom was fired from eleven jobs and had earned zero dollars.",
+      "setting": "city", "light": "dusk", "focus": "boom",
+      "effects": ["rain"],
+      "actors": [ { "who": "boom", "x": 540, "mood": "sad", "action": "faint", "at": "dollars" } ],
+      "stickers": [{ "word": "eleven", "emoji": "1️⃣" }, { "word": "zero", "emoji": "💸" }]
+    },
+    {
+      "id": "baby",
+      "text": "Then a baby needed a nap. Boom whispered for four hours. The mom paid him fifty dollars.",
+      "setting": "room", "light": "gold", "focus": "boom",
+      "effects": ["confetti"],
+      "actors": [
+        { "who": "boom", "x": 380, "face": "right", "mood": "happy", "hold": "👶" },
+        { "who": "mom", "x": 760, "face": "left", "mood": "happy", "hold": "💵" }
+      ],
+      "stickers": [{ "word": "baby", "emoji": "👶" }, { "word": "fifty", "emoji": "💵" }]
+    },
+    {
+      "id": "store",
+      "text": "He sprinted to the store and bought the headset. The cashier smiled. \"Want to test it?\"",
+      "setting": "room", "light": "day", "focus": "clerk",
+      "actors": [
+        { "who": "clerk", "x": 340, "face": "right", "mood": "happy" },
+        { "who": "boom", "x": 760, "face": "left", "mood": "happy", "hold": "🎧" }
+      ],
+      "stickers": [{ "word": "headset", "emoji": "🎧" }, { "word": "test", "emoji": "❓" }]
+    },
+    {
+      "id": "boom",
+      "text": "Boom shouted, \"HELLO!\" and the headset exploded. Now Boom wanted the new gaming headset, but he had zero dollars.",
+      "setting": "room", "light": "danger", "focus": "boom", "catchphrase": "before",
+      "flash": "exploded",
+      "effects": ["shake"],
+      "actors": [
+        { "who": "clerk", "x": 340, "face": "right", "mood": "shock", "action": "fall", "at": "exploded" },
+        { "who": "boom", "x": 760, "face": "left", "mood": "shock", "changes": [{ "at": "zero", "mood": "sad" }] }
+      ],
+      "stickers": [{ "word": "HELLO", "emoji": "📢" }, { "word": "exploded", "emoji": "💥" }]
+    }
+  ]
+}
