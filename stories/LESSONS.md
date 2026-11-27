@@ -8,10 +8,10 @@ evidence wins. Cite the stories a lesson comes from.
 
 ## Next experiment
 
-1. **Versus type, banner OFF** (saver-spender, 2026-11-27 8 AM IST). First test of the versus type (Saver vs Spender, reversal: the obvious winner loses). Hook banner off, per the banner A/B. Compare its Instagram skip rate and % watched against the banner-on Shorts; judge once it has 24 h.
-2. **Hook banner A/B (owner priority: cut the Instagram skip rate).** Banner-off so far: pilot-faints (skip 32%, 26.7% watched), saver-spender pending. Banner-on: too-honest 20.8%, too-strong 25.9%, too-loud 25.3% (full screen), genie-double 27.9%. Hypothesis (1 Short): banner-off is worse. If saver-spender is also worse than ~26% skip, turn the banner back on for good.
-3. **Full-screen vs split-screen Instagram:** 2 full-screen (pilot-faints, too-loud) vs 3 split. Full screen 31.7% watched / 28.8% skip vs split 45.0% / 24.9%. Hypothesis: full screen is worse. Need a 3rd full-screen Reel with 24 h data before recording a verdict.
-4. **Closed: quest montage new trait (too-loud, YouTube ~950 views, 10 likes, IG 720 views at 8 h).** Same ~1,000 ceiling; the type keeps its like rate (~1%), the trait is not the lever.
+1. **Quest montage, 5th trait: too lucky, banner ON** (too-lucky, 2026-11-27 12 PM IST). Luck is a "good thing punished" trait with a twist ending where winning cancels the thing he wanted. Banner on again to separate the banner effect from the type. Judge by 24 h: YouTube likes (quest montage has ~1.5% like rate: genie 16, too-fast 16, lie-lighter 15) and Instagram skip rate vs the banner-off Reels.
+2. **Hook banner A/B (owner priority: cut the Instagram skip rate).** Banner-off: pilot-faints 32.2% skip, saver-spender 25.4% (1,615 views, best Reel). Banner-on: too-honest 20.8%, too-loud 23.6%, too-strong 25.9%, genie 27.9%. Banner-off 28.8% avg vs banner-on 24.5% (2 vs 4 Reels, hypothesis): banner-on is slightly better; keep it on unless a 3rd banner-off Reel is clearly better.
+3. **Full-screen vs split-screen Instagram (3 vs 3):** full screen 35.5% watched / 27.1% skip, split 45.0% / 24.9%. Verdict: full screen holds about 9 points less of the video, skip rate about the same. Views are similar (full-screen saver-spender 1,615 vs split 1,225-1,545). Owner decision stands (full screen); recorded for him in the report.
+4. **Closed: versus type first test (saver-spender, banner off).** Instagram 1,615 views / 23 likes / 41.6% watched / 25.4% skip = best Reel by views and likes; YouTube 730 views at ~4 h (on pace for ~1,000, same ceiling). Hypothesis (1 Short): versus likes as well as the quest montage; test it again in 2 runs with a different pair.
 
 **SKIP RATE IS THE #1 METRIC (owner, 2026-11-25).** Instagram's skip rate = share of viewers who swipe away in the first ~3 s (genie-double 28%, too-strong 26%). It is decided by frame 0 and the first sentence. Every lesson about hooks should cite skip rate when it exists. Baseline before the 2026-11-25 opening rebuild: 26-28%.
 
@@ -34,6 +34,8 @@ evidence wins. Cite the stories a lesson comes from.
 - Our own numbers: first-person "in my town" rule worlds lead the new format (promise-rocks 1,068, thanks-table 951 in <1 day, lie-lighter 917). True-history stories trail (bridge-break 211, molasses-wave 2 views). Hypothesis: viewers want character comedy, not history lessons; deprioritize true stories.
 
 ## From the numbers
+
+**2026-11-27 12 PM run (91 Shorts, 70 subs):** nothing new above 1,100 on YouTube. IG now 6 Reels (8.9k views). saver-spender is the best Reel (1,615 views, 23 likes). Trends unchanged: Hindi/Ghibli stories lead; "Strict Dad vs Soft Mom" (versus, 2.8M, 49 s) and "In this town..." (Et Si ?, 91 s) repeat. Median length of the top is still above 60 s: owner note stands.
 
 **2026-11-27 8 AM run (91 Shorts, 70 subs, ~65,650 views):** no new-format Short beats ~1,100 views on YouTube (too-honest 1,103, promise-rocks 1,091, genie-double 1,037, pilot-faints 1,032). Best of the new format by likes: genie-double 16 (4 comments), too-loud 10, lie-lighter 15; worst: bridge-break 944 (32% watched, true story). Instagram (5 Reels, 6.3k views): see IG_STATS.md. Trends (TRENDS.md): the top is Hindi/Ghibli nostalgia stories (3-5M views, 31-117 s), and "In this town..." (Et Si ?, 403k, 91 s, 1.6% likes), "Strict Dad vs Soft Mom" (2.8M, 49 s), and graphic-situation hooks ("He Woke Up Mid-Surgery And Couldn't Move", 2.6M, 63 s) keep winning; median top-30 length is now 77 s (was 59 s), still above our 45-60 s: owner note stands.
 

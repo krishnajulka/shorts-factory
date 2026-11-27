@@ -1,0 +1,138 @@
+{
+  "id": "2026-11-27-too-lucky",
+  "title": "Too Lucky",
+  "youtube": {
+    "title": "He was too lucky to keep a job 🍀😂",
+    "description": "Lou just wanted concert tickets. Every job went a little too luckily. #shorts #funny #animation #story",
+    "tags": ["shorts", "funny", "animation", "story", "cartoon", "comedy", "concert"]
+  },
+  "logline": "Lou is so lucky that he gets fired from every job for winning too much, until mowing a lawn finally pays; he buys the concert ticket and his luck wins him the whole stadium and cancels the show.",
+  "comment": "Which job would YOU have fired Lou from first? 🍀",
+  "hook": "TOO LUCKY TO KEEP A JOB 🍀",
+  "narrator": "callum",
+  "voice": "Microsoft David Desktop",
+  "rate": 0,
+  "music": "playful",
+  "bottom": "parkour",
+  "keywords": ["concert", "lucky", "fired", "arcade", "millionth", "hurricane", "lawn", "stadium", "cruise"],
+  "cast": {
+    "lou": { "species": "bean", "color": "#2ec4b6", "name": "Lou" },
+    "boss": { "species": "bean", "color": "#ff9f1c", "name": "Boss" },
+    "mayor": { "species": "bean", "color": "#6a4c93", "name": "Mayor" },
+    "gran": { "species": "bean", "color": "#f78fb3", "name": "Grandma" },
+    "clerk": { "species": "bean", "color": "#c77dff", "name": "Clerk" }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Lou wanted concert tickets, but he had zero dollars.",
+      "setting": "city", "light": "day", "focus": "lou", "catchphrase": "after",
+      "actors": [ { "who": "lou", "x": 540, "size": 1.3, "mood": "sad", "action": "shake", "at": "Lou", "changes": [{ "at": "zero", "mood": "shock" }] } ],
+      "stickers": [{ "word": "concert", "emoji": "🎤" }, { "word": "zero", "emoji": "💸" }]
+    },
+    {
+      "id": "arcade",
+      "text": "First, arcade attendant. Lou touched one claw machine, and three hundred plushies dropped out.",
+      "setting": "room", "light": "dusk", "focus": "lou",
+      "effects": ["shake"],
+      "actors": [ { "who": "lou", "x": 540, "mood": "smug", "hold": "🧸", "action": "jump", "at": "dropped" } ],
+      "burst": { "at": "plushies", "emoji": "🧸" },
+      "stickers": [{ "word": "claw", "emoji": "🕹️" }, { "word": "plushies", "emoji": "🧸" }]
+    },
+    {
+      "id": "arcade-fired",
+      "text": "The boss screamed, \"Every machine is empty!\" Fired.",
+      "setting": "room", "light": "dusk", "focus": "boss",
+      "actors": [
+        { "who": "boss", "x": 380, "mood": "angry", "face": "right", "action": "shake", "at": "screamed" },
+        { "who": "lou", "x": 760, "face": "left", "mood": "happy", "changes": [{ "at": "Fired", "mood": "sad" }] }
+      ],
+      "stickers": [{ "word": "empty", "emoji": "😱" }, { "word": "Fired", "emoji": "🔥" }]
+    },
+    {
+      "id": "cashier",
+      "text": "Next, mall cashier. Every customer was the millionth customer, so everything was free.",
+      "setting": "city", "light": "day", "focus": "lou",
+      "crowd": { "who": "boss", "count": 24, "mood": "happy", "until": "free" },
+      "actors": [ { "who": "lou", "x": 540, "mood": "happy", "action": "bow", "at": "millionth" } ],
+      "stickers": [{ "word": "millionth", "emoji": "🎉" }, { "word": "free", "emoji": "🆓" }]
+    },
+    {
+      "id": "cashier-fired",
+      "text": "The manager groaned, \"We gave away the store!\" Fired again.",
+      "setting": "city", "light": "day", "focus": "boss",
+      "actors": [
+        { "who": "boss", "x": 380, "mood": "shock", "face": "right", "action": "faint", "at": "gave" },
+        { "who": "lou", "x": 760, "face": "left", "mood": "happy", "changes": [{ "at": "again", "mood": "sad" }] }
+      ],
+      "stickers": [{ "word": "store", "emoji": "🏬" }, { "word": "again", "emoji": "🔥" }]
+    },
+    {
+      "id": "weather",
+      "text": "Then TV forecaster. Lou guessed sunny, and the hurricane turned around.",
+      "setting": "beach", "light": "danger", "focus": "lou",
+      "effects": ["rain", "shake"],
+      "actors": [ { "who": "lou", "x": 540, "mood": "smug", "action": "spin", "at": "sunny" } ],
+      "stickers": [{ "word": "sunny", "emoji": "☀️" }, { "word": "hurricane", "emoji": "🌀" }]
+    },
+    {
+      "id": "weather-fired",
+      "text": "The mayor yelled, \"You scared the storm!\" Fired.",
+      "setting": "beach", "light": "day", "focus": "mayor",
+      "effects": ["rays"],
+      "actors": [
+        { "who": "mayor", "x": 380, "mood": "angry", "face": "right", "action": "shake", "at": "yelled" },
+        { "who": "lou", "x": 760, "face": "left", "mood": "happy", "changes": [{ "at": "Fired", "mood": "sad" }] }
+      ],
+      "stickers": [{ "word": "storm", "emoji": "⛈️" }, { "word": "Fired", "emoji": "🔥" }]
+    },
+    {
+      "id": "tally",
+      "text": "By sunset, Lou was fired from thirteen jobs and had earned zero dollars.",
+      "setting": "city", "light": "dusk", "focus": "lou",
+      "effects": ["rain"],
+      "actors": [ { "who": "lou", "x": 540, "mood": "sad", "action": "faint", "at": "dollars" } ],
+      "stickers": [{ "word": "thirteen", "emoji": "1️⃣" }, { "word": "zero", "emoji": "💸" }]
+    },
+    {
+      "id": "lawn",
+      "text": "Then Grandma needed her lawn mowed. Luck couldn't help. Four hours later, she paid him fifty dollars.",
+      "setting": "forest", "light": "gold", "focus": "lou",
+      "effects": ["confetti"],
+      "actors": [
+        { "who": "lou", "x": 380, "face": "right", "mood": "happy", "hold": "🌱", "action": "run", "at": "mowed" },
+        { "who": "gran", "x": 760, "face": "left", "mood": "happy", "hold": "💵" }
+      ],
+      "stickers": [{ "word": "lawn", "emoji": "🌱" }, { "word": "fifty", "emoji": "💵" }]
+    },
+    {
+      "id": "ticket",
+      "text": "He bought the ticket. The clerk gasped, \"You're our millionth customer!\"",
+      "setting": "city", "light": "day", "focus": "clerk",
+      "actors": [
+        { "who": "clerk", "x": 340, "face": "right", "mood": "shock", "action": "jump", "at": "gasped" },
+        { "who": "lou", "x": 760, "face": "left", "mood": "happy", "hold": "🎟️" }
+      ],
+      "stickers": [{ "word": "ticket", "emoji": "🎟️" }, { "word": "millionth", "emoji": "🎉" }]
+    },
+    {
+      "id": "stadium",
+      "text": "The clerk refunded him and handed him the stadium. Then the singer won a cruise and canceled.",
+      "setting": "city", "light": "danger", "focus": "lou",
+      "flash": "canceled",
+      "effects": ["shake"],
+      "actors": [
+        { "who": "clerk", "x": 340, "face": "right", "mood": "happy", "hold": "🏟️" },
+        { "who": "lou", "x": 760, "face": "left", "mood": "shock", "changes": [{ "at": "canceled", "mood": "sad" }] }
+      ],
+      "stickers": [{ "word": "stadium", "emoji": "🏟️" }, { "word": "cruise", "emoji": "🚢" }]
+    },
+    {
+      "id": "end",
+      "text": "Now Lou wanted concert tickets, but he had zero concerts.",
+      "setting": "city", "light": "day", "focus": "lou", "catchphrase": "before",
+      "actors": [ { "who": "lou", "x": 540, "size": 1.3, "mood": "sad", "action": "shake", "at": "Now", "changes": [{ "at": "zero", "mood": "shock" }] } ],
+      "stickers": [{ "word": "concert", "emoji": "🎤" }, { "word": "zero", "emoji": "💸" }]
+    }
+  ]
+}
