@@ -8,9 +8,10 @@ evidence wins. Cite the stories a lesson comes from.
 
 ## Next experiment
 
-1. **Quest montage, 4th trait: too LOUD, hook banner ON** (too-loud, 2026-11-26 4 PM IST). Traits so far: strong (too-strong), fast (too-fast), honest (too-honest). Question: does a new trait keep the quest montage's like rate (~1.6%) and Instagram skip rate (~21-26%)? Compare against the pilot-faints Reel (banner off, skip 31%).
-2. **Hook banner A/B (owner priority: cut the Instagram skip rate).** Banner-off so far: pilot-faints only, and its first read is WORSE (Instagram skip 31% vs 20.7-28% banner-on; 26.7% watched vs 41-52%; it was ~8 h old and full screen, so not a clean test). Alternate: too-loud has banner ON; next dilemma/versus gets banner OFF. After 3+ Reels of each with 24 h+, keep the winner.
-3. **Full-screen vs split-screen Instagram** (since 2026-11-26 4 PM the Reel is the story alone). Record the comparison here once there are 3+ of each (IG_STATS.md has 1 full-screen so far).
+1. **Versus type, banner OFF** (saver-spender, 2026-11-27 8 AM IST). First test of the versus type (Saver vs Spender, reversal: the obvious winner loses). Hook banner off, per the banner A/B. Compare its Instagram skip rate and % watched against the banner-on Shorts; judge once it has 24 h.
+2. **Hook banner A/B (owner priority: cut the Instagram skip rate).** Banner-off so far: pilot-faints (skip 32%, 26.7% watched), saver-spender pending. Banner-on: too-honest 20.8%, too-strong 25.9%, too-loud 25.3% (full screen), genie-double 27.9%. Hypothesis (1 Short): banner-off is worse. If saver-spender is also worse than ~26% skip, turn the banner back on for good.
+3. **Full-screen vs split-screen Instagram:** 2 full-screen (pilot-faints, too-loud) vs 3 split. Full screen 31.7% watched / 28.8% skip vs split 45.0% / 24.9%. Hypothesis: full screen is worse. Need a 3rd full-screen Reel with 24 h data before recording a verdict.
+4. **Closed: quest montage new trait (too-loud, YouTube ~950 views, 10 likes, IG 720 views at 8 h).** Same ~1,000 ceiling; the type keeps its like rate (~1%), the trait is not the lever.
 
 **SKIP RATE IS THE #1 METRIC (owner, 2026-11-25).** Instagram's skip rate = share of viewers who swipe away in the first ~3 s (genie-double 28%, too-strong 26%). It is decided by frame 0 and the first sentence. Every lesson about hooks should cite skip rate when it exists. Baseline before the 2026-11-25 opening rebuild: 26-28%.
 
@@ -33,6 +34,8 @@ evidence wins. Cite the stories a lesson comes from.
 - Our own numbers: first-person "in my town" rule worlds lead the new format (promise-rocks 1,068, thanks-table 951 in <1 day, lie-lighter 917). True-history stories trail (bridge-break 211, molasses-wave 2 views). Hypothesis: viewers want character comedy, not history lessons; deprioritize true stories.
 
 ## From the numbers
+
+**2026-11-27 8 AM run (91 Shorts, 70 subs, ~65,650 views):** no new-format Short beats ~1,100 views on YouTube (too-honest 1,103, promise-rocks 1,091, genie-double 1,037, pilot-faints 1,032). Best of the new format by likes: genie-double 16 (4 comments), too-loud 10, lie-lighter 15; worst: bridge-break 944 (32% watched, true story). Instagram (5 Reels, 6.3k views): see IG_STATS.md. Trends (TRENDS.md): the top is Hindi/Ghibli nostalgia stories (3-5M views, 31-117 s), and "In this town..." (Et Si ?, 403k, 91 s, 1.6% likes), "Strict Dad vs Soft Mom" (2.8M, 49 s), and graphic-situation hooks ("He Woke Up Mid-Surgery And Couldn't Move", 2.6M, 63 s) keep winning; median top-30 length is now 77 s (was 59 s), still above our 45-60 s: owner note stands.
 
 **2026-11-26 4 PM IST run (90 Shorts, 68 subs, ~63,500 views):** no new-format Short is above ~1,090 views on YouTube; the 1,000 ceiling still holds. Instagram, 4 Reels (6,214 views, 1 follower): the two quest/dilemma split-screen Reels at 1,225-1,539 views; too-honest has the lowest skip rate (20.7%) but 42% watched; genie-double the best watch (52%). pilot-faints (full screen, banner off, ~8 h) 1,203 views, skip 31%, 26.7% watched: hypothesis (1 Short) that banner-off and/or full-screen hurts the first 3 s. TRENDS (top: Hindi Ghibli stories 3.5M, 117 s; a 43 s truck-driver cartoon 10M) still shows Hindi/Indian-audience animated stories dominating; owner note stands.
 

@@ -1,0 +1,421 @@
+{
+  "id": "2026-11-27-saver-spender",
+  "title": "Saver Spender",
+  "youtube": {
+    "title": "Saver vs Spender: who's richer in one year? 💰🍕",
+    "description": "Penny saves everything. Dash spends everything. Same hundred dollars each. Who wins? #shorts #story #funny #animation",
+    "tags": [
+      "shorts",
+      "story",
+      "storytime",
+      "funny",
+      "animation",
+      "money",
+      "versus"
+    ]
+  },
+  "logline": "Penny saves her hundred dollars and Dash spends his on pizza for everyone; over a year Dash's friends help him get rich while Penny's saving costs her money, and she ends up paying him rent for a jar.",
+  "comment": "Saver or Spender: who are YOU? Be honest 💰",
+  "hook": "SAVER VS SPENDER: WHO WINS? 💰",
+  "hookCard": false,
+  "narrator": "george",
+  "voice": "Microsoft David Desktop",
+  "rate": 0,
+  "music": "playful",
+  "bottom": "parkour",
+  "keywords": [
+    "saves",
+    "spends",
+    "jar",
+    "pizza",
+    "friends",
+    "camera",
+    "restaurant",
+    "rent"
+  ],
+  "cast": {
+    "penny": {
+      "species": "bean",
+      "color": "#2a9d8f",
+      "name": "Penny"
+    },
+    "dash": {
+      "species": "bean",
+      "color": "#f4a261",
+      "name": "Dash"
+    },
+    "jar": {
+      "emoji": "🫙"
+    },
+    "kid": {
+      "species": "bean",
+      "color": "#e76f51",
+      "name": "Kid"
+    }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Penny saves everything. Dash spends everything. Who's richer in one year?",
+      "setting": "city",
+      "light": "gold",
+      "focus": "penny",
+      "catchphrase": "after",
+      "actors": [
+        {
+          "who": "penny",
+          "x": 300,
+          "face": "right",
+          "mood": "smug",
+          "action": "jump",
+          "at": "saves",
+          "hold": "🫙"
+        },
+        {
+          "who": "dash",
+          "x": 780,
+          "face": "left",
+          "mood": "happy",
+          "action": "jump",
+          "at": "spends",
+          "hold": "🍕"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "saves",
+          "emoji": "🫙"
+        },
+        {
+          "word": "spends",
+          "emoji": "💸"
+        }
+      ]
+    },
+    {
+      "id": "start",
+      "text": "Both got one hundred dollars. Penny locked hers in a jar. Dash bought pizza for the whole school.",
+      "setting": "room",
+      "light": "day",
+      "focus": "dash",
+      "actors": [
+        {
+          "who": "penny",
+          "x": 260,
+          "face": "right",
+          "mood": "smug",
+          "hold": "🫙"
+        },
+        {
+          "who": "dash",
+          "x": 700,
+          "face": "left",
+          "mood": "happy",
+          "action": "jump",
+          "at": "pizza"
+        }
+      ],
+      "crowd": {
+        "who": "kid",
+        "count": 20,
+        "mood": "happy",
+        "until": "school"
+      },
+      "burst": {
+        "at": "pizza",
+        "emoji": "🍕"
+      },
+      "stickers": [
+        {
+          "word": "jar",
+          "emoji": "🫙"
+        }
+      ]
+    },
+    {
+      "id": "jan",
+      "text": "January. Penny laughed, \"You have nothing!\" Dash had thirty new friends and free pizza for life.",
+      "setting": "room",
+      "light": "day",
+      "focus": "penny",
+      "actors": [
+        {
+          "who": "penny",
+          "x": 260,
+          "face": "right",
+          "mood": "smug",
+          "changes": [
+            {
+              "at": "nothing",
+              "mood": "angry"
+            }
+          ]
+        },
+        {
+          "who": "dash",
+          "x": 700,
+          "face": "left",
+          "mood": "happy",
+          "action": "bow",
+          "at": "thirty"
+        }
+      ],
+      "crowd": {
+        "who": "kid",
+        "count": 30,
+        "mood": "happy",
+        "until": "life"
+      },
+      "stickers": [
+        {
+          "word": "thirty",
+          "emoji": "🤝"
+        }
+      ]
+    },
+    {
+      "id": "june",
+      "text": "June. Penny's jar still held one hundred dollars. Dash's friends built him a lemonade stand. Three hundred dollars by noon.",
+      "setting": "city",
+      "light": "day",
+      "focus": "dash",
+      "effects": [
+        "rays"
+      ],
+      "actors": [
+        {
+          "who": "penny",
+          "x": 200,
+          "face": "right",
+          "mood": "sad",
+          "hold": "🫙"
+        },
+        {
+          "who": "dash",
+          "x": 760,
+          "face": "left",
+          "mood": "happy",
+          "action": "jump",
+          "at": "noon",
+          "hold": "🍋"
+        }
+      ],
+      "drop": {
+        "at": "dollars",
+        "emoji": "💵",
+        "to": "dash"
+      },
+      "stickers": [
+        {
+          "word": "lemonade",
+          "emoji": "🍋"
+        },
+        {
+          "word": "noon",
+          "emoji": "💵"
+        }
+      ]
+    },
+    {
+      "id": "camera",
+      "text": "Penny panicked. Thieves might want her jar! She bought a lock, then a camera. Fifty dollars gone, guarding a hundred.",
+      "setting": "room",
+      "light": "night",
+      "focus": "penny",
+      "actors": [
+        {
+          "who": "penny",
+          "x": 380,
+          "face": "right",
+          "mood": "shock",
+          "action": "shake",
+          "at": "panicked",
+          "hold": "🫙"
+        }
+      ],
+      "drop": {
+        "at": "camera",
+        "emoji": "📷",
+        "to": "penny"
+      },
+      "stickers": [
+        {
+          "word": "lock",
+          "emoji": "🔒"
+        },
+        {
+          "word": "camera",
+          "emoji": "📷"
+        }
+      ]
+    },
+    {
+      "id": "dec",
+      "text": "December. Dash's stand became a restaurant, and his friends all worked there. Penny had fifty dollars and a very expensive lock.",
+      "setting": "city",
+      "light": "gold",
+      "focus": "dash",
+      "effects": [
+        "confetti"
+      ],
+      "actors": [
+        {
+          "who": "dash",
+          "x": 700,
+          "face": "left",
+          "mood": "smug",
+          "action": "grow",
+          "at": "restaurant",
+          "hold": "🍕"
+        },
+        {
+          "who": "penny",
+          "x": 240,
+          "face": "right",
+          "mood": "sad",
+          "hold": "🔒"
+        }
+      ],
+      "crowd": {
+        "who": "kid",
+        "count": 24,
+        "mood": "happy",
+        "until": "there"
+      },
+      "stickers": [
+        {
+          "word": "restaurant",
+          "emoji": "🍽️"
+        }
+      ]
+    },
+    {
+      "id": "friday",
+      "text": "Black Friday! Penny sprinted to the mall with her fifty dollars. Every TV cost three hundred.",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "penny",
+      "effects": [
+        "speed"
+      ],
+      "actors": [
+        {
+          "who": "penny",
+          "x": 150,
+          "toX": 700,
+          "action": "run",
+          "mood": "happy"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "TV",
+          "emoji": "📺"
+        },
+        {
+          "word": "three",
+          "emoji": "💸"
+        }
+      ]
+    },
+    {
+      "id": "job",
+      "text": "So she did the only thing left. She asked Dash for a job. \"Sure,\" he said. \"Guard my money.\"",
+      "setting": "room",
+      "light": "gold",
+      "focus": "dash",
+      "actors": [
+        {
+          "who": "penny",
+          "x": 260,
+          "face": "right",
+          "mood": "sad",
+          "changes": [
+            {
+              "at": "money",
+              "mood": "happy"
+            }
+          ]
+        },
+        {
+          "who": "dash",
+          "x": 700,
+          "face": "left",
+          "mood": "smug",
+          "hold": "💵"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "job",
+          "emoji": "💼"
+        }
+      ]
+    },
+    {
+      "id": "pay",
+      "text": "Her pay was fifty dollars a week. She was so proud, she put it in a jar. Dash's jar. He charged rent.",
+      "setting": "room",
+      "light": "gold",
+      "focus": "penny",
+      "actors": [
+        {
+          "who": "penny",
+          "x": 280,
+          "face": "right",
+          "mood": "happy",
+          "hold": "🫙",
+          "action": "jump",
+          "at": "proud"
+        },
+        {
+          "who": "dash",
+          "x": 720,
+          "face": "left",
+          "mood": "smug",
+          "changes": [
+            {
+              "at": "rent",
+              "mood": "happy"
+            }
+          ]
+        }
+      ],
+      "flash": "rent",
+      "stickers": [
+        {
+          "word": "jar",
+          "emoji": "🫙"
+        },
+        {
+          "word": "rent",
+          "emoji": "🧾"
+        }
+      ]
+    },
+    {
+      "id": "loop",
+      "text": "Penny saves everything. Dash spends everything.",
+      "setting": "city",
+      "light": "gold",
+      "focus": "penny",
+      "actors": [
+        {
+          "who": "penny",
+          "x": 300,
+          "face": "right",
+          "mood": "sad",
+          "hold": "🫙"
+        },
+        {
+          "who": "dash",
+          "x": 780,
+          "face": "left",
+          "mood": "happy",
+          "hold": "🍕"
+        }
+      ],
+      "catchphrase": "before"
+    }
+  ]
+}
