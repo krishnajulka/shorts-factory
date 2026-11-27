@@ -1,0 +1,156 @@
+{
+  "id": "2026-11-27-brave-scaredy",
+  "title": "Brave vs Scaredy",
+  "youtube": {
+    "title": "Brave Bo vs Scaredy Pip: who survives the haunted house? 👻😱",
+    "description": "Fearless Bo and terrified Pip enter a haunted house for one hundred dollars. Who gets out first? #shorts #story #funny #animation",
+    "tags": ["shorts", "story", "storytime", "funny", "animation", "haunted house", "versus", "scary"]
+  },
+  "logline": "Brave Bo and Scaredy Pip race through a haunted house for one hundred dollars; Bo's bravery gets him eaten and sat on, Pip's fear dodges every trap and wins, but the prize is a free night inside, while Bo becomes the ghosts' night guard.",
+  "comment": "Brave or scaredy: who would YOU be in a haunted house? 👻",
+  "hook": "BRAVE VS SCARED: WHO WINS? 👻",
+  "narrator": "jessica",
+  "voice": "Microsoft David Desktop",
+  "rate": 0,
+  "music": "mystery",
+  "bottom": "parkour",
+  "keywords": ["brave", "scaredy", "haunted", "skeleton", "chest", "ghost", "closet", "guard"],
+  "cast": {
+    "bo": { "species": "bean", "color": "#e63946", "name": "Bo" },
+    "pip": { "species": "bean", "color": "#8ecae6", "name": "Pip" },
+    "ghost": { "emoji": "👻" },
+    "skel": { "emoji": "💀" },
+    "chest": { "emoji": "📦" }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Brave Bo versus Scaredy Pip: who survives the haunted house?",
+      "setting": "city",
+      "light": "night",
+      "focus": "bo",
+      "catchphrase": "after",
+      "actors": [
+        { "who": "bo", "x": 300, "face": "right", "mood": "smug", "action": "jump", "at": "Brave" },
+        { "who": "pip", "x": 780, "face": "left", "mood": "shock", "action": "shake", "at": "Scaredy" }
+      ],
+      "stickers": [{ "word": "haunted", "emoji": "🏚️" }]
+    },
+    {
+      "id": "door",
+      "text": "The prize was one hundred dollars. Bo kicked the door open. Pip fainted on the doormat.",
+      "setting": "city",
+      "light": "night",
+      "focus": "pip",
+      "actors": [
+        { "who": "bo", "x": 300, "face": "right", "mood": "smug", "action": "jump", "at": "kicked" },
+        { "who": "pip", "x": 760, "face": "left", "mood": "shock", "action": "faint", "at": "fainted" }
+      ],
+      "flash": "kicked",
+      "stickers": [{ "word": "hundred", "emoji": "💵" }]
+    },
+    {
+      "id": "skeleton",
+      "text": "Room one, a skeleton. Bo high-fived it. \"Scaredy Pip!\" he laughed. Pip screamed and ran out of his shoes.",
+      "setting": "room",
+      "light": "danger",
+      "focus": "bo",
+      "actors": [
+        { "who": "bo", "x": 260, "face": "right", "mood": "happy", "action": "jump", "at": "high-fived" },
+        { "who": "skel", "x": 560, "face": "left", "size": 1.3 },
+        { "who": "pip", "x": 800, "toX": 1000, "face": "right", "mood": "shock", "action": "run", "at": "screamed" }
+      ],
+      "stickers": [{ "word": "skeleton", "emoji": "💀" }, { "word": "shoes", "emoji": "👟" }]
+    },
+    {
+      "id": "chest",
+      "text": "Room two, a cursed chest. \"Just a box!\" laughed Bo. The chest ate him to the knees. Pip walked around it.",
+      "setting": "room",
+      "light": "night",
+      "focus": "bo",
+      "actors": [
+        { "who": "bo", "x": 300, "face": "right", "mood": "happy", "action": "fall", "at": "ate" },
+        { "who": "chest", "x": 480, "face": "left", "size": 1.4, "action": "shake", "at": "ate" },
+        { "who": "pip", "x": 800, "toX": 700, "face": "left", "mood": "shock" }
+      ],
+      "stickers": [{ "word": "chest", "emoji": "📦" }, { "word": "ate", "emoji": "😋" }]
+    },
+    {
+      "id": "floor",
+      "text": "Room three, the floor was fake. Bo marched across and dropped into the basement. Pip tiptoed along the wall.",
+      "setting": "room",
+      "light": "danger",
+      "focus": "pip",
+      "actors": [
+        { "who": "bo", "x": 300, "face": "right", "mood": "happy", "action": "fall", "at": "dropped" },
+        { "who": "pip", "x": 150, "toX": 900, "face": "right", "mood": "shock", "action": "run" }
+      ],
+      "effects": ["shake"],
+      "stickers": [{ "word": "basement", "emoji": "🕳️" }]
+    },
+    {
+      "id": "ghost",
+      "text": "Room four, a ghost bigger than the house. \"Boring,\" said Bo. The ghost sat on him. Pip was already inside a closet.",
+      "setting": "room",
+      "light": "night",
+      "focus": "bo",
+      "actors": [
+        { "who": "ghost", "x": 500, "face": "left", "size": 1.9, "action": "grow", "at": "ghost" },
+        { "who": "bo", "x": 220, "face": "right", "mood": "smug", "action": "faint", "at": "sat" },
+        { "who": "pip", "x": 900, "face": "left", "mood": "shock", "hold": "🚪" }
+      ],
+      "stickers": [{ "word": "Boring", "emoji": "🥱" }, { "word": "closet", "emoji": "🚪" }]
+    },
+    {
+      "id": "midnight",
+      "text": "By midnight, Bo had been eaten, sat on, and dropped, nine times each. Pip had touched nothing.",
+      "setting": "room",
+      "light": "night",
+      "focus": "pip",
+      "actors": [
+        { "who": "bo", "x": 280, "face": "right", "mood": "sad", "action": "shake", "at": "midnight" },
+        { "who": "pip", "x": 760, "face": "left", "mood": "smug", "action": "bow", "at": "nothing" }
+      ],
+      "stickers": [{ "word": "nine", "emoji": "9️⃣" }]
+    },
+    {
+      "id": "exit",
+      "text": "Pip hid in the last closet, the exit. He won one hundred dollars and a free night in the haunted house.",
+      "setting": "city",
+      "light": "gold",
+      "focus": "pip",
+      "effects": ["confetti"],
+      "actors": [
+        { "who": "pip", "x": 700, "face": "left", "mood": "happy", "action": "jump", "at": "won", "hold": "💵" },
+        { "who": "bo", "x": 250, "face": "right", "mood": "sad" }
+      ],
+      "drop": { "at": "hundred", "emoji": "💵", "to": "pip" },
+      "stickers": [{ "word": "exit", "emoji": "🚪" }, { "word": "free", "emoji": "🛏️" }]
+    },
+    {
+      "id": "guard",
+      "text": "Pip screamed. Bo cheered, because the ghosts had made him their night guard. Forever.",
+      "setting": "room",
+      "light": "gold",
+      "focus": "bo",
+      "actors": [
+        { "who": "pip", "x": 800, "face": "left", "mood": "shock", "action": "shake", "at": "screamed" },
+        { "who": "bo", "x": 300, "face": "right", "mood": "happy", "action": "jump", "at": "cheered", "hat": "👮" },
+        { "who": "ghost", "x": 560, "face": "left", "size": 1.4, "mood": "happy" }
+      ],
+      "stickers": [{ "word": "guard", "emoji": "👮" }]
+    },
+    {
+      "id": "loop",
+      "text": "Brave Bo versus Scaredy Pip. Who survives the haunted house?",
+      "setting": "city",
+      "light": "night",
+      "focus": "bo",
+      "catchphrase": "before",
+      "actors": [
+        { "who": "bo", "x": 300, "face": "right", "mood": "smug", "hat": "👮" },
+        { "who": "pip", "x": 780, "face": "left", "mood": "shock" }
+      ]
+    }
+  ]
+}
