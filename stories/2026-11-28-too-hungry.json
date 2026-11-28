@@ -1,0 +1,464 @@
+{
+  "id": "2026-11-28-too-hungry",
+  "title": "Too Hungry",
+  "youtube": {
+    "title": "He was too hungry to keep a job 🍕😂",
+    "description": "Chomp just wanted a robot dog. Every job he tried went a little too hungrily. #shorts #funny #animation #story",
+    "tags": [
+      "shorts",
+      "funny",
+      "animation",
+      "story",
+      "cartoon",
+      "comedy"
+    ]
+  },
+  "logline": "Always-starving Chomp wants a robot dog but has no money; he eats his way out of twelve jobs, finally earns fifty dollars finishing Grandma's casserole, then eats the robot dog's batteries.",
+  "comment": "Which job would YOU have fired Chomp from first? 🍕",
+  "hook": "TOO HUNGRY TO KEEP A JOB 🍕",
+  "narrator": "brian",
+  "voice": "Microsoft David Desktop",
+  "rate": 0,
+  "music": "playful",
+  "bottom": "parkour",
+  "keywords": [
+    "hungry",
+    "fired",
+    "ate",
+    "robot",
+    "dog",
+    "batteries",
+    "dollars"
+  ],
+  "cast": {
+    "chomp": {
+      "species": "bean",
+      "color": "#8ac926",
+      "name": "Chomp"
+    },
+    "boss": {
+      "species": "bean",
+      "color": "#ff9f1c",
+      "name": "Boss"
+    },
+    "guest": {
+      "species": "bean",
+      "color": "#e5989b",
+      "name": "Guest"
+    },
+    "granny": {
+      "species": "bean",
+      "color": "#b8b8d1",
+      "name": "Grandma"
+    },
+    "dog": {
+      "emoji": "🐕"
+    }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Chomp wanted the newest robot dog, but he had zero dollars.",
+      "setting": "city",
+      "light": "day",
+      "focus": "chomp",
+      "catchphrase": "after",
+      "actors": [
+        {
+          "who": "chomp",
+          "x": 540,
+          "size": 1.3,
+          "mood": "happy",
+          "action": "jump",
+          "at": "Chomp",
+          "changes": [
+            {
+              "at": "zero",
+              "mood": "shock"
+            }
+          ]
+        }
+      ],
+      "stickers": [
+        {
+          "word": "robot",
+          "emoji": "🤖"
+        },
+        {
+          "word": "zero",
+          "emoji": "💸"
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "text": "First, pizza delivery. He delivered four hundred pizzas in four minutes, and every box was empty.",
+      "setting": "city",
+      "light": "day",
+      "focus": "chomp",
+      "effects": [
+        "speed"
+      ],
+      "actors": [
+        {
+          "who": "chomp",
+          "x": 780,
+          "face": "left",
+          "mood": "happy",
+          "hold": "🍕",
+          "action": "run",
+          "at": "delivered"
+        }
+      ],
+      "burst": {
+        "at": "pizzas",
+        "emoji": "🍕"
+      },
+      "stickers": [
+        {
+          "word": "four",
+          "emoji": "4️⃣"
+        },
+        {
+          "word": "empty",
+          "emoji": "📦"
+        }
+      ]
+    },
+    {
+      "id": "pizza-fired",
+      "text": "\"Where's my pizza?!\" yelled the customer. Chomp burped, \"Delicious.\" Fired.",
+      "setting": "city",
+      "light": "day",
+      "focus": "boss",
+      "actors": [
+        {
+          "who": "boss",
+          "x": 380,
+          "face": "right",
+          "mood": "angry",
+          "action": "shake",
+          "at": "yelled"
+        },
+        {
+          "who": "chomp",
+          "x": 760,
+          "face": "left",
+          "mood": "smug",
+          "action": "bow",
+          "at": "burped",
+          "changes": [
+            {
+              "at": "Fired",
+              "mood": "sad"
+            }
+          ]
+        }
+      ],
+      "stickers": [
+        {
+          "word": "burped",
+          "emoji": "😮‍💨"
+        },
+        {
+          "word": "Fired",
+          "emoji": "🔥"
+        }
+      ]
+    },
+    {
+      "id": "wedding",
+      "text": "Next, wedding caterer. He ate the cake, the buffet, and the bride's bouquet before the vows.",
+      "setting": "room",
+      "light": "gold",
+      "focus": "chomp",
+      "actors": [
+        {
+          "who": "chomp",
+          "x": 780,
+          "face": "left",
+          "mood": "smug",
+          "hold": "🎂",
+          "action": "grow",
+          "at": "ate"
+        }
+      ],
+      "crowd": {
+        "who": "guest",
+        "count": 30,
+        "mood": "shock",
+        "until": "bouquet"
+      },
+      "stickers": [
+        {
+          "word": "cake",
+          "emoji": "🎂"
+        },
+        {
+          "word": "bouquet",
+          "emoji": "💐"
+        }
+      ]
+    },
+    {
+      "id": "wedding-fired",
+      "text": "The bride screamed, \"Where's my wedding?!\" Chomp whispered, \"Sorry. Tasty.\" Fired again.",
+      "setting": "room",
+      "light": "gold",
+      "focus": "boss",
+      "actors": [
+        {
+          "who": "boss",
+          "x": 380,
+          "face": "right",
+          "mood": "angry",
+          "action": "shake",
+          "at": "screamed"
+        },
+        {
+          "who": "chomp",
+          "x": 760,
+          "face": "left",
+          "mood": "smug",
+          "action": "bow",
+          "at": "whispered",
+          "changes": [
+            {
+              "at": "again",
+              "mood": "sad"
+            }
+          ]
+        }
+      ],
+      "stickers": [
+        {
+          "word": "Tasty",
+          "emoji": "😋"
+        }
+      ]
+    },
+    {
+      "id": "firefighter",
+      "text": "Last, firefighter. He ate the fire. Then the hose. Then the fire truck.",
+      "setting": "city",
+      "light": "danger",
+      "focus": "chomp",
+      "effects": [
+        "shake"
+      ],
+      "actors": [
+        {
+          "who": "chomp",
+          "x": 540,
+          "size": 1.6,
+          "mood": "smug",
+          "hold": "🚒",
+          "action": "grow",
+          "at": "ate"
+        }
+      ],
+      "burst": {
+        "at": "fire",
+        "emoji": "🔥"
+      },
+      "stickers": [
+        {
+          "word": "hose",
+          "emoji": "🧯"
+        },
+        {
+          "word": "truck",
+          "emoji": "🚒"
+        }
+      ]
+    },
+    {
+      "id": "chief",
+      "text": "The chief yelled, \"You ate the truck!\" Chomp said, \"It was crunchy.\" Fired.",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "boss",
+      "actors": [
+        {
+          "who": "boss",
+          "x": 380,
+          "face": "right",
+          "mood": "angry",
+          "action": "shake",
+          "at": "yelled"
+        },
+        {
+          "who": "chomp",
+          "x": 760,
+          "face": "left",
+          "mood": "smug",
+          "action": "bow",
+          "at": "crunchy",
+          "changes": [
+            {
+              "at": "Fired",
+              "mood": "sad"
+            }
+          ]
+        }
+      ],
+      "stickers": [
+        {
+          "word": "crunchy",
+          "emoji": "😋"
+        },
+        {
+          "word": "Fired",
+          "emoji": "🔥"
+        }
+      ]
+    },
+    {
+      "id": "tally",
+      "text": "By sunset, Chomp was fired from twelve jobs and had earned zero dollars.",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "chomp",
+      "effects": [
+        "rain"
+      ],
+      "actors": [
+        {
+          "who": "chomp",
+          "x": 540,
+          "mood": "sad",
+          "action": "faint",
+          "at": "dollars"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "twelve",
+          "emoji": "1️⃣"
+        },
+        {
+          "word": "zero",
+          "emoji": "💸"
+        }
+      ]
+    },
+    {
+      "id": "casserole",
+      "text": "Then Grandma asked for help with her burnt casserole. Chomp ate it all and she paid him fifty dollars.",
+      "setting": "room",
+      "light": "gold",
+      "focus": "chomp",
+      "effects": [
+        "confetti"
+      ],
+      "actors": [
+        {
+          "who": "granny",
+          "x": 330,
+          "face": "right",
+          "mood": "happy",
+          "action": "bow",
+          "at": "paid"
+        },
+        {
+          "who": "chomp",
+          "x": 760,
+          "face": "left",
+          "mood": "happy",
+          "hold": "🍲",
+          "action": "jump",
+          "at": "ate"
+        }
+      ],
+      "stickers": [
+        {
+          "word": "casserole",
+          "emoji": "🍲"
+        },
+        {
+          "word": "fifty",
+          "emoji": "💵"
+        }
+      ]
+    },
+    {
+      "id": "dog",
+      "text": "He bought the robot dog. The box said, \"Batteries included.\" Chomp had already eaten them.",
+      "setting": "room",
+      "light": "day",
+      "focus": "chomp",
+      "actors": [
+        {
+          "who": "chomp",
+          "x": 420,
+          "mood": "happy",
+          "hold": "📦",
+          "action": "bow",
+          "at": "bought",
+          "changes": [
+            {
+              "at": "eaten",
+              "mood": "shock"
+            }
+          ]
+        },
+        {
+          "who": "dog",
+          "x": 740,
+          "size": 1.4,
+          "action": "faint",
+          "at": "included"
+        }
+      ],
+      "drop": {
+        "at": "dog",
+        "emoji": "🐕",
+        "to": "chomp"
+      },
+      "stickers": [
+        {
+          "word": "Batteries",
+          "emoji": "🔋"
+        },
+        {
+          "word": "eaten",
+          "emoji": "😱"
+        }
+      ]
+    },
+    {
+      "id": "remote",
+      "text": "The dog stayed frozen, so Chomp ate its remote, too. Leave a like so Chomp can buy batteries.",
+      "setting": "room",
+      "light": "dusk",
+      "focus": "chomp",
+      "catchphrase": "before",
+      "actors": [
+        {
+          "who": "chomp",
+          "x": 540,
+          "mood": "sad",
+          "hold": "📺",
+          "action": "grow",
+          "at": "ate",
+          "changes": [
+            {
+              "at": "batteries",
+              "mood": "shock"
+            }
+          ]
+        }
+      ],
+      "stickers": [
+        {
+          "word": "remote",
+          "emoji": "📺"
+        },
+        {
+          "word": "like",
+          "emoji": "👍"
+        }
+      ]
+    }
+  ]
+}

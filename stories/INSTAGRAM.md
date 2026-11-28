@@ -14,3 +14,4 @@ checks this list so a story is never posted twice.
 - 2026-11-27 — 2026-11-27-too-lucky — https://www.instagram.com/reel/DgPPaAkAhX6/ (full screen)
 - 2026-11-27 — 2026-11-27-brave-scaredy — https://www.instagram.com/reel/DgPkH4KADdr/ (full screen)
 - 2026-11-28 — 2026-11-28-planner-improviser — https://www.instagram.com/reel/DgRw-HJxDWg/ (full screen)
+- 2026-11-28 — 2026-11-28-too-hungry — https://www.instagram.com/reel/DgSN8jvhwH2/ (full screen)
