@@ -1,6 +1,6 @@
 # Channel stats
 
-Updated 2026-11-28 02:45 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 71 · total channel views: 68484 · videos: 94.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
+Updated 2026-11-28 06:44 UTC by `node scripts/youtube.mjs stats`. **Subscribers: 72 · total channel views: 69922 · videos: 95.** Monetization (YouTube Partner Program) needs 1,000 subscribers plus 10M Shorts views in 90 days (or 500 subscribers plus 3M Shorts views for the fan-funding tier).
 
 Sorted by views. "avg watched" is the average share of the Short people watched (YouTube Analytics; lags 1-2 days, "—" = not ready yet).
 
@@ -24,8 +24,8 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 1091 | 10 | 1 | 52% | 29s | 0 | 2026-11-24-promise-rocks | brian | growball | 2026-11-24 07:00 | [In my town, broken promises turn into rocks 🪨😬](https://youtube.com/shorts/hvqIg04ztMM) |
 | 1088 | 8 | 1 | 64% | 18s | 3 | 2026-11-03-alarm-clock | jessica | obby | 2026-11-03 06:51 | [Ben hid an alarm under his sister's bed ⏰😈 (Part 4)](https://youtube.com/shorts/C_H54ZFi5U4) |
 | 1070 | 15 | 0 | 78% | 25s | 3 | 2026-10-29-snail-race | liam | race | 2026-10-29 02:49 | [A snail challenged a cheetah to a race. He won. 🐌🏁](https://youtube.com/shorts/bF4ibGemgHw) |
-| 1044 | 8 | 2 | 0% | 0s | 0 | 2026-11-26-pilot-faints | jessica | parkour | 2026-11-26 07:05 | [The pilot fainted, and you're the only gamer onboard ✈️😱](https://youtube.com/shorts/ex7BpYvenaQ) |
-| 1044 | 16 | 4 | 76% | 36s | 3 | 2026-11-25-genie-double | liam | parkour | 2026-11-25 10:57 | [You found a genie, but your worst enemy gets double 🧞😤](https://youtube.com/shorts/1_lZh2WVDoU) |
+| 1047 | 16 | 4 | 76% | 36s | 3 | 2026-11-25-genie-double | liam | parkour | 2026-11-25 10:57 | [You found a genie, but your worst enemy gets double 🧞😤](https://youtube.com/shorts/1_lZh2WVDoU) |
+| 1045 | 8 | 2 | 0% | 0s | 0 | 2026-11-26-pilot-faints | jessica | parkour | 2026-11-26 07:05 | [The pilot fainted, and you're the only gamer onboard ✈️😱](https://youtube.com/shorts/ex7BpYvenaQ) |
 | 1039 | 4 | 1 | 58% | 19s | 0 | 2026-11-19-hidden-controller | jessica | dominoes | 2026-11-19 02:51 | [Ben hid Mia's game controller every day 🎮😈 (Part 19)](https://youtube.com/shorts/oxFyOKi5f-I) |
 | 1039 | 9 | 1 | 75% | 24s | 1 | 2026-11-17-teleporter-box | jessica | obby | 2026-11-17 16:08 | [Ben built a fake TELEPORTER for Mia 📦😈 (Part 17)](https://youtube.com/shorts/NXevdpa6AgQ) |
 | 1037 | 10 | 1 | 42% | 15s | 1 | 2026-11-05-nine-lives | george | stack | 2026-11-05 02:53 | [A cat had 9 lives. A red dot wanted all of them 🐱🔴](https://youtube.com/shorts/PkzwUHKpmjY) |
@@ -48,14 +48,14 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 960 | 11 | 1 | 45% | 14s | 2 | 2026-11-08-toys-closer | callum | dominoes | 2026-11-08 06:52 | [Every night, Jo's toys crept closer to his bed 🧸😨](https://youtube.com/shorts/J8pZft59oas) |
 | 956 | 3 | 1 | 81% | 21s | 1 | 2026-11-04-beach-hole | jessica | soap | 2026-11-04 06:53 | [Ben dug a trap for his sister at the beach 🕳️😈 (Part 5)](https://youtube.com/shorts/V2z6QgjoYTc) |
 | 953 | 11 | 2 | 66% | 17s | 2 | 2026-11-08-diwali-lamps | jessica | obby | 2026-11-08 02:51 | [Ben blew out Mia's Diwali lamps 🪔😈 (Part 8)](https://youtube.com/shorts/mASfWXVvgsQ) |
-| 949 | 10 | 1 | — | — | — | 2026-11-26-too-loud | brian | parkour | 2026-11-26 11:14 | [He was too loud to keep a job 📢😂](https://youtube.com/shorts/gEaa3uahsWU) |
+| 951 | 10 | 1 | — | — | — | 2026-11-26-too-loud | brian | parkour | 2026-11-26 11:14 | [He was too loud to keep a job 📢😂](https://youtube.com/shorts/gEaa3uahsWU) |
 | 949 | 12 | 2 | 51% | 15s | 2 | 2026-10-31-candy-tax | jessica | obby | 2026-10-31 06:57 | [Ben taxed Mia's Halloween candy 🎃🌶️ (Part 2)](https://youtube.com/shorts/sar3PMsNJaA) |
 | 948 | 7 | 1 | 57% | 19s | 2 | 2026-11-18-ice-cream-truck | jessica | stack | 2026-11-18 06:52 | [Ben said the ice cream truck was SOLD OUT 🍦😈 (Part 18)](https://youtube.com/shorts/Z_dp6zw-eQU) |
 | 943 | 5 | 1 | 60% | 28s | 3 | 2026-11-24-bridge-break | liam | parkour | 2026-11-24 06:17 | [74 soldiers broke a bridge without firing a shot 🌉💥](https://youtube.com/shorts/vWaUkooL_gI) |
 | 941 | 6 | 1 | 74% | 24s | 1 | 2026-11-13-invisible-ben | jessica | dominoes | 2026-11-13 06:51 | [Ben said he was INVISIBLE. Mia believed him 👻😈 (Part 16)](https://youtube.com/shorts/0gxyVwhNVY8) |
-| 938 | 16 | 1 | — | — | — | 2026-11-27-brave-scaredy | jessica | parkour | 2026-11-27 11:21 | [Brave Bo vs Scaredy Pip: who survives the haunted house? 👻😱](https://youtube.com/shorts/fsoFtwduCzY) |
+| 940 | 6 | 1 | — | — | — | 2026-11-27-too-lucky | callum | parkour | 2026-11-27 07:29 | [He was too lucky to keep a job 🍀😂](https://youtube.com/shorts/maYpTUHkpgI) |
+| 939 | 16 | 1 | — | — | — | 2026-11-27-brave-scaredy | jessica | parkour | 2026-11-27 11:21 | [Brave Bo vs Scaredy Pip: who survives the haunted house? 👻😱](https://youtube.com/shorts/fsoFtwduCzY) |
 | 938 | 15 | 1 | 43% | 27s | 1 | 2026-11-24-lie-lighter | jessica | parkour | 2026-11-24 07:17 | [In my town, every lie makes you lighter 🎈🤥](https://youtube.com/shorts/LqKRsh8yW2Y) |
-| 937 | 6 | 1 | — | — | — | 2026-11-27-too-lucky | callum | parkour | 2026-11-27 07:29 | [He was too lucky to keep a job 🍀😂](https://youtube.com/shorts/maYpTUHkpgI) |
 | 936 | 16 | 2 | 66% | 34s | 2 | 2026-11-25-too-fast | liam | parkour | 2026-11-25 06:59 | [He was too fast to keep a job ⚡😂](https://youtube.com/shorts/o0o5Z63sSvE) |
 | 935 | 10 | 0 | 45% | 24s | 3 | duck-doorstep | brian | spiral | 2026-10-24 17:20 | [Someone left a duck on her doorstep for 400 days 🦆](https://youtube.com/shorts/ssowpmlm8cA) |
 | 933 | 15 | 1 | 64% | 19s | 1 | 2026-11-07-wet-paint | jessica | dominoes | 2026-11-07 06:52 | [Ben put a fake WET PAINT sign on the sofa 🎨😈 (Part 7)](https://youtube.com/shorts/9077upeWUno) |
@@ -69,8 +69,9 @@ Sorted by views. "avg watched" is the average share of the Short people watched 
 | 895 | 10 | 1 | 64% | 18s | 1 | 2026-11-11-freeze-cookies | jessica | dominoes | 2026-11-11 06:50 | [Ben froze Mia and ate Grandma's cookies 🍪😈 (Part 13)](https://youtube.com/shorts/CeyoPrNWGD8) |
 | 889 | 9 | 1 | 55% | 14s | 1 | 2026-11-12-owl-squeak | liam | dominoes | 2026-11-12 06:52 | [Why owls turn their heads all the way around 🦉🐭](https://youtube.com/shorts/NpzcDNCJVCM) |
 | 885 | 8 | 1 | 67% | 22s | 1 | 2026-11-20-fast-clock | jessica | stack | 2026-11-20 06:52 | [Ben set Mia's clock one hour FAST every day ⏰😈 (Part 21)](https://youtube.com/shorts/x9MsIsF7E6Y) |
-| 849 | 4 | 1 | 43% | 14s | 0 | 2026-11-10-whoopee-cushion | jessica | obby | 2026-11-10 02:52 | [Ben hid a toot cushion on Mia's chair 5 days 💨🪑 (Part 11)](https://youtube.com/shorts/7U5I1Vcb1wM) |
+| 850 | 4 | 1 | 43% | 14s | 0 | 2026-11-10-whoopee-cushion | jessica | obby | 2026-11-10 02:52 | [Ben hid a toot cushion on Mia's chair 5 days 💨🪑 (Part 11)](https://youtube.com/shorts/7U5I1Vcb1wM) |
 | 701 | 6 | 1 | 38% | 15s | 0 | 2026-11-01-robot-letter | george | soap | 2026-11-01 10:42 | [A tiny robot had 90% battery to deliver ONE letter 🤖✉️](https://youtube.com/shorts/vhcChf9fh-s) |
+| 624 | 10 | 1 | — | — | — | 2026-11-28-too-polite | liam | parkour | 2026-11-28 03:27 | [He was too polite to keep a job 🙏😂](https://youtube.com/shorts/dZuhSQPci8k) |
 | 579 | 2 | 1 | 51% | 18s | 0 | 2026-11-09-rooster-sun | george | stack | 2026-11-09 10:53 | [Why roosters scream at the sun every morning 🐓☀️](https://youtube.com/shorts/-QoM6Fu03uM) |
 | 426 | 6 | 0 | 61% | 21s | 0 | 2026-10-28-last-pancake | liam | plinko | 2026-10-28 02:48 | [He relived the same Monday 41 times. The fix? 🥞⏰](https://youtube.com/shorts/DrDSaMhPCgU) |
 | 425 | 8 | 1 | 36% | 13s | 2 | 2026-11-07-tiny-rocket | george | obby | 2026-11-07 02:40 | [The tiny rocket was picked last on Diwali 🚀🪔](https://youtube.com/shorts/nwko6DfjkUY) |

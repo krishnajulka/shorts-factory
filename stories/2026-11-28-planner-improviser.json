@@ -1,0 +1,483 @@
+{
+ "id": "2026-11-28-planner-improviser",
+ "title": "Planner Improviser",
+ "youtube": {
+  "title": "Planner vs Improviser: who wins one day at the theme park? 🎢📋",
+  "description": "Pia plans everything. Zed plans nothing. One day at the theme park, who wins? #shorts #story #funny #animation",
+  "tags": [
+   "shorts",
+   "story",
+   "storytime",
+   "funny",
+   "animation",
+   "versus",
+   "themepark"
+  ]
+ },
+ "logline": "Planner Pia and improviser Zed spend a day at a theme park; Zed's luck beats her schedule every time until it turns out her whole plan was for the wrong park, so she laminates a new plan: follow Zed.",
+ "comment": "Planner or Improviser: which are YOU? 🎢",
+ "hook": "PLANNER VS IMPROVISER 🎢",
+ "narrator": "george",
+ "voice": "Microsoft David Desktop",
+ "rate": 0,
+ "music": "playful",
+ "bottom": "parkour",
+ "keywords": [
+  "plans",
+  "schedule",
+  "coaster",
+  "mascot",
+  "seagull",
+  "pumpkin",
+  "emergency",
+  "park"
+ ],
+ "cast": {
+  "pia": {
+   "species": "bean",
+   "color": "#2a9d8f",
+   "name": "Pia"
+  },
+  "zed": {
+   "species": "bean",
+   "color": "#f4a261",
+   "name": "Zed"
+  },
+  "mascot": {
+   "emoji": "🐻"
+  },
+  "gull": {
+   "emoji": "🐦"
+  },
+  "pumpkin": {
+   "emoji": "🎃"
+  },
+  "kid": {
+   "species": "bean",
+   "color": "#e76f51",
+   "name": "Kid"
+  }
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "text": "Pia plans everything. Zed plans nothing. Who wins one day at the theme park?",
+   "setting": "city",
+   "light": "gold",
+   "focus": "pia",
+   "actors": [
+    {
+     "who": "pia",
+     "x": 300,
+     "face": "right",
+     "mood": "smug",
+     "action": "jump",
+     "at": "plans",
+     "hold": "📋"
+    },
+    {
+     "who": "zed",
+     "x": 780,
+     "face": "left",
+     "mood": "happy",
+     "action": "jump",
+     "at": "nothing",
+     "hold": "🌭"
+    }
+   ],
+   "catchphrase": "after",
+   "stickers": [
+    {
+     "word": "plans",
+     "emoji": "📋"
+    },
+    {
+     "word": "nothing",
+     "emoji": "🤷"
+    }
+   ]
+  },
+  {
+   "id": "start",
+   "text": "Pia arrived at five AM with a laminated schedule. Zed arrived at noon, holding a corn dog.",
+   "setting": "city",
+   "light": "day",
+   "focus": "pia",
+   "actors": [
+    {
+     "who": "pia",
+     "x": 260,
+     "face": "right",
+     "mood": "smug",
+     "hold": "📋",
+     "action": "bow",
+     "at": "schedule"
+    },
+    {
+     "who": "zed",
+     "x": 720,
+     "face": "left",
+     "mood": "happy",
+     "hold": "🌭",
+     "action": "enter",
+     "at": "noon"
+    }
+   ],
+   "stickers": [
+    {
+     "word": "laminated",
+     "emoji": "📋"
+    },
+    {
+     "word": "corn",
+     "emoji": "🌭"
+    }
+   ]
+  },
+  {
+   "id": "coaster",
+   "text": "The coaster line took ninety minutes. Pia timed it. A mascot mistook Zed for a VIP and waved him in.",
+   "setting": "city",
+   "light": "dusk",
+   "focus": "zed",
+   "actors": [
+    {
+     "who": "pia",
+     "x": 220,
+     "face": "right",
+     "mood": "angry",
+     "hold": "⏱️"
+    },
+    {
+     "who": "zed",
+     "x": 720,
+     "toX": 860,
+     "face": "left",
+     "mood": "happy",
+     "action": "jump",
+     "at": "waved"
+    },
+    {
+     "who": "mascot",
+     "x": 480,
+     "face": "right",
+     "mood": "happy",
+     "action": "jump",
+     "at": "mascot"
+    }
+   ],
+   "crowd": {
+    "who": "kid",
+    "count": 24,
+    "mood": "sad",
+    "until": "minutes"
+   },
+   "stickers": [
+    {
+     "word": "VIP",
+     "emoji": "⭐"
+    },
+    {
+     "word": "ninety",
+     "emoji": "⏱️"
+    }
+   ]
+  },
+  {
+   "id": "sandwich",
+   "text": "\"Luck isn't a plan!\" Pia snapped. Then a seagull stole all twelve of her color-coded sandwiches.",
+   "setting": "beach",
+   "light": "day",
+   "focus": "pia",
+   "actors": [
+    {
+     "who": "pia",
+     "x": 300,
+     "face": "right",
+     "mood": "angry",
+     "changes": [
+      {
+       "at": "seagull",
+       "mood": "shock"
+      }
+     ],
+     "action": "shake",
+     "at": "seagull"
+    },
+    {
+     "who": "gull",
+     "x": 760,
+     "face": "left",
+     "action": "float",
+     "at": "stole"
+    }
+   ],
+   "drop": {
+    "at": "stole",
+    "emoji": "🥪",
+    "to": "gull"
+   },
+   "stickers": [
+    {
+     "word": "sandwiches",
+     "emoji": "🥪"
+    },
+    {
+     "word": "seagull",
+     "emoji": "🐦"
+    }
+   ]
+  },
+  {
+   "id": "pumpkin",
+   "text": "Zed won a free feast guessing a pumpkin's weight. His guess was a joke. It was exact.",
+   "setting": "forest",
+   "light": "gold",
+   "focus": "zed",
+   "actors": [
+    {
+     "who": "zed",
+     "x": 300,
+     "face": "right",
+     "mood": "smug",
+     "action": "jump",
+     "at": "exact"
+    },
+    {
+     "who": "pumpkin",
+     "x": 760,
+     "size": 1.6,
+     "face": "left"
+    }
+   ],
+   "effects": [
+    "confetti"
+   ],
+   "burst": {
+    "at": "feast",
+    "emoji": "🍗"
+   },
+   "stickers": [
+    {
+     "word": "pumpkin's",
+     "emoji": "🎃"
+    },
+    {
+     "word": "exact",
+     "emoji": "🎯"
+    }
+   ]
+  },
+  {
+   "id": "yousee",
+   "text": "You see, a plan is like a phone's GPS. It's perfect until the road closes.",
+   "setting": "room",
+   "light": "day",
+   "focus": "pia",
+   "actors": [
+    {
+     "who": "pia",
+     "x": 400,
+     "face": "right",
+     "mood": "sad",
+     "hold": "📋",
+     "action": "shake",
+     "at": "closes"
+    }
+   ],
+   "stickers": [
+    {
+     "word": "GPS",
+     "emoji": "🗺️"
+    },
+    {
+     "word": "closes",
+     "emoji": "🚧"
+    }
+   ]
+  },
+  {
+   "id": "lost",
+   "text": "Zed got lost: no phone, no wallet, one shoe. Pia flipped to page forty-seven. \"Zed emergency.\"",
+   "setting": "city",
+   "light": "night",
+   "focus": "pia",
+   "actors": [
+    {
+     "who": "pia",
+     "x": 300,
+     "face": "right",
+     "mood": "shock",
+     "hold": "📋",
+     "action": "jump",
+     "at": "flipped"
+    },
+    {
+     "who": "zed",
+     "x": 780,
+     "face": "left",
+     "mood": "sad",
+     "action": "exit",
+     "at": "lost"
+    }
+   ],
+   "flash": "emergency",
+   "stickers": [
+    {
+     "word": "shoe",
+     "emoji": "👟"
+    },
+    {
+     "word": "emergency",
+     "emoji": "🚨"
+    }
+   ]
+  },
+  {
+   "id": "found",
+   "text": "Four minutes later, she found him asleep on a bench. \"Your plan saved me,\" Zed said. Pia cried.",
+   "setting": "city",
+   "light": "gold",
+   "focus": "zed",
+   "actors": [
+    {
+     "who": "zed",
+     "x": 300,
+     "face": "right",
+     "mood": "happy",
+     "action": "bow",
+     "at": "saved"
+    },
+    {
+     "who": "pia",
+     "x": 740,
+     "face": "left",
+     "mood": "happy",
+     "changes": [
+      {
+       "at": "cried",
+       "mood": "sad"
+      }
+     ]
+    }
+   ],
+   "stickers": [
+    {
+     "word": "bench",
+     "emoji": "😴"
+    },
+    {
+     "word": "plan",
+     "emoji": "📋"
+    }
+   ]
+  },
+  {
+   "id": "wrong",
+   "text": "At nine sharp, front row. Pia checked her schedule. Wrong park. The whole plan was for the park next door.",
+   "setting": "city",
+   "light": "danger",
+   "focus": "pia",
+   "actors": [
+    {
+     "who": "pia",
+     "x": 300,
+     "face": "right",
+     "mood": "shock",
+     "hold": "📋",
+     "action": "shake",
+     "at": "wrong"
+    },
+    {
+     "who": "zed",
+     "x": 760,
+     "face": "left",
+     "mood": "smug"
+    }
+   ],
+   "flash": "Wrong",
+   "effects": [
+    "shake"
+   ],
+   "stickers": [
+    {
+     "word": "park",
+     "emoji": "🎡"
+    },
+    {
+     "word": "door",
+     "emoji": "🚪"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Zed shrugged. The mascot waved them in again. Pia laminated a new plan: follow Zed.",
+   "setting": "city",
+   "light": "gold",
+   "focus": "zed",
+   "actors": [
+    {
+     "who": "zed",
+     "x": 280,
+     "face": "right",
+     "mood": "smug",
+     "action": "jump",
+     "at": "shrugged"
+    },
+    {
+     "who": "pia",
+     "x": 700,
+     "face": "left",
+     "mood": "happy",
+     "hold": "📋"
+    },
+    {
+     "who": "mascot",
+     "x": 900,
+     "face": "left",
+     "mood": "happy",
+     "size": 1.1
+    }
+   ],
+   "effects": [
+    "rays",
+    "confetti"
+   ],
+   "stickers": [
+    {
+     "word": "laminated",
+     "emoji": "📋"
+    },
+    {
+     "word": "follow",
+     "emoji": "👉"
+    }
+   ]
+  },
+  {
+   "id": "loop",
+   "text": "Pia plans everything. Zed plans nothing.",
+   "setting": "city",
+   "light": "gold",
+   "focus": "pia",
+   "actors": [
+    {
+     "who": "pia",
+     "x": 300,
+     "face": "right",
+     "mood": "smug",
+     "hold": "📋"
+    },
+    {
+     "who": "zed",
+     "x": 780,
+     "face": "left",
+     "mood": "happy",
+     "hold": "🌭"
+    }
+   ],
+   "catchphrase": "before"
+  }
+ ]
+}
