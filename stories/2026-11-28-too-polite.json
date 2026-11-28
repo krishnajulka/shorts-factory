@@ -1,0 +1,164 @@
+{
+  "id": "2026-11-28-too-polite",
+  "title": "Too Polite",
+  "youtube": {
+    "title": "He was too polite to keep a job 🙏😂",
+    "description": "Penn just wanted a camera drone. Every job he tried went a little too politely. #shorts #funny #animation #story",
+    "tags": ["shorts", "funny", "animation", "story", "cartoon", "comedy"]
+  },
+  "logline": "Super-polite Penn wants a camera drone but has no money; his manners wreck every job, he finally earns fifty dollars holding a door, buys the drone and politely lets it fly away.",
+  "comment": "Which job would YOU have fired Penn from first? 🙏",
+  "hook": "TOO POLITE TO KEEP A JOB 🙏",
+  "narrator": "liam",
+  "voice": "Microsoft David Desktop",
+  "rate": 0,
+  "music": "playful",
+  "bottom": "parkour",
+  "keywords": ["polite", "fired", "after", "drone", "door", "dollars"],
+  "cast": {
+    "penn": { "species": "bean", "color": "#2ec4b6", "name": "Penn" },
+    "boss": { "species": "bean", "color": "#ff9f1c", "name": "Boss" },
+    "robber": { "species": "bean", "color": "#555555", "name": "Robber" },
+    "guest": { "species": "bean", "color": "#e5989b", "name": "Guest" },
+    "drone": { "emoji": "🚁" }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Penn wanted a camera drone, but he had zero dollars.",
+      "setting": "city",
+      "light": "day",
+      "focus": "penn",
+      "catchphrase": "after",
+      "actors": [
+        { "who": "penn", "x": 540, "size": 1.3, "mood": "happy", "action": "jump", "at": "Penn", "changes": [{ "at": "zero", "mood": "shock" }] }
+      ],
+      "stickers": [{ "word": "drone", "emoji": "🚁" }, { "word": "zero", "emoji": "💸" }]
+    },
+    {
+      "id": "bouncer",
+      "text": "First, nightclub bouncer. He politely asked five hundred guests to leave, and they all apologized and went home.",
+      "setting": "city",
+      "light": "night",
+      "focus": "penn",
+      "effects": ["speed"],
+      "actors": [
+        { "who": "penn", "x": 780, "face": "left", "mood": "happy", "action": "bow", "at": "politely" }
+      ],
+      "crowd": { "who": "guest", "count": 30, "mood": "sad", "until": "home" },
+      "stickers": [{ "word": "five", "emoji": "5️⃣" }, { "word": "home", "emoji": "🏠" }]
+    },
+    {
+      "id": "bouncer-fired",
+      "text": "The owner screamed, \"Where is my party?!\" Penn said, \"So sorry!\" Fired.",
+      "setting": "city",
+      "light": "night",
+      "focus": "boss",
+      "actors": [
+        { "who": "boss", "x": 380, "face": "right", "mood": "angry", "action": "shake", "at": "screamed" },
+        { "who": "penn", "x": 760, "face": "left", "mood": "happy", "action": "bow", "at": "sorry", "changes": [{ "at": "Fired", "mood": "sad" }] }
+      ],
+      "stickers": [{ "word": "party", "emoji": "🎉" }, { "word": "Fired", "emoji": "🔥" }]
+    },
+    {
+      "id": "cashier",
+      "text": "Next, cashier. He said \"after you,\" so three hundred customers froze for six hours.",
+      "setting": "room",
+      "light": "day",
+      "focus": "penn",
+      "actors": [
+        { "who": "penn", "x": 780, "face": "left", "mood": "happy", "action": "bow", "at": "after" }
+      ],
+      "crowd": { "who": "guest", "count": 40, "mood": "shock", "until": "froze" },
+      "stickers": [{ "word": "three", "emoji": "3️⃣" }, { "word": "hours", "emoji": "⏰" }]
+    },
+    {
+      "id": "cashier-fired",
+      "text": "The line was still bowing at midnight. \"Nobody paid!\" Fired again.",
+      "setting": "room",
+      "light": "night",
+      "focus": "boss",
+      "actors": [
+        { "who": "boss", "x": 400, "face": "right", "mood": "angry", "action": "shake", "at": "Nobody" },
+        { "who": "penn", "x": 780, "face": "left", "mood": "happy", "action": "bow", "at": "bowing", "changes": [{ "at": "Fired", "mood": "sad" }] }
+      ],
+      "stickers": [{ "word": "midnight", "emoji": "🌙" }, { "word": "Fired", "emoji": "🔥" }]
+    },
+    {
+      "id": "police",
+      "text": "Then police. He met a robber, held the vault door, and said, \"After you.\" The robber took the whole bank.",
+      "setting": "city",
+      "light": "danger",
+      "focus": "robber",
+      "effects": ["shake"],
+      "actors": [
+        { "who": "penn", "x": 300, "face": "right", "mood": "happy", "action": "bow", "at": "After" },
+        { "who": "robber", "x": 700, "face": "left", "mood": "smug", "hold": "💰", "action": "run", "at": "took" }
+      ],
+      "burst": { "at": "bank", "emoji": "💰" },
+      "stickers": [{ "word": "robber", "emoji": "🦹" }, { "word": "bank", "emoji": "🏦" }]
+    },
+    {
+      "id": "referee",
+      "text": "Referee next. He said \"thank you\" to every foul. The game ended with forty fouls and no cards.",
+      "setting": "beach",
+      "light": "day",
+      "focus": "penn",
+      "actors": [
+        { "who": "penn", "x": 540, "mood": "happy", "hold": "🟨", "action": "bow", "at": "thank" }
+      ],
+      "crowd": { "who": "guest", "count": 20, "mood": "angry", "until": "fouls" },
+      "stickers": [{ "word": "forty", "emoji": "4️⃣" }, { "word": "cards", "emoji": "🟥" }]
+    },
+    {
+      "id": "tally",
+      "text": "By sunset, Penn was fired from twelve jobs and had earned zero dollars.",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "penn",
+      "effects": ["rain"],
+      "actors": [
+        { "who": "penn", "x": 540, "mood": "sad", "action": "faint", "at": "dollars" }
+      ],
+      "stickers": [{ "word": "twelve", "emoji": "1️⃣" }, { "word": "zero", "emoji": "💸" }]
+    },
+    {
+      "id": "door",
+      "text": "Then a mall hired him to hold one door. He held it four hours and thanked every shopper. Fifty dollars.",
+      "setting": "city",
+      "light": "gold",
+      "focus": "penn",
+      "effects": ["confetti"],
+      "actors": [
+        { "who": "penn", "x": 780, "face": "left", "mood": "happy", "action": "bow", "at": "thanked" }
+      ],
+      "crowd": { "who": "guest", "count": 12, "mood": "happy", "until": "shopper" },
+      "stickers": [{ "word": "door", "emoji": "🚪" }, { "word": "Fifty", "emoji": "💵" }]
+    },
+    {
+      "id": "drone",
+      "text": "He bought the drone and it hovered above him. \"After you,\" he said politely. It flew away forever.",
+      "setting": "city",
+      "light": "day",
+      "focus": "penn",
+      "actors": [
+        { "who": "penn", "x": 440, "mood": "happy", "action": "bow", "at": "After" },
+        { "who": "drone", "x": 700, "size": 1.4, "lift": 120, "action": "float", "at": "flew" }
+      ],
+      "drop": { "at": "drone", "emoji": "🚁", "to": "penn" },
+      "stickers": [{ "word": "forever", "emoji": "😱" }]
+    },
+    {
+      "id": "box",
+      "text": "Then he said \"thank you\" to the empty box. Leave a like so Penn can buy another.",
+      "setting": "city",
+      "light": "dusk",
+      "focus": "penn",
+      "catchphrase": "before",
+      "actors": [
+        { "who": "penn", "x": 540, "mood": "sad", "hold": "📦", "action": "bow", "at": "thank", "changes": [{ "at": "empty", "mood": "shock" }] }
+      ],
+      "stickers": [{ "word": "box", "emoji": "📦" }, { "word": "like", "emoji": "👍" }]
+    }
+  ]
+}
